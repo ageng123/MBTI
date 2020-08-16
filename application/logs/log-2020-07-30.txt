@@ -1,0 +1,351 @@
+INFO - 2020-07-30 23:17:10 --> Config Class Initialized
+INFO - 2020-07-30 23:17:10 --> Hooks Class Initialized
+DEBUG - 2020-07-30 23:17:10 --> UTF-8 Support Enabled
+INFO - 2020-07-30 23:17:10 --> Utf8 Class Initialized
+INFO - 2020-07-30 23:17:10 --> URI Class Initialized
+DEBUG - 2020-07-30 23:17:10 --> No URI present. Default module controller set.
+INFO - 2020-07-30 23:17:10 --> Router Class Initialized
+INFO - 2020-07-30 23:17:10 --> Output Class Initialized
+INFO - 2020-07-30 23:17:10 --> Security Class Initialized
+DEBUG - 2020-07-30 23:17:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-07-30 23:17:10 --> CSRF cookie sent
+INFO - 2020-07-30 23:17:10 --> Input Class Initialized
+INFO - 2020-07-30 23:17:10 --> Language Class Initialized
+INFO - 2020-07-30 23:17:10 --> Loader Class Initialized
+INFO - 2020-07-30 23:17:10 --> Helper loaded: form_helper
+INFO - 2020-07-30 23:17:10 --> Helper loaded: url_helper
+INFO - 2020-07-30 23:17:10 --> Helper loaded: html_helper
+INFO - 2020-07-30 23:17:10 --> Helper loaded: file_helper
+INFO - 2020-07-30 23:17:10 --> Database Driver Class Initialized
+INFO - 2020-07-30 23:17:10 --> Session: Class initialized using 'files' driver.
+INFO - 2020-07-30 23:17:10 --> Email Class Initialized
+INFO - 2020-07-30 23:17:10 --> Parser Class Initialized
+INFO - 2020-07-30 23:17:10 --> Controller Class Initialized
+INFO - 2020-07-30 23:17:10 --> Model "M_Auth" initialized
+INFO - 2020-07-30 23:17:10 --> File loaded: /var/www/Mbtni/application/modules/Auth/views/V_login.php
+INFO - 2020-07-30 23:17:10 --> Final output sent to browser
+DEBUG - 2020-07-30 23:17:10 --> Total execution time: 0.0386
+INFO - 2020-07-30 23:17:52 --> Config Class Initialized
+INFO - 2020-07-30 23:17:52 --> Hooks Class Initialized
+DEBUG - 2020-07-30 23:17:52 --> UTF-8 Support Enabled
+INFO - 2020-07-30 23:17:52 --> Utf8 Class Initialized
+INFO - 2020-07-30 23:17:52 --> URI Class Initialized
+DEBUG - 2020-07-30 23:17:52 --> No URI present. Default module controller set.
+INFO - 2020-07-30 23:17:52 --> Router Class Initialized
+INFO - 2020-07-30 23:17:52 --> Output Class Initialized
+INFO - 2020-07-30 23:17:52 --> Security Class Initialized
+DEBUG - 2020-07-30 23:17:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-07-30 23:17:52 --> CSRF cookie sent
+INFO - 2020-07-30 23:17:52 --> Input Class Initialized
+INFO - 2020-07-30 23:17:52 --> Language Class Initialized
+INFO - 2020-07-30 23:17:52 --> Loader Class Initialized
+INFO - 2020-07-30 23:17:52 --> Helper loaded: form_helper
+INFO - 2020-07-30 23:17:52 --> Helper loaded: url_helper
+INFO - 2020-07-30 23:17:52 --> Helper loaded: html_helper
+INFO - 2020-07-30 23:17:52 --> Helper loaded: file_helper
+INFO - 2020-07-30 23:17:52 --> Database Driver Class Initialized
+INFO - 2020-07-30 23:17:52 --> Session: Class initialized using 'files' driver.
+INFO - 2020-07-30 23:17:52 --> Email Class Initialized
+INFO - 2020-07-30 23:17:52 --> Parser Class Initialized
+INFO - 2020-07-30 23:17:52 --> Controller Class Initialized
+INFO - 2020-07-30 23:17:52 --> Model "M_Auth" initialized
+INFO - 2020-07-30 23:17:52 --> File loaded: /var/www/Mbtni/application/modules/Auth/views/V_login.php
+INFO - 2020-07-30 23:17:52 --> Final output sent to browser
+DEBUG - 2020-07-30 23:17:52 --> Total execution time: 0.0047
+INFO - 2020-07-30 23:23:03 --> Config Class Initialized
+INFO - 2020-07-30 23:23:03 --> Hooks Class Initialized
+DEBUG - 2020-07-30 23:23:03 --> UTF-8 Support Enabled
+INFO - 2020-07-30 23:23:03 --> Utf8 Class Initialized
+INFO - 2020-07-30 23:23:03 --> URI Class Initialized
+DEBUG - 2020-07-30 23:23:03 --> No URI present. Default module controller set.
+INFO - 2020-07-30 23:23:03 --> Router Class Initialized
+INFO - 2020-07-30 23:23:03 --> Output Class Initialized
+INFO - 2020-07-30 23:23:03 --> Security Class Initialized
+DEBUG - 2020-07-30 23:23:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-07-30 23:23:03 --> CSRF cookie sent
+INFO - 2020-07-30 23:23:03 --> Input Class Initialized
+INFO - 2020-07-30 23:23:03 --> Language Class Initialized
+INFO - 2020-07-30 23:23:03 --> Loader Class Initialized
+INFO - 2020-07-30 23:23:03 --> Helper loaded: form_helper
+INFO - 2020-07-30 23:23:03 --> Helper loaded: url_helper
+INFO - 2020-07-30 23:23:03 --> Helper loaded: html_helper
+INFO - 2020-07-30 23:23:03 --> Helper loaded: file_helper
+INFO - 2020-07-30 23:23:03 --> Database Driver Class Initialized
+INFO - 2020-07-30 23:23:03 --> Session: Class initialized using 'files' driver.
+INFO - 2020-07-30 23:23:03 --> Email Class Initialized
+INFO - 2020-07-30 23:23:03 --> Parser Class Initialized
+INFO - 2020-07-30 23:23:03 --> Controller Class Initialized
+INFO - 2020-07-30 23:23:03 --> Model "M_Auth" initialized
+INFO - 2020-07-30 23:23:03 --> File loaded: /var/www/Mbtni/application/modules/Auth/views/V_login.php
+INFO - 2020-07-30 23:23:03 --> Final output sent to browser
+DEBUG - 2020-07-30 23:23:03 --> Total execution time: 0.0068
+INFO - 2020-07-30 23:25:05 --> Config Class Initialized
+INFO - 2020-07-30 23:25:05 --> Hooks Class Initialized
+DEBUG - 2020-07-30 23:25:05 --> UTF-8 Support Enabled
+INFO - 2020-07-30 23:25:05 --> Utf8 Class Initialized
+INFO - 2020-07-30 23:25:05 --> URI Class Initialized
+DEBUG - 2020-07-30 23:25:05 --> No URI present. Default module controller set.
+INFO - 2020-07-30 23:25:05 --> Router Class Initialized
+INFO - 2020-07-30 23:25:05 --> Output Class Initialized
+INFO - 2020-07-30 23:25:05 --> Security Class Initialized
+DEBUG - 2020-07-30 23:25:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-07-30 23:25:05 --> CSRF cookie sent
+INFO - 2020-07-30 23:25:05 --> Input Class Initialized
+INFO - 2020-07-30 23:25:05 --> Language Class Initialized
+INFO - 2020-07-30 23:25:05 --> Loader Class Initialized
+INFO - 2020-07-30 23:25:05 --> Helper loaded: form_helper
+INFO - 2020-07-30 23:25:05 --> Helper loaded: url_helper
+INFO - 2020-07-30 23:25:05 --> Helper loaded: html_helper
+INFO - 2020-07-30 23:25:05 --> Helper loaded: file_helper
+INFO - 2020-07-30 23:25:05 --> Database Driver Class Initialized
+INFO - 2020-07-30 23:25:05 --> Session: Class initialized using 'files' driver.
+INFO - 2020-07-30 23:25:05 --> Email Class Initialized
+INFO - 2020-07-30 23:25:05 --> Parser Class Initialized
+INFO - 2020-07-30 23:25:05 --> Controller Class Initialized
+INFO - 2020-07-30 23:25:05 --> Model "M_Auth" initialized
+INFO - 2020-07-30 23:25:05 --> File loaded: /var/www/Mbtni/application/modules/Auth/views/V_login.php
+INFO - 2020-07-30 23:25:05 --> Final output sent to browser
+DEBUG - 2020-07-30 23:25:05 --> Total execution time: 0.0039
+INFO - 2020-07-30 23:29:21 --> Config Class Initialized
+INFO - 2020-07-30 23:29:21 --> Hooks Class Initialized
+DEBUG - 2020-07-30 23:29:21 --> UTF-8 Support Enabled
+INFO - 2020-07-30 23:29:21 --> Utf8 Class Initialized
+INFO - 2020-07-30 23:29:21 --> URI Class Initialized
+DEBUG - 2020-07-30 23:29:21 --> No URI present. Default module controller set.
+INFO - 2020-07-30 23:29:21 --> Router Class Initialized
+INFO - 2020-07-30 23:29:21 --> Output Class Initialized
+INFO - 2020-07-30 23:29:21 --> Security Class Initialized
+DEBUG - 2020-07-30 23:29:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-07-30 23:29:21 --> CSRF cookie sent
+INFO - 2020-07-30 23:29:21 --> Input Class Initialized
+INFO - 2020-07-30 23:29:21 --> Language Class Initialized
+INFO - 2020-07-30 23:29:21 --> Loader Class Initialized
+INFO - 2020-07-30 23:29:21 --> Helper loaded: form_helper
+INFO - 2020-07-30 23:29:21 --> Helper loaded: url_helper
+INFO - 2020-07-30 23:29:21 --> Helper loaded: html_helper
+INFO - 2020-07-30 23:29:21 --> Helper loaded: file_helper
+INFO - 2020-07-30 23:29:21 --> Database Driver Class Initialized
+INFO - 2020-07-30 23:29:21 --> Session: Class initialized using 'files' driver.
+INFO - 2020-07-30 23:29:21 --> Email Class Initialized
+INFO - 2020-07-30 23:29:21 --> Parser Class Initialized
+INFO - 2020-07-30 23:29:21 --> Controller Class Initialized
+INFO - 2020-07-30 23:29:21 --> Model "M_Auth" initialized
+INFO - 2020-07-30 23:29:21 --> File loaded: /var/www/Mbtni/application/modules/Auth/views/V_login.php
+INFO - 2020-07-30 23:29:21 --> Final output sent to browser
+DEBUG - 2020-07-30 23:29:21 --> Total execution time: 0.0039
+INFO - 2020-07-30 23:34:59 --> Config Class Initialized
+INFO - 2020-07-30 23:34:59 --> Hooks Class Initialized
+DEBUG - 2020-07-30 23:34:59 --> UTF-8 Support Enabled
+INFO - 2020-07-30 23:34:59 --> Utf8 Class Initialized
+INFO - 2020-07-30 23:34:59 --> URI Class Initialized
+DEBUG - 2020-07-30 23:34:59 --> No URI present. Default module controller set.
+INFO - 2020-07-30 23:34:59 --> Router Class Initialized
+INFO - 2020-07-30 23:34:59 --> Output Class Initialized
+INFO - 2020-07-30 23:34:59 --> Security Class Initialized
+DEBUG - 2020-07-30 23:34:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-07-30 23:34:59 --> CSRF cookie sent
+INFO - 2020-07-30 23:34:59 --> Input Class Initialized
+INFO - 2020-07-30 23:34:59 --> Language Class Initialized
+INFO - 2020-07-30 23:34:59 --> Loader Class Initialized
+INFO - 2020-07-30 23:34:59 --> Helper loaded: form_helper
+INFO - 2020-07-30 23:34:59 --> Helper loaded: url_helper
+INFO - 2020-07-30 23:34:59 --> Helper loaded: html_helper
+INFO - 2020-07-30 23:34:59 --> Helper loaded: file_helper
+INFO - 2020-07-30 23:34:59 --> Database Driver Class Initialized
+INFO - 2020-07-30 23:34:59 --> Session: Class initialized using 'files' driver.
+INFO - 2020-07-30 23:34:59 --> Email Class Initialized
+INFO - 2020-07-30 23:34:59 --> Parser Class Initialized
+INFO - 2020-07-30 23:34:59 --> Controller Class Initialized
+INFO - 2020-07-30 23:34:59 --> Model "M_Auth" initialized
+INFO - 2020-07-30 23:34:59 --> File loaded: /var/www/Mbtni/application/modules/Auth/views/V_login.php
+INFO - 2020-07-30 23:34:59 --> Final output sent to browser
+DEBUG - 2020-07-30 23:34:59 --> Total execution time: 0.0052
+INFO - 2020-07-30 23:38:16 --> Config Class Initialized
+INFO - 2020-07-30 23:38:16 --> Hooks Class Initialized
+DEBUG - 2020-07-30 23:38:16 --> UTF-8 Support Enabled
+INFO - 2020-07-30 23:38:16 --> Utf8 Class Initialized
+INFO - 2020-07-30 23:38:16 --> URI Class Initialized
+DEBUG - 2020-07-30 23:38:16 --> No URI present. Default module controller set.
+INFO - 2020-07-30 23:38:16 --> Router Class Initialized
+INFO - 2020-07-30 23:38:16 --> Output Class Initialized
+INFO - 2020-07-30 23:38:16 --> Security Class Initialized
+DEBUG - 2020-07-30 23:38:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-07-30 23:38:16 --> CSRF cookie sent
+INFO - 2020-07-30 23:38:16 --> Input Class Initialized
+INFO - 2020-07-30 23:38:16 --> Language Class Initialized
+INFO - 2020-07-30 23:38:16 --> Loader Class Initialized
+INFO - 2020-07-30 23:38:16 --> Helper loaded: form_helper
+INFO - 2020-07-30 23:38:16 --> Helper loaded: url_helper
+INFO - 2020-07-30 23:38:16 --> Helper loaded: html_helper
+INFO - 2020-07-30 23:38:16 --> Helper loaded: file_helper
+INFO - 2020-07-30 23:38:16 --> Database Driver Class Initialized
+INFO - 2020-07-30 23:38:16 --> Session: Class initialized using 'files' driver.
+INFO - 2020-07-30 23:38:16 --> Email Class Initialized
+INFO - 2020-07-30 23:38:16 --> Parser Class Initialized
+INFO - 2020-07-30 23:38:16 --> Controller Class Initialized
+INFO - 2020-07-30 23:38:16 --> Model "M_Auth" initialized
+INFO - 2020-07-30 23:38:16 --> File loaded: /var/www/Mbtni/application/modules/Auth/views/V_login.php
+INFO - 2020-07-30 23:38:16 --> Final output sent to browser
+DEBUG - 2020-07-30 23:38:16 --> Total execution time: 0.0042
+INFO - 2020-07-30 23:38:33 --> Config Class Initialized
+INFO - 2020-07-30 23:38:33 --> Hooks Class Initialized
+DEBUG - 2020-07-30 23:38:33 --> UTF-8 Support Enabled
+INFO - 2020-07-30 23:38:33 --> Utf8 Class Initialized
+INFO - 2020-07-30 23:38:33 --> URI Class Initialized
+DEBUG - 2020-07-30 23:38:33 --> No URI present. Default module controller set.
+INFO - 2020-07-30 23:38:33 --> Router Class Initialized
+INFO - 2020-07-30 23:38:33 --> Output Class Initialized
+INFO - 2020-07-30 23:38:33 --> Security Class Initialized
+DEBUG - 2020-07-30 23:38:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-07-30 23:38:33 --> CSRF cookie sent
+INFO - 2020-07-30 23:38:33 --> Input Class Initialized
+INFO - 2020-07-30 23:38:33 --> Language Class Initialized
+INFO - 2020-07-30 23:38:33 --> Loader Class Initialized
+INFO - 2020-07-30 23:38:33 --> Helper loaded: form_helper
+INFO - 2020-07-30 23:38:33 --> Helper loaded: url_helper
+INFO - 2020-07-30 23:38:33 --> Helper loaded: html_helper
+INFO - 2020-07-30 23:38:33 --> Helper loaded: file_helper
+INFO - 2020-07-30 23:38:33 --> Database Driver Class Initialized
+INFO - 2020-07-30 23:38:33 --> Session: Class initialized using 'files' driver.
+INFO - 2020-07-30 23:38:33 --> Email Class Initialized
+INFO - 2020-07-30 23:38:33 --> Parser Class Initialized
+INFO - 2020-07-30 23:38:33 --> Controller Class Initialized
+INFO - 2020-07-30 23:38:33 --> Model "M_Auth" initialized
+INFO - 2020-07-30 23:38:33 --> File loaded: /var/www/Mbtni/application/modules/Auth/views/V_login.php
+INFO - 2020-07-30 23:38:33 --> Final output sent to browser
+DEBUG - 2020-07-30 23:38:33 --> Total execution time: 0.0042
+INFO - 2020-07-30 23:38:45 --> Config Class Initialized
+INFO - 2020-07-30 23:38:45 --> Hooks Class Initialized
+DEBUG - 2020-07-30 23:38:45 --> UTF-8 Support Enabled
+INFO - 2020-07-30 23:38:45 --> Utf8 Class Initialized
+INFO - 2020-07-30 23:38:45 --> URI Class Initialized
+DEBUG - 2020-07-30 23:38:45 --> No URI present. Default module controller set.
+INFO - 2020-07-30 23:38:45 --> Router Class Initialized
+INFO - 2020-07-30 23:38:45 --> Output Class Initialized
+INFO - 2020-07-30 23:38:45 --> Security Class Initialized
+DEBUG - 2020-07-30 23:38:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-07-30 23:38:45 --> CSRF cookie sent
+INFO - 2020-07-30 23:38:45 --> Input Class Initialized
+INFO - 2020-07-30 23:38:45 --> Language Class Initialized
+INFO - 2020-07-30 23:38:45 --> Loader Class Initialized
+INFO - 2020-07-30 23:38:45 --> Helper loaded: form_helper
+INFO - 2020-07-30 23:38:45 --> Helper loaded: url_helper
+INFO - 2020-07-30 23:38:45 --> Helper loaded: html_helper
+INFO - 2020-07-30 23:38:45 --> Helper loaded: file_helper
+INFO - 2020-07-30 23:38:45 --> Database Driver Class Initialized
+INFO - 2020-07-30 23:38:45 --> Session: Class initialized using 'files' driver.
+INFO - 2020-07-30 23:38:45 --> Email Class Initialized
+INFO - 2020-07-30 23:38:45 --> Parser Class Initialized
+INFO - 2020-07-30 23:38:45 --> Controller Class Initialized
+INFO - 2020-07-30 23:38:45 --> Model "M_Auth" initialized
+INFO - 2020-07-30 23:38:45 --> File loaded: /var/www/Mbtni/application/modules/Auth/views/V_login.php
+INFO - 2020-07-30 23:38:45 --> Final output sent to browser
+DEBUG - 2020-07-30 23:38:45 --> Total execution time: 0.0055
+INFO - 2020-07-30 23:38:58 --> Config Class Initialized
+INFO - 2020-07-30 23:38:58 --> Hooks Class Initialized
+DEBUG - 2020-07-30 23:38:58 --> UTF-8 Support Enabled
+INFO - 2020-07-30 23:38:58 --> Utf8 Class Initialized
+INFO - 2020-07-30 23:38:58 --> URI Class Initialized
+DEBUG - 2020-07-30 23:38:58 --> No URI present. Default module controller set.
+INFO - 2020-07-30 23:38:58 --> Router Class Initialized
+INFO - 2020-07-30 23:38:58 --> Output Class Initialized
+INFO - 2020-07-30 23:38:58 --> Security Class Initialized
+DEBUG - 2020-07-30 23:38:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-07-30 23:38:58 --> CSRF cookie sent
+INFO - 2020-07-30 23:38:58 --> Input Class Initialized
+INFO - 2020-07-30 23:38:58 --> Language Class Initialized
+INFO - 2020-07-30 23:38:58 --> Loader Class Initialized
+INFO - 2020-07-30 23:38:58 --> Helper loaded: form_helper
+INFO - 2020-07-30 23:38:58 --> Helper loaded: url_helper
+INFO - 2020-07-30 23:38:58 --> Helper loaded: html_helper
+INFO - 2020-07-30 23:38:58 --> Helper loaded: file_helper
+INFO - 2020-07-30 23:38:58 --> Database Driver Class Initialized
+INFO - 2020-07-30 23:38:58 --> Session: Class initialized using 'files' driver.
+INFO - 2020-07-30 23:38:58 --> Email Class Initialized
+INFO - 2020-07-30 23:38:58 --> Parser Class Initialized
+INFO - 2020-07-30 23:38:58 --> Controller Class Initialized
+INFO - 2020-07-30 23:38:58 --> Model "M_Auth" initialized
+INFO - 2020-07-30 23:38:58 --> File loaded: /var/www/Mbtni/application/modules/Auth/views/V_login.php
+INFO - 2020-07-30 23:38:58 --> Final output sent to browser
+DEBUG - 2020-07-30 23:38:58 --> Total execution time: 0.0043
+INFO - 2020-07-30 23:45:27 --> Config Class Initialized
+INFO - 2020-07-30 23:45:27 --> Hooks Class Initialized
+DEBUG - 2020-07-30 23:45:27 --> UTF-8 Support Enabled
+INFO - 2020-07-30 23:45:27 --> Utf8 Class Initialized
+INFO - 2020-07-30 23:45:27 --> URI Class Initialized
+DEBUG - 2020-07-30 23:45:27 --> No URI present. Default module controller set.
+INFO - 2020-07-30 23:45:27 --> Router Class Initialized
+INFO - 2020-07-30 23:45:27 --> Output Class Initialized
+INFO - 2020-07-30 23:45:27 --> Security Class Initialized
+DEBUG - 2020-07-30 23:45:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-07-30 23:45:27 --> CSRF cookie sent
+INFO - 2020-07-30 23:45:27 --> Input Class Initialized
+INFO - 2020-07-30 23:45:27 --> Language Class Initialized
+INFO - 2020-07-30 23:45:27 --> Loader Class Initialized
+INFO - 2020-07-30 23:45:27 --> Helper loaded: form_helper
+INFO - 2020-07-30 23:45:27 --> Helper loaded: url_helper
+INFO - 2020-07-30 23:45:27 --> Helper loaded: html_helper
+INFO - 2020-07-30 23:45:27 --> Helper loaded: file_helper
+INFO - 2020-07-30 23:45:27 --> Database Driver Class Initialized
+INFO - 2020-07-30 23:45:27 --> Session: Class initialized using 'files' driver.
+INFO - 2020-07-30 23:45:27 --> Email Class Initialized
+INFO - 2020-07-30 23:45:27 --> Parser Class Initialized
+INFO - 2020-07-30 23:45:27 --> Controller Class Initialized
+INFO - 2020-07-30 23:45:27 --> Model "M_Auth" initialized
+INFO - 2020-07-30 23:45:27 --> File loaded: /var/www/Mbtni/application/modules/Auth/views/V_login.php
+INFO - 2020-07-30 23:45:27 --> Final output sent to browser
+DEBUG - 2020-07-30 23:45:27 --> Total execution time: 0.0051
+INFO - 2020-07-30 23:47:07 --> Config Class Initialized
+INFO - 2020-07-30 23:47:07 --> Hooks Class Initialized
+DEBUG - 2020-07-30 23:47:07 --> UTF-8 Support Enabled
+INFO - 2020-07-30 23:47:07 --> Utf8 Class Initialized
+INFO - 2020-07-30 23:47:07 --> URI Class Initialized
+DEBUG - 2020-07-30 23:47:07 --> No URI present. Default module controller set.
+INFO - 2020-07-30 23:47:07 --> Router Class Initialized
+INFO - 2020-07-30 23:47:07 --> Output Class Initialized
+INFO - 2020-07-30 23:47:07 --> Security Class Initialized
+DEBUG - 2020-07-30 23:47:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-07-30 23:47:07 --> CSRF cookie sent
+INFO - 2020-07-30 23:47:07 --> Input Class Initialized
+INFO - 2020-07-30 23:47:07 --> Language Class Initialized
+INFO - 2020-07-30 23:47:07 --> Loader Class Initialized
+INFO - 2020-07-30 23:47:07 --> Helper loaded: form_helper
+INFO - 2020-07-30 23:47:07 --> Helper loaded: url_helper
+INFO - 2020-07-30 23:47:07 --> Helper loaded: html_helper
+INFO - 2020-07-30 23:47:07 --> Helper loaded: file_helper
+INFO - 2020-07-30 23:47:07 --> Database Driver Class Initialized
+INFO - 2020-07-30 23:47:07 --> Session: Class initialized using 'files' driver.
+INFO - 2020-07-30 23:47:07 --> Email Class Initialized
+INFO - 2020-07-30 23:47:07 --> Parser Class Initialized
+INFO - 2020-07-30 23:47:07 --> Controller Class Initialized
+INFO - 2020-07-30 23:47:07 --> Model "M_Auth" initialized
+INFO - 2020-07-30 23:47:07 --> File loaded: /var/www/Mbtni/application/modules/Auth/views/V_login.php
+INFO - 2020-07-30 23:47:07 --> Final output sent to browser
+DEBUG - 2020-07-30 23:47:07 --> Total execution time: 0.0046
+INFO - 2020-07-30 23:59:18 --> Config Class Initialized
+INFO - 2020-07-30 23:59:18 --> Hooks Class Initialized
+DEBUG - 2020-07-30 23:59:18 --> UTF-8 Support Enabled
+INFO - 2020-07-30 23:59:18 --> Utf8 Class Initialized
+INFO - 2020-07-30 23:59:18 --> URI Class Initialized
+DEBUG - 2020-07-30 23:59:18 --> No URI present. Default module controller set.
+INFO - 2020-07-30 23:59:18 --> Router Class Initialized
+INFO - 2020-07-30 23:59:18 --> Output Class Initialized
+INFO - 2020-07-30 23:59:18 --> Security Class Initialized
+DEBUG - 2020-07-30 23:59:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-07-30 23:59:18 --> CSRF cookie sent
+INFO - 2020-07-30 23:59:18 --> Input Class Initialized
+INFO - 2020-07-30 23:59:18 --> Language Class Initialized
+INFO - 2020-07-30 23:59:18 --> Loader Class Initialized
+INFO - 2020-07-30 23:59:18 --> Helper loaded: form_helper
+INFO - 2020-07-30 23:59:18 --> Helper loaded: url_helper
+INFO - 2020-07-30 23:59:18 --> Helper loaded: html_helper
+INFO - 2020-07-30 23:59:18 --> Helper loaded: file_helper
+INFO - 2020-07-30 23:59:18 --> Database Driver Class Initialized
+INFO - 2020-07-30 23:59:18 --> Session: Class initialized using 'files' driver.
+INFO - 2020-07-30 23:59:18 --> Email Class Initialized
+INFO - 2020-07-30 23:59:18 --> Parser Class Initialized
+INFO - 2020-07-30 23:59:18 --> Controller Class Initialized
+INFO - 2020-07-30 23:59:18 --> Model "M_Auth" initialized
+INFO - 2020-07-30 23:59:18 --> File loaded: /var/www/Mbtni/application/modules/Auth/views/V_login.php
+INFO - 2020-07-30 23:59:18 --> Final output sent to browser
+DEBUG - 2020-07-30 23:59:18 --> Total execution time: 0.0068
