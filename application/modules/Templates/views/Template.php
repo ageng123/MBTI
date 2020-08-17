@@ -114,19 +114,25 @@
                             <li class="sidebar-item">
                                 <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('Dashboard/Pernyataan/index/'); ?>" aria-expanded="false">
                                     <i class="icon-Receipt"></i>
-                                    <span class="hide-menu">Pernyataan</span>
+                                    <span class="hide-menu">Data Diri Anggota</span>
                                 </a>
                             </li>
                             <li class="sidebar-item">
                                 <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('Dashboard/Mutasi/index/'); ?>" aria-expanded="false">
                                     <i class="icon-Receipt"></i>
-                                    <span class="hide-menu">Mutasi</span>
+                                    <span class="hide-menu">Mutasi Anggota</span>
                                 </a>
                             </li>
                             <li class="sidebar-item">
                                 <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('Dashboard/Pelanggaran/index/'); ?>" aria-expanded="false">
                                     <i class="icon-Receipt"></i>
-                                    <span class="hide-menu">Pelanggaran</span>
+                                    <span class="hide-menu">Pelanggaran Anggota</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('Dashboard/Pelanggaran/index/'); ?>" aria-expanded="false">
+                                    <i class="icon-Receipt"></i>
+                                    <span class="hide-menu">Data Fisik Anggota</span>
                                 </a>
                             </li>
                         </ul>
