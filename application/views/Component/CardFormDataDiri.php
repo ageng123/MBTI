@@ -55,31 +55,34 @@
                     <?php $this->load->view('Component/FormRiwayatTempatTinggal') ?>
                 </div>
                 <div id="tab-riwayat-organisasi" class="tab-pane">
-                    <?php $this->load->view('Component/FormRiwayatTempatTinggal') ?>
+                    <?php $this->load->view('Component/FormRiwayatOrganisasi') ?>
                 </div>
                 <div id="tab-riwayat-perjuangan" class="tab-pane">
-                    <?php $this->load->view('Component/FormRiwayatTempatTinggal') ?>
+                    <?php $this->load->view('Component/FormRiwayatPerjuangan') ?>
                 </div>
                 <div id="tab-riwayat-penghargaan" class="tab-pane">
-                    <?php $this->load->view('Component/FormRiwayatTempatTinggal') ?>
+                    <?php $this->load->view('Component/FormRiwayatPenghargaan') ?>
                 </div>
                 <div id="tab-pernikahan" class="tab-pane">
-                    <?php $this->load->view('Component/FormRiwayatTempatTinggal') ?>
+                    <?php $this->load->view('Component/FormPernikahan') ?>
                 </div>
                 <div id="tab-ayah-kandung" class="tab-pane">
-                    <?php $this->load->view('Component/FormRiwayatTempatTinggal') ?>
+                    <?php $this->load->view('Component/FormAyahKandung') ?>
                 </div>
                 <div id="tab-ayah-tiri" class="tab-pane">
-                    <?php $this->load->view('Component/FormRiwayatTempatTinggal') ?>
+                    <?php $this->load->view('Component/FormAyahTiri') ?>
                 </div>
                 <div id="tab-ibu-kandung" class="tab-pane">
-                    <?php $this->load->view('Component/FormRiwayatTempatTinggal') ?>
+                    <?php $this->load->view('Component/FormIbuKandung') ?>
+                </div>
+                <div id="tab-ibu-tiri" class="tab-pane">
+                    <?php $this->load->view('Component/FormIbuTiri') ?>
                 </div>
                 <div id="tab-mertua-laki" class="tab-pane">
-                    <?php $this->load->view('Component/FormRiwayatTempatTinggal') ?>
+                    <?php $this->load->view('Component/FormMertuaLaki') ?>
                 </div>
                 <div id="tab-mertua-perempuan" class="tab-pane">
-                    <?php $this->load->view('Component/FormRiwayatTempatTinggal') ?>
+                    <?php $this->load->view('Component/FormMertuaPerempuan') ?>
                 </div>
             </div>
             <!-- Print ID Card () -->
