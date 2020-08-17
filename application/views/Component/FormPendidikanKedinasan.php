@@ -31,10 +31,10 @@
 		</div>
 	</div>
 	<div class="col-md-12">	
-		<button class="btn btn-success">Tambah Data Sekolah</button>
+		<button class="btn btn-success" id="submitPendidikanDinas" onclick="pendidikanDinas.add()">Tambah Data Sekolah</button>
 	</div>
 	<div class="col-md-12 mt-4">
-		<table class="table table-striped table-bordered">
+		<table id="tb_pendidikan_dinas" class="table table-striped table-bordered">
 			<thead>
 				<tr>
 					<td>Nomor Urut</td>
@@ -45,6 +45,9 @@
 					<td>Keterangan</td>
 				</tr>
 			</thead>
+			<tbody>
+				
+			</tbody>
 		</table>
 	</div>
 </div>

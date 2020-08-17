@@ -1,5 +1,5 @@
 <div class="row mb-4">
-	<legend>5. Riwayat Alamat Tempat Tinggal (Semenjak Lahir s/d Sekarang)</legend>
+	<legend>8. Riwayat Penghargaan</legend>
 	<div class="col-md-12">
 		<div class="form-group">
 			<label for="">Alamat</label>

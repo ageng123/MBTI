@@ -1,4 +1,4 @@
-<legend>1. Identitas Diri</legend>
+<legend>14. Mertua Laki</legend>
 <div class="col-md-12">
 	<div class="form-group">
 		<label>Nama Lengkap</label>

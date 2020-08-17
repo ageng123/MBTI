@@ -9,32 +9,32 @@
 	<div class="col-md-12">
 		<div class="form-group">
 			<label for="">Pangkat / Golongan</label>
-			<input type="text" name="tahunsekolah" class="form-control">
+			<input type="text" name="pangkatpekerjaan" class="form-control">
 		</div>
 	</div>
 	<div class="col-md-12">
 		<div class="form-group">
 			<label for="">Instansi / Kesatuan</label>
-			<input type="text" name="kotasekolah" class="form-control">
+			<input type="text" name="instansikerja" class="form-control">
 		</div>
 	</div>
 	<div class="col-md-12">
 		<div class="form-group">
 			<label for="">Dari tahun / Lamanya</label>
-			<input type="text" name="biayasekolah" class="form-control">
+			<input type="text" name="tahunkerja" class="form-control">
 		</div>
 	</div>
 	<div class="col-md-12">
 		<div class="form-group">
 			<label for="">Keterangan</label>
-			<input type="text" name="keterangansekolah" class="form-control">
+			<input type="text" name="keterangankerja" class="form-control">
 		</div>
 	</div>
 	<div class="col-md-12">	
-		<button class="btn btn-success">Tambah Data Riwayat Pekerjaan</button>
+		<button class="btn btn-success" onclick="RiwayatPekerjaanAct.add()" id="submitRiwayatPekerjaan">Tambah Data Riwayat Pekerjaan</button>
 	</div>
 	<div class="col-md-12 mt-4">
-		<table class="table table-striped table-bordered">
+		<table id="tb_riwayatPekerjaan" class="table table-striped table-bordered">
 			<thead>
 				<tr>
 					<td>Nomor Urut</td>
@@ -45,6 +45,7 @@
 					<td>Keterangan</td>
 				</tr>
 			</thead>
+			<tbody></tbody>
 		</table>
 	</div>
 </div>

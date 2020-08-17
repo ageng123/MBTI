@@ -3,38 +3,38 @@
 	<div class="col-md-12">
 		<div class="form-group">
 			<label for="">Nama kursus, Penataran, Seminar</label>
-			<input type="text" name="sekolahnama" class="form-control">
+			<input type="text" name="sekolahlainnama" class="form-control">
 		</div>
 	</div>
 	<div class="col-md-12">
 		<div class="form-group">
 			<label for="">Tahun (Lamanya)</label>
-			<input type="text" name="tahunsekolah" class="form-control">
+			<input type="text" name="tahunsekolahlain" class="form-control">
 		</div>
 	</div>
 	<div class="col-md-12">
 		<div class="form-group">
 			<label for="">Tempat</label>
-			<input type="text" name="kotasekolah" class="form-control">
+			<input type="text" name="tempatsekolahlain" class="form-control">
 		</div>
 	</div>
 	<div class="col-md-12">
 		<div class="form-group">
 			<label for="">Penyelenggara</label>
-			<input type="text" name="biayasekolah" class="form-control">
+			<input type="text" name="penyelenggarasekolahlain" class="form-control">
 		</div>
 	</div>
 	<div class="col-md-12">
 		<div class="form-group">
 			<label for="">Keterangan</label>
-			<input type="text" name="keterangansekolah" class="form-control">
+			<input type="text" name="keterangansekolahlain" class="form-control">
 		</div>
 	</div>
 	<div class="col-md-12">	
-		<button class="btn btn-success">Tambah Data Sekolah</button>
+		<button class="btn btn-success" onclick="PendidikanLainAction.add()" id="SubmitFormPendidikanLain">Tambah Data Sekolah</button>
 	</div>
 	<div class="col-md-12 mt-4">
-		<table class="table table-striped table-bordered">
+		<table id="tb_pendidikanLain" class="table table-striped table-bordered">
 			<thead>
 				<tr>
 					<td>Nomor Urut</td>
@@ -45,6 +45,9 @@
 					<td>Keterangan</td>
 				</tr>
 			</thead>
+			<tbody>
+				
+			</tbody>
 		</table>
 	</div>
 </div>

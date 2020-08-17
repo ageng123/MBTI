@@ -37,10 +37,10 @@
 		</div>
 	</div>
 	<div class="col-md-12">	
-		<button class="btn btn-success">Tambah Data Riwayat Pekerjaan di Luar Kedinasan</button>
+		<button class="btn btn-success" id="SubmitPekerjaanDinas" onclick="RiwayatPekerjaanDinasAct.add()">Tambah Data Riwayat Pekerjaan di Luar Kedinasan</button>
 	</div>
 	<div class="col-md-12 mt-4">
-		<table class="table table-striped table-bordered">
+		<table id="tb_pekerjaandinas" class="table table-striped table-bordered">
 			<thead>
 				<tr>
 					<td>Nomor Urut</td>
@@ -50,8 +50,10 @@
 					<td>Dari Tahun s/d Tahun</td>
 					<td>Dalam Rangka</td>
 					<td>Keterangan</td>
+					<td>Action</td>
 				</tr>
 			</thead>
+			<tbody></tbody>
 		</table>
 	</div>
 </div>

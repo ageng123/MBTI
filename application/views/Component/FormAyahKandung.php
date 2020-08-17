@@ -1,4 +1,4 @@
-<legend>1. Identitas Diri</legend>
+<legend>10. Ayah Kandung</legend>
 <div class="col-md-12">
 	<div class="form-group">
 		<label>Nama Lengkap</label>
