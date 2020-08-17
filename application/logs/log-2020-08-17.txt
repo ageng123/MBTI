@@ -4032,3 +4032,2282 @@ INFO - 2020-08-17 13:48:22 --> File loaded: D:/Project/Mbtni/application/modules
 INFO - 2020-08-17 13:48:22 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
 INFO - 2020-08-17 13:48:22 --> Final output sent to browser
 DEBUG - 2020-08-17 13:48:22 --> Total execution time: 2.4896
+INFO - 2020-08-17 15:18:43 --> Config Class Initialized
+INFO - 2020-08-17 15:18:43 --> Hooks Class Initialized
+DEBUG - 2020-08-17 15:18:43 --> UTF-8 Support Enabled
+INFO - 2020-08-17 15:18:43 --> Utf8 Class Initialized
+INFO - 2020-08-17 15:18:43 --> URI Class Initialized
+INFO - 2020-08-17 15:18:43 --> Router Class Initialized
+INFO - 2020-08-17 15:18:43 --> Output Class Initialized
+INFO - 2020-08-17 15:18:44 --> Security Class Initialized
+DEBUG - 2020-08-17 15:18:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 15:18:44 --> CSRF cookie sent
+INFO - 2020-08-17 15:18:44 --> Input Class Initialized
+INFO - 2020-08-17 15:18:44 --> Language Class Initialized
+INFO - 2020-08-17 15:18:44 --> Loader Class Initialized
+INFO - 2020-08-17 15:18:44 --> Helper loaded: form_helper
+INFO - 2020-08-17 15:18:44 --> Helper loaded: url_helper
+INFO - 2020-08-17 15:18:44 --> Helper loaded: html_helper
+INFO - 2020-08-17 15:18:44 --> Helper loaded: file_helper
+INFO - 2020-08-17 15:18:44 --> Helper loaded: component_helper
+INFO - 2020-08-17 15:18:44 --> Helper loaded: date_helper
+INFO - 2020-08-17 15:18:44 --> Database Driver Class Initialized
+INFO - 2020-08-17 15:18:46 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 15:18:46 --> Email Class Initialized
+INFO - 2020-08-17 15:18:46 --> Parser Class Initialized
+INFO - 2020-08-17 15:18:46 --> Controller Class Initialized
+DEBUG - 2020-08-17 15:18:46 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 15:18:46 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 15:18:46 --> Encryption Class Initialized
+INFO - 2020-08-17 15:18:46 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 15:18:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 15:18:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:18:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 15:18:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 15:18:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 15:18:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 15:18:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 15:18:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 15:18:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 15:18:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 15:18:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 15:18:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:18:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 15:18:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 15:18:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 15:18:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 15:18:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 15:18:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 15:18:46 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 15:18:46 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 15:18:46 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 15:18:46 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 15:18:46 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 15:18:46 --> Final output sent to browser
+DEBUG - 2020-08-17 15:18:46 --> Total execution time: 2.2880
+INFO - 2020-08-17 15:25:15 --> Config Class Initialized
+INFO - 2020-08-17 15:25:15 --> Hooks Class Initialized
+DEBUG - 2020-08-17 15:25:15 --> UTF-8 Support Enabled
+INFO - 2020-08-17 15:25:15 --> Utf8 Class Initialized
+INFO - 2020-08-17 15:25:15 --> URI Class Initialized
+INFO - 2020-08-17 15:25:15 --> Router Class Initialized
+INFO - 2020-08-17 15:25:15 --> Output Class Initialized
+INFO - 2020-08-17 15:25:15 --> Security Class Initialized
+DEBUG - 2020-08-17 15:25:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 15:25:15 --> CSRF cookie sent
+INFO - 2020-08-17 15:25:15 --> Input Class Initialized
+INFO - 2020-08-17 15:25:15 --> Language Class Initialized
+INFO - 2020-08-17 15:25:15 --> Loader Class Initialized
+INFO - 2020-08-17 15:25:15 --> Helper loaded: form_helper
+INFO - 2020-08-17 15:25:15 --> Helper loaded: url_helper
+INFO - 2020-08-17 15:25:15 --> Helper loaded: html_helper
+INFO - 2020-08-17 15:25:15 --> Helper loaded: file_helper
+INFO - 2020-08-17 15:25:15 --> Helper loaded: component_helper
+INFO - 2020-08-17 15:25:15 --> Helper loaded: date_helper
+INFO - 2020-08-17 15:25:15 --> Database Driver Class Initialized
+INFO - 2020-08-17 15:25:17 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 15:25:17 --> Email Class Initialized
+INFO - 2020-08-17 15:25:17 --> Parser Class Initialized
+INFO - 2020-08-17 15:25:17 --> Controller Class Initialized
+DEBUG - 2020-08-17 15:25:17 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 15:25:17 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 15:25:17 --> Encryption Class Initialized
+INFO - 2020-08-17 15:25:17 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 15:25:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 15:25:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:25:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 15:25:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 15:25:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 15:25:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 15:25:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 15:25:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 15:25:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 15:25:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 15:25:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 15:25:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:25:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 15:25:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 15:25:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 15:25:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 15:25:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 15:25:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 15:25:17 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 15:25:17 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 15:25:17 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 15:25:17 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 15:25:17 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 15:25:17 --> Final output sent to browser
+DEBUG - 2020-08-17 15:25:17 --> Total execution time: 2.1061
+INFO - 2020-08-17 15:25:21 --> Config Class Initialized
+INFO - 2020-08-17 15:25:21 --> Hooks Class Initialized
+DEBUG - 2020-08-17 15:25:21 --> UTF-8 Support Enabled
+INFO - 2020-08-17 15:25:21 --> Utf8 Class Initialized
+INFO - 2020-08-17 15:25:21 --> URI Class Initialized
+INFO - 2020-08-17 15:25:21 --> Router Class Initialized
+INFO - 2020-08-17 15:25:21 --> Output Class Initialized
+INFO - 2020-08-17 15:25:21 --> Security Class Initialized
+DEBUG - 2020-08-17 15:25:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 15:25:21 --> CSRF cookie sent
+INFO - 2020-08-17 15:25:21 --> Input Class Initialized
+INFO - 2020-08-17 15:25:21 --> Language Class Initialized
+INFO - 2020-08-17 15:25:21 --> Loader Class Initialized
+INFO - 2020-08-17 15:25:21 --> Helper loaded: form_helper
+INFO - 2020-08-17 15:25:21 --> Helper loaded: url_helper
+INFO - 2020-08-17 15:25:21 --> Helper loaded: html_helper
+INFO - 2020-08-17 15:25:21 --> Helper loaded: file_helper
+INFO - 2020-08-17 15:25:21 --> Helper loaded: component_helper
+INFO - 2020-08-17 15:25:21 --> Helper loaded: date_helper
+INFO - 2020-08-17 15:25:21 --> Database Driver Class Initialized
+INFO - 2020-08-17 15:25:23 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 15:25:23 --> Email Class Initialized
+INFO - 2020-08-17 15:25:23 --> Parser Class Initialized
+INFO - 2020-08-17 15:25:23 --> Controller Class Initialized
+DEBUG - 2020-08-17 15:25:23 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 15:25:23 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 15:25:23 --> Encryption Class Initialized
+INFO - 2020-08-17 15:25:23 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 15:25:23 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 15:25:23 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:25:23 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 15:25:23 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 15:25:23 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 15:25:23 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 15:25:23 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 15:25:23 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 15:25:23 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 15:25:23 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 15:25:23 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 15:25:23 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:25:23 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 15:25:23 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 15:25:23 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 15:25:23 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 15:25:23 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 15:25:23 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 15:25:23 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 15:25:23 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 15:25:23 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 15:25:23 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 15:25:23 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 15:25:23 --> Final output sent to browser
+DEBUG - 2020-08-17 15:25:23 --> Total execution time: 2.1083
+INFO - 2020-08-17 15:25:42 --> Config Class Initialized
+INFO - 2020-08-17 15:25:42 --> Hooks Class Initialized
+DEBUG - 2020-08-17 15:25:42 --> UTF-8 Support Enabled
+INFO - 2020-08-17 15:25:42 --> Utf8 Class Initialized
+INFO - 2020-08-17 15:25:42 --> URI Class Initialized
+INFO - 2020-08-17 15:25:42 --> Router Class Initialized
+INFO - 2020-08-17 15:25:42 --> Output Class Initialized
+INFO - 2020-08-17 15:25:42 --> Security Class Initialized
+DEBUG - 2020-08-17 15:25:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 15:25:42 --> CSRF cookie sent
+INFO - 2020-08-17 15:25:42 --> Input Class Initialized
+INFO - 2020-08-17 15:25:42 --> Language Class Initialized
+INFO - 2020-08-17 15:25:42 --> Loader Class Initialized
+INFO - 2020-08-17 15:25:42 --> Helper loaded: form_helper
+INFO - 2020-08-17 15:25:42 --> Helper loaded: url_helper
+INFO - 2020-08-17 15:25:42 --> Helper loaded: html_helper
+INFO - 2020-08-17 15:25:42 --> Helper loaded: file_helper
+INFO - 2020-08-17 15:25:42 --> Helper loaded: component_helper
+INFO - 2020-08-17 15:25:42 --> Helper loaded: date_helper
+INFO - 2020-08-17 15:25:42 --> Database Driver Class Initialized
+INFO - 2020-08-17 15:25:44 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 15:25:44 --> Email Class Initialized
+INFO - 2020-08-17 15:25:44 --> Parser Class Initialized
+INFO - 2020-08-17 15:25:44 --> Controller Class Initialized
+DEBUG - 2020-08-17 15:25:44 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 15:25:44 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 15:25:44 --> Encryption Class Initialized
+INFO - 2020-08-17 15:25:44 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 15:25:44 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 15:25:44 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:25:44 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 15:25:44 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 15:25:44 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 15:25:44 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 15:25:44 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 15:25:44 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 15:25:44 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 15:25:44 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 15:25:44 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 15:25:44 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:25:44 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 15:25:44 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 15:25:44 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 15:25:44 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 15:25:44 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 15:25:44 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 15:25:44 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 15:25:44 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 15:25:44 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 15:25:44 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 15:25:44 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 15:25:44 --> Final output sent to browser
+DEBUG - 2020-08-17 15:25:44 --> Total execution time: 2.1049
+INFO - 2020-08-17 15:25:46 --> Config Class Initialized
+INFO - 2020-08-17 15:25:46 --> Hooks Class Initialized
+DEBUG - 2020-08-17 15:25:46 --> UTF-8 Support Enabled
+INFO - 2020-08-17 15:25:46 --> Utf8 Class Initialized
+INFO - 2020-08-17 15:25:46 --> URI Class Initialized
+INFO - 2020-08-17 15:25:46 --> Router Class Initialized
+INFO - 2020-08-17 15:25:46 --> Output Class Initialized
+INFO - 2020-08-17 15:25:46 --> Security Class Initialized
+DEBUG - 2020-08-17 15:25:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 15:25:46 --> CSRF cookie sent
+INFO - 2020-08-17 15:25:46 --> Input Class Initialized
+INFO - 2020-08-17 15:25:46 --> Language Class Initialized
+INFO - 2020-08-17 15:25:46 --> Loader Class Initialized
+INFO - 2020-08-17 15:25:46 --> Helper loaded: form_helper
+INFO - 2020-08-17 15:25:46 --> Helper loaded: url_helper
+INFO - 2020-08-17 15:25:46 --> Helper loaded: html_helper
+INFO - 2020-08-17 15:25:46 --> Helper loaded: file_helper
+INFO - 2020-08-17 15:25:46 --> Helper loaded: component_helper
+INFO - 2020-08-17 15:25:46 --> Helper loaded: date_helper
+INFO - 2020-08-17 15:25:46 --> Database Driver Class Initialized
+INFO - 2020-08-17 15:25:48 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 15:25:48 --> Email Class Initialized
+INFO - 2020-08-17 15:25:48 --> Parser Class Initialized
+INFO - 2020-08-17 15:25:48 --> Controller Class Initialized
+DEBUG - 2020-08-17 15:25:48 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 15:25:48 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 15:25:48 --> Encryption Class Initialized
+INFO - 2020-08-17 15:25:48 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 15:25:48 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 15:25:48 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:25:48 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 15:25:48 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 15:25:48 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 15:25:48 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 15:25:48 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 15:25:48 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 15:25:48 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 15:25:48 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 15:25:48 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 15:25:48 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:25:48 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 15:25:48 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 15:25:48 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 15:25:48 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 15:25:48 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 15:25:48 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 15:25:48 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 15:25:48 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 15:25:48 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 15:25:48 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 15:25:48 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 15:25:48 --> Final output sent to browser
+DEBUG - 2020-08-17 15:25:48 --> Total execution time: 2.1092
+INFO - 2020-08-17 15:26:00 --> Config Class Initialized
+INFO - 2020-08-17 15:26:00 --> Hooks Class Initialized
+DEBUG - 2020-08-17 15:26:00 --> UTF-8 Support Enabled
+INFO - 2020-08-17 15:26:00 --> Utf8 Class Initialized
+INFO - 2020-08-17 15:26:00 --> URI Class Initialized
+INFO - 2020-08-17 15:26:00 --> Router Class Initialized
+INFO - 2020-08-17 15:26:00 --> Output Class Initialized
+INFO - 2020-08-17 15:26:00 --> Security Class Initialized
+DEBUG - 2020-08-17 15:26:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 15:26:00 --> CSRF cookie sent
+INFO - 2020-08-17 15:26:00 --> Input Class Initialized
+INFO - 2020-08-17 15:26:00 --> Language Class Initialized
+INFO - 2020-08-17 15:26:00 --> Loader Class Initialized
+INFO - 2020-08-17 15:26:00 --> Helper loaded: form_helper
+INFO - 2020-08-17 15:26:00 --> Helper loaded: url_helper
+INFO - 2020-08-17 15:26:00 --> Helper loaded: html_helper
+INFO - 2020-08-17 15:26:00 --> Helper loaded: file_helper
+INFO - 2020-08-17 15:26:00 --> Helper loaded: component_helper
+INFO - 2020-08-17 15:26:00 --> Helper loaded: date_helper
+INFO - 2020-08-17 15:26:00 --> Database Driver Class Initialized
+INFO - 2020-08-17 15:26:02 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 15:26:02 --> Email Class Initialized
+INFO - 2020-08-17 15:26:02 --> Parser Class Initialized
+INFO - 2020-08-17 15:26:02 --> Controller Class Initialized
+DEBUG - 2020-08-17 15:26:02 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 15:26:02 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 15:26:02 --> Encryption Class Initialized
+INFO - 2020-08-17 15:26:02 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 15:26:02 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 15:26:02 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:26:02 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 15:26:02 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 15:26:02 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 15:26:02 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 15:26:02 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 15:26:02 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 15:26:02 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 15:26:02 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 15:26:02 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 15:26:02 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:26:02 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 15:26:02 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 15:26:02 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 15:26:02 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 15:26:02 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 15:26:02 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 15:26:02 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 15:26:02 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 15:26:02 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 15:26:02 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 15:26:02 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 15:26:02 --> Final output sent to browser
+DEBUG - 2020-08-17 15:26:02 --> Total execution time: 2.0904
+INFO - 2020-08-17 15:26:09 --> Config Class Initialized
+INFO - 2020-08-17 15:26:09 --> Hooks Class Initialized
+DEBUG - 2020-08-17 15:26:09 --> UTF-8 Support Enabled
+INFO - 2020-08-17 15:26:09 --> Utf8 Class Initialized
+INFO - 2020-08-17 15:26:09 --> URI Class Initialized
+INFO - 2020-08-17 15:26:09 --> Router Class Initialized
+INFO - 2020-08-17 15:26:09 --> Output Class Initialized
+INFO - 2020-08-17 15:26:09 --> Security Class Initialized
+DEBUG - 2020-08-17 15:26:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 15:26:09 --> CSRF cookie sent
+INFO - 2020-08-17 15:26:09 --> Input Class Initialized
+INFO - 2020-08-17 15:26:09 --> Language Class Initialized
+INFO - 2020-08-17 15:26:09 --> Loader Class Initialized
+INFO - 2020-08-17 15:26:09 --> Helper loaded: form_helper
+INFO - 2020-08-17 15:26:09 --> Helper loaded: url_helper
+INFO - 2020-08-17 15:26:09 --> Helper loaded: html_helper
+INFO - 2020-08-17 15:26:09 --> Helper loaded: file_helper
+INFO - 2020-08-17 15:26:09 --> Helper loaded: component_helper
+INFO - 2020-08-17 15:26:09 --> Helper loaded: date_helper
+INFO - 2020-08-17 15:26:09 --> Database Driver Class Initialized
+INFO - 2020-08-17 15:26:11 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 15:26:11 --> Email Class Initialized
+INFO - 2020-08-17 15:26:11 --> Parser Class Initialized
+INFO - 2020-08-17 15:26:11 --> Controller Class Initialized
+DEBUG - 2020-08-17 15:26:11 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 15:26:11 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 15:26:11 --> Encryption Class Initialized
+INFO - 2020-08-17 15:26:11 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 15:26:11 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 15:26:11 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:26:11 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 15:26:11 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 15:26:11 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 15:26:11 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 15:26:11 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 15:26:11 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 15:26:11 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 15:26:11 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 15:26:11 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 15:26:11 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:26:11 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 15:26:11 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 15:26:11 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 15:26:11 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 15:26:11 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 15:26:11 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 15:26:11 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 15:26:11 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 15:26:11 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 15:26:11 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 15:26:11 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 15:26:11 --> Final output sent to browser
+DEBUG - 2020-08-17 15:26:11 --> Total execution time: 2.1020
+INFO - 2020-08-17 15:26:25 --> Config Class Initialized
+INFO - 2020-08-17 15:26:25 --> Hooks Class Initialized
+DEBUG - 2020-08-17 15:26:25 --> UTF-8 Support Enabled
+INFO - 2020-08-17 15:26:25 --> Utf8 Class Initialized
+INFO - 2020-08-17 15:26:25 --> URI Class Initialized
+INFO - 2020-08-17 15:26:25 --> Router Class Initialized
+INFO - 2020-08-17 15:26:25 --> Output Class Initialized
+INFO - 2020-08-17 15:26:25 --> Security Class Initialized
+DEBUG - 2020-08-17 15:26:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 15:26:25 --> CSRF cookie sent
+INFO - 2020-08-17 15:26:25 --> Input Class Initialized
+INFO - 2020-08-17 15:26:25 --> Language Class Initialized
+INFO - 2020-08-17 15:26:25 --> Loader Class Initialized
+INFO - 2020-08-17 15:26:25 --> Helper loaded: form_helper
+INFO - 2020-08-17 15:26:25 --> Helper loaded: url_helper
+INFO - 2020-08-17 15:26:25 --> Helper loaded: html_helper
+INFO - 2020-08-17 15:26:25 --> Helper loaded: file_helper
+INFO - 2020-08-17 15:26:25 --> Helper loaded: component_helper
+INFO - 2020-08-17 15:26:25 --> Helper loaded: date_helper
+INFO - 2020-08-17 15:26:25 --> Database Driver Class Initialized
+INFO - 2020-08-17 15:26:27 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 15:26:27 --> Email Class Initialized
+INFO - 2020-08-17 15:26:27 --> Parser Class Initialized
+INFO - 2020-08-17 15:26:27 --> Controller Class Initialized
+DEBUG - 2020-08-17 15:26:27 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 15:26:27 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 15:26:27 --> Encryption Class Initialized
+INFO - 2020-08-17 15:26:27 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 15:26:27 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 15:26:27 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:26:27 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 15:26:27 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 15:26:27 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 15:26:27 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 15:26:27 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 15:26:27 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 15:26:27 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 15:26:27 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 15:26:27 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 15:26:27 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:26:27 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 15:26:27 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 15:26:27 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 15:26:27 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 15:26:27 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 15:26:27 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 15:26:27 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 15:26:27 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 15:26:27 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 15:26:27 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 15:26:27 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 15:26:27 --> Final output sent to browser
+DEBUG - 2020-08-17 15:26:27 --> Total execution time: 2.1170
+INFO - 2020-08-17 15:26:32 --> Config Class Initialized
+INFO - 2020-08-17 15:26:32 --> Hooks Class Initialized
+DEBUG - 2020-08-17 15:26:32 --> UTF-8 Support Enabled
+INFO - 2020-08-17 15:26:32 --> Utf8 Class Initialized
+INFO - 2020-08-17 15:26:32 --> URI Class Initialized
+INFO - 2020-08-17 15:26:32 --> Router Class Initialized
+INFO - 2020-08-17 15:26:32 --> Output Class Initialized
+INFO - 2020-08-17 15:26:32 --> Security Class Initialized
+DEBUG - 2020-08-17 15:26:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 15:26:32 --> CSRF cookie sent
+INFO - 2020-08-17 15:26:32 --> Input Class Initialized
+INFO - 2020-08-17 15:26:32 --> Language Class Initialized
+INFO - 2020-08-17 15:26:32 --> Loader Class Initialized
+INFO - 2020-08-17 15:26:32 --> Helper loaded: form_helper
+INFO - 2020-08-17 15:26:32 --> Helper loaded: url_helper
+INFO - 2020-08-17 15:26:32 --> Helper loaded: html_helper
+INFO - 2020-08-17 15:26:32 --> Helper loaded: file_helper
+INFO - 2020-08-17 15:26:32 --> Helper loaded: component_helper
+INFO - 2020-08-17 15:26:32 --> Helper loaded: date_helper
+INFO - 2020-08-17 15:26:33 --> Database Driver Class Initialized
+INFO - 2020-08-17 15:26:35 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 15:26:35 --> Email Class Initialized
+INFO - 2020-08-17 15:26:35 --> Parser Class Initialized
+INFO - 2020-08-17 15:26:35 --> Controller Class Initialized
+DEBUG - 2020-08-17 15:26:35 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 15:26:35 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 15:26:35 --> Encryption Class Initialized
+INFO - 2020-08-17 15:26:35 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 15:26:35 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 15:26:35 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:26:35 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 15:26:35 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 15:26:35 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 15:26:35 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 15:26:35 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 15:26:35 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 15:26:35 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 15:26:35 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 15:26:35 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 15:26:35 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:26:35 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 15:26:35 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 15:26:35 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 15:26:35 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 15:26:35 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 15:26:35 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 15:26:35 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 15:26:35 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 15:26:35 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 15:26:35 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 15:26:35 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 15:26:35 --> Final output sent to browser
+DEBUG - 2020-08-17 15:26:35 --> Total execution time: 2.1175
+INFO - 2020-08-17 15:27:20 --> Config Class Initialized
+INFO - 2020-08-17 15:27:20 --> Hooks Class Initialized
+DEBUG - 2020-08-17 15:27:20 --> UTF-8 Support Enabled
+INFO - 2020-08-17 15:27:20 --> Utf8 Class Initialized
+INFO - 2020-08-17 15:27:20 --> URI Class Initialized
+INFO - 2020-08-17 15:27:20 --> Router Class Initialized
+INFO - 2020-08-17 15:27:20 --> Output Class Initialized
+INFO - 2020-08-17 15:27:20 --> Security Class Initialized
+DEBUG - 2020-08-17 15:27:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 15:27:20 --> CSRF cookie sent
+INFO - 2020-08-17 15:27:20 --> Input Class Initialized
+INFO - 2020-08-17 15:27:20 --> Language Class Initialized
+INFO - 2020-08-17 15:27:20 --> Loader Class Initialized
+INFO - 2020-08-17 15:27:20 --> Helper loaded: form_helper
+INFO - 2020-08-17 15:27:20 --> Helper loaded: url_helper
+INFO - 2020-08-17 15:27:20 --> Helper loaded: html_helper
+INFO - 2020-08-17 15:27:20 --> Helper loaded: file_helper
+INFO - 2020-08-17 15:27:20 --> Helper loaded: component_helper
+INFO - 2020-08-17 15:27:20 --> Helper loaded: date_helper
+INFO - 2020-08-17 15:27:20 --> Database Driver Class Initialized
+INFO - 2020-08-17 15:27:22 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 15:27:22 --> Email Class Initialized
+INFO - 2020-08-17 15:27:22 --> Parser Class Initialized
+INFO - 2020-08-17 15:27:22 --> Controller Class Initialized
+DEBUG - 2020-08-17 15:27:22 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 15:27:22 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 15:27:22 --> Encryption Class Initialized
+INFO - 2020-08-17 15:27:22 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 15:27:22 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 15:27:22 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:27:22 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 15:27:22 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 15:27:22 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 15:27:22 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 15:27:22 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 15:27:22 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 15:27:22 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 15:27:22 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 15:27:22 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 15:27:22 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:27:22 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 15:27:22 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 15:27:22 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 15:27:22 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 15:27:22 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 15:27:22 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 15:27:22 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 15:27:22 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 15:27:22 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 15:27:22 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 15:27:22 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 15:27:22 --> Final output sent to browser
+DEBUG - 2020-08-17 15:27:22 --> Total execution time: 2.0965
+INFO - 2020-08-17 15:27:29 --> Config Class Initialized
+INFO - 2020-08-17 15:27:29 --> Hooks Class Initialized
+DEBUG - 2020-08-17 15:27:29 --> UTF-8 Support Enabled
+INFO - 2020-08-17 15:27:29 --> Utf8 Class Initialized
+INFO - 2020-08-17 15:27:29 --> URI Class Initialized
+INFO - 2020-08-17 15:27:29 --> Router Class Initialized
+INFO - 2020-08-17 15:27:29 --> Output Class Initialized
+INFO - 2020-08-17 15:27:29 --> Security Class Initialized
+DEBUG - 2020-08-17 15:27:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 15:27:29 --> CSRF cookie sent
+INFO - 2020-08-17 15:27:29 --> Input Class Initialized
+INFO - 2020-08-17 15:27:29 --> Language Class Initialized
+INFO - 2020-08-17 15:27:29 --> Loader Class Initialized
+INFO - 2020-08-17 15:27:29 --> Helper loaded: form_helper
+INFO - 2020-08-17 15:27:29 --> Helper loaded: url_helper
+INFO - 2020-08-17 15:27:29 --> Helper loaded: html_helper
+INFO - 2020-08-17 15:27:29 --> Helper loaded: file_helper
+INFO - 2020-08-17 15:27:29 --> Helper loaded: component_helper
+INFO - 2020-08-17 15:27:29 --> Helper loaded: date_helper
+INFO - 2020-08-17 15:27:29 --> Database Driver Class Initialized
+INFO - 2020-08-17 15:27:31 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 15:27:31 --> Email Class Initialized
+INFO - 2020-08-17 15:27:31 --> Parser Class Initialized
+INFO - 2020-08-17 15:27:31 --> Controller Class Initialized
+DEBUG - 2020-08-17 15:27:31 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 15:27:31 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 15:27:31 --> Encryption Class Initialized
+INFO - 2020-08-17 15:27:31 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 15:27:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 15:27:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:27:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 15:27:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 15:27:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 15:27:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 15:27:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 15:27:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 15:27:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 15:27:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 15:27:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 15:27:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:27:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 15:27:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 15:27:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 15:27:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 15:27:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 15:27:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 15:27:31 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 15:27:31 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 15:27:31 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 15:27:31 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 15:27:31 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 15:27:31 --> Final output sent to browser
+DEBUG - 2020-08-17 15:27:31 --> Total execution time: 2.1414
+INFO - 2020-08-17 15:28:07 --> Config Class Initialized
+INFO - 2020-08-17 15:28:07 --> Hooks Class Initialized
+DEBUG - 2020-08-17 15:28:07 --> UTF-8 Support Enabled
+INFO - 2020-08-17 15:28:07 --> Utf8 Class Initialized
+INFO - 2020-08-17 15:28:07 --> URI Class Initialized
+INFO - 2020-08-17 15:28:07 --> Router Class Initialized
+INFO - 2020-08-17 15:28:07 --> Output Class Initialized
+INFO - 2020-08-17 15:28:07 --> Security Class Initialized
+DEBUG - 2020-08-17 15:28:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 15:28:07 --> CSRF cookie sent
+INFO - 2020-08-17 15:28:07 --> Input Class Initialized
+INFO - 2020-08-17 15:28:07 --> Language Class Initialized
+INFO - 2020-08-17 15:28:07 --> Loader Class Initialized
+INFO - 2020-08-17 15:28:07 --> Helper loaded: form_helper
+INFO - 2020-08-17 15:28:07 --> Helper loaded: url_helper
+INFO - 2020-08-17 15:28:07 --> Helper loaded: html_helper
+INFO - 2020-08-17 15:28:07 --> Helper loaded: file_helper
+INFO - 2020-08-17 15:28:07 --> Helper loaded: component_helper
+INFO - 2020-08-17 15:28:07 --> Helper loaded: date_helper
+INFO - 2020-08-17 15:28:07 --> Database Driver Class Initialized
+INFO - 2020-08-17 15:28:09 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 15:28:09 --> Email Class Initialized
+INFO - 2020-08-17 15:28:09 --> Parser Class Initialized
+INFO - 2020-08-17 15:28:09 --> Controller Class Initialized
+DEBUG - 2020-08-17 15:28:09 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 15:28:09 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 15:28:09 --> Encryption Class Initialized
+INFO - 2020-08-17 15:28:09 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 15:28:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 15:28:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:28:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 15:28:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 15:28:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 15:28:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 15:28:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 15:28:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 15:28:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 15:28:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 15:28:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 15:28:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:28:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 15:28:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 15:28:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 15:28:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 15:28:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 15:28:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 15:28:09 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 15:28:09 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 15:28:09 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 15:28:09 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 15:28:09 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 15:28:09 --> Final output sent to browser
+DEBUG - 2020-08-17 15:28:09 --> Total execution time: 2.1081
+INFO - 2020-08-17 15:28:16 --> Config Class Initialized
+INFO - 2020-08-17 15:28:16 --> Hooks Class Initialized
+DEBUG - 2020-08-17 15:28:16 --> UTF-8 Support Enabled
+INFO - 2020-08-17 15:28:16 --> Utf8 Class Initialized
+INFO - 2020-08-17 15:28:16 --> URI Class Initialized
+INFO - 2020-08-17 15:28:16 --> Router Class Initialized
+INFO - 2020-08-17 15:28:16 --> Output Class Initialized
+INFO - 2020-08-17 15:28:16 --> Security Class Initialized
+DEBUG - 2020-08-17 15:28:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 15:28:16 --> CSRF cookie sent
+INFO - 2020-08-17 15:28:16 --> Input Class Initialized
+INFO - 2020-08-17 15:28:16 --> Language Class Initialized
+INFO - 2020-08-17 15:28:16 --> Loader Class Initialized
+INFO - 2020-08-17 15:28:16 --> Helper loaded: form_helper
+INFO - 2020-08-17 15:28:16 --> Helper loaded: url_helper
+INFO - 2020-08-17 15:28:16 --> Helper loaded: html_helper
+INFO - 2020-08-17 15:28:16 --> Helper loaded: file_helper
+INFO - 2020-08-17 15:28:16 --> Helper loaded: component_helper
+INFO - 2020-08-17 15:28:16 --> Helper loaded: date_helper
+INFO - 2020-08-17 15:28:16 --> Database Driver Class Initialized
+INFO - 2020-08-17 15:28:18 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 15:28:18 --> Email Class Initialized
+INFO - 2020-08-17 15:28:18 --> Parser Class Initialized
+INFO - 2020-08-17 15:28:18 --> Controller Class Initialized
+DEBUG - 2020-08-17 15:28:18 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 15:28:18 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 15:28:18 --> Encryption Class Initialized
+INFO - 2020-08-17 15:28:18 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 15:28:18 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 15:28:18 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:28:18 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 15:28:18 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 15:28:18 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 15:28:18 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 15:28:18 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 15:28:18 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 15:28:18 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 15:28:18 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 15:28:18 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 15:28:18 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:28:18 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 15:28:18 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 15:28:18 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 15:28:18 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 15:28:18 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 15:28:18 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 15:28:18 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 15:28:18 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 15:28:18 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 15:28:18 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 15:28:18 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 15:28:18 --> Final output sent to browser
+DEBUG - 2020-08-17 15:28:18 --> Total execution time: 2.1156
+INFO - 2020-08-17 15:48:04 --> Config Class Initialized
+INFO - 2020-08-17 15:48:04 --> Hooks Class Initialized
+DEBUG - 2020-08-17 15:48:04 --> UTF-8 Support Enabled
+INFO - 2020-08-17 15:48:04 --> Utf8 Class Initialized
+INFO - 2020-08-17 15:48:04 --> URI Class Initialized
+INFO - 2020-08-17 15:48:04 --> Router Class Initialized
+INFO - 2020-08-17 15:48:04 --> Output Class Initialized
+INFO - 2020-08-17 15:48:04 --> Security Class Initialized
+DEBUG - 2020-08-17 15:48:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 15:48:04 --> CSRF cookie sent
+INFO - 2020-08-17 15:48:04 --> Input Class Initialized
+INFO - 2020-08-17 15:48:04 --> Language Class Initialized
+INFO - 2020-08-17 15:48:04 --> Loader Class Initialized
+INFO - 2020-08-17 15:48:04 --> Helper loaded: form_helper
+INFO - 2020-08-17 15:48:04 --> Helper loaded: url_helper
+INFO - 2020-08-17 15:48:04 --> Helper loaded: html_helper
+INFO - 2020-08-17 15:48:04 --> Helper loaded: file_helper
+INFO - 2020-08-17 15:48:04 --> Helper loaded: component_helper
+INFO - 2020-08-17 15:48:04 --> Helper loaded: date_helper
+INFO - 2020-08-17 15:48:04 --> Database Driver Class Initialized
+INFO - 2020-08-17 15:48:06 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 15:48:06 --> Email Class Initialized
+INFO - 2020-08-17 15:48:06 --> Parser Class Initialized
+INFO - 2020-08-17 15:48:06 --> Controller Class Initialized
+DEBUG - 2020-08-17 15:48:06 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 15:48:06 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 15:48:06 --> Encryption Class Initialized
+INFO - 2020-08-17 15:48:06 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 15:48:06 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 15:48:06 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:48:06 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 15:48:06 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 15:48:06 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 15:48:06 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 15:48:06 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 15:48:06 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 15:48:06 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 15:48:06 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 15:48:06 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 15:48:06 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:48:06 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 15:48:06 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 15:48:06 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 15:48:06 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 15:48:06 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 15:48:06 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 15:48:06 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 15:48:06 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 15:48:06 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 15:48:06 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 15:48:06 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 15:48:06 --> Final output sent to browser
+DEBUG - 2020-08-17 15:48:06 --> Total execution time: 2.1213
+INFO - 2020-08-17 15:48:11 --> Config Class Initialized
+INFO - 2020-08-17 15:48:11 --> Hooks Class Initialized
+DEBUG - 2020-08-17 15:48:11 --> UTF-8 Support Enabled
+INFO - 2020-08-17 15:48:11 --> Utf8 Class Initialized
+INFO - 2020-08-17 15:48:11 --> URI Class Initialized
+INFO - 2020-08-17 15:48:11 --> Router Class Initialized
+INFO - 2020-08-17 15:48:11 --> Output Class Initialized
+INFO - 2020-08-17 15:48:11 --> Security Class Initialized
+DEBUG - 2020-08-17 15:48:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 15:48:11 --> CSRF cookie sent
+INFO - 2020-08-17 15:48:11 --> Input Class Initialized
+INFO - 2020-08-17 15:48:11 --> Language Class Initialized
+INFO - 2020-08-17 15:48:11 --> Loader Class Initialized
+INFO - 2020-08-17 15:48:11 --> Helper loaded: form_helper
+INFO - 2020-08-17 15:48:11 --> Helper loaded: url_helper
+INFO - 2020-08-17 15:48:11 --> Helper loaded: html_helper
+INFO - 2020-08-17 15:48:11 --> Helper loaded: file_helper
+INFO - 2020-08-17 15:48:11 --> Helper loaded: component_helper
+INFO - 2020-08-17 15:48:11 --> Helper loaded: date_helper
+INFO - 2020-08-17 15:48:11 --> Database Driver Class Initialized
+INFO - 2020-08-17 15:48:13 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 15:48:13 --> Email Class Initialized
+INFO - 2020-08-17 15:48:13 --> Parser Class Initialized
+INFO - 2020-08-17 15:48:13 --> Controller Class Initialized
+DEBUG - 2020-08-17 15:48:13 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 15:48:13 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 15:48:13 --> Encryption Class Initialized
+INFO - 2020-08-17 15:48:13 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 15:48:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 15:48:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:48:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 15:48:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 15:48:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 15:48:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 15:48:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 15:48:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 15:48:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 15:48:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 15:48:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 15:48:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:48:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 15:48:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 15:48:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 15:48:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 15:48:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 15:48:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 15:48:13 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 15:48:13 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 15:48:13 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 15:48:13 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 15:48:13 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 15:48:13 --> Final output sent to browser
+DEBUG - 2020-08-17 15:48:13 --> Total execution time: 2.1352
+INFO - 2020-08-17 15:48:43 --> Config Class Initialized
+INFO - 2020-08-17 15:48:43 --> Hooks Class Initialized
+DEBUG - 2020-08-17 15:48:44 --> UTF-8 Support Enabled
+INFO - 2020-08-17 15:48:44 --> Utf8 Class Initialized
+INFO - 2020-08-17 15:48:44 --> URI Class Initialized
+INFO - 2020-08-17 15:48:44 --> Router Class Initialized
+INFO - 2020-08-17 15:48:44 --> Output Class Initialized
+INFO - 2020-08-17 15:48:44 --> Security Class Initialized
+DEBUG - 2020-08-17 15:48:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 15:48:44 --> CSRF cookie sent
+INFO - 2020-08-17 15:48:44 --> Input Class Initialized
+INFO - 2020-08-17 15:48:44 --> Language Class Initialized
+INFO - 2020-08-17 15:48:44 --> Loader Class Initialized
+INFO - 2020-08-17 15:48:44 --> Helper loaded: form_helper
+INFO - 2020-08-17 15:48:44 --> Helper loaded: url_helper
+INFO - 2020-08-17 15:48:44 --> Helper loaded: html_helper
+INFO - 2020-08-17 15:48:44 --> Helper loaded: file_helper
+INFO - 2020-08-17 15:48:44 --> Helper loaded: component_helper
+INFO - 2020-08-17 15:48:44 --> Helper loaded: date_helper
+INFO - 2020-08-17 15:48:44 --> Database Driver Class Initialized
+INFO - 2020-08-17 15:48:46 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 15:48:46 --> Email Class Initialized
+INFO - 2020-08-17 15:48:46 --> Parser Class Initialized
+INFO - 2020-08-17 15:48:46 --> Controller Class Initialized
+DEBUG - 2020-08-17 15:48:46 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 15:48:46 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 15:48:46 --> Encryption Class Initialized
+INFO - 2020-08-17 15:48:46 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 15:48:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 15:48:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:48:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 15:48:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 15:48:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 15:48:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 15:48:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 15:48:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 15:48:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 15:48:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 15:48:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 15:48:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:48:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 15:48:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 15:48:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 15:48:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 15:48:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 15:48:46 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 15:48:46 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 15:48:46 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 15:48:46 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 15:48:46 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 15:48:46 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 15:48:46 --> Final output sent to browser
+DEBUG - 2020-08-17 15:48:46 --> Total execution time: 2.1530
+INFO - 2020-08-17 15:48:52 --> Config Class Initialized
+INFO - 2020-08-17 15:48:52 --> Hooks Class Initialized
+DEBUG - 2020-08-17 15:48:52 --> UTF-8 Support Enabled
+INFO - 2020-08-17 15:48:52 --> Utf8 Class Initialized
+INFO - 2020-08-17 15:48:52 --> URI Class Initialized
+INFO - 2020-08-17 15:48:52 --> Router Class Initialized
+INFO - 2020-08-17 15:48:52 --> Output Class Initialized
+INFO - 2020-08-17 15:48:52 --> Security Class Initialized
+DEBUG - 2020-08-17 15:48:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 15:48:52 --> CSRF cookie sent
+INFO - 2020-08-17 15:48:52 --> Input Class Initialized
+INFO - 2020-08-17 15:48:52 --> Language Class Initialized
+INFO - 2020-08-17 15:48:52 --> Loader Class Initialized
+INFO - 2020-08-17 15:48:52 --> Helper loaded: form_helper
+INFO - 2020-08-17 15:48:52 --> Helper loaded: url_helper
+INFO - 2020-08-17 15:48:52 --> Helper loaded: html_helper
+INFO - 2020-08-17 15:48:52 --> Helper loaded: file_helper
+INFO - 2020-08-17 15:48:52 --> Helper loaded: component_helper
+INFO - 2020-08-17 15:48:52 --> Helper loaded: date_helper
+INFO - 2020-08-17 15:48:52 --> Database Driver Class Initialized
+INFO - 2020-08-17 15:48:54 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 15:48:54 --> Email Class Initialized
+INFO - 2020-08-17 15:48:54 --> Parser Class Initialized
+INFO - 2020-08-17 15:48:54 --> Controller Class Initialized
+DEBUG - 2020-08-17 15:48:54 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 15:48:54 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 15:48:54 --> Encryption Class Initialized
+INFO - 2020-08-17 15:48:54 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 15:48:54 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 15:48:54 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:48:54 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 15:48:54 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 15:48:54 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 15:48:54 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 15:48:54 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 15:48:54 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 15:48:54 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 15:48:54 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 15:48:54 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 15:48:54 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:48:54 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 15:48:54 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 15:48:54 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 15:48:54 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 15:48:54 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 15:48:54 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 15:48:54 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 15:48:54 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 15:48:54 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 15:48:54 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 15:48:54 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 15:48:54 --> Final output sent to browser
+DEBUG - 2020-08-17 15:48:54 --> Total execution time: 2.1920
+INFO - 2020-08-17 15:50:29 --> Config Class Initialized
+INFO - 2020-08-17 15:50:29 --> Hooks Class Initialized
+DEBUG - 2020-08-17 15:50:29 --> UTF-8 Support Enabled
+INFO - 2020-08-17 15:50:29 --> Utf8 Class Initialized
+INFO - 2020-08-17 15:50:29 --> URI Class Initialized
+INFO - 2020-08-17 15:50:29 --> Router Class Initialized
+INFO - 2020-08-17 15:50:29 --> Output Class Initialized
+INFO - 2020-08-17 15:50:29 --> Security Class Initialized
+DEBUG - 2020-08-17 15:50:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 15:50:29 --> CSRF cookie sent
+INFO - 2020-08-17 15:50:29 --> Input Class Initialized
+INFO - 2020-08-17 15:50:29 --> Language Class Initialized
+INFO - 2020-08-17 15:50:29 --> Loader Class Initialized
+INFO - 2020-08-17 15:50:29 --> Helper loaded: form_helper
+INFO - 2020-08-17 15:50:29 --> Helper loaded: url_helper
+INFO - 2020-08-17 15:50:29 --> Helper loaded: html_helper
+INFO - 2020-08-17 15:50:29 --> Helper loaded: file_helper
+INFO - 2020-08-17 15:50:29 --> Helper loaded: component_helper
+INFO - 2020-08-17 15:50:29 --> Helper loaded: date_helper
+INFO - 2020-08-17 15:50:29 --> Database Driver Class Initialized
+INFO - 2020-08-17 15:50:31 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 15:50:31 --> Email Class Initialized
+INFO - 2020-08-17 15:50:31 --> Parser Class Initialized
+INFO - 2020-08-17 15:50:31 --> Controller Class Initialized
+DEBUG - 2020-08-17 15:50:31 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 15:50:31 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 15:50:31 --> Encryption Class Initialized
+INFO - 2020-08-17 15:50:31 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 15:50:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 15:50:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:50:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 15:50:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 15:50:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 15:50:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 15:50:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 15:50:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 15:50:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 15:50:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 15:50:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 15:50:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:50:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 15:50:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 15:50:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 15:50:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 15:50:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 15:50:31 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 15:50:31 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 15:50:31 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 15:50:31 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 15:50:31 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 15:50:31 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 15:50:31 --> Final output sent to browser
+DEBUG - 2020-08-17 15:50:31 --> Total execution time: 2.1330
+INFO - 2020-08-17 15:50:38 --> Config Class Initialized
+INFO - 2020-08-17 15:50:38 --> Hooks Class Initialized
+DEBUG - 2020-08-17 15:50:38 --> UTF-8 Support Enabled
+INFO - 2020-08-17 15:50:38 --> Utf8 Class Initialized
+INFO - 2020-08-17 15:50:38 --> URI Class Initialized
+INFO - 2020-08-17 15:50:38 --> Router Class Initialized
+INFO - 2020-08-17 15:50:38 --> Output Class Initialized
+INFO - 2020-08-17 15:50:38 --> Security Class Initialized
+DEBUG - 2020-08-17 15:50:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 15:50:38 --> CSRF cookie sent
+INFO - 2020-08-17 15:50:38 --> Input Class Initialized
+INFO - 2020-08-17 15:50:38 --> Language Class Initialized
+INFO - 2020-08-17 15:50:38 --> Loader Class Initialized
+INFO - 2020-08-17 15:50:38 --> Helper loaded: form_helper
+INFO - 2020-08-17 15:50:38 --> Helper loaded: url_helper
+INFO - 2020-08-17 15:50:38 --> Helper loaded: html_helper
+INFO - 2020-08-17 15:50:38 --> Helper loaded: file_helper
+INFO - 2020-08-17 15:50:38 --> Helper loaded: component_helper
+INFO - 2020-08-17 15:50:38 --> Helper loaded: date_helper
+INFO - 2020-08-17 15:50:38 --> Database Driver Class Initialized
+INFO - 2020-08-17 15:50:40 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 15:50:40 --> Email Class Initialized
+INFO - 2020-08-17 15:50:40 --> Parser Class Initialized
+INFO - 2020-08-17 15:50:40 --> Controller Class Initialized
+DEBUG - 2020-08-17 15:50:40 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 15:50:40 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 15:50:40 --> Encryption Class Initialized
+INFO - 2020-08-17 15:50:40 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 15:50:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 15:50:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:50:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 15:50:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 15:50:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 15:50:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 15:50:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 15:50:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 15:50:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 15:50:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 15:50:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 15:50:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:50:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 15:50:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 15:50:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 15:50:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 15:50:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 15:50:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 15:50:40 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 15:50:40 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 15:50:40 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 15:50:40 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 15:50:40 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 15:50:40 --> Final output sent to browser
+DEBUG - 2020-08-17 15:50:40 --> Total execution time: 2.1507
+INFO - 2020-08-17 15:52:30 --> Config Class Initialized
+INFO - 2020-08-17 15:52:30 --> Hooks Class Initialized
+DEBUG - 2020-08-17 15:52:30 --> UTF-8 Support Enabled
+INFO - 2020-08-17 15:52:30 --> Utf8 Class Initialized
+INFO - 2020-08-17 15:52:30 --> URI Class Initialized
+INFO - 2020-08-17 15:52:30 --> Router Class Initialized
+INFO - 2020-08-17 15:52:30 --> Output Class Initialized
+INFO - 2020-08-17 15:52:30 --> Security Class Initialized
+DEBUG - 2020-08-17 15:52:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 15:52:30 --> CSRF cookie sent
+INFO - 2020-08-17 15:52:30 --> Input Class Initialized
+INFO - 2020-08-17 15:52:30 --> Language Class Initialized
+INFO - 2020-08-17 15:52:30 --> Loader Class Initialized
+INFO - 2020-08-17 15:52:30 --> Helper loaded: form_helper
+INFO - 2020-08-17 15:52:30 --> Helper loaded: url_helper
+INFO - 2020-08-17 15:52:30 --> Helper loaded: html_helper
+INFO - 2020-08-17 15:52:30 --> Helper loaded: file_helper
+INFO - 2020-08-17 15:52:30 --> Helper loaded: component_helper
+INFO - 2020-08-17 15:52:30 --> Helper loaded: date_helper
+INFO - 2020-08-17 15:52:30 --> Database Driver Class Initialized
+INFO - 2020-08-17 15:52:32 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 15:52:32 --> Email Class Initialized
+INFO - 2020-08-17 15:52:32 --> Parser Class Initialized
+INFO - 2020-08-17 15:52:32 --> Controller Class Initialized
+DEBUG - 2020-08-17 15:52:32 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 15:52:32 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 15:52:32 --> Encryption Class Initialized
+INFO - 2020-08-17 15:52:32 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 15:52:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 15:52:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:52:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 15:52:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 15:52:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 15:52:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 15:52:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 15:52:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 15:52:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 15:52:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 15:52:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 15:52:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:52:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 15:52:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 15:52:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 15:52:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 15:52:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 15:52:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 15:52:32 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 15:52:32 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 15:52:32 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 15:52:32 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 15:52:32 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 15:52:32 --> Final output sent to browser
+DEBUG - 2020-08-17 15:52:32 --> Total execution time: 2.1655
+INFO - 2020-08-17 15:52:39 --> Config Class Initialized
+INFO - 2020-08-17 15:52:39 --> Hooks Class Initialized
+DEBUG - 2020-08-17 15:52:39 --> UTF-8 Support Enabled
+INFO - 2020-08-17 15:52:39 --> Utf8 Class Initialized
+INFO - 2020-08-17 15:52:39 --> URI Class Initialized
+INFO - 2020-08-17 15:52:39 --> Router Class Initialized
+INFO - 2020-08-17 15:52:39 --> Output Class Initialized
+INFO - 2020-08-17 15:52:39 --> Security Class Initialized
+DEBUG - 2020-08-17 15:52:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 15:52:39 --> CSRF cookie sent
+INFO - 2020-08-17 15:52:39 --> Input Class Initialized
+INFO - 2020-08-17 15:52:39 --> Language Class Initialized
+INFO - 2020-08-17 15:52:39 --> Loader Class Initialized
+INFO - 2020-08-17 15:52:39 --> Helper loaded: form_helper
+INFO - 2020-08-17 15:52:39 --> Helper loaded: url_helper
+INFO - 2020-08-17 15:52:39 --> Helper loaded: html_helper
+INFO - 2020-08-17 15:52:39 --> Helper loaded: file_helper
+INFO - 2020-08-17 15:52:39 --> Helper loaded: component_helper
+INFO - 2020-08-17 15:52:39 --> Helper loaded: date_helper
+INFO - 2020-08-17 15:52:39 --> Database Driver Class Initialized
+INFO - 2020-08-17 15:52:41 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 15:52:41 --> Email Class Initialized
+INFO - 2020-08-17 15:52:41 --> Parser Class Initialized
+INFO - 2020-08-17 15:52:41 --> Controller Class Initialized
+DEBUG - 2020-08-17 15:52:41 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 15:52:41 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 15:52:41 --> Encryption Class Initialized
+INFO - 2020-08-17 15:52:41 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 15:52:41 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 15:52:41 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:52:41 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 15:52:41 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 15:52:41 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 15:52:41 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 15:52:41 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 15:52:41 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 15:52:41 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 15:52:41 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 15:52:41 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 15:52:41 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:52:41 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 15:52:41 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 15:52:41 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 15:52:41 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 15:52:41 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 15:52:41 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 15:52:42 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 15:52:42 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 15:52:42 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 15:52:42 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 15:52:42 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 15:52:42 --> Final output sent to browser
+DEBUG - 2020-08-17 15:52:42 --> Total execution time: 2.1653
+INFO - 2020-08-17 15:54:43 --> Config Class Initialized
+INFO - 2020-08-17 15:54:43 --> Hooks Class Initialized
+DEBUG - 2020-08-17 15:54:43 --> UTF-8 Support Enabled
+INFO - 2020-08-17 15:54:43 --> Utf8 Class Initialized
+INFO - 2020-08-17 15:54:43 --> URI Class Initialized
+INFO - 2020-08-17 15:54:43 --> Router Class Initialized
+INFO - 2020-08-17 15:54:43 --> Output Class Initialized
+INFO - 2020-08-17 15:54:43 --> Security Class Initialized
+DEBUG - 2020-08-17 15:54:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 15:54:43 --> CSRF cookie sent
+INFO - 2020-08-17 15:54:43 --> Input Class Initialized
+INFO - 2020-08-17 15:54:43 --> Language Class Initialized
+INFO - 2020-08-17 15:54:43 --> Loader Class Initialized
+INFO - 2020-08-17 15:54:43 --> Helper loaded: form_helper
+INFO - 2020-08-17 15:54:43 --> Helper loaded: url_helper
+INFO - 2020-08-17 15:54:43 --> Helper loaded: html_helper
+INFO - 2020-08-17 15:54:43 --> Helper loaded: file_helper
+INFO - 2020-08-17 15:54:43 --> Helper loaded: component_helper
+INFO - 2020-08-17 15:54:43 --> Helper loaded: date_helper
+INFO - 2020-08-17 15:54:43 --> Database Driver Class Initialized
+INFO - 2020-08-17 15:54:45 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 15:54:45 --> Email Class Initialized
+INFO - 2020-08-17 15:54:45 --> Parser Class Initialized
+INFO - 2020-08-17 15:54:45 --> Controller Class Initialized
+DEBUG - 2020-08-17 15:54:45 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 15:54:45 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 15:54:45 --> Encryption Class Initialized
+INFO - 2020-08-17 15:54:45 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 15:54:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 15:54:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:54:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 15:54:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 15:54:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 15:54:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 15:54:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 15:54:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 15:54:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 15:54:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 15:54:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 15:54:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:54:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 15:54:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 15:54:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 15:54:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 15:54:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 15:54:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 15:54:45 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 15:54:45 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 15:54:45 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 15:54:45 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 15:54:45 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 15:54:45 --> Final output sent to browser
+DEBUG - 2020-08-17 15:54:45 --> Total execution time: 2.1582
+INFO - 2020-08-17 15:55:15 --> Config Class Initialized
+INFO - 2020-08-17 15:55:15 --> Hooks Class Initialized
+DEBUG - 2020-08-17 15:55:15 --> UTF-8 Support Enabled
+INFO - 2020-08-17 15:55:15 --> Utf8 Class Initialized
+INFO - 2020-08-17 15:55:15 --> URI Class Initialized
+INFO - 2020-08-17 15:55:15 --> Router Class Initialized
+INFO - 2020-08-17 15:55:15 --> Output Class Initialized
+INFO - 2020-08-17 15:55:15 --> Security Class Initialized
+DEBUG - 2020-08-17 15:55:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 15:55:15 --> CSRF cookie sent
+INFO - 2020-08-17 15:55:15 --> Input Class Initialized
+INFO - 2020-08-17 15:55:15 --> Language Class Initialized
+INFO - 2020-08-17 15:55:15 --> Loader Class Initialized
+INFO - 2020-08-17 15:55:15 --> Helper loaded: form_helper
+INFO - 2020-08-17 15:55:15 --> Helper loaded: url_helper
+INFO - 2020-08-17 15:55:15 --> Helper loaded: html_helper
+INFO - 2020-08-17 15:55:15 --> Helper loaded: file_helper
+INFO - 2020-08-17 15:55:15 --> Helper loaded: component_helper
+INFO - 2020-08-17 15:55:15 --> Helper loaded: date_helper
+INFO - 2020-08-17 15:55:15 --> Database Driver Class Initialized
+INFO - 2020-08-17 15:55:17 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 15:55:17 --> Email Class Initialized
+INFO - 2020-08-17 15:55:17 --> Parser Class Initialized
+INFO - 2020-08-17 15:55:17 --> Controller Class Initialized
+DEBUG - 2020-08-17 15:55:17 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 15:55:17 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 15:55:17 --> Encryption Class Initialized
+INFO - 2020-08-17 15:55:17 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 15:55:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 15:55:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:55:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 15:55:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 15:55:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 15:55:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 15:55:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 15:55:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 15:55:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 15:55:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 15:55:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 15:55:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:55:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 15:55:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 15:55:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 15:55:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 15:55:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 15:55:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 15:55:17 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 15:55:17 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 15:55:17 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 15:55:17 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 15:55:17 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 15:55:17 --> Final output sent to browser
+DEBUG - 2020-08-17 15:55:17 --> Total execution time: 2.3375
+INFO - 2020-08-17 15:56:47 --> Config Class Initialized
+INFO - 2020-08-17 15:56:47 --> Hooks Class Initialized
+DEBUG - 2020-08-17 15:56:47 --> UTF-8 Support Enabled
+INFO - 2020-08-17 15:56:47 --> Utf8 Class Initialized
+INFO - 2020-08-17 15:56:47 --> URI Class Initialized
+INFO - 2020-08-17 15:56:47 --> Router Class Initialized
+INFO - 2020-08-17 15:56:47 --> Output Class Initialized
+INFO - 2020-08-17 15:56:47 --> Security Class Initialized
+DEBUG - 2020-08-17 15:56:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 15:56:47 --> CSRF cookie sent
+INFO - 2020-08-17 15:56:47 --> Input Class Initialized
+INFO - 2020-08-17 15:56:47 --> Language Class Initialized
+INFO - 2020-08-17 15:56:47 --> Loader Class Initialized
+INFO - 2020-08-17 15:56:47 --> Helper loaded: form_helper
+INFO - 2020-08-17 15:56:47 --> Helper loaded: url_helper
+INFO - 2020-08-17 15:56:47 --> Helper loaded: html_helper
+INFO - 2020-08-17 15:56:47 --> Helper loaded: file_helper
+INFO - 2020-08-17 15:56:47 --> Helper loaded: component_helper
+INFO - 2020-08-17 15:56:47 --> Helper loaded: date_helper
+INFO - 2020-08-17 15:56:47 --> Database Driver Class Initialized
+INFO - 2020-08-17 15:56:49 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 15:56:49 --> Email Class Initialized
+INFO - 2020-08-17 15:56:49 --> Parser Class Initialized
+INFO - 2020-08-17 15:56:49 --> Controller Class Initialized
+DEBUG - 2020-08-17 15:56:49 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 15:56:49 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 15:56:49 --> Encryption Class Initialized
+INFO - 2020-08-17 15:56:49 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 15:56:49 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 15:56:49 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:56:49 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 15:56:49 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 15:56:49 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 15:56:49 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 15:56:49 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 15:56:49 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 15:56:49 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 15:56:49 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 15:56:49 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 15:56:49 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:56:49 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 15:56:49 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 15:56:49 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 15:56:49 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 15:56:49 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 15:56:49 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 15:56:49 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 15:56:49 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 15:56:49 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 15:56:49 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 15:56:49 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 15:56:49 --> Final output sent to browser
+DEBUG - 2020-08-17 15:56:49 --> Total execution time: 2.1450
+INFO - 2020-08-17 15:56:54 --> Config Class Initialized
+INFO - 2020-08-17 15:56:54 --> Hooks Class Initialized
+DEBUG - 2020-08-17 15:56:54 --> UTF-8 Support Enabled
+INFO - 2020-08-17 15:56:54 --> Utf8 Class Initialized
+INFO - 2020-08-17 15:56:54 --> URI Class Initialized
+INFO - 2020-08-17 15:56:54 --> Router Class Initialized
+INFO - 2020-08-17 15:56:54 --> Output Class Initialized
+INFO - 2020-08-17 15:56:54 --> Security Class Initialized
+DEBUG - 2020-08-17 15:56:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 15:56:54 --> CSRF cookie sent
+INFO - 2020-08-17 15:56:54 --> Input Class Initialized
+INFO - 2020-08-17 15:56:54 --> Language Class Initialized
+INFO - 2020-08-17 15:56:54 --> Loader Class Initialized
+INFO - 2020-08-17 15:56:54 --> Helper loaded: form_helper
+INFO - 2020-08-17 15:56:54 --> Helper loaded: url_helper
+INFO - 2020-08-17 15:56:54 --> Helper loaded: html_helper
+INFO - 2020-08-17 15:56:54 --> Helper loaded: file_helper
+INFO - 2020-08-17 15:56:54 --> Helper loaded: component_helper
+INFO - 2020-08-17 15:56:54 --> Helper loaded: date_helper
+INFO - 2020-08-17 15:56:54 --> Database Driver Class Initialized
+INFO - 2020-08-17 15:56:56 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 15:56:56 --> Email Class Initialized
+INFO - 2020-08-17 15:56:56 --> Parser Class Initialized
+INFO - 2020-08-17 15:56:56 --> Controller Class Initialized
+DEBUG - 2020-08-17 15:56:56 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 15:56:56 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 15:56:56 --> Encryption Class Initialized
+INFO - 2020-08-17 15:56:56 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 15:56:56 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 15:56:56 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:56:56 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 15:56:56 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 15:56:56 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 15:56:56 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 15:56:56 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 15:56:56 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 15:56:56 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 15:56:56 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 15:56:56 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 15:56:56 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:56:56 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 15:56:56 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 15:56:56 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 15:56:56 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 15:56:56 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 15:56:56 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 15:56:56 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 15:56:56 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 15:56:56 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 15:56:56 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 15:56:56 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 15:56:56 --> Final output sent to browser
+DEBUG - 2020-08-17 15:56:56 --> Total execution time: 2.5370
+INFO - 2020-08-17 15:58:14 --> Config Class Initialized
+INFO - 2020-08-17 15:58:14 --> Hooks Class Initialized
+DEBUG - 2020-08-17 15:58:14 --> UTF-8 Support Enabled
+INFO - 2020-08-17 15:58:14 --> Utf8 Class Initialized
+INFO - 2020-08-17 15:58:14 --> URI Class Initialized
+INFO - 2020-08-17 15:58:14 --> Router Class Initialized
+INFO - 2020-08-17 15:58:14 --> Output Class Initialized
+INFO - 2020-08-17 15:58:14 --> Security Class Initialized
+DEBUG - 2020-08-17 15:58:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 15:58:14 --> CSRF cookie sent
+INFO - 2020-08-17 15:58:14 --> Input Class Initialized
+INFO - 2020-08-17 15:58:14 --> Language Class Initialized
+INFO - 2020-08-17 15:58:14 --> Loader Class Initialized
+INFO - 2020-08-17 15:58:14 --> Helper loaded: form_helper
+INFO - 2020-08-17 15:58:14 --> Helper loaded: url_helper
+INFO - 2020-08-17 15:58:14 --> Helper loaded: html_helper
+INFO - 2020-08-17 15:58:14 --> Helper loaded: file_helper
+INFO - 2020-08-17 15:58:14 --> Helper loaded: component_helper
+INFO - 2020-08-17 15:58:14 --> Helper loaded: date_helper
+INFO - 2020-08-17 15:58:14 --> Database Driver Class Initialized
+INFO - 2020-08-17 15:58:16 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 15:58:16 --> Email Class Initialized
+INFO - 2020-08-17 15:58:16 --> Parser Class Initialized
+INFO - 2020-08-17 15:58:16 --> Controller Class Initialized
+DEBUG - 2020-08-17 15:58:16 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 15:58:17 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 15:58:17 --> Encryption Class Initialized
+INFO - 2020-08-17 15:58:17 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 15:58:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 15:58:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:58:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 15:58:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 15:58:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 15:58:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 15:58:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 15:58:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 15:58:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 15:58:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 15:58:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 15:58:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:58:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 15:58:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 15:58:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 15:58:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 15:58:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 15:58:17 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 15:58:17 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 15:58:17 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 15:58:17 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 15:58:17 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 15:58:17 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 15:58:17 --> Final output sent to browser
+DEBUG - 2020-08-17 15:58:17 --> Total execution time: 2.1386
+INFO - 2020-08-17 15:58:23 --> Config Class Initialized
+INFO - 2020-08-17 15:58:23 --> Hooks Class Initialized
+DEBUG - 2020-08-17 15:58:23 --> UTF-8 Support Enabled
+INFO - 2020-08-17 15:58:23 --> Utf8 Class Initialized
+INFO - 2020-08-17 15:58:23 --> URI Class Initialized
+INFO - 2020-08-17 15:58:23 --> Router Class Initialized
+INFO - 2020-08-17 15:58:23 --> Output Class Initialized
+INFO - 2020-08-17 15:58:23 --> Security Class Initialized
+DEBUG - 2020-08-17 15:58:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 15:58:23 --> CSRF cookie sent
+INFO - 2020-08-17 15:58:23 --> Input Class Initialized
+INFO - 2020-08-17 15:58:23 --> Language Class Initialized
+INFO - 2020-08-17 15:58:23 --> Loader Class Initialized
+INFO - 2020-08-17 15:58:23 --> Helper loaded: form_helper
+INFO - 2020-08-17 15:58:23 --> Helper loaded: url_helper
+INFO - 2020-08-17 15:58:23 --> Helper loaded: html_helper
+INFO - 2020-08-17 15:58:23 --> Helper loaded: file_helper
+INFO - 2020-08-17 15:58:23 --> Helper loaded: component_helper
+INFO - 2020-08-17 15:58:23 --> Helper loaded: date_helper
+INFO - 2020-08-17 15:58:23 --> Database Driver Class Initialized
+INFO - 2020-08-17 15:58:25 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 15:58:25 --> Email Class Initialized
+INFO - 2020-08-17 15:58:25 --> Parser Class Initialized
+INFO - 2020-08-17 15:58:25 --> Controller Class Initialized
+DEBUG - 2020-08-17 15:58:25 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 15:58:25 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 15:58:25 --> Encryption Class Initialized
+INFO - 2020-08-17 15:58:25 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 15:58:25 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 15:58:25 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:58:25 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 15:58:25 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 15:58:25 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 15:58:25 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 15:58:25 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 15:58:25 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 15:58:25 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 15:58:25 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 15:58:25 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 15:58:25 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 15:58:25 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 15:58:25 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 15:58:25 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 15:58:25 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 15:58:25 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 15:58:25 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 15:58:25 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 15:58:25 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 15:58:25 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 15:58:25 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 15:58:25 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 15:58:25 --> Final output sent to browser
+DEBUG - 2020-08-17 15:58:25 --> Total execution time: 2.1663
+INFO - 2020-08-17 16:23:51 --> Config Class Initialized
+INFO - 2020-08-17 16:23:51 --> Hooks Class Initialized
+DEBUG - 2020-08-17 16:23:51 --> UTF-8 Support Enabled
+INFO - 2020-08-17 16:23:51 --> Utf8 Class Initialized
+INFO - 2020-08-17 16:23:51 --> URI Class Initialized
+INFO - 2020-08-17 16:23:51 --> Router Class Initialized
+INFO - 2020-08-17 16:23:51 --> Output Class Initialized
+INFO - 2020-08-17 16:23:51 --> Security Class Initialized
+DEBUG - 2020-08-17 16:23:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 16:23:51 --> CSRF cookie sent
+INFO - 2020-08-17 16:23:51 --> Input Class Initialized
+INFO - 2020-08-17 16:23:51 --> Language Class Initialized
+INFO - 2020-08-17 16:23:51 --> Loader Class Initialized
+INFO - 2020-08-17 16:23:51 --> Helper loaded: form_helper
+INFO - 2020-08-17 16:23:51 --> Helper loaded: url_helper
+INFO - 2020-08-17 16:23:51 --> Helper loaded: html_helper
+INFO - 2020-08-17 16:23:51 --> Helper loaded: file_helper
+INFO - 2020-08-17 16:23:51 --> Helper loaded: component_helper
+INFO - 2020-08-17 16:23:51 --> Helper loaded: date_helper
+INFO - 2020-08-17 16:23:51 --> Database Driver Class Initialized
+INFO - 2020-08-17 16:23:53 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 16:23:53 --> Email Class Initialized
+INFO - 2020-08-17 16:23:53 --> Parser Class Initialized
+INFO - 2020-08-17 16:23:53 --> Controller Class Initialized
+DEBUG - 2020-08-17 16:23:53 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 16:23:53 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 16:23:53 --> Encryption Class Initialized
+INFO - 2020-08-17 16:23:53 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 16:23:53 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 16:23:53 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 16:23:53 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 16:23:53 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 16:23:53 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 16:23:53 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 16:23:53 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 16:23:53 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 16:23:53 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 16:23:53 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 16:23:53 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 16:23:53 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 16:23:53 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 16:23:53 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 16:23:53 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 16:23:53 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 16:23:53 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 16:23:53 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 16:23:53 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 16:23:53 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 16:23:53 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 16:23:53 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 16:23:53 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 16:23:53 --> Final output sent to browser
+DEBUG - 2020-08-17 16:23:53 --> Total execution time: 2.0868
+INFO - 2020-08-17 16:23:57 --> Config Class Initialized
+INFO - 2020-08-17 16:23:57 --> Hooks Class Initialized
+DEBUG - 2020-08-17 16:23:57 --> UTF-8 Support Enabled
+INFO - 2020-08-17 16:23:57 --> Utf8 Class Initialized
+INFO - 2020-08-17 16:23:57 --> URI Class Initialized
+INFO - 2020-08-17 16:23:57 --> Router Class Initialized
+INFO - 2020-08-17 16:23:57 --> Output Class Initialized
+INFO - 2020-08-17 16:23:57 --> Security Class Initialized
+DEBUG - 2020-08-17 16:23:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 16:23:57 --> CSRF cookie sent
+INFO - 2020-08-17 16:23:57 --> Input Class Initialized
+INFO - 2020-08-17 16:23:57 --> Language Class Initialized
+INFO - 2020-08-17 16:23:57 --> Loader Class Initialized
+INFO - 2020-08-17 16:23:57 --> Helper loaded: form_helper
+INFO - 2020-08-17 16:23:57 --> Helper loaded: url_helper
+INFO - 2020-08-17 16:23:57 --> Helper loaded: html_helper
+INFO - 2020-08-17 16:23:57 --> Helper loaded: file_helper
+INFO - 2020-08-17 16:23:57 --> Helper loaded: component_helper
+INFO - 2020-08-17 16:23:57 --> Helper loaded: date_helper
+INFO - 2020-08-17 16:23:57 --> Database Driver Class Initialized
+INFO - 2020-08-17 16:23:59 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 16:23:59 --> Email Class Initialized
+INFO - 2020-08-17 16:23:59 --> Parser Class Initialized
+INFO - 2020-08-17 16:23:59 --> Controller Class Initialized
+DEBUG - 2020-08-17 16:23:59 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 16:23:59 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 16:23:59 --> Encryption Class Initialized
+INFO - 2020-08-17 16:23:59 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 16:23:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 16:23:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 16:23:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 16:23:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 16:23:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 16:23:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 16:23:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 16:23:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 16:23:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 16:23:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 16:23:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 16:23:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 16:23:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 16:23:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 16:23:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 16:23:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 16:23:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 16:23:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 16:23:59 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 16:23:59 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 16:23:59 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 16:23:59 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 16:23:59 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 16:23:59 --> Final output sent to browser
+DEBUG - 2020-08-17 16:23:59 --> Total execution time: 2.1277
+INFO - 2020-08-17 16:40:02 --> Config Class Initialized
+INFO - 2020-08-17 16:40:02 --> Hooks Class Initialized
+DEBUG - 2020-08-17 16:40:02 --> UTF-8 Support Enabled
+INFO - 2020-08-17 16:40:02 --> Utf8 Class Initialized
+INFO - 2020-08-17 16:40:02 --> URI Class Initialized
+INFO - 2020-08-17 16:40:02 --> Router Class Initialized
+INFO - 2020-08-17 16:40:02 --> Output Class Initialized
+INFO - 2020-08-17 16:40:02 --> Security Class Initialized
+DEBUG - 2020-08-17 16:40:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 16:40:02 --> CSRF cookie sent
+INFO - 2020-08-17 16:40:02 --> Input Class Initialized
+INFO - 2020-08-17 16:40:02 --> Language Class Initialized
+INFO - 2020-08-17 16:40:02 --> Loader Class Initialized
+INFO - 2020-08-17 16:40:02 --> Helper loaded: form_helper
+INFO - 2020-08-17 16:40:02 --> Helper loaded: url_helper
+INFO - 2020-08-17 16:40:02 --> Helper loaded: html_helper
+INFO - 2020-08-17 16:40:02 --> Helper loaded: file_helper
+INFO - 2020-08-17 16:40:02 --> Helper loaded: component_helper
+INFO - 2020-08-17 16:40:02 --> Helper loaded: date_helper
+INFO - 2020-08-17 16:40:02 --> Database Driver Class Initialized
+INFO - 2020-08-17 16:40:04 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 16:40:04 --> Email Class Initialized
+INFO - 2020-08-17 16:40:04 --> Parser Class Initialized
+INFO - 2020-08-17 16:40:04 --> Controller Class Initialized
+DEBUG - 2020-08-17 16:40:04 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 16:40:04 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 16:40:04 --> Encryption Class Initialized
+INFO - 2020-08-17 16:40:04 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 16:40:04 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 16:40:04 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 16:40:04 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 16:40:04 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 16:40:04 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 16:40:04 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 16:40:04 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 16:40:04 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 16:40:04 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 16:40:04 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 16:40:04 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 16:40:04 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 16:40:04 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 16:40:04 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 16:40:04 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 16:40:04 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 16:40:04 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 16:40:04 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 16:40:04 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 16:40:04 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 16:40:04 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 16:40:04 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 16:40:04 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 16:40:04 --> Final output sent to browser
+DEBUG - 2020-08-17 16:40:04 --> Total execution time: 2.2989
+INFO - 2020-08-17 16:40:11 --> Config Class Initialized
+INFO - 2020-08-17 16:40:11 --> Hooks Class Initialized
+DEBUG - 2020-08-17 16:40:11 --> UTF-8 Support Enabled
+INFO - 2020-08-17 16:40:11 --> Utf8 Class Initialized
+INFO - 2020-08-17 16:40:11 --> URI Class Initialized
+INFO - 2020-08-17 16:40:11 --> Router Class Initialized
+INFO - 2020-08-17 16:40:11 --> Output Class Initialized
+INFO - 2020-08-17 16:40:11 --> Security Class Initialized
+DEBUG - 2020-08-17 16:40:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 16:40:11 --> CSRF cookie sent
+INFO - 2020-08-17 16:40:11 --> Input Class Initialized
+INFO - 2020-08-17 16:40:11 --> Language Class Initialized
+INFO - 2020-08-17 16:40:11 --> Loader Class Initialized
+INFO - 2020-08-17 16:40:11 --> Helper loaded: form_helper
+INFO - 2020-08-17 16:40:11 --> Helper loaded: url_helper
+INFO - 2020-08-17 16:40:11 --> Helper loaded: html_helper
+INFO - 2020-08-17 16:40:11 --> Helper loaded: file_helper
+INFO - 2020-08-17 16:40:11 --> Helper loaded: component_helper
+INFO - 2020-08-17 16:40:11 --> Helper loaded: date_helper
+INFO - 2020-08-17 16:40:11 --> Database Driver Class Initialized
+INFO - 2020-08-17 16:40:13 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 16:40:13 --> Email Class Initialized
+INFO - 2020-08-17 16:40:13 --> Parser Class Initialized
+INFO - 2020-08-17 16:40:13 --> Controller Class Initialized
+DEBUG - 2020-08-17 16:40:13 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 16:40:13 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 16:40:13 --> Encryption Class Initialized
+INFO - 2020-08-17 16:40:13 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 16:40:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 16:40:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 16:40:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 16:40:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 16:40:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 16:40:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 16:40:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 16:40:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 16:40:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 16:40:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 16:40:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 16:40:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 16:40:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 16:40:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 16:40:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 16:40:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 16:40:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 16:40:13 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 16:40:13 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 16:40:13 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 16:40:13 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 16:40:13 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 16:40:13 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 16:40:13 --> Final output sent to browser
+DEBUG - 2020-08-17 16:40:13 --> Total execution time: 2.3723
+INFO - 2020-08-17 16:41:35 --> Config Class Initialized
+INFO - 2020-08-17 16:41:35 --> Hooks Class Initialized
+DEBUG - 2020-08-17 16:41:35 --> UTF-8 Support Enabled
+INFO - 2020-08-17 16:41:35 --> Utf8 Class Initialized
+INFO - 2020-08-17 16:41:35 --> URI Class Initialized
+INFO - 2020-08-17 16:41:35 --> Router Class Initialized
+INFO - 2020-08-17 16:41:35 --> Output Class Initialized
+INFO - 2020-08-17 16:41:35 --> Security Class Initialized
+DEBUG - 2020-08-17 16:41:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 16:41:35 --> CSRF cookie sent
+INFO - 2020-08-17 16:41:35 --> Input Class Initialized
+INFO - 2020-08-17 16:41:35 --> Language Class Initialized
+INFO - 2020-08-17 16:41:35 --> Loader Class Initialized
+INFO - 2020-08-17 16:41:35 --> Helper loaded: form_helper
+INFO - 2020-08-17 16:41:35 --> Helper loaded: url_helper
+INFO - 2020-08-17 16:41:35 --> Helper loaded: html_helper
+INFO - 2020-08-17 16:41:35 --> Helper loaded: file_helper
+INFO - 2020-08-17 16:41:35 --> Helper loaded: component_helper
+INFO - 2020-08-17 16:41:35 --> Helper loaded: date_helper
+INFO - 2020-08-17 16:41:35 --> Database Driver Class Initialized
+INFO - 2020-08-17 16:41:37 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 16:41:37 --> Email Class Initialized
+INFO - 2020-08-17 16:41:37 --> Parser Class Initialized
+INFO - 2020-08-17 16:41:37 --> Controller Class Initialized
+DEBUG - 2020-08-17 16:41:37 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 16:41:37 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 16:41:37 --> Encryption Class Initialized
+INFO - 2020-08-17 16:41:37 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 16:41:37 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 16:41:37 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 16:41:37 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 16:41:37 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 16:41:37 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 16:41:37 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 16:41:37 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 16:41:37 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 16:41:37 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 16:41:37 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 16:41:37 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 16:41:37 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 16:41:37 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 16:41:37 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 16:41:37 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 16:41:37 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 16:41:37 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 16:41:37 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 16:41:37 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 16:41:37 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 16:41:37 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 16:41:37 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 16:41:37 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 16:41:37 --> Final output sent to browser
+DEBUG - 2020-08-17 16:41:37 --> Total execution time: 2.1616
+INFO - 2020-08-17 16:41:45 --> Config Class Initialized
+INFO - 2020-08-17 16:41:45 --> Hooks Class Initialized
+DEBUG - 2020-08-17 16:41:45 --> UTF-8 Support Enabled
+INFO - 2020-08-17 16:41:45 --> Utf8 Class Initialized
+INFO - 2020-08-17 16:41:45 --> URI Class Initialized
+INFO - 2020-08-17 16:41:45 --> Router Class Initialized
+INFO - 2020-08-17 16:41:45 --> Output Class Initialized
+INFO - 2020-08-17 16:41:45 --> Security Class Initialized
+DEBUG - 2020-08-17 16:41:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 16:41:45 --> CSRF cookie sent
+INFO - 2020-08-17 16:41:45 --> Input Class Initialized
+INFO - 2020-08-17 16:41:45 --> Language Class Initialized
+INFO - 2020-08-17 16:41:45 --> Loader Class Initialized
+INFO - 2020-08-17 16:41:45 --> Helper loaded: form_helper
+INFO - 2020-08-17 16:41:45 --> Helper loaded: url_helper
+INFO - 2020-08-17 16:41:45 --> Helper loaded: html_helper
+INFO - 2020-08-17 16:41:45 --> Helper loaded: file_helper
+INFO - 2020-08-17 16:41:45 --> Helper loaded: component_helper
+INFO - 2020-08-17 16:41:45 --> Helper loaded: date_helper
+INFO - 2020-08-17 16:41:45 --> Database Driver Class Initialized
+INFO - 2020-08-17 16:41:47 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 16:41:47 --> Email Class Initialized
+INFO - 2020-08-17 16:41:47 --> Parser Class Initialized
+INFO - 2020-08-17 16:41:47 --> Controller Class Initialized
+DEBUG - 2020-08-17 16:41:47 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 16:41:47 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 16:41:47 --> Encryption Class Initialized
+INFO - 2020-08-17 16:41:47 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 16:41:47 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 16:41:47 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 16:41:47 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 16:41:47 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 16:41:47 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 16:41:47 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 16:41:47 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 16:41:47 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 16:41:47 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 16:41:47 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 16:41:47 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 16:41:47 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 16:41:47 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 16:41:47 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 16:41:47 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 16:41:47 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 16:41:47 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 16:41:47 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 16:41:47 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 16:41:47 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 16:41:47 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 16:41:47 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 16:41:47 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 16:41:47 --> Final output sent to browser
+DEBUG - 2020-08-17 16:41:47 --> Total execution time: 2.1097
+INFO - 2020-08-17 16:41:59 --> Config Class Initialized
+INFO - 2020-08-17 16:41:59 --> Hooks Class Initialized
+DEBUG - 2020-08-17 16:41:59 --> UTF-8 Support Enabled
+INFO - 2020-08-17 16:41:59 --> Utf8 Class Initialized
+INFO - 2020-08-17 16:41:59 --> URI Class Initialized
+INFO - 2020-08-17 16:41:59 --> Router Class Initialized
+INFO - 2020-08-17 16:41:59 --> Output Class Initialized
+INFO - 2020-08-17 16:41:59 --> Security Class Initialized
+DEBUG - 2020-08-17 16:41:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 16:41:59 --> CSRF cookie sent
+INFO - 2020-08-17 16:41:59 --> Input Class Initialized
+INFO - 2020-08-17 16:41:59 --> Language Class Initialized
+INFO - 2020-08-17 16:41:59 --> Loader Class Initialized
+INFO - 2020-08-17 16:41:59 --> Helper loaded: form_helper
+INFO - 2020-08-17 16:41:59 --> Helper loaded: url_helper
+INFO - 2020-08-17 16:41:59 --> Helper loaded: html_helper
+INFO - 2020-08-17 16:41:59 --> Helper loaded: file_helper
+INFO - 2020-08-17 16:41:59 --> Helper loaded: component_helper
+INFO - 2020-08-17 16:41:59 --> Helper loaded: date_helper
+INFO - 2020-08-17 16:41:59 --> Database Driver Class Initialized
+INFO - 2020-08-17 16:42:01 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 16:42:01 --> Email Class Initialized
+INFO - 2020-08-17 16:42:01 --> Parser Class Initialized
+INFO - 2020-08-17 16:42:01 --> Controller Class Initialized
+DEBUG - 2020-08-17 16:42:01 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 16:42:01 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 16:42:01 --> Encryption Class Initialized
+INFO - 2020-08-17 16:42:01 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 16:42:01 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 16:42:01 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 16:42:01 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 16:42:01 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 16:42:01 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 16:42:01 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 16:42:01 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 16:42:01 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 16:42:01 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 16:42:01 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 16:42:01 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 16:42:01 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 16:42:01 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 16:42:01 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 16:42:01 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 16:42:01 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 16:42:01 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 16:42:01 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 16:42:01 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 16:42:01 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 16:42:01 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 16:42:01 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 16:42:01 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 16:42:01 --> Final output sent to browser
+DEBUG - 2020-08-17 16:42:01 --> Total execution time: 2.1880
+INFO - 2020-08-17 16:42:06 --> Config Class Initialized
+INFO - 2020-08-17 16:42:06 --> Hooks Class Initialized
+DEBUG - 2020-08-17 16:42:06 --> UTF-8 Support Enabled
+INFO - 2020-08-17 16:42:06 --> Utf8 Class Initialized
+INFO - 2020-08-17 16:42:06 --> URI Class Initialized
+INFO - 2020-08-17 16:42:06 --> Router Class Initialized
+INFO - 2020-08-17 16:42:06 --> Output Class Initialized
+INFO - 2020-08-17 16:42:06 --> Security Class Initialized
+DEBUG - 2020-08-17 16:42:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 16:42:06 --> CSRF cookie sent
+INFO - 2020-08-17 16:42:06 --> Input Class Initialized
+INFO - 2020-08-17 16:42:06 --> Language Class Initialized
+INFO - 2020-08-17 16:42:06 --> Loader Class Initialized
+INFO - 2020-08-17 16:42:06 --> Helper loaded: form_helper
+INFO - 2020-08-17 16:42:06 --> Helper loaded: url_helper
+INFO - 2020-08-17 16:42:06 --> Helper loaded: html_helper
+INFO - 2020-08-17 16:42:06 --> Helper loaded: file_helper
+INFO - 2020-08-17 16:42:06 --> Helper loaded: component_helper
+INFO - 2020-08-17 16:42:06 --> Helper loaded: date_helper
+INFO - 2020-08-17 16:42:06 --> Database Driver Class Initialized
+INFO - 2020-08-17 16:42:08 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 16:42:08 --> Email Class Initialized
+INFO - 2020-08-17 16:42:08 --> Parser Class Initialized
+INFO - 2020-08-17 16:42:08 --> Controller Class Initialized
+DEBUG - 2020-08-17 16:42:08 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 16:42:08 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 16:42:08 --> Encryption Class Initialized
+INFO - 2020-08-17 16:42:08 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 16:42:08 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 16:42:08 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 16:42:08 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 16:42:08 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 16:42:08 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 16:42:08 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 16:42:08 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 16:42:08 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 16:42:08 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 16:42:08 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 16:42:08 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 16:42:08 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 16:42:08 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 16:42:08 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 16:42:08 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 16:42:08 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 16:42:08 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 16:42:08 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 16:42:08 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 16:42:08 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 16:42:08 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 16:42:08 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 16:42:08 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 16:42:08 --> Final output sent to browser
+DEBUG - 2020-08-17 16:42:08 --> Total execution time: 2.1293
+INFO - 2020-08-17 17:03:30 --> Config Class Initialized
+INFO - 2020-08-17 17:03:30 --> Hooks Class Initialized
+DEBUG - 2020-08-17 17:03:30 --> UTF-8 Support Enabled
+INFO - 2020-08-17 17:03:30 --> Utf8 Class Initialized
+INFO - 2020-08-17 17:03:30 --> URI Class Initialized
+INFO - 2020-08-17 17:03:30 --> Router Class Initialized
+INFO - 2020-08-17 17:03:30 --> Output Class Initialized
+INFO - 2020-08-17 17:03:30 --> Security Class Initialized
+DEBUG - 2020-08-17 17:03:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 17:03:30 --> CSRF cookie sent
+INFO - 2020-08-17 17:03:30 --> Input Class Initialized
+INFO - 2020-08-17 17:03:30 --> Language Class Initialized
+INFO - 2020-08-17 17:03:30 --> Loader Class Initialized
+INFO - 2020-08-17 17:03:30 --> Helper loaded: form_helper
+INFO - 2020-08-17 17:03:30 --> Helper loaded: url_helper
+INFO - 2020-08-17 17:03:30 --> Helper loaded: html_helper
+INFO - 2020-08-17 17:03:30 --> Helper loaded: file_helper
+INFO - 2020-08-17 17:03:30 --> Helper loaded: component_helper
+INFO - 2020-08-17 17:03:30 --> Helper loaded: date_helper
+INFO - 2020-08-17 17:03:30 --> Database Driver Class Initialized
+INFO - 2020-08-17 17:03:32 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 17:03:32 --> Email Class Initialized
+INFO - 2020-08-17 17:03:32 --> Parser Class Initialized
+INFO - 2020-08-17 17:03:32 --> Controller Class Initialized
+DEBUG - 2020-08-17 17:03:32 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 17:03:32 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 17:03:32 --> Encryption Class Initialized
+INFO - 2020-08-17 17:03:32 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 17:03:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 17:03:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 17:03:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 17:03:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 17:03:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 17:03:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 17:03:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 17:03:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 17:03:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 17:03:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 17:03:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 17:03:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 17:03:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 17:03:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 17:03:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 17:03:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 17:03:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 17:03:32 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 17:03:32 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 17:03:32 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 17:03:32 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 17:03:32 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 17:03:32 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 17:03:32 --> Final output sent to browser
+DEBUG - 2020-08-17 17:03:32 --> Total execution time: 2.1149
+INFO - 2020-08-17 17:03:43 --> Config Class Initialized
+INFO - 2020-08-17 17:03:43 --> Hooks Class Initialized
+DEBUG - 2020-08-17 17:03:43 --> UTF-8 Support Enabled
+INFO - 2020-08-17 17:03:43 --> Utf8 Class Initialized
+INFO - 2020-08-17 17:03:43 --> URI Class Initialized
+INFO - 2020-08-17 17:03:43 --> Router Class Initialized
+INFO - 2020-08-17 17:03:43 --> Output Class Initialized
+INFO - 2020-08-17 17:03:43 --> Security Class Initialized
+DEBUG - 2020-08-17 17:03:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 17:03:43 --> CSRF cookie sent
+INFO - 2020-08-17 17:03:43 --> Input Class Initialized
+INFO - 2020-08-17 17:03:43 --> Language Class Initialized
+INFO - 2020-08-17 17:03:43 --> Loader Class Initialized
+INFO - 2020-08-17 17:03:43 --> Helper loaded: form_helper
+INFO - 2020-08-17 17:03:43 --> Helper loaded: url_helper
+INFO - 2020-08-17 17:03:43 --> Helper loaded: html_helper
+INFO - 2020-08-17 17:03:43 --> Helper loaded: file_helper
+INFO - 2020-08-17 17:03:43 --> Helper loaded: component_helper
+INFO - 2020-08-17 17:03:43 --> Helper loaded: date_helper
+INFO - 2020-08-17 17:03:43 --> Database Driver Class Initialized
+INFO - 2020-08-17 17:03:45 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 17:03:45 --> Email Class Initialized
+INFO - 2020-08-17 17:03:45 --> Parser Class Initialized
+INFO - 2020-08-17 17:03:45 --> Controller Class Initialized
+DEBUG - 2020-08-17 17:03:45 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 17:03:45 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 17:03:45 --> Encryption Class Initialized
+INFO - 2020-08-17 17:03:45 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 17:03:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 17:03:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 17:03:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 17:03:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 17:03:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 17:03:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 17:03:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 17:03:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 17:03:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 17:03:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 17:03:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 17:03:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 17:03:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 17:03:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 17:03:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 17:03:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 17:03:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 17:03:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 17:03:45 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 17:03:45 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 17:03:45 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 17:03:45 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 17:03:45 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 17:03:45 --> Final output sent to browser
+DEBUG - 2020-08-17 17:03:45 --> Total execution time: 2.1887
+INFO - 2020-08-17 17:09:57 --> Config Class Initialized
+INFO - 2020-08-17 17:09:57 --> Hooks Class Initialized
+DEBUG - 2020-08-17 17:09:57 --> UTF-8 Support Enabled
+INFO - 2020-08-17 17:09:57 --> Utf8 Class Initialized
+INFO - 2020-08-17 17:09:57 --> URI Class Initialized
+INFO - 2020-08-17 17:09:57 --> Router Class Initialized
+INFO - 2020-08-17 17:09:57 --> Output Class Initialized
+INFO - 2020-08-17 17:09:57 --> Security Class Initialized
+DEBUG - 2020-08-17 17:09:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 17:09:57 --> CSRF cookie sent
+INFO - 2020-08-17 17:09:57 --> Input Class Initialized
+INFO - 2020-08-17 17:09:57 --> Language Class Initialized
+INFO - 2020-08-17 17:09:57 --> Loader Class Initialized
+INFO - 2020-08-17 17:09:57 --> Helper loaded: form_helper
+INFO - 2020-08-17 17:09:57 --> Helper loaded: url_helper
+INFO - 2020-08-17 17:09:57 --> Helper loaded: html_helper
+INFO - 2020-08-17 17:09:57 --> Helper loaded: file_helper
+INFO - 2020-08-17 17:09:57 --> Helper loaded: component_helper
+INFO - 2020-08-17 17:09:57 --> Helper loaded: date_helper
+INFO - 2020-08-17 17:09:57 --> Database Driver Class Initialized
+INFO - 2020-08-17 17:09:59 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 17:09:59 --> Email Class Initialized
+INFO - 2020-08-17 17:09:59 --> Parser Class Initialized
+INFO - 2020-08-17 17:09:59 --> Controller Class Initialized
+DEBUG - 2020-08-17 17:09:59 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 17:09:59 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 17:09:59 --> Encryption Class Initialized
+INFO - 2020-08-17 17:09:59 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 17:09:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 17:09:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 17:09:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 17:09:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 17:09:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 17:09:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 17:09:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 17:09:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 17:09:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 17:09:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 17:09:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 17:09:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 17:09:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 17:09:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 17:09:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 17:09:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 17:09:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 17:09:59 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 17:09:59 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 17:09:59 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 17:09:59 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 17:09:59 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 17:09:59 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 17:09:59 --> Final output sent to browser
+DEBUG - 2020-08-17 17:09:59 --> Total execution time: 2.1474
+INFO - 2020-08-17 17:10:03 --> Config Class Initialized
+INFO - 2020-08-17 17:10:03 --> Hooks Class Initialized
+DEBUG - 2020-08-17 17:10:03 --> UTF-8 Support Enabled
+INFO - 2020-08-17 17:10:03 --> Utf8 Class Initialized
+INFO - 2020-08-17 17:10:03 --> URI Class Initialized
+INFO - 2020-08-17 17:10:03 --> Router Class Initialized
+INFO - 2020-08-17 17:10:03 --> Output Class Initialized
+INFO - 2020-08-17 17:10:03 --> Security Class Initialized
+DEBUG - 2020-08-17 17:10:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 17:10:03 --> CSRF cookie sent
+INFO - 2020-08-17 17:10:03 --> Input Class Initialized
+INFO - 2020-08-17 17:10:03 --> Language Class Initialized
+INFO - 2020-08-17 17:10:03 --> Loader Class Initialized
+INFO - 2020-08-17 17:10:03 --> Helper loaded: form_helper
+INFO - 2020-08-17 17:10:03 --> Helper loaded: url_helper
+INFO - 2020-08-17 17:10:03 --> Helper loaded: html_helper
+INFO - 2020-08-17 17:10:03 --> Helper loaded: file_helper
+INFO - 2020-08-17 17:10:03 --> Helper loaded: component_helper
+INFO - 2020-08-17 17:10:03 --> Helper loaded: date_helper
+INFO - 2020-08-17 17:10:03 --> Database Driver Class Initialized
+INFO - 2020-08-17 17:10:05 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 17:10:05 --> Email Class Initialized
+INFO - 2020-08-17 17:10:05 --> Parser Class Initialized
+INFO - 2020-08-17 17:10:05 --> Controller Class Initialized
+DEBUG - 2020-08-17 17:10:05 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 17:10:05 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 17:10:05 --> Encryption Class Initialized
+INFO - 2020-08-17 17:10:05 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 17:10:05 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 17:10:05 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 17:10:05 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 17:10:05 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 17:10:05 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 17:10:05 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 17:10:05 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 17:10:05 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 17:10:05 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 17:10:05 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 17:10:05 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 17:10:05 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 17:10:05 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 17:10:05 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 17:10:05 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 17:10:05 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 17:10:05 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 17:10:05 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 17:10:05 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 17:10:05 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 17:10:05 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 17:10:05 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 17:10:05 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 17:10:05 --> Final output sent to browser
+DEBUG - 2020-08-17 17:10:05 --> Total execution time: 2.2008
+INFO - 2020-08-17 17:11:07 --> Config Class Initialized
+INFO - 2020-08-17 17:11:07 --> Hooks Class Initialized
+DEBUG - 2020-08-17 17:11:07 --> UTF-8 Support Enabled
+INFO - 2020-08-17 17:11:07 --> Utf8 Class Initialized
+INFO - 2020-08-17 17:11:07 --> URI Class Initialized
+INFO - 2020-08-17 17:11:07 --> Router Class Initialized
+INFO - 2020-08-17 17:11:07 --> Output Class Initialized
+INFO - 2020-08-17 17:11:07 --> Security Class Initialized
+DEBUG - 2020-08-17 17:11:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 17:11:07 --> CSRF cookie sent
+INFO - 2020-08-17 17:11:07 --> Input Class Initialized
+INFO - 2020-08-17 17:11:07 --> Language Class Initialized
+INFO - 2020-08-17 17:11:07 --> Loader Class Initialized
+INFO - 2020-08-17 17:11:07 --> Helper loaded: form_helper
+INFO - 2020-08-17 17:11:07 --> Helper loaded: url_helper
+INFO - 2020-08-17 17:11:07 --> Helper loaded: html_helper
+INFO - 2020-08-17 17:11:07 --> Helper loaded: file_helper
+INFO - 2020-08-17 17:11:07 --> Helper loaded: component_helper
+INFO - 2020-08-17 17:11:07 --> Helper loaded: date_helper
+INFO - 2020-08-17 17:11:07 --> Database Driver Class Initialized
+INFO - 2020-08-17 17:11:09 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 17:11:09 --> Email Class Initialized
+INFO - 2020-08-17 17:11:09 --> Parser Class Initialized
+INFO - 2020-08-17 17:11:09 --> Controller Class Initialized
+DEBUG - 2020-08-17 17:11:09 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 17:11:09 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 17:11:09 --> Encryption Class Initialized
+INFO - 2020-08-17 17:11:09 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 17:11:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 17:11:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 17:11:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 17:11:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 17:11:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 17:11:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 17:11:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 17:11:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 17:11:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 17:11:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 17:11:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 17:11:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 17:11:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 17:11:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 17:11:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 17:11:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 17:11:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 17:11:09 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 17:11:09 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 17:11:09 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 17:11:09 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 17:11:09 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 17:11:09 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 17:11:09 --> Final output sent to browser
+DEBUG - 2020-08-17 17:11:09 --> Total execution time: 2.1527
+INFO - 2020-08-17 17:11:31 --> Config Class Initialized
+INFO - 2020-08-17 17:11:31 --> Hooks Class Initialized
+DEBUG - 2020-08-17 17:11:31 --> UTF-8 Support Enabled
+INFO - 2020-08-17 17:11:31 --> Utf8 Class Initialized
+INFO - 2020-08-17 17:11:31 --> URI Class Initialized
+INFO - 2020-08-17 17:11:31 --> Router Class Initialized
+INFO - 2020-08-17 17:11:31 --> Output Class Initialized
+INFO - 2020-08-17 17:11:31 --> Security Class Initialized
+DEBUG - 2020-08-17 17:11:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 17:11:31 --> CSRF cookie sent
+INFO - 2020-08-17 17:11:31 --> Input Class Initialized
+INFO - 2020-08-17 17:11:31 --> Language Class Initialized
+INFO - 2020-08-17 17:11:31 --> Loader Class Initialized
+INFO - 2020-08-17 17:11:31 --> Helper loaded: form_helper
+INFO - 2020-08-17 17:11:31 --> Helper loaded: url_helper
+INFO - 2020-08-17 17:11:31 --> Helper loaded: html_helper
+INFO - 2020-08-17 17:11:31 --> Helper loaded: file_helper
+INFO - 2020-08-17 17:11:31 --> Helper loaded: component_helper
+INFO - 2020-08-17 17:11:31 --> Helper loaded: date_helper
+INFO - 2020-08-17 17:11:31 --> Database Driver Class Initialized
+INFO - 2020-08-17 17:11:33 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 17:11:33 --> Email Class Initialized
+INFO - 2020-08-17 17:11:33 --> Parser Class Initialized
+INFO - 2020-08-17 17:11:33 --> Controller Class Initialized
+DEBUG - 2020-08-17 17:11:33 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 17:11:33 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 17:11:33 --> Encryption Class Initialized
+INFO - 2020-08-17 17:11:33 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 17:11:33 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 17:11:33 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 17:11:33 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 17:11:33 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 17:11:33 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 17:11:33 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 17:11:33 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 17:11:33 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 17:11:33 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 17:11:33 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 17:11:33 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 17:11:33 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 17:11:33 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 17:11:33 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 17:11:33 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 17:11:33 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 17:11:33 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 17:11:33 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 17:11:33 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 17:11:33 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 17:11:33 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 17:11:33 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 17:11:33 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 17:11:33 --> Final output sent to browser
+DEBUG - 2020-08-17 17:11:33 --> Total execution time: 2.1425
+INFO - 2020-08-17 17:22:37 --> Config Class Initialized
+INFO - 2020-08-17 17:22:37 --> Hooks Class Initialized
+DEBUG - 2020-08-17 17:22:37 --> UTF-8 Support Enabled
+INFO - 2020-08-17 17:22:37 --> Utf8 Class Initialized
+INFO - 2020-08-17 17:22:37 --> URI Class Initialized
+INFO - 2020-08-17 17:22:37 --> Router Class Initialized
+INFO - 2020-08-17 17:22:37 --> Output Class Initialized
+INFO - 2020-08-17 17:22:37 --> Security Class Initialized
+DEBUG - 2020-08-17 17:22:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 17:22:37 --> CSRF cookie sent
+INFO - 2020-08-17 17:22:37 --> Input Class Initialized
+INFO - 2020-08-17 17:22:37 --> Language Class Initialized
+INFO - 2020-08-17 17:22:38 --> Loader Class Initialized
+INFO - 2020-08-17 17:22:38 --> Helper loaded: form_helper
+INFO - 2020-08-17 17:22:38 --> Helper loaded: url_helper
+INFO - 2020-08-17 17:22:38 --> Helper loaded: html_helper
+INFO - 2020-08-17 17:22:38 --> Helper loaded: file_helper
+INFO - 2020-08-17 17:22:38 --> Helper loaded: component_helper
+INFO - 2020-08-17 17:22:38 --> Helper loaded: date_helper
+INFO - 2020-08-17 17:22:38 --> Database Driver Class Initialized
+INFO - 2020-08-17 17:22:40 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 17:22:40 --> Email Class Initialized
+INFO - 2020-08-17 17:22:40 --> Parser Class Initialized
+INFO - 2020-08-17 17:22:40 --> Controller Class Initialized
+DEBUG - 2020-08-17 17:22:40 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 17:22:40 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 17:22:40 --> Encryption Class Initialized
+INFO - 2020-08-17 17:22:40 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 17:22:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 17:22:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 17:22:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 17:22:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 17:22:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 17:22:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 17:22:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 17:22:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 17:22:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 17:22:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 17:22:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 17:22:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 17:22:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 17:22:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 17:22:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 17:22:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 17:22:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 17:22:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 17:22:40 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 17:22:40 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 17:22:40 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 17:22:40 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 17:22:40 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 17:22:40 --> Final output sent to browser
+DEBUG - 2020-08-17 17:22:40 --> Total execution time: 2.1489
+INFO - 2020-08-17 17:22:50 --> Config Class Initialized
+INFO - 2020-08-17 17:22:50 --> Hooks Class Initialized
+DEBUG - 2020-08-17 17:22:50 --> UTF-8 Support Enabled
+INFO - 2020-08-17 17:22:50 --> Utf8 Class Initialized
+INFO - 2020-08-17 17:22:50 --> URI Class Initialized
+INFO - 2020-08-17 17:22:50 --> Router Class Initialized
+INFO - 2020-08-17 17:22:50 --> Output Class Initialized
+INFO - 2020-08-17 17:22:50 --> Security Class Initialized
+DEBUG - 2020-08-17 17:22:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-17 17:22:50 --> CSRF cookie sent
+INFO - 2020-08-17 17:22:50 --> Input Class Initialized
+INFO - 2020-08-17 17:22:50 --> Language Class Initialized
+INFO - 2020-08-17 17:22:50 --> Loader Class Initialized
+INFO - 2020-08-17 17:22:50 --> Helper loaded: form_helper
+INFO - 2020-08-17 17:22:50 --> Helper loaded: url_helper
+INFO - 2020-08-17 17:22:50 --> Helper loaded: html_helper
+INFO - 2020-08-17 17:22:50 --> Helper loaded: file_helper
+INFO - 2020-08-17 17:22:50 --> Helper loaded: component_helper
+INFO - 2020-08-17 17:22:50 --> Helper loaded: date_helper
+INFO - 2020-08-17 17:22:50 --> Database Driver Class Initialized
+INFO - 2020-08-17 17:22:52 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-17 17:22:52 --> Email Class Initialized
+INFO - 2020-08-17 17:22:52 --> Parser Class Initialized
+INFO - 2020-08-17 17:22:52 --> Controller Class Initialized
+DEBUG - 2020-08-17 17:22:52 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-17 17:22:52 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-17 17:22:52 --> Encryption Class Initialized
+INFO - 2020-08-17 17:22:52 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-17 17:22:52 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-17 17:22:52 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 17:22:52 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikan.php
+INFO - 2020-08-17 17:22:52 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-17 17:22:52 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-17 17:22:52 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-17 17:22:52 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-17 17:22:52 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-17 17:22:52 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-17 17:22:52 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-17 17:22:52 --> File loaded: D:\Project\Mbtni\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-17 17:22:52 --> File loaded: D:\Project\Mbtni\application\views\Component/FormPernikahan.php
+INFO - 2020-08-17 17:22:52 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-17 17:22:52 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-17 17:22:52 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-17 17:22:52 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-17 17:22:52 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-17 17:22:52 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+ERROR - 2020-08-17 17:22:52 --> Severity: Notice --> Undefined variable: peserta D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+ERROR - 2020-08-17 17:22:52 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\views\Component\CardFormDataDiri.php 90
+INFO - 2020-08-17 17:22:52 --> File loaded: D:\Project\Mbtni\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-17 17:22:52 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataanadd.php
+INFO - 2020-08-17 17:22:52 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-17 17:22:52 --> Final output sent to browser
+DEBUG - 2020-08-17 17:22:52 --> Total execution time: 2.1495

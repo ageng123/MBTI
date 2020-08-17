@@ -90,4 +90,60 @@
 			<textarea name="alamatkantorpernikahan" class="form-control" id="" cols="30" rows="10"></textarea>
 		</div>
 	</div>
+	<div class="col-md-12">
+		<div class="form-group">
+			<label for=""><p>Kegiatan Berorganisasi</p></label>
+		</div>
+	</div>
+	<div class="p-3">
+		
+		<div class="col-md-12">
+			<div class="form-group">
+				<label>1. Organisasi yang Sedang Diikuti</label>
+				<input type="text" name="penididikanpernikahan" class="form-control" required=""/>
+			</div>
+		</div>
+		<div class="col-md-12">
+			<div class="form-group">
+				<label>2. a) Kedudukan Dalam Organisasi</label>
+				<input type="text" name="penididikanpernikahan" class="form-control" required=""/>
+			</div>
+		</div>
+		<div class="col-md-12">
+			<div class="form-group">
+				<label>2. b) Sejak Kapan Berorganisasi </label>
+				<input type="text" name="penididikanpernikahan" class="form-control" required=""/>
+			</div>
+		</div>
+		<div class="col-md-12">
+			<div class="form-group">
+				<label>2. c) Sejak Kapan Berorganisasi</label>
+				<input type="text" name="penididikanpernikahan" class="form-control" required=""/>
+			</div>
+		</div>
+		<div class="col-md-12">
+			<div class="form-group">
+				<label for="">3. Organisasi yang Pernah Diikuti</label>
+				<input type="text" name="penididikanpernikahan" class="form-control" required=""/>
+			</div>
+		</div>
+		<div class="col-md-12">
+			<div class="form-group">
+				<label>3. a) Kedudukan Dalam Organisasi</label>
+				<input type="text" name="penididikanpernikahan" class="form-control" required=""/>
+			</div>
+		</div>
+		<div class="col-md-12">
+			<div class="form-group">
+				<label>3. b) Sejak Kapan Berorganisasi </label>
+				<input type="text" name="penididikanpernikahan" class="form-control" required=""/>
+			</div>
+		</div>
+		<div class="col-md-12">
+			<div class="form-group">
+				<label>3. c) Sejak Kapan Berorganisasi</label>
+				<input type="text" name="penididikanpernikahan" class="form-control" required=""/>
+			</div>
+		</div>
+	</div>
 </div>
