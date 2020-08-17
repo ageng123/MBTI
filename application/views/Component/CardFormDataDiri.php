@@ -13,16 +13,16 @@
             <li class="nav-item"> <a href="#tab-riwayat-pekerjaan" class="nav-link" data-toggle="tab" aria-expanded="true">3. Riwayat Pekerjaan</a> </li>
             <li class="nav-item"> <a href="#tab-riwayat-pekerjaan-lain" class="nav-link" data-toggle="tab" aria-expanded="true">4. Riwayat Pekerjaan Lain diluar Dinas</a> </li>
             <li class="nav-item"> <a href="#tab-riwayat-tempat-tinggal" class="nav-link" data-toggle="tab" aria-expanded="true">5. Riwayat Tempat Tinggal</a> </li>
-            <li class="nav-item"> <a href="#tab10" class="nav-link" data-toggle="tab" aria-expanded="true">6. Riwayat Organisasi</a> </li>
-            <li class="nav-item"> <a href="#tab9" class="nav-link" data-toggle="tab" aria-expanded="true">7. Riwayat Perjuangan</a> </li>
-            <li class="nav-item"> <a href="#tab12" class="nav-link" data-toggle="tab" aria-expanded="true">8. Riwayat Penghargaan</a> </li>
-            <li class="nav-item"> <a href="#tab2" class="nav-link" data-toggle="tab" aria-expanded="false">9. Data Pernikahan (Suami / Istri)</a> </li>
-            <li class="nav-item"> <a href="#tab11" class="nav-link" data-toggle="tab" aria-expanded="true">10. Ayah Kandung</a> </li>
-            <li class="nav-item"> <a href="#tab11" class="nav-link" data-toggle="tab" aria-expanded="true">11. Ayah Tiri/Angkat</a> </li>
-            <li class="nav-item"> <a href="#tab11" class="nav-link" data-toggle="tab" aria-expanded="true">12. Ibu Kandung</a> </li>
-            <li class="nav-item"> <a href="#tab11" class="nav-link" data-toggle="tab" aria-expanded="true">13. Ibu Tiri/Angkat</a> </li>
-            <li class="nav-item"> <a href="#tab11" class="nav-link" data-toggle="tab" aria-expanded="true">14. Mertua Laki-Laki</a> </li>
-            <li class="nav-item"> <a href="#tab11" class="nav-link" data-toggle="tab" aria-expanded="true">15. Mertua Perempuan</a> </li>
+            <li class="nav-item"> <a href="#tab-riwayat-organisasi" class="nav-link" data-toggle="tab" aria-expanded="true">6. Riwayat Organisasi</a> </li>
+            <li class="nav-item"> <a href="#tab-riwayat-perjuangan" class="nav-link" data-toggle="tab" aria-expanded="true">7. Riwayat Perjuangan</a> </li>
+            <li class="nav-item"> <a href="#tab-riwayat-penghargaan" class="nav-link" data-toggle="tab" aria-expanded="true">8. Riwayat Penghargaan</a> </li>
+            <li class="nav-item"> <a href="#tab-pernikahan" class="nav-link" data-toggle="tab" aria-expanded="false">9. Data Pernikahan (Suami / Istri)</a> </li>
+            <li class="nav-item"> <a href="#tab-ayah-kandung" class="nav-link" data-toggle="tab" aria-expanded="true">10. Ayah Kandung</a> </li>
+            <li class="nav-item"> <a href="#tab-ayah-tiri" class="nav-link" data-toggle="tab" aria-expanded="true">11. Ayah Tiri/Angkat</a> </li>
+            <li class="nav-item"> <a href="#tab-ibu-kandung" class="nav-link" data-toggle="tab" aria-expanded="true">12. Ibu Kandung</a> </li>
+            <li class="nav-item"> <a href="#tab-ibu-tiri" class="nav-link" data-toggle="tab" aria-expanded="true">13. Ibu Tiri/Angkat</a> </li>
+            <li class="nav-item"> <a href="#tab-mertua-laki" class="nav-link" data-toggle="tab" aria-expanded="true">14. Mertua Laki-Laki</a> </li>
+            <li class="nav-item"> <a href="#tab-mertua-perempuan" class="nav-link" data-toggle="tab" aria-expanded="true">15. Mertua Perempuan</a> </li>
         </ul>
         <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
             
@@ -54,19 +54,32 @@
                 <div id="tab-riwayat-tempat-tinggal" class="tab-pane">
                     <?php $this->load->view('Component/FormRiwayatTempatTinggal') ?>
                 </div>
-                <div id="tab6" class="tab-pane">
+                <div id="tab-riwayat-organisasi" class="tab-pane">
+                    <?php $this->load->view('Component/FormRiwayatTempatTinggal') ?>
                 </div>
-                <div id="tab7" class="tab-pane">
+                <div id="tab-riwayat-perjuangan" class="tab-pane">
+                    <?php $this->load->view('Component/FormRiwayatTempatTinggal') ?>
                 </div>
-                <div id="tab8" class="tab-pane">
+                <div id="tab-riwayat-penghargaan" class="tab-pane">
+                    <?php $this->load->view('Component/FormRiwayatTempatTinggal') ?>
                 </div>
-                <div id="tab9" class="tab-pane">
+                <div id="tab-pernikahan" class="tab-pane">
+                    <?php $this->load->view('Component/FormRiwayatTempatTinggal') ?>
                 </div>
-                <div id="tab10" class="tab-pane">
+                <div id="tab-ayah-kandung" class="tab-pane">
+                    <?php $this->load->view('Component/FormRiwayatTempatTinggal') ?>
                 </div>
-                <div id="tab11" class="tab-pane">
+                <div id="tab-ayah-tiri" class="tab-pane">
+                    <?php $this->load->view('Component/FormRiwayatTempatTinggal') ?>
                 </div>
-                <div id="tab12" class="tab-pane">
+                <div id="tab-ibu-kandung" class="tab-pane">
+                    <?php $this->load->view('Component/FormRiwayatTempatTinggal') ?>
+                </div>
+                <div id="tab-mertua-laki" class="tab-pane">
+                    <?php $this->load->view('Component/FormRiwayatTempatTinggal') ?>
+                </div>
+                <div id="tab-mertua-perempuan" class="tab-pane">
+                    <?php $this->load->view('Component/FormRiwayatTempatTinggal') ?>
                 </div>
             </div>
             <!-- Print ID Card () -->
