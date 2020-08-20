@@ -1,0 +1,13 @@
+{
+    "name": "vendor/mbtni",
+    "description": "Description of project Mbtni.",
+    "authors": [
+        {
+            "name": "centos",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {
+        "chriskacerguis/codeigniter-restserver": "dev-master"
+    }
+}
