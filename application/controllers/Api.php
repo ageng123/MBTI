@@ -6,6 +6,24 @@ class Api extends CI_Controller {
     {
         parent::__construct();
     }
+    private function statuscode($status, $message){
+        switch($status){
+            case 1:
+                $data = [
+                    'message' => $message,
+                    'kode' => 200,
+                    'is_success' => true
+                ];
+            break;
+            case 2:
+                $data = [
+                    'message' => $message,
+                    'kode' => 500,
+                    'is_success' => false
+                ];
+            break;
+        }
+    }
     public function post_pernyataan()
     {
         $stream_clean = $this->security->xss_clean($this->input->raw_input_stream);
