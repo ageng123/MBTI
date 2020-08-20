@@ -29,7 +29,7 @@ class Api extends CI_Controller {
         $stream_clean = $this->security->xss_clean($this->input->raw_input_stream);
         $request = json_decode($stream_clean);
         $data = $request->data;
-        $identitasdiri = json_encode($data->identitasdiri);
+        $identitasdiri = json_decode($data->identitasdiri);
         var_dump($identitasdiri);
         die;
     }
