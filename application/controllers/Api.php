@@ -8,7 +8,10 @@ class Api extends CI_Controller {
     }
     public function post_pernyataan()
     {
-        var_dump($this->input->post());
+        $stream_clean = $this->security->xss_clean($this->input->raw_input_stream);
+        $request = json_decode($stream_clean);
+        $data = $request->data;
+        var_dump(json_decode($data->identitasdiri));
         die;
     }
 }
