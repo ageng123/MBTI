@@ -716,6 +716,10 @@
 				let key = Helper.getRegexFromArray(element.name);
 				IdentitasDiriArr[key] = element.value;
 			})
+			$("select[name^='identity']").each((index, element) => {
+				let key = Helper.getRegexFromArray(element.name);
+				IdentitasDiriArr[key] = element.value;
+			})
 			$("textarea[name^='identity']").each((index, element) => {
 				let key = Helper.getRegexFromArray(element.name);
 				IdentitasDiriArr[key] = element.value;
@@ -780,6 +784,7 @@
 			FormData.identitasdiri =  JSON.stringify(IdentitasDiriArr);
 			FormData.pernikahan = JSON.stringify(PernikahanArr);
 			FormData.ayahkandung = JSON.stringify(AyahKandungArr);
+			FormData.ayahtiri = JSON.stringify(AyahTiriArr);
 			FormData.ibukandung = JSON.stringify(IbuKandungArr);
 			FormData.ibutiri = JSON.stringify(IbuTiriArr);
 			FormData.mertualaki = JSON.stringify(MertuaLakiArr);
@@ -799,6 +804,9 @@
 			$.ajax({
 				type: 'POST',
 				url: BaseUri+"api/post_pernyataan",
+				mimeType: 'multipart/form-data',
+				contentType: false,
+    			processData: false,
 				data: JSON.stringify({data: FormData }),
 				success: function(resultData) { console.log(resultData) }
 		  });	

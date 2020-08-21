@@ -1,6 +1,12 @@
 <legend>1. Identitas Diri</legend>
 <div class="col-md-12">
 	<div class="form-group">
+		<label>Foto</label>
+		<input type="file" name="identity['foto']" class="form-control-file" required=""/>
+	</div>
+</div>
+<div class="col-md-12">
+	<div class="form-group">
 		<label>Nama Lengkap</label>
 		<input type="text" name="identity['nama']" class="form-control" required=""/>
 	</div>
@@ -21,6 +27,15 @@
 	<div class="form-group">
 		<label>Tanggal Lahir</label>
 		<input type="text" name="identity['tanggal']" class="form-control datepicker" required=""/>
+	</div>
+</div>
+<div class="col-md-12">
+	<div class="form-group">
+		<label>Jenis Kelamin</label>
+		<select class="form-control" name="identity['jk']" id="">
+			<option value="laki-laki">Laki-Laki</option>
+			<option value="perempuan">Perempuan</option>
+		</select>
 	</div>
 </div>
 <div class="col-md-12">
@@ -132,7 +147,7 @@
 <div class="col-md-12">
 	<div class="form-group">
 		<label>Nomor Identitas (SIM/KTP/identitas pengenal lain)</label>
-		<input type="text" name="identity['nokmor_identitas']" class="form-control" required=""/>
+		<input type="text" name="identity['nomor_identitas']" class="form-control" required=""/>
 	</div>
 </div>
 <div class="col-md-12">
