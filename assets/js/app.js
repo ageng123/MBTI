@@ -7,10 +7,18 @@
 	    RiwayatTempatTinggal = new Array(), 
 	    RiwayatOrganisasiArr = new Array()
 	    RiwayatPerjuanganArr = new Array(),
-	    RiwayatPenghargaanArr = new Array();
+		RiwayatPenghargaanArr = new Array(),
+		IdentitasDiriArr = new Object(),
+		PernikahanArr = new Object(), 
+		AyahKandungArr = new Object(),
+		AyahTiriArr = new Object(),
+		IbuKandungArr = new Object(), 
+		IbuTiriArr = new Object(), 
+		MertuaLakiArr = new Object(), 
+		MertuaPerempuanArr = new Object();
 	const pendidikanForm = {
 	    add: () => {
-	        let data = new Array();
+	        let data = new Object();
 	        let sekolahnama = $('input[name="sekolahnama"]').val();
 	        let tahunsekolah = $('input[name="tahunsekolah"]').val();
 	        let tempatsekolah = $('input[name="kotasekolah"]').val();
@@ -59,7 +67,7 @@
 
 	    },
 	    update: (index) => {
-	        let data = new Array();
+	        let data = new Object();
 	        let sekolahnama = $('input[name="sekolahnama"]').val();
 	        let tahunsekolah = $('input[name="tahunsekolah"]').val();
 	        let tempatsekolah = $('input[name="kotasekolah"]').val();
@@ -86,7 +94,7 @@
 	};
 	const pendidikanDinas = {
 	    add: () => {
-	        let data = new Array();
+	        let data = new Object();
 	        let sekolahnama = $('input[name="namasekolahdinas"]').val();
 	        let tahunsekolah = $('input[name="tahunsekolahdinas"]').val();
 	        let tempatsekolah = $('input[name="kotasekolahdinas"]').val();
@@ -106,7 +114,7 @@
 	        pendidikanDinas.appendToTbBody();
 	    },
 	    update: (id) => {
-	        let data = new Array();
+	        let data = new Object();
 	        let sekolahnama = $('input[name="namasekolahdinas"]').val();
 	        let tahunsekolah = $('input[name="tahunsekolahdinas"]').val();
 	        let tempatsekolah = $('input[name="kotasekolahdinas"]').val();
@@ -161,7 +169,7 @@
 	}
 	const PendidikanLainAction = {
 	    add: () => {
-	        let data = new Array();
+	        let data = new Object();
 	        let sekolahnama = $('input[name="sekolahlainnama"]').val();
 	        let tahunsekolah = $('input[name="tahunsekolahlain"]').val();
 	        let tempatsekolah = $('input[name="tempatsekolahlain"]').val();
@@ -181,7 +189,7 @@
 	        PendidikanLainAction.appendToTbBody();
 	    },
 	    update: (id) => {
-	        let data = new Array();
+	        let data = new Object();
 	        let sekolahnama = $('input[name="sekolahlainnama"]').val();
 	        let tahunsekolah = $('input[name="tahunsekolahlain"]').val();
 	        let tempatsekolah = $('input[name="tempatsekolahlain"]').val();
@@ -236,7 +244,7 @@
 	}
 	const RiwayatPekerjaanAct = {
 	    add: () => {
-	        let data = new Array();
+	        let data = new Object();
 	        let namakerja = $('input[name="namapekerjaan"]').val();
 	        let pangkatkerja = $('input[name="pangkatpekerjaan"]').val();
 	        let instansikerja = $('input[name="instansikerja"]').val();
@@ -256,7 +264,7 @@
 	        RiwayatPekerjaanAct.appendToTbBody();
 	    },
 	    update: (id) => {
-	        let data = new Array();
+	        let data = new Object();
 	        let namakerja = $('input[name="namapekerjaan"]').val();
 	        let pangkatkerja = $('input[name="pangkatpekerjaan"]').val();
 	        let instansikerja = $('input[name="instansikerja"]').val();
@@ -311,7 +319,7 @@
 	}
 	const RiwayatPekerjaanDinasAct = {
 	    add: () => {
-	        let data = new Array();
+	        let data = new Object();
 	        let namakerja = $('input[name="namakerjadinas"]').val();
 	        let pangkatkerja = $('input[name="pangkatkerjadinas"]').val();
 	        let instansikerja = $('input[name="instansikerjadinas"]').val();
@@ -334,7 +342,7 @@
 	        RiwayatPekerjaanDinasAct.appendToTbBody();
 	    },
 	    update: (id) => {
-	        let data = new Array();
+	        let data = new Object();
 	        let namakerja = $('input[name="namakerjadinas"]').val();
 	        let pangkatkerja = $('input[name="pangkatkerjadinas"]').val();
 	        let instansikerja = $('input[name="instansikerjadinas"]').val();
@@ -394,7 +402,7 @@
 	}
 	const RiwayatTempatTinggalAct = {
 	    add: () => {
-	        let data = new Array();
+	        let data = new Object();
 	        let alamat = $('input[name="alamattinggal"]').val();
 	        let tahun = $('input[name="tahuntinggal"]').val();
 	        let rangka = $('input[name="rangkatinggal"]').val();
@@ -411,7 +419,7 @@
 	        RiwayatTempatTinggalAct.appendToTbBody();
 	    },
 	    update: (id) => {
-	        let data = new Array();
+	        let data = new Object();
 	       	let alamat = $('input[name="alamattinggal"]').val();
 	        let tahun = $('input[name="tahuntinggal"]').val();
 	        let rangka = $('input[name="rangkatinggal"]').val();
@@ -461,7 +469,7 @@
 	}
 	const RiwayatOrganisasiAct = {
 	    add: () => {
-	        let data = new Array();
+	        let data = new Object();
 	        let nama = $('input[name="namaorganisasi"]').val();
 	        let tahun = $('input[name="tahunorganisasi"]').val();
 	        let rangka = $('input[name="kedudukanorganisasi"]').val();
@@ -484,7 +492,7 @@
 	        RiwayatOrganisasiAct.appendToTbBody();
 	    },
 	    update: (id) => {
-	        let data = new Array();
+	        let data = new Object();
 	       	let nama = $('input[name="namaorganisasi"]').val();
 	        let tahun = $('input[name="tahunorganisasi"]').val();
 	        let rangka = $('input[name="kedudukanorganisasi"]').val();
@@ -544,7 +552,7 @@
 	}
 	const RiwayatPerjuanganAct = {
 	    add: () => {
-	        let data = new Array();
+	        let data = new Object();
 	        let peristiwaperjuangan = $('input[name="peristiwaperjuangan"]').val();
 	        let tempatperjuangan = $('input[name="tempatperjuangan"]').val();
 	        let tahunperjuangan = $('input[name="tahunperjuangan"]').val();
@@ -593,7 +601,7 @@
 
 	    },
 	    update: (index) => {
-	        let data = new Array();
+	        let data = new Object();
 	        let peristiwaperjuangan = $('input[name="peristiwaperjuangan"]').val();
 	        let tempatperjuangan = $('input[name="tempatperjuangan"]').val();
 	        let tahunperjuangan = $('input[name="tahunperjuangan"]').val();
@@ -620,7 +628,7 @@
 	};
 	const RiwayatPenghargaanAct = {
 	    add: () => {
-	        let data = new Array();
+	        let data = new Object();
 	        let bintangpenghargaan = $('input[name="bintangpenghargaan"]').val();
 	        let diterimapenghargaan = $('input[name="diterimapenghargaan"]').val();
 	        let rangkapenghargaan = $('input[name="rangkapenghargaan"]').val();
@@ -669,7 +677,7 @@
 
 	    },
 	    update: (index) => {
-	        let data = new Array();
+	        let data = new Object();
 	        let bintangpenghargaan = $('input[name="bintangpenghargaan"]').val();
 	        let diterimapenghargaan = $('input[name="diterimapenghargaan"]').val();
 	        let rangkapenghargaan = $('input[name="rangkapenghargaan"]').val();
@@ -694,3 +702,116 @@
 	        RiwayatPenghargaanAct.appendToTbBody();
 	    }
 	};
+	const Helper = {
+		getRegexFromArray: (data) => {
+			let key =  data.replace(/identity/, '');
+			key = key.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gi, '');
+			return key;
+		}
+	}
+	const BaseUri = 'http://localhost:8000/';
+	const PersonilServices = {
+		ADD_PERSONIL: () => {
+			$("input[name^='identity']").each((index, element) => {
+				let key = Helper.getRegexFromArray(element.name);
+				IdentitasDiriArr[key] = element.value;
+			})
+			$("select[name^='identity']").each((index, element) => {
+				let key = Helper.getRegexFromArray(element.name);
+				IdentitasDiriArr[key] = element.value;
+			})
+			$("textarea[name^='identity']").each((index, element) => {
+				let key = Helper.getRegexFromArray(element.name);
+				IdentitasDiriArr[key] = element.value;
+			})
+			$("input[name^='pernikahan']").each((index, element) => {
+				let key = Helper.getRegexFromArray(element.name);
+				PernikahanArr[key] = element.value;
+			})
+			$("textarea[name^='pernikahan']").each((index, element) => {
+				let key = Helper.getRegexFromArray(element.name);
+				PernikahanArr[key] = element.value;
+			})
+			$("input[name^='ayahkandung']").each((index, element) => {
+				let key = Helper.getRegexFromArray(element.name);
+				AyahKandungArr[key] = element.value;
+			})
+			$("textarea[name^='ayahkandung']").each((index, element) => {
+				let key = Helper.getRegexFromArray(element.name);
+				AyahKandungArr[key] = element.value;
+			})
+			$("input[name^='ayahtiri']").each((index, element) => {
+				let key = Helper.getRegexFromArray(element.name);
+				AyahTiriArr[key] = element.value;
+			})
+			$("textarea[name^='ayahtiri']").each((index, element) => {
+				let key = Helper.getRegexFromArray(element.name);
+				AyahTiriArr[key] = element.value;
+			})
+			$("input[name^='ibukandung']").each((index, element) => {
+				let key = Helper.getRegexFromArray(element.name);
+				IbuKandungArr[key] = element.value;
+			})
+			$("textarea[name^='ibukandung']").each((index, element) => {
+				let key = Helper.getRegexFromArray(element.name);
+				IbuKandungArr[key] = element.value;
+			})
+			$("input[name^='ibutiri']").each((index, element) => {
+				let key = Helper.getRegexFromArray(element.name);
+				IbuTiriArr[key] = element.value;
+			})
+			$("textarea[name^='ibutiri']").each((index, element) => {
+				let key = Helper.getRegexFromArray(element.name);
+				IbuTiriArr[key] = element.value;
+			})
+			$("input[name^='mertualaki']").each((index, element) => {
+				let key = Helper.getRegexFromArray(element.name);
+				MertuaLakiArr[key] = element.value;
+			})
+			$("textarea[name^='mertualaki']").each((index, element) => {
+				let key = Helper.getRegexFromArray(element.name);
+				MertuaLakiArr[key] = element.value;
+			})
+			$("input[name^='mertuaperempuan']").each((index, element) => {
+				let key = Helper.getRegexFromArray(element.name);
+				MertuaPerempuanArr[key] = element.value;
+			})
+			$("textarea[name^='mertuaperempuan']").each((index, element) => {
+				let key = Helper.getRegexFromArray(element.name);
+				MertuaPerempuanArr[key] = element.value;
+			})
+			let FormData = new Object();
+			FormData.identitasdiri =  JSON.stringify(IdentitasDiriArr);
+			FormData.pernikahan = JSON.stringify(PernikahanArr);
+			FormData.ayahkandung = JSON.stringify(AyahKandungArr);
+			FormData.ayahtiri = JSON.stringify(AyahTiriArr);
+			FormData.ibukandung = JSON.stringify(IbuKandungArr);
+			FormData.ibutiri = JSON.stringify(IbuTiriArr);
+			FormData.mertualaki = JSON.stringify(MertuaLakiArr);
+			FormData.mertuaperempuan = JSON.stringify(MertuaPerempuanArr);
+			FormData.pendidikanumum = JSON.stringify(PendidikanArray);
+			FormData.pendidikandinas = JSON.stringify(PendidikanDinasArr);
+			FormData.pendidikanlain = JSON.stringify(PendidikanLainArr);
+			FormData.riwayatpekerjaan = JSON.stringify(RiwayatPekerjaan);
+			FormData.riwayatkerjadinas = JSON.stringify(RiwayatPekeraanDinasArr);
+			FormData.riwayatalamat = JSON.stringify(RiwayatTempatTinggal);
+			FormData.riwayatorganisasi = JSON.stringify(RiwayatOrganisasiArr);
+			FormData.riwayatperjuangan = JSON.stringify(RiwayatPerjuanganArr);
+			FormData.penghargaan = JSON.stringify(RiwayatPenghargaanArr);
+			console.log(FormData);
+			let token = $('input[name="mbtni_csrf_token"]').val();
+			FormData.mbtni_csrf_token = token;
+			$.ajax({
+				type: 'POST',
+				url: BaseUri+"api/post_pernyataan",
+				mimeType: 'multipart/form-data',
+				contentType: false,
+    			processData: false,
+				data: JSON.stringify({data: FormData }),
+				success: function(resultData) { console.log(resultData) }
+		  });	
+		}
+	}
+	$('.btn-submit-pernyataan').on('click', () => {
+		PersonilServices.ADD_PERSONIL();
+	})

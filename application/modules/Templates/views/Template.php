@@ -107,13 +107,13 @@
                             </li>
                             <li class="sidebar-item">
                                 <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('User_Manage/index/'); ?>" aria-expanded="false">
-                                    <i class="icon-Receipt"></i>
+                                    <i class="fas fa-users"></i>
                                     <span class="hide-menu">User Management</span>
                                 </a>
                             </li>
                             <li class="sidebar-item">
                                 <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('Dashboard/Pernyataan/index/'); ?>" aria-expanded="false">
-                                    <i class="icon-Receipt"></i>
+                                    <i class="fas fa-hockey-puck"></i>
                                     <span class="hide-menu">Data Diri Anggota</span>
                                 </a>
                             </li>
@@ -125,13 +125,13 @@
                             </li>
                             <li class="sidebar-item">
                                 <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('Dashboard/Pelanggaran/index/'); ?>" aria-expanded="false">
-                                    <i class="icon-Receipt"></i>
+                                <i class="fas fa-exclamation-triangle"></i>
                                     <span class="hide-menu">Pelanggaran Anggota</span>
                                 </a>
                             </li>
                             <li class="sidebar-item">
                                 <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('Dashboard/Datafisik/index/'); ?>" aria-expanded="false">
-                                    <i class="icon-Receipt"></i>
+                                <i class="fas fa-universal-access"></i>
                                     <span class="hide-menu">Data Fisik Anggota</span>
                                 </a>
                             </li>
@@ -157,10 +157,6 @@
             <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
             <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.10.20/af-2.3.4/b-1.6.1/b-colvis-1.6.1/b-flash-1.6.1/b-html5-1.6.1/b-print-1.6.1/cr-1.5.2/fc-3.3.0/fh-3.1.6/kt-2.5.1/r-2.2.3/rg-1.1.1/rr-1.2.6/sc-2.0.1/sp-1.0.1/sl-1.3.1/datatables.min.js"></script>
             <div class="page-wrapper">
-                <div class="page-breadcrumb" style="position: top-fixed; width: 100%; z-index: 99; padding-bottom: 20px; padding-right: 20px; background-color: white;">
-                     <button class="btn btn-danger btn-lg "> <span class="fa fa-times"></span> Cancel</button>
-                     <button class="btn btn-success btn-lg"> <span class="fa fa-check"></span> Submit</button>
-                </div>
                 <div class="container-fluid">{content}</div>
                 <footer class="footer text-center" style="border-top:1px solid rgba(0,0,0,.1);">&copy; <?= date('Y'); ?> All Rights Reserved.</footer>
             </div>
