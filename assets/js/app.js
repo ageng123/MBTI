@@ -776,7 +776,6 @@
 	        RiwayatPenghargaanArr.splice(index, 1);
 	        RiwayatPenghargaanAct.appendToTbBody();
 	    }
-<<<<<<< HEAD
 	};
 	const Helper = {
 		getRegexFromArray: (data) => {
@@ -891,6 +890,3 @@
 	$('.btn-submit-pernyataan').on('click', () => {
 		PersonilServices.ADD_PERSONIL();
 	})
-=======
-	};
->>>>>>> a0a695a3b6a41a16eb3f089a47e2910c7f01a38c
