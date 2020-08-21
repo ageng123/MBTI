@@ -345,19 +345,131 @@ class Api extends CI_Controller {
     }
     private function SaveIbuKandung()
     {
-
+        $data = $this->data['ayahtiri'];
+        $model = new ModelAyahTiri;
+        $model->id_personil = $this->lastId;
+        $model->nama_ayahtiri = $data->ayahtirinama;
+        $model->alias_ayahtiri = $data->ayahtirialias;
+        $model->tempat_ayahtiri = $data->ayahtiritempat;
+        $model->tanggal_ayahtiri = $data->ayahtiritanggal;
+        $model->suku_ayahtiri = $data->ayahtirisuku;
+        $model->kewarganegaraan_ayahtiri = $data->ayahtirikewarganegaraan;
+        $model->caramemperoleh_ayahtiri = $data->ayahtiricaramemperoleh;
+        $model->agama_ayahtiri = $data->ayahtiriagama;
+        $model->aliran_ayahtiri = $data->ayahtirialiran;
+        $model->alamatsekarang_ayahtiri = $data->ayahtirialamat;
+        $model->alamatsebelum_ayahtiri = $data->ayahtirioldalamat;
+        $model->pendidikanterakhir_ayahtiri = $data->ayahtiripendidikan;
+        // $model->alamatkantor_ayahtiri = $data->ayahtirialamatkantor;
+        $model->pekerjaanterakhir_ayahtiri = $data->ayahtiripekerjaan;
+        $model->pekerjaansebelum_ayahtiri = $data->ayahtirioldpekerjaan;
+        $model->organisasidiikuti_ayahtiri = $data->ayahtiriorgnownama;
+        $model->organisasipernah_ayahtiri = $data->ayahtirioldorgnama;
+        $model->kedudukanorganisasi_ayahtiri = $data->ayahtiriorgnowkedudukan;
+        $model->kedudukanpernah_ayahtiri = $data->ayahtirioldorgkedudukan;
+        $model->kapanorganisasi_ayahtiri = $data->ayahtiriorgnowkapan;
+        // $model->lamapernah_ayahtiri = $data->ayahtirioldorglama;
+        $model->alasanorganisasi_ayahtiri = $data->ayahtiriorgnowalasan;
+        $model->alasanpernah_ayahtiri = $data->ayahtirioldorgalasan;
+        $model->alasanmeninggal_ayahtiri = $data->ayahtirialasanmeninggal ? $data->ayahtirialasanmeninggal : 'Belum Meninggal';
+        $model->save();
+        var_dump($data);
     }
     private function SaveIbuTiri()
     {
-
+        $data = $this->data['ayahtiri'];
+        $model = new ModelAyahTiri;
+        $model->id_personil = $this->lastId;
+        $model->nama_ayahtiri = $data->ayahtirinama;
+        $model->alias_ayahtiri = $data->ayahtirialias;
+        $model->tempat_ayahtiri = $data->ayahtiritempat;
+        $model->tanggal_ayahtiri = $data->ayahtiritanggal;
+        $model->suku_ayahtiri = $data->ayahtirisuku;
+        $model->kewarganegaraan_ayahtiri = $data->ayahtirikewarganegaraan;
+        $model->caramemperoleh_ayahtiri = $data->ayahtiricaramemperoleh;
+        $model->agama_ayahtiri = $data->ayahtiriagama;
+        $model->aliran_ayahtiri = $data->ayahtirialiran;
+        $model->alamatsekarang_ayahtiri = $data->ayahtirialamat;
+        $model->alamatsebelum_ayahtiri = $data->ayahtirioldalamat;
+        $model->pendidikanterakhir_ayahtiri = $data->ayahtiripendidikan;
+        // $model->alamatkantor_ayahtiri = $data->ayahtirialamatkantor;
+        $model->pekerjaanterakhir_ayahtiri = $data->ayahtiripekerjaan;
+        $model->pekerjaansebelum_ayahtiri = $data->ayahtirioldpekerjaan;
+        $model->organisasidiikuti_ayahtiri = $data->ayahtiriorgnownama;
+        $model->organisasipernah_ayahtiri = $data->ayahtirioldorgnama;
+        $model->kedudukanorganisasi_ayahtiri = $data->ayahtiriorgnowkedudukan;
+        $model->kedudukanpernah_ayahtiri = $data->ayahtirioldorgkedudukan;
+        $model->kapanorganisasi_ayahtiri = $data->ayahtiriorgnowkapan;
+        // $model->lamapernah_ayahtiri = $data->ayahtirioldorglama;
+        $model->alasanorganisasi_ayahtiri = $data->ayahtiriorgnowalasan;
+        $model->alasanpernah_ayahtiri = $data->ayahtirioldorgalasan;
+        $model->alasanmeninggal_ayahtiri = $data->ayahtirialasanmeninggal ? $data->ayahtirialasanmeninggal : 'Belum Meninggal';
+        $model->save();
+        var_dump($data);
     }
     private function SaveMertuaLaki()
     {
-
+        $data = $this->data['ayahtiri'];
+        $model = new ModelAyahTiri;
+        $model->id_personil = $this->lastId;
+        $model->nama_ayahtiri = $data->ayahtirinama;
+        $model->alias_ayahtiri = $data->ayahtirialias;
+        $model->tempat_ayahtiri = $data->ayahtiritempat;
+        $model->tanggal_ayahtiri = $data->ayahtiritanggal;
+        $model->suku_ayahtiri = $data->ayahtirisuku;
+        $model->kewarganegaraan_ayahtiri = $data->ayahtirikewarganegaraan;
+        $model->caramemperoleh_ayahtiri = $data->ayahtiricaramemperoleh;
+        $model->agama_ayahtiri = $data->ayahtiriagama;
+        $model->aliran_ayahtiri = $data->ayahtirialiran;
+        $model->alamatsekarang_ayahtiri = $data->ayahtirialamat;
+        $model->alamatsebelum_ayahtiri = $data->ayahtirioldalamat;
+        $model->pendidikanterakhir_ayahtiri = $data->ayahtiripendidikan;
+        // $model->alamatkantor_ayahtiri = $data->ayahtirialamatkantor;
+        $model->pekerjaanterakhir_ayahtiri = $data->ayahtiripekerjaan;
+        $model->pekerjaansebelum_ayahtiri = $data->ayahtirioldpekerjaan;
+        $model->organisasidiikuti_ayahtiri = $data->ayahtiriorgnownama;
+        $model->organisasipernah_ayahtiri = $data->ayahtirioldorgnama;
+        $model->kedudukanorganisasi_ayahtiri = $data->ayahtiriorgnowkedudukan;
+        $model->kedudukanpernah_ayahtiri = $data->ayahtirioldorgkedudukan;
+        $model->kapanorganisasi_ayahtiri = $data->ayahtiriorgnowkapan;
+        // $model->lamapernah_ayahtiri = $data->ayahtirioldorglama;
+        $model->alasanorganisasi_ayahtiri = $data->ayahtiriorgnowalasan;
+        $model->alasanpernah_ayahtiri = $data->ayahtirioldorgalasan;
+        $model->alasanmeninggal_ayahtiri = $data->ayahtirialasanmeninggal ? $data->ayahtirialasanmeninggal : 'Belum Meninggal';
+        $model->save();
+        var_dump($data);
     }
     private function SaveMertuaPerempuan()
     {
-
+        $data = $this->data['ayahtiri'];
+        $model = new ModelAyahTiri;
+        $model->id_personil = $this->lastId;
+        $model->nama_ayahtiri = $data->ayahtirinama;
+        $model->alias_ayahtiri = $data->ayahtirialias;
+        $model->tempat_ayahtiri = $data->ayahtiritempat;
+        $model->tanggal_ayahtiri = $data->ayahtiritanggal;
+        $model->suku_ayahtiri = $data->ayahtirisuku;
+        $model->kewarganegaraan_ayahtiri = $data->ayahtirikewarganegaraan;
+        $model->caramemperoleh_ayahtiri = $data->ayahtiricaramemperoleh;
+        $model->agama_ayahtiri = $data->ayahtiriagama;
+        $model->aliran_ayahtiri = $data->ayahtirialiran;
+        $model->alamatsekarang_ayahtiri = $data->ayahtirialamat;
+        $model->alamatsebelum_ayahtiri = $data->ayahtirioldalamat;
+        $model->pendidikanterakhir_ayahtiri = $data->ayahtiripendidikan;
+        // $model->alamatkantor_ayahtiri = $data->ayahtirialamatkantor;
+        $model->pekerjaanterakhir_ayahtiri = $data->ayahtiripekerjaan;
+        $model->pekerjaansebelum_ayahtiri = $data->ayahtirioldpekerjaan;
+        $model->organisasidiikuti_ayahtiri = $data->ayahtiriorgnownama;
+        $model->organisasipernah_ayahtiri = $data->ayahtirioldorgnama;
+        $model->kedudukanorganisasi_ayahtiri = $data->ayahtiriorgnowkedudukan;
+        $model->kedudukanpernah_ayahtiri = $data->ayahtirioldorgkedudukan;
+        $model->kapanorganisasi_ayahtiri = $data->ayahtiriorgnowkapan;
+        // $model->lamapernah_ayahtiri = $data->ayahtirioldorglama;
+        $model->alasanorganisasi_ayahtiri = $data->ayahtiriorgnowalasan;
+        $model->alasanpernah_ayahtiri = $data->ayahtirioldorgalasan;
+        $model->alasanmeninggal_ayahtiri = $data->ayahtirialasanmeninggal ? $data->ayahtirialasanmeninggal : 'Belum Meninggal';
+        $model->save();
+        var_dump($data);
     }
 }
 ?>
