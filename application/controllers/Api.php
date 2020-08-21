@@ -15,7 +15,7 @@ class Api extends CI_Controller {
         $config['max_width']            = 1024;
         $config['max_height']           = 768;
         $this->load->library('upload', $config);
-        $this->load->model(['modelpernyataan', 'ModelPendidikan', 'ModelRiwayatPekerjaan']);
+        $this->load->model(['modelpernyataan', 'ModelPendidikan', 'ModelRiwayatPekerjaan', 'ModelTempatTinggal', 'ModelRiwayat']);
     }
     private function statuscode($status, $message){
         switch($status){
@@ -62,7 +62,13 @@ class Api extends CI_Controller {
         // $this->PendidikanDinas();
         // $this->PendidikanLain();
         // $this->RiwayatPekerjaan();
-        $this->RiwayatPekerjaanDinas();
+        // $this->RiwayatPekerjaanDinas();
+        // $this->RiwayatAlamat();
+        // $this->RiwayatOrganisasi();
+        // $this->RiwayatPerjuangan();
+        // $this->RiwayatPenghargaan();
+        $this->SavePernikahan();
+
         
     }
     private function saveIdentity()
@@ -172,6 +178,134 @@ class Api extends CI_Controller {
             $model->seq = (int)$key + 1;
             $model->save();
         endforeach;
+        var_dump($data);
+    }
+    private function RiwayatAlamat()
+    {
+        $data = $this->data['riwayatalamat'];
+        foreach($data as $key => $value):
+            $model = new ModelTempatTinggal;
+            $model->id_personil = $this->lastId;
+            $model->alamat = $value->alamattinggal;
+            $model->rangka = $value->rangkatinggal;
+            $model->tahun = $value->tahuntinggal;
+            $model->keterangan = $value->keterangantinggal;
+            $model->seq = (int)$key + 1;
+            $model->save();
+        endforeach;
+        var_dump($data);
+    }
+    private function RiwayatOrganisasi()
+    {
+        $data = $this->data['riwayatorganisasi'];
+        foreach($data as $key => $value):
+            $model = new ModelRiwayatOrganisasi;
+            $model->id_personil = $this->lastId;
+            $model->nama = $value->namaorganisasi;
+            $model->tahun_ikut = $value->tahunikutorganisasi;
+            $model->alamat = $value->alamatorganisasi;
+            $model->jabatan = $value->kedudukanorganisasi;
+            $model->tahun = $value->tahunorganisasi;
+            $model->keterangan = $value->keteranganorganisasi;
+            $model->seq = (int)$key + 1;
+            $model->save();
+        endforeach;
+        var_dump($data);
+    }
+    private function RiwayatPerjuangan()
+    {
+        $data = $this->data['riwayatperjuangan'];
+        foreach($data as $key => $value):
+            $model = new ModalRiwayatPerjuangan;
+            $model->id_personil = $this->lastId;
+            $model->peristiwa = $value->peristiwaperjuangan;
+            $model->tempat = $value->tempatperjuangan;
+            $model->tahun = $value->tahunperjuangan;
+            $model->rangka = $value->rangkaperjuangan;
+            $model->keterangan = $value->keteranganperjuangan;
+            $model->seq = (int)$key + 1;
+            $model->save();
+        endforeach;
+        var_dump($data);
+    }
+    private function RiwayatPenghargaan()
+    {
+        $data = $this->data['riwayatpenghargaan'];
+        foreach($data as $key => $value):
+            $model = new ModelRiwayatPenghargaan;
+            $model->id_personil = $this->lastId;
+            $model->nama = $value->bintangpenghargaan;
+            $model->dari = $value->diterimapenghargaan;
+            $model->rangka = $value->rangkapenghargaan;
+            $model->kapan = $value->waktupenghargaan;
+            $model->keterangan = $value->keteranganpenghargaan;
+            $model->seq = (int)$key + 1;
+            $model->save();
+        endforeach;
+        var_dump($data);
+    }
+    private function SavePernikahan()
+    {
+        $data = $this->data['pernikahan'];
+        $model = new ModelPernikahan;
+        $model->id_personil = $this->lastId;
+        $model->nama = $data->pernikahannama;
+        $model->nick = $data->pernikahanalias;
+        $model->tmp_lahir = $data->pernikahantempat;
+        $model->tgl_lahir = $data->pernikahantanggal;
+        $model->suku = $data->pernikahansuku;
+        $model->kewarganegaraan = $data->pernikahankwn;
+        // $model->cara_kewarganegaraan = $data->cara_memperoleh;
+        $model->agama = $data->pernikahanagamanow;
+        $model->agama_sebelumnya = $data->pernikahanagamaold;
+        $model->aliran = $data->pernikahanaliran;
+        $model->alamat_1 = $data->pernikahannowalamat;
+        $model->alamat_2 = $data->pernikahanoldalamat;
+        $model->pendidikan = $data->pernikahanpendidikan;
+        $model->pasangan_ke = $data->pernikahantotal;
+        $model->alamat_kantor = $data->pernikahankantor;
+        $model->jabatan_kantor = $data->pernikahanjabatan;
+        $model->org1 = $data->pernikahanorgnow;
+        $model->org2 = $data->pernikahanorgold;
+        $model->kedudukan_org1 = $data->pernikahanorgnowkedudukan;
+        $model->kedudukan_org2 = $data->pernikahanorgoldkedudukan;
+        $model->kapan_org1 = $data->pernikahanorgnowkapan;
+        $model->lama_org2 = $data->pernikahanorgoldkapan;
+        $model->alasan_org1 = $data->pernikahanorgnowalasan;
+        $model->alasan_org2 = $data->pernikahanorgoldalasan;
+        $model->save();
+        var_dump($data);
+    }
+    private function SaveAyahKandung()
+    {
+        $data = $this->data['ayahkandung'];
+        $model = new ModelAyahKandung;
+        $model->id_personil = $this->lastId;
+        $model->nama = $data->pernikahannama;
+        $model->nick = $data->pernikahanalias;
+        $model->tmp_lahir = $data->pernikahantempat;
+        $model->tgl_lahir = $data->pernikahantanggal;
+        $model->suku = $data->pernikahansuku;
+        $model->kewarganegaraan = $data->pernikahankwn;
+        // $model->cara_kewarganegaraan = $data->cara_memperoleh;
+        $model->agama = $data->pernikahanagamanow;
+        $model->agama_sebelumnya = $data->pernikahanagamaold;
+        $model->aliran = $data->pernikahanaliran;
+        $model->alamat_1 = $data->pernikahannowalamat;
+        $model->alamat_2 = $data->pernikahanoldalamat;
+        $model->pendidikan = $data->pernikahanpendidikan;
+        $model->pasangan_ke = $data->pernikahantotal;
+        $model->alamat_kantor = $data->pernikahankantor;
+        $model->jabatan_kantor = $data->pernikahanjabatan;
+        $model->org1 = $data->pernikahanorgnow;
+        $model->org2 = $data->pernikahanorgold;
+        $model->kedudukan_org1 = $data->pernikahanorgnowkedudukan;
+        $model->kedudukan_org2 = $data->pernikahanorgoldkedudukan;
+        $model->kapan_org1 = $data->pernikahanorgnowkapan;
+        $model->lama_org2 = $data->pernikahanorgoldkapan;
+        $model->alasan_org1 = $data->pernikahanorgnowalasan;
+        $model->alasan_org2 = $data->pernikahanorgoldalasan;
+        $model->save();
         var_dump($data);
     }
 }

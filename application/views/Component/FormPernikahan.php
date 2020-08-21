@@ -38,6 +38,12 @@
 	</div>
 	<div class="col-md-12">
 		<div class="form-group">
+			<label>Kewarganegaraan</label>
+			<input type="text" name="pernikahan['cara_memperoleh']" class="form-control" required=""/>
+		</div>
+	</div>
+	<div class="col-md-12">
+		<div class="form-group">
 			<label>Agama yang Dianut Saat Ini</label>
 			<input type="text" name="pernikahan['agama_now']" class="form-control" required=""/>
 		</div>
