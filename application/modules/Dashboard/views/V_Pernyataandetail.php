@@ -5,4 +5,4 @@
     <div class="col-12">
         <?php cardDataDiri() ?>
     </div>
-</div>
+</div>  
