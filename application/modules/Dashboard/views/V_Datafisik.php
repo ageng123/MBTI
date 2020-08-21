@@ -5,7 +5,7 @@
         <li class="breadcrumb-item">
             <a href="<?= base_url('Dashboard/index/'); ?>">Home</a>
         </li>
-        <li class="breadcrumb-item active" aria-current="page">Datafisik</li>
+        <li class="breadcrumb-item active" aria-current="page">Data Fisik</li>
     </ol>
 </nav>
 <div class="table-responsive">

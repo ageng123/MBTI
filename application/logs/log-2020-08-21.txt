@@ -1092,3 +1092,164 @@ INFO - 2020-08-21 12:57:02 --> File loaded: C:/xampp/htdocs/MBTI/application/mod
 INFO - 2020-08-21 12:57:02 --> File loaded: C:/xampp/htdocs/MBTI/application/modules/Templates/views/Template.php
 INFO - 2020-08-21 12:57:02 --> Final output sent to browser
 DEBUG - 2020-08-21 12:57:02 --> Total execution time: 0.5274
+INFO - 2020-08-21 13:00:03 --> Config Class Initialized
+INFO - 2020-08-21 13:00:03 --> Hooks Class Initialized
+DEBUG - 2020-08-21 13:00:03 --> UTF-8 Support Enabled
+INFO - 2020-08-21 13:00:03 --> Utf8 Class Initialized
+INFO - 2020-08-21 13:00:03 --> URI Class Initialized
+INFO - 2020-08-21 13:00:03 --> Router Class Initialized
+INFO - 2020-08-21 13:00:03 --> Output Class Initialized
+INFO - 2020-08-21 13:00:04 --> Security Class Initialized
+DEBUG - 2020-08-21 13:00:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-21 13:00:04 --> CSRF cookie sent
+INFO - 2020-08-21 13:00:04 --> Input Class Initialized
+INFO - 2020-08-21 13:00:04 --> Language Class Initialized
+INFO - 2020-08-21 13:00:04 --> Loader Class Initialized
+INFO - 2020-08-21 13:00:04 --> Helper loaded: form_helper
+INFO - 2020-08-21 13:00:04 --> Helper loaded: url_helper
+INFO - 2020-08-21 13:00:04 --> Helper loaded: html_helper
+INFO - 2020-08-21 13:00:04 --> Helper loaded: file_helper
+INFO - 2020-08-21 13:00:04 --> Helper loaded: component_helper
+INFO - 2020-08-21 13:00:04 --> Helper loaded: date_helper
+INFO - 2020-08-21 13:00:04 --> Database Driver Class Initialized
+INFO - 2020-08-21 13:00:04 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-21 13:00:04 --> Email Class Initialized
+INFO - 2020-08-21 13:00:04 --> Parser Class Initialized
+INFO - 2020-08-21 13:00:04 --> Controller Class Initialized
+DEBUG - 2020-08-21 13:00:04 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-21 13:00:04 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-21 13:00:04 --> Encryption Class Initialized
+INFO - 2020-08-21 13:00:04 --> Model "M_Datafisik" initialized
+INFO - 2020-08-21 13:00:04 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/Card_Identity.php
+INFO - 2020-08-21 13:00:04 --> File loaded: C:/xampp/htdocs/MBTI/application/modules/Dashboard/views/V_Datafisikdetail.php
+INFO - 2020-08-21 13:00:04 --> File loaded: C:/xampp/htdocs/MBTI/application/modules/Templates/views/Template.php
+INFO - 2020-08-21 13:00:04 --> Final output sent to browser
+DEBUG - 2020-08-21 13:00:04 --> Total execution time: 0.9113
+INFO - 2020-08-21 13:00:08 --> Config Class Initialized
+INFO - 2020-08-21 13:00:08 --> Hooks Class Initialized
+DEBUG - 2020-08-21 13:00:08 --> UTF-8 Support Enabled
+INFO - 2020-08-21 13:00:08 --> Utf8 Class Initialized
+INFO - 2020-08-21 13:00:08 --> URI Class Initialized
+INFO - 2020-08-21 13:00:08 --> Router Class Initialized
+INFO - 2020-08-21 13:00:08 --> Output Class Initialized
+INFO - 2020-08-21 13:00:08 --> Security Class Initialized
+DEBUG - 2020-08-21 13:00:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-21 13:00:08 --> CSRF cookie sent
+INFO - 2020-08-21 13:00:08 --> Input Class Initialized
+INFO - 2020-08-21 13:00:08 --> Language Class Initialized
+INFO - 2020-08-21 13:00:08 --> Loader Class Initialized
+INFO - 2020-08-21 13:00:08 --> Helper loaded: form_helper
+INFO - 2020-08-21 13:00:08 --> Helper loaded: url_helper
+INFO - 2020-08-21 13:00:08 --> Helper loaded: html_helper
+INFO - 2020-08-21 13:00:08 --> Helper loaded: file_helper
+INFO - 2020-08-21 13:00:08 --> Helper loaded: component_helper
+INFO - 2020-08-21 13:00:08 --> Helper loaded: date_helper
+INFO - 2020-08-21 13:00:08 --> Database Driver Class Initialized
+INFO - 2020-08-21 13:00:08 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-21 13:00:08 --> Email Class Initialized
+INFO - 2020-08-21 13:00:08 --> Parser Class Initialized
+INFO - 2020-08-21 13:00:08 --> Controller Class Initialized
+DEBUG - 2020-08-21 13:00:08 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-21 13:00:08 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-21 13:00:08 --> Encryption Class Initialized
+INFO - 2020-08-21 13:00:08 --> Model "M_Datafisik" initialized
+INFO - 2020-08-21 13:00:08 --> File loaded: C:/xampp/htdocs/MBTI/application/modules/Dashboard/views/V_Datafisik.php
+INFO - 2020-08-21 13:00:08 --> File loaded: C:/xampp/htdocs/MBTI/application/modules/Templates/views/Template.php
+INFO - 2020-08-21 13:00:08 --> Final output sent to browser
+DEBUG - 2020-08-21 13:00:08 --> Total execution time: 0.6119
+INFO - 2020-08-21 13:00:31 --> Config Class Initialized
+INFO - 2020-08-21 13:00:31 --> Hooks Class Initialized
+DEBUG - 2020-08-21 13:00:31 --> UTF-8 Support Enabled
+INFO - 2020-08-21 13:00:31 --> Utf8 Class Initialized
+INFO - 2020-08-21 13:00:31 --> URI Class Initialized
+INFO - 2020-08-21 13:00:31 --> Router Class Initialized
+INFO - 2020-08-21 13:00:31 --> Output Class Initialized
+INFO - 2020-08-21 13:00:31 --> Security Class Initialized
+DEBUG - 2020-08-21 13:00:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-21 13:00:31 --> CSRF cookie sent
+INFO - 2020-08-21 13:00:31 --> Input Class Initialized
+INFO - 2020-08-21 13:00:31 --> Language Class Initialized
+INFO - 2020-08-21 13:00:31 --> Loader Class Initialized
+INFO - 2020-08-21 13:00:31 --> Helper loaded: form_helper
+INFO - 2020-08-21 13:00:31 --> Helper loaded: url_helper
+INFO - 2020-08-21 13:00:31 --> Helper loaded: html_helper
+INFO - 2020-08-21 13:00:31 --> Helper loaded: file_helper
+INFO - 2020-08-21 13:00:31 --> Helper loaded: component_helper
+INFO - 2020-08-21 13:00:31 --> Helper loaded: date_helper
+INFO - 2020-08-21 13:00:31 --> Database Driver Class Initialized
+INFO - 2020-08-21 13:00:31 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-21 13:00:31 --> Email Class Initialized
+INFO - 2020-08-21 13:00:31 --> Parser Class Initialized
+INFO - 2020-08-21 13:00:31 --> Controller Class Initialized
+DEBUG - 2020-08-21 13:00:31 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-21 13:00:31 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-21 13:00:31 --> Encryption Class Initialized
+INFO - 2020-08-21 13:00:31 --> Model "M_Mutasi" initialized
+INFO - 2020-08-21 13:00:31 --> File loaded: C:/xampp/htdocs/MBTI/application/modules/Dashboard/views/V_pelanggaran.php
+INFO - 2020-08-21 13:00:31 --> File loaded: C:/xampp/htdocs/MBTI/application/modules/Templates/views/Template.php
+INFO - 2020-08-21 13:00:31 --> Final output sent to browser
+DEBUG - 2020-08-21 13:00:31 --> Total execution time: 0.6463
+INFO - 2020-08-21 13:00:46 --> Config Class Initialized
+INFO - 2020-08-21 13:00:46 --> Hooks Class Initialized
+DEBUG - 2020-08-21 13:00:46 --> UTF-8 Support Enabled
+INFO - 2020-08-21 13:00:46 --> Utf8 Class Initialized
+INFO - 2020-08-21 13:00:46 --> URI Class Initialized
+INFO - 2020-08-21 13:00:46 --> Router Class Initialized
+INFO - 2020-08-21 13:00:46 --> Output Class Initialized
+INFO - 2020-08-21 13:00:46 --> Security Class Initialized
+DEBUG - 2020-08-21 13:00:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-21 13:00:46 --> CSRF cookie sent
+INFO - 2020-08-21 13:00:46 --> Input Class Initialized
+INFO - 2020-08-21 13:00:46 --> Language Class Initialized
+INFO - 2020-08-21 13:00:46 --> Loader Class Initialized
+INFO - 2020-08-21 13:00:46 --> Helper loaded: form_helper
+INFO - 2020-08-21 13:00:46 --> Helper loaded: url_helper
+INFO - 2020-08-21 13:00:46 --> Helper loaded: html_helper
+INFO - 2020-08-21 13:00:46 --> Helper loaded: file_helper
+INFO - 2020-08-21 13:00:46 --> Helper loaded: component_helper
+INFO - 2020-08-21 13:00:46 --> Helper loaded: date_helper
+INFO - 2020-08-21 13:00:46 --> Database Driver Class Initialized
+INFO - 2020-08-21 13:00:46 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-21 13:00:46 --> Email Class Initialized
+INFO - 2020-08-21 13:00:46 --> Parser Class Initialized
+INFO - 2020-08-21 13:00:46 --> Controller Class Initialized
+DEBUG - 2020-08-21 13:00:46 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-21 13:00:46 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-21 13:00:46 --> Encryption Class Initialized
+INFO - 2020-08-21 13:00:46 --> Model "M_Datafisik" initialized
+INFO - 2020-08-21 13:00:47 --> File loaded: C:/xampp/htdocs/MBTI/application/modules/Dashboard/views/V_Datafisik.php
+INFO - 2020-08-21 13:00:47 --> File loaded: C:/xampp/htdocs/MBTI/application/modules/Templates/views/Template.php
+INFO - 2020-08-21 13:00:47 --> Final output sent to browser
+DEBUG - 2020-08-21 13:00:47 --> Total execution time: 0.6766
+INFO - 2020-08-21 13:02:35 --> Config Class Initialized
+INFO - 2020-08-21 13:02:35 --> Hooks Class Initialized
+DEBUG - 2020-08-21 13:02:35 --> UTF-8 Support Enabled
+INFO - 2020-08-21 13:02:35 --> Utf8 Class Initialized
+INFO - 2020-08-21 13:02:35 --> URI Class Initialized
+INFO - 2020-08-21 13:02:35 --> Router Class Initialized
+INFO - 2020-08-21 13:02:35 --> Output Class Initialized
+INFO - 2020-08-21 13:02:35 --> Security Class Initialized
+DEBUG - 2020-08-21 13:02:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-21 13:02:35 --> CSRF cookie sent
+INFO - 2020-08-21 13:02:35 --> Input Class Initialized
+INFO - 2020-08-21 13:02:35 --> Language Class Initialized
+INFO - 2020-08-21 13:02:35 --> Loader Class Initialized
+INFO - 2020-08-21 13:02:36 --> Helper loaded: form_helper
+INFO - 2020-08-21 13:02:36 --> Helper loaded: url_helper
+INFO - 2020-08-21 13:02:36 --> Helper loaded: html_helper
+INFO - 2020-08-21 13:02:36 --> Helper loaded: file_helper
+INFO - 2020-08-21 13:02:36 --> Helper loaded: component_helper
+INFO - 2020-08-21 13:02:36 --> Helper loaded: date_helper
+INFO - 2020-08-21 13:02:36 --> Database Driver Class Initialized
+INFO - 2020-08-21 13:02:36 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-21 13:02:36 --> Email Class Initialized
+INFO - 2020-08-21 13:02:36 --> Parser Class Initialized
+INFO - 2020-08-21 13:02:36 --> Controller Class Initialized
+DEBUG - 2020-08-21 13:02:36 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-21 13:02:36 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-21 13:02:36 --> Encryption Class Initialized
+INFO - 2020-08-21 13:02:36 --> Model "M_Datafisik" initialized
+INFO - 2020-08-21 13:02:36 --> File loaded: C:/xampp/htdocs/MBTI/application/modules/Dashboard/views/V_Datafisik.php
+INFO - 2020-08-21 13:02:36 --> File loaded: C:/xampp/htdocs/MBTI/application/modules/Templates/views/Template.php
+INFO - 2020-08-21 13:02:36 --> Final output sent to browser
+DEBUG - 2020-08-21 13:02:36 --> Total execution time: 1.0342
