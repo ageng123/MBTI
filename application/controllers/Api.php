@@ -5,6 +5,7 @@ class Api extends CI_Controller {
     protected $data = [
 
     ];
+    protected $lastId;
     public function __construct()
     {
         parent::__construct();
@@ -14,7 +15,7 @@ class Api extends CI_Controller {
         $config['max_width']            = 1024;
         $config['max_height']           = 768;
         $this->load->library('upload', $config);
-        $this->load->model(['modelpernyataan']);
+        $this->load->model(['modelpernyataan', 'ModelPendidikan', 'ModelRiwayatPekerjaan']);
     }
     private function statuscode($status, $message){
         switch($status){
@@ -56,7 +57,12 @@ class Api extends CI_Controller {
         $this->data['ibutiri'] = json_decode($data->ibutiri);
         $this->data['mertualaki'] = json_decode($data->mertualaki);
         $this->data['meruaperempuan'] = json_decode($data->mertuaperempuan);
-        $this->saveIdentity();
+        // $this->saveIdentity();
+        // $this->PendidikanUmum();
+        // $this->PendidikanDinas();
+        // $this->PendidikanLain();
+        // $this->RiwayatPekerjaan();
+        $this->RiwayatPekerjaanDinas();
         
     }
     private function saveIdentity()
@@ -79,14 +85,94 @@ class Api extends CI_Controller {
         $model->kebiasaan = $data->kebiasaan;
         $model->bahasa = $data->bahasa;
         $model->stat = $data->status;
-        $model->no_identitas = $data->nokmoridentitas;
-        // $model->alamatkantor = $data->alamatkantor;
-        // $model->alamatktp = $data->alamatktp;
+        $model->no_identitas = $data->nomoridentitas;
+        $model->alamat_kantor = $data->alamatkantor;
+        $model->alamat_ktp = $data->alamatktp;
+        $model->tanggal_nikah = $data->tanggalnikah;
+        $model->tempat_nikah = $data->tempatnikah;
+        $model->total_nikah = $data->jumlahnikah;
+        $model->jml_anak = $data->jumlahanak;
         $model->save();
-        $modelpi = new model_personal;
-        $modelpi->id_personil = $model->lastId();
-        $modelpi->alamat = $data->alamatkantor;
-        $modelpi->save();
+        $this->lastId = $model->lastId();
+    }
+    private function PendidikanUmum()
+    {
+        $data = $this->data['pendidikanumum'];
+        foreach($data as $key => $value)
+        {
+            $model = new ModelPendidikanUmum;
+            $model->id_personil = $this->lastId;
+            $model->nama = $value->namasekolah;
+            $model->tahun = $value->tahunsekolah;
+            $model->tempat = $value->tempatsekolah;
+            $model->biaya = $value->biayasekolah;
+            $model->keterangan = $value->keterangansekolah;
+            $model->seq = (int)$key + 1;
+            $model->save();
+        }
+    }
+    private function PendidikanDinas()
+    {
+        $data = $this->data['pendidikandinas'];
+        foreach($data as $key => $value):
+            $model = new ModelPendidikanDinas;
+            $model->id_personil = $this->lastId;
+            $model->nama = $value->namasekolahdinas;
+            $model->tahun = $value->tahunsekolahdinas;
+            $model->tempat = $value->kotasekolahdinas;
+            $model->rangka = $value->rangkasekolahdinas;
+            $model->keterangan = $value->keterangansekolahdinas;
+            $model->seq = (int)$key + 1;
+            $model->save();
+        endforeach;
+    }
+    private function PendidikanLain()
+    {
+        $data = $this->data['pendidikanlain'];
+        foreach($data as $key => $value):
+            $model = new ModelPendidikanLain;
+            $model->id_personil = $this->lastId;
+            $model->nama = $value->sekolahlainnama;
+            $model->tahun = $value->tahunsekolahlain;
+            $model->tempat = $value->tempatsekolahlain;
+            $model->penyelenggara = $value->penyelenggarasekolahlain;
+            $model->keterangan = $value->keterangansekolahlain;
+            $model->seq = (int)$key + 1;
+            $model->save();
+        endforeach;
+        var_dump($data);
+    }
+    private function RiwayatPekerjaan()
+    {
+        $data = $this->data['riwayatkerja'];
+        foreach($data as $key => $value):
+            $model = new ModelRiwayatPekerjaan;
+            $model->id_personil = $this->lastId;
+            $model->instansi = $value->instansikerja;
+            $model->jabatan = $value->namapekerjaan;
+            $model->pangkat = $value->pangkatpekerjaan;
+            $model->tahun = $value->tahunkerja;
+            $model->keterangan = $value->keterangankerja;
+            $model->seq = (int)$key + 1;
+            $model->save();
+        endforeach;
+        var_dump($data);
+    }
+    private function RiwayatPekerjaanDinas()
+    {
+        $data = $this->data['riwayatkerjadinas'];
+        foreach($data as $key => $value):
+            $model = new ModelRiwayatPekerjaanDinas;
+            $model->id_personil = $this->lastId;
+            $model->nama = $value->namakerjadinas;
+            $model->instansi = $value->instansikerjadinas;
+            $model->rangka = $value->rangkakerjadinas;
+            $model->tahun = $value->tahunkerjadinas;
+            $model->keterangan = $value->keterangankerjadinas;
+            $model->seq = (int)$key + 1;
+            $model->save();
+        endforeach;
+        var_dump($data);
     }
 }
 ?>
