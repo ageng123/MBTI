@@ -74,7 +74,7 @@ class Api extends CI_Controller {
         $this->SaveIbuTiri();
         $this->SaveMertuaLaki();
         $this->SaveMertuaPerempuan();
-        
+
     }
     private function saveIdentity()
     {
@@ -361,7 +361,7 @@ class Api extends CI_Controller {
         $model->alamatsekarang_ibukandung = $data->ibukandungalamat;
         $model->alamatsebelum_ibukandung = $data->ibukandungoldalamat;
         $model->pendidikanterakhir_ibukandung = $data->ibukandungpendidikan;
-        // $model->alamatkantor_ibukandung = $data->ibukandungalamatkantor;
+        $model->alamatkantor_ibukandung = $data->ibukandungalamatkantor;
         $model->pekerjaanterakhir_ibukandung = $data->ibukandungpekerjaan;
         $model->pekerjaansebelum_ibukandung = $data->ibukandungoldpekerjaan;
         $model->organisasidiikuti_ibukandung = $data->ibukandungorgnownama;
@@ -369,7 +369,7 @@ class Api extends CI_Controller {
         $model->kedudukanorganisasi_ibukandung = $data->ibukandungorgnowkedudukan;
         $model->kedudukanpernah_ibukandung = $data->ibukandungoldorgkedudukan;
         $model->sejakorganisasi_ibukandung = $data->ibukandungorgnowkapan;
-        // $model->lamaorganisasi_ibukandung = $data->ibukandungoldorglama;
+        $model->lamaorganisasi_ibukandung = $data->ibukandungoldorglama;
         $model->alasanorganisasi_ibukandung = $data->ibukandungorgnowalasan;
         $model->alasanpernah_ibukandung = $data->ibukandungoldorgalasan;
         $model->alasanmeninggal_ibukandung = $data->ibukandungalasanmeninggal ? $data->ibukandungalasanmeninggal : 'Belum Meninggal';
@@ -393,7 +393,7 @@ class Api extends CI_Controller {
         $model->alamatsekarang_ibutiiri = $data->ibutiirialamat;
         $model->alamatsebelum_ibutiiri = $data->ibutiirioldalamat;
         $model->pendidikanterakhir_ibutiiri = $data->ibutiiripendidikan;
-        // $model->kantor_ibutiiri = $data->ibutiirialamatkantor;
+        $model->kantor_ibutiiri = $data->ibutiirialamatkantor;
         $model->pekerjaanterakhir_ibutiiri = $data->ibutiiripekerjaan;
         $model->pekerjaansebelum_ibutiiri = $data->ibutiirioldpekerjaan;
         $model->organisasidiikuti_ibutiiri = $data->ibutiiriorgnownama;
@@ -401,7 +401,7 @@ class Api extends CI_Controller {
         $model->kedudukanorganisasi_ibutiiri = $data->ibutiiriorgnowkedudukan;
         $model->kedudukanpernah_ibutiiri = $data->ibutiirioldorgkedudukan;
         $model->kapanorganisasi_ibutiiri = $data->ibutiiriorgnowkapan;
-        // $model->lamapernah_ibutiiri = $data->ibutiirioldorglama;
+        $model->lamapernah_ibutiiri = $data->ibutiirioldorglama;
         $model->alasanorganisasi_ibutiiri = $data->ibutiiriorgnowalasan;
         $model->alasanpernah_ibutiiri = $data->ibutiirioldorgalasan;
         $model->alasanmeninggal_ibutiiri = $data->ibutiirialasanmeninggal ? $data->ibutiirialasanmeninggal : 'Belum Meninggal';
@@ -425,7 +425,7 @@ class Api extends CI_Controller {
         $model->alamatsekarang_mertualaki = $data->mertualakialamat;
         $model->alamatsebelum_mertualaki = $data->mertualakioldalamat;
         $model->pendidikanterakhir_mertualaki = $data->mertualakipendidikan;
-        // $model->alamatkantor_mertualaki = $data->mertualakialamatkantor;
+        $model->alamatkantor_mertualaki = $data->mertualakialamatkantor;
         $model->pekerjaanterakhir_mertualaki = $data->mertualakipekerjaan;
         $model->pekerjaansebelum_mertualaki = $data->mertualakioldpekerjaan;
         $model->organisasidiikuti_mertualaki = $data->mertualakiorgnownama;
@@ -433,7 +433,7 @@ class Api extends CI_Controller {
         $model->kedudukanorganisasi_mertualaki = $data->mertualakiorgnowkedudukan;
         $model->kedudukanpernah_mertualaki = $data->mertualakioldorgkedudukan;
         $model->kapanorganisasi_mertualaki = $data->mertualakiorgnowkapan;
-        // $model->lamapernah_mertualaki = $data->mertualakioldorglama;
+        $model->lamapernah_mertualaki = $data->mertualakioldorglama;
         $model->alasanorganisasi_mertualaki = $data->mertualakiorgnowalasan;
         $model->alasanpernah_mertualaki = $data->mertualakioldorgalasan;
         $model->alasanmeninggal_mertualaki = $data->mertualakialasanmeninggal ? $data->mertualakialasanmeninggal : 'Belum Meninggal';
@@ -457,7 +457,7 @@ class Api extends CI_Controller {
         $model->alamatsekarang_mertuaperempuan = $data->mertuaperempuanalamat;
         $model->alamatsebelum_mertuaperempuan = $data->mertuaperempuanoldalamat;
         $model->pendidikanterakhir_mertuaperempuan = $data->mertuaperempuanpendidikan;
-        // $model->alamatkantor_mertuaperempuan = $data->mertuaperempuanalamatkantor;
+        $model->alamatkantor_mertuaperempuan = $data->mertuaperempuanalamatkantor;
         $model->pekerjaanterakhir_mertuaperempuan = $data->mertuaperempuanpekerjaan;
         $model->pekerjaansebelum_mertuaperempuan = $data->mertuaperempuanoldpekerjaan;
         $model->organisasidiikuti_mertuaperempuan = $data->mertuaperempuanorgnownama;
@@ -465,7 +465,7 @@ class Api extends CI_Controller {
         $model->kedudukanorganisasi_mertuaperempuan = $data->mertuaperempuanorgnowkedudukan;
         $model->kedudukanpernah_mertuaperempuan = $data->mertuaperempuanoldorgkedudukan;
         $model->kapanorganisasi_mertuaperempuan = $data->mertuaperempuanorgnowkapan;
-        // $model->lamapernah_mertuaperempuan = $data->mertuaperempuanoldorglama;
+        $model->lamapernah_mertuaperempuan = $data->mertuaperempuanoldorglama;
         $model->alasanorganisasi_mertuaperempuan = $data->mertuaperempuanorgnowalasan;
         $model->alasanpernah_mertuaperempuan = $data->mertuaperempuanoldorgalasan;
         $model->alasanmeninggal_mertuaperempuan = $data->mertuaperempuanalasanmeninggal ? $data->mertuaperempuanalasanmeninggal : 'Belum Meninggal';

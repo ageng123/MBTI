@@ -130,11 +130,8 @@
                                 </a>
                             </li>
                             <li class="sidebar-item">
-<<<<<<< HEAD
                                 <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('Dashboard/Pelanggaran/index/'); ?>" aria-expanded="false">
-=======
                                 <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('Dashboard/Datafisik/index/'); ?>" aria-expanded="false">
->>>>>>> a0a695a3b6a41a16eb3f089a47e2910c7f01a38c
                                     <i class="icon-Receipt"></i>
                                     <span class="hide-menu">Data Fisik Anggota</span>
                                 </a>
