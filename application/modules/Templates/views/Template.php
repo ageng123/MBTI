@@ -107,13 +107,13 @@
                             </li>
                             <li class="sidebar-item">
                                 <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('User_Manage/index/'); ?>" aria-expanded="false">
-                                    <i class="icon-Receipt"></i>
+                                    <i class="fas fa-users"></i>
                                     <span class="hide-menu">User Management</span>
                                 </a>
                             </li>
                             <li class="sidebar-item">
                                 <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('Dashboard/Pernyataan/index/'); ?>" aria-expanded="false">
-                                    <i class="icon-Receipt"></i>
+                                    <i class="fas fa-hockey-puck"></i>
                                     <span class="hide-menu">Data Diri Anggota</span>
                                 </a>
                             </li>
@@ -125,14 +125,13 @@
                             </li>
                             <li class="sidebar-item">
                                 <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('Dashboard/Pelanggaran/index/'); ?>" aria-expanded="false">
-                                    <i class="icon-Receipt"></i>
+                                <i class="fas fa-exclamation-triangle"></i>
                                     <span class="hide-menu">Pelanggaran Anggota</span>
                                 </a>
                             </li>
                             <li class="sidebar-item">
-                                <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('Dashboard/Pelanggaran/index/'); ?>" aria-expanded="false">
                                 <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('Dashboard/Datafisik/index/'); ?>" aria-expanded="false">
-                                    <i class="icon-Receipt"></i>
+                                <i class="fas fa-universal-access"></i>
                                     <span class="hide-menu">Data Fisik Anggota</span>
                                 </a>
                             </li>
