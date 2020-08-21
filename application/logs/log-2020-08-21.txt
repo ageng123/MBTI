@@ -5951,3 +5951,274 @@ DEBUG - 2020-08-21 13:02:36 --> Total execution time: 1.0342
 >>>>>>> a0a695a3b6a41a16eb3f089a47e2910c7f01a38c
 =======
 >>>>>>> parent of 4ab4ff9... Update API.
+INFO - 2020-08-21 14:04:42 --> Config Class Initialized
+INFO - 2020-08-21 14:04:42 --> Hooks Class Initialized
+DEBUG - 2020-08-21 14:04:42 --> UTF-8 Support Enabled
+INFO - 2020-08-21 14:04:42 --> Utf8 Class Initialized
+INFO - 2020-08-21 14:04:42 --> URI Class Initialized
+INFO - 2020-08-21 14:04:42 --> Router Class Initialized
+INFO - 2020-08-21 14:04:42 --> Output Class Initialized
+INFO - 2020-08-21 14:04:42 --> Security Class Initialized
+DEBUG - 2020-08-21 14:04:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-21 14:04:42 --> Input Class Initialized
+INFO - 2020-08-21 14:04:42 --> Language Class Initialized
+INFO - 2020-08-21 14:04:42 --> Loader Class Initialized
+INFO - 2020-08-21 14:04:42 --> Helper loaded: form_helper
+INFO - 2020-08-21 14:04:42 --> Helper loaded: url_helper
+INFO - 2020-08-21 14:04:42 --> Helper loaded: html_helper
+INFO - 2020-08-21 14:04:42 --> Helper loaded: file_helper
+INFO - 2020-08-21 14:04:42 --> Helper loaded: component_helper
+INFO - 2020-08-21 14:04:42 --> Helper loaded: date_helper
+INFO - 2020-08-21 14:04:42 --> Database Driver Class Initialized
+INFO - 2020-08-21 14:04:44 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-21 14:04:44 --> Email Class Initialized
+INFO - 2020-08-21 14:04:44 --> Parser Class Initialized
+INFO - 2020-08-21 14:04:44 --> Controller Class Initialized
+INFO - 2020-08-21 14:04:44 --> Upload Class Initialized
+INFO - 2020-08-21 14:04:44 --> Model "modelpernyataan" initialized
+INFO - 2020-08-21 14:04:44 --> Model "ModelPendidikan" initialized
+INFO - 2020-08-21 14:04:44 --> Model "ModelRiwayatPekerjaan" initialized
+ERROR - 2020-08-21 14:04:44 --> Severity: error --> Exception: Unable to locate the model you have specified: ModelTempatTinggal D:\Project\Mbtni\system\core\Loader.php 348
+INFO - 2020-08-21 14:05:11 --> Config Class Initialized
+INFO - 2020-08-21 14:05:11 --> Hooks Class Initialized
+DEBUG - 2020-08-21 14:05:11 --> UTF-8 Support Enabled
+INFO - 2020-08-21 14:05:11 --> Utf8 Class Initialized
+INFO - 2020-08-21 14:05:11 --> URI Class Initialized
+INFO - 2020-08-21 14:05:11 --> Router Class Initialized
+INFO - 2020-08-21 14:05:11 --> Output Class Initialized
+INFO - 2020-08-21 14:05:11 --> Security Class Initialized
+DEBUG - 2020-08-21 14:05:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-21 14:05:11 --> Input Class Initialized
+INFO - 2020-08-21 14:05:11 --> Language Class Initialized
+INFO - 2020-08-21 14:05:11 --> Loader Class Initialized
+INFO - 2020-08-21 14:05:11 --> Helper loaded: form_helper
+INFO - 2020-08-21 14:05:11 --> Helper loaded: url_helper
+INFO - 2020-08-21 14:05:11 --> Helper loaded: html_helper
+INFO - 2020-08-21 14:05:11 --> Helper loaded: file_helper
+INFO - 2020-08-21 14:05:11 --> Helper loaded: component_helper
+INFO - 2020-08-21 14:05:11 --> Helper loaded: date_helper
+INFO - 2020-08-21 14:05:11 --> Database Driver Class Initialized
+INFO - 2020-08-21 14:05:13 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-21 14:05:13 --> Email Class Initialized
+INFO - 2020-08-21 14:05:13 --> Parser Class Initialized
+INFO - 2020-08-21 14:05:13 --> Controller Class Initialized
+INFO - 2020-08-21 14:05:13 --> Upload Class Initialized
+INFO - 2020-08-21 14:05:13 --> Model "modelpernyataan" initialized
+INFO - 2020-08-21 14:05:13 --> Model "ModelPendidikan" initialized
+INFO - 2020-08-21 14:05:13 --> Model "ModelRiwayatPekerjaan" initialized
+INFO - 2020-08-21 14:05:13 --> Model "ModelRiwayat" initialized
+INFO - 2020-08-21 14:05:13 --> Final output sent to browser
+DEBUG - 2020-08-21 14:05:13 --> Total execution time: 2.1250
+INFO - 2020-08-21 14:11:46 --> Config Class Initialized
+INFO - 2020-08-21 14:11:46 --> Hooks Class Initialized
+DEBUG - 2020-08-21 14:11:46 --> UTF-8 Support Enabled
+INFO - 2020-08-21 14:11:46 --> Utf8 Class Initialized
+INFO - 2020-08-21 14:11:46 --> URI Class Initialized
+INFO - 2020-08-21 14:11:46 --> Router Class Initialized
+INFO - 2020-08-21 14:11:46 --> Output Class Initialized
+INFO - 2020-08-21 14:11:46 --> Security Class Initialized
+DEBUG - 2020-08-21 14:11:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-21 14:11:46 --> Input Class Initialized
+INFO - 2020-08-21 14:11:46 --> Language Class Initialized
+INFO - 2020-08-21 14:11:46 --> Loader Class Initialized
+INFO - 2020-08-21 14:11:46 --> Helper loaded: form_helper
+INFO - 2020-08-21 14:11:46 --> Helper loaded: url_helper
+INFO - 2020-08-21 14:11:46 --> Helper loaded: html_helper
+INFO - 2020-08-21 14:11:46 --> Helper loaded: file_helper
+INFO - 2020-08-21 14:11:46 --> Helper loaded: component_helper
+INFO - 2020-08-21 14:11:46 --> Helper loaded: date_helper
+INFO - 2020-08-21 14:11:46 --> Database Driver Class Initialized
+INFO - 2020-08-21 14:11:48 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-21 14:11:48 --> Email Class Initialized
+INFO - 2020-08-21 14:11:48 --> Parser Class Initialized
+INFO - 2020-08-21 14:11:48 --> Controller Class Initialized
+INFO - 2020-08-21 14:11:48 --> Upload Class Initialized
+INFO - 2020-08-21 14:11:48 --> Model "modelpernyataan" initialized
+INFO - 2020-08-21 14:11:48 --> Model "ModelPendidikan" initialized
+INFO - 2020-08-21 14:11:48 --> Model "ModelRiwayatPekerjaan" initialized
+INFO - 2020-08-21 14:11:48 --> Model "ModelRiwayat" initialized
+ERROR - 2020-08-21 14:11:48 --> Severity: Notice --> Undefined property: stdClass::$pernikahanorgoldalasan D:\Project\Mbtni\application\controllers\Api.php 306
+ERROR - 2020-08-21 14:11:48 --> Query error: Unknown column 'kewarganegaraan' in 'field list' - Invalid query: INSERT INTO `tb_ayahkandung` (`last_update`, `id_personil`, `nama_ayahkandung`, `alias_ayahkandung`, `tempat_ayahkandung`, `tgllahir_ayahkandung`, `suku_ayahkandung`, `kewarganegaraan`, `caramemperoleh_ayahkandung`, `agama_ayahkandung`, `aliran_ayahkandung`, `alamatsekarang_ayahkandung`, `alamatsebelum_ayahkandung`, `pendidikanterakhir_ayahkandung`, `pekerjaan_ayahkandung`, `organisasidiikuti_ayahkandung`, `organisasipernah_ayahkandung`, `kedudukanorganisasi_ayahkandung`, `kedudukanpernah_ayahkandung`, `kapanorganisasi_ayahkandung`, `lamaorganisasi_ayahkandung`, `alasanorganisasi_ayahkandung`, `alasanorganisasipernah_ayahkandung`, `alasanmeninggal_ayahkandung`) VALUES ('2020-08-21 14:11:48', NULL, 'nama ayah kandung', 'alias ayah kandung', 'tempat ayah kandung', '2020-08-18', 'suku ayah kandung', 'kewarganegaraan ayah kandung', 'cara ayah kandung', 'agama ayah kandung', 'aliran ayah kandung', 'KNTOR PAJAK', 'alamat sebelum', 'S1', 'SUPERVISOR', 'ORganisasi 1', 'Organisasi 5', 'Organisasi 2', 'Organisasi 7', 'Organisasi 3', 'Organisasi 8', 'Organisasi 4', NULL, 'Belum Meninggal')
+INFO - 2020-08-21 14:11:48 --> Language file loaded: language/english/db_lang.php
+INFO - 2020-08-21 14:12:26 --> Config Class Initialized
+INFO - 2020-08-21 14:12:26 --> Hooks Class Initialized
+DEBUG - 2020-08-21 14:12:26 --> UTF-8 Support Enabled
+INFO - 2020-08-21 14:12:26 --> Utf8 Class Initialized
+INFO - 2020-08-21 14:12:26 --> URI Class Initialized
+INFO - 2020-08-21 14:12:26 --> Router Class Initialized
+INFO - 2020-08-21 14:12:26 --> Output Class Initialized
+INFO - 2020-08-21 14:12:26 --> Security Class Initialized
+DEBUG - 2020-08-21 14:12:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-21 14:12:26 --> Input Class Initialized
+INFO - 2020-08-21 14:12:26 --> Language Class Initialized
+INFO - 2020-08-21 14:12:26 --> Loader Class Initialized
+INFO - 2020-08-21 14:12:26 --> Helper loaded: form_helper
+INFO - 2020-08-21 14:12:26 --> Helper loaded: url_helper
+INFO - 2020-08-21 14:12:26 --> Helper loaded: html_helper
+INFO - 2020-08-21 14:12:26 --> Helper loaded: file_helper
+INFO - 2020-08-21 14:12:26 --> Helper loaded: component_helper
+INFO - 2020-08-21 14:12:26 --> Helper loaded: date_helper
+INFO - 2020-08-21 14:12:26 --> Database Driver Class Initialized
+INFO - 2020-08-21 14:12:28 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-21 14:12:28 --> Email Class Initialized
+INFO - 2020-08-21 14:12:28 --> Parser Class Initialized
+INFO - 2020-08-21 14:12:28 --> Controller Class Initialized
+INFO - 2020-08-21 14:12:28 --> Upload Class Initialized
+INFO - 2020-08-21 14:12:28 --> Model "modelpernyataan" initialized
+INFO - 2020-08-21 14:12:28 --> Model "ModelPendidikan" initialized
+INFO - 2020-08-21 14:12:28 --> Model "ModelRiwayatPekerjaan" initialized
+INFO - 2020-08-21 14:12:28 --> Model "ModelRiwayat" initialized
+ERROR - 2020-08-21 14:12:28 --> Severity: Notice --> Undefined property: stdClass::$pernikahanorgoldalasan D:\Project\Mbtni\application\controllers\Api.php 306
+INFO - 2020-08-21 14:12:28 --> Final output sent to browser
+DEBUG - 2020-08-21 14:12:28 --> Total execution time: 2.3802
+INFO - 2020-08-21 14:13:27 --> Config Class Initialized
+INFO - 2020-08-21 14:13:27 --> Hooks Class Initialized
+DEBUG - 2020-08-21 14:13:27 --> UTF-8 Support Enabled
+INFO - 2020-08-21 14:13:27 --> Utf8 Class Initialized
+INFO - 2020-08-21 14:13:27 --> URI Class Initialized
+INFO - 2020-08-21 14:13:27 --> Router Class Initialized
+INFO - 2020-08-21 14:13:27 --> Output Class Initialized
+INFO - 2020-08-21 14:13:27 --> Security Class Initialized
+DEBUG - 2020-08-21 14:13:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-21 14:13:27 --> Input Class Initialized
+INFO - 2020-08-21 14:13:27 --> Language Class Initialized
+INFO - 2020-08-21 14:13:27 --> Loader Class Initialized
+INFO - 2020-08-21 14:13:27 --> Helper loaded: form_helper
+INFO - 2020-08-21 14:13:27 --> Helper loaded: url_helper
+INFO - 2020-08-21 14:13:27 --> Helper loaded: html_helper
+INFO - 2020-08-21 14:13:27 --> Helper loaded: file_helper
+INFO - 2020-08-21 14:13:27 --> Helper loaded: component_helper
+INFO - 2020-08-21 14:13:27 --> Helper loaded: date_helper
+INFO - 2020-08-21 14:13:27 --> Database Driver Class Initialized
+INFO - 2020-08-21 14:13:29 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-21 14:13:29 --> Email Class Initialized
+INFO - 2020-08-21 14:13:29 --> Parser Class Initialized
+INFO - 2020-08-21 14:13:29 --> Controller Class Initialized
+INFO - 2020-08-21 14:13:29 --> Upload Class Initialized
+INFO - 2020-08-21 14:13:29 --> Model "modelpernyataan" initialized
+INFO - 2020-08-21 14:13:29 --> Model "ModelPendidikan" initialized
+INFO - 2020-08-21 14:13:29 --> Model "ModelRiwayatPekerjaan" initialized
+INFO - 2020-08-21 14:13:29 --> Model "ModelRiwayat" initialized
+ERROR - 2020-08-21 14:13:29 --> Severity: Notice --> Undefined property: stdClass::$ayahkandungoldorglama D:\Project\Mbtni\application\controllers\Api.php 304
+INFO - 2020-08-21 14:13:29 --> Final output sent to browser
+DEBUG - 2020-08-21 14:13:29 --> Total execution time: 2.2629
+INFO - 2020-08-21 14:13:40 --> Config Class Initialized
+INFO - 2020-08-21 14:13:40 --> Hooks Class Initialized
+DEBUG - 2020-08-21 14:13:40 --> UTF-8 Support Enabled
+INFO - 2020-08-21 14:13:40 --> Utf8 Class Initialized
+INFO - 2020-08-21 14:13:40 --> URI Class Initialized
+INFO - 2020-08-21 14:13:40 --> Router Class Initialized
+INFO - 2020-08-21 14:13:40 --> Output Class Initialized
+INFO - 2020-08-21 14:13:40 --> Security Class Initialized
+DEBUG - 2020-08-21 14:13:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-21 14:13:40 --> Input Class Initialized
+INFO - 2020-08-21 14:13:40 --> Language Class Initialized
+INFO - 2020-08-21 14:13:40 --> Loader Class Initialized
+INFO - 2020-08-21 14:13:40 --> Helper loaded: form_helper
+INFO - 2020-08-21 14:13:40 --> Helper loaded: url_helper
+INFO - 2020-08-21 14:13:40 --> Helper loaded: html_helper
+INFO - 2020-08-21 14:13:40 --> Helper loaded: file_helper
+INFO - 2020-08-21 14:13:40 --> Helper loaded: component_helper
+INFO - 2020-08-21 14:13:40 --> Helper loaded: date_helper
+INFO - 2020-08-21 14:13:40 --> Database Driver Class Initialized
+INFO - 2020-08-21 14:13:42 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-21 14:13:42 --> Email Class Initialized
+INFO - 2020-08-21 14:13:42 --> Parser Class Initialized
+INFO - 2020-08-21 14:13:42 --> Controller Class Initialized
+INFO - 2020-08-21 14:13:42 --> Upload Class Initialized
+INFO - 2020-08-21 14:13:42 --> Model "modelpernyataan" initialized
+INFO - 2020-08-21 14:13:42 --> Model "ModelPendidikan" initialized
+INFO - 2020-08-21 14:13:42 --> Model "ModelRiwayatPekerjaan" initialized
+INFO - 2020-08-21 14:13:42 --> Model "ModelRiwayat" initialized
+INFO - 2020-08-21 14:13:42 --> Final output sent to browser
+DEBUG - 2020-08-21 14:13:42 --> Total execution time: 2.1806
+INFO - 2020-08-21 14:30:11 --> Config Class Initialized
+INFO - 2020-08-21 14:30:11 --> Hooks Class Initialized
+DEBUG - 2020-08-21 14:30:11 --> UTF-8 Support Enabled
+INFO - 2020-08-21 14:30:11 --> Utf8 Class Initialized
+INFO - 2020-08-21 14:30:11 --> URI Class Initialized
+INFO - 2020-08-21 14:30:11 --> Router Class Initialized
+INFO - 2020-08-21 14:30:11 --> Output Class Initialized
+INFO - 2020-08-21 14:30:11 --> Security Class Initialized
+DEBUG - 2020-08-21 14:30:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-21 14:30:11 --> Input Class Initialized
+INFO - 2020-08-21 14:30:11 --> Language Class Initialized
+INFO - 2020-08-21 14:30:11 --> Loader Class Initialized
+INFO - 2020-08-21 14:30:11 --> Helper loaded: form_helper
+INFO - 2020-08-21 14:30:11 --> Helper loaded: url_helper
+INFO - 2020-08-21 14:30:11 --> Helper loaded: html_helper
+INFO - 2020-08-21 14:30:11 --> Helper loaded: file_helper
+INFO - 2020-08-21 14:30:11 --> Helper loaded: component_helper
+INFO - 2020-08-21 14:30:11 --> Helper loaded: date_helper
+INFO - 2020-08-21 14:30:11 --> Database Driver Class Initialized
+INFO - 2020-08-21 14:30:13 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-21 14:30:13 --> Email Class Initialized
+INFO - 2020-08-21 14:30:13 --> Parser Class Initialized
+INFO - 2020-08-21 14:30:13 --> Controller Class Initialized
+INFO - 2020-08-21 14:30:13 --> Upload Class Initialized
+INFO - 2020-08-21 14:30:13 --> Model "modelpernyataan" initialized
+INFO - 2020-08-21 14:30:13 --> Model "ModelPendidikan" initialized
+INFO - 2020-08-21 14:30:13 --> Model "ModelRiwayatPekerjaan" initialized
+INFO - 2020-08-21 14:30:13 --> Model "ModelRiwayat" initialized
+INFO - 2020-08-21 14:30:13 --> Final output sent to browser
+DEBUG - 2020-08-21 14:30:13 --> Total execution time: 2.2738
+INFO - 2020-08-21 14:30:42 --> Config Class Initialized
+INFO - 2020-08-21 14:30:42 --> Hooks Class Initialized
+DEBUG - 2020-08-21 14:30:42 --> UTF-8 Support Enabled
+INFO - 2020-08-21 14:30:42 --> Utf8 Class Initialized
+INFO - 2020-08-21 14:30:42 --> URI Class Initialized
+INFO - 2020-08-21 14:30:42 --> Router Class Initialized
+INFO - 2020-08-21 14:30:42 --> Output Class Initialized
+INFO - 2020-08-21 14:30:42 --> Security Class Initialized
+DEBUG - 2020-08-21 14:30:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-21 14:30:42 --> Input Class Initialized
+INFO - 2020-08-21 14:30:42 --> Language Class Initialized
+INFO - 2020-08-21 14:30:42 --> Loader Class Initialized
+INFO - 2020-08-21 14:30:42 --> Helper loaded: form_helper
+INFO - 2020-08-21 14:30:42 --> Helper loaded: url_helper
+INFO - 2020-08-21 14:30:42 --> Helper loaded: html_helper
+INFO - 2020-08-21 14:30:42 --> Helper loaded: file_helper
+INFO - 2020-08-21 14:30:42 --> Helper loaded: component_helper
+INFO - 2020-08-21 14:30:42 --> Helper loaded: date_helper
+INFO - 2020-08-21 14:30:42 --> Database Driver Class Initialized
+INFO - 2020-08-21 14:30:44 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-21 14:30:44 --> Email Class Initialized
+INFO - 2020-08-21 14:30:44 --> Parser Class Initialized
+INFO - 2020-08-21 14:30:44 --> Controller Class Initialized
+INFO - 2020-08-21 14:30:44 --> Upload Class Initialized
+INFO - 2020-08-21 14:30:44 --> Model "modelpernyataan" initialized
+INFO - 2020-08-21 14:30:44 --> Model "ModelPendidikan" initialized
+INFO - 2020-08-21 14:30:44 --> Model "ModelRiwayatPekerjaan" initialized
+INFO - 2020-08-21 14:30:44 --> Model "ModelRiwayat" initialized
+INFO - 2020-08-21 14:30:44 --> Final output sent to browser
+DEBUG - 2020-08-21 14:30:44 --> Total execution time: 2.1347
+INFO - 2020-08-21 14:37:04 --> Config Class Initialized
+INFO - 2020-08-21 14:37:04 --> Hooks Class Initialized
+DEBUG - 2020-08-21 14:37:04 --> UTF-8 Support Enabled
+INFO - 2020-08-21 14:37:04 --> Utf8 Class Initialized
+INFO - 2020-08-21 14:37:04 --> URI Class Initialized
+INFO - 2020-08-21 14:37:04 --> Router Class Initialized
+INFO - 2020-08-21 14:37:04 --> Output Class Initialized
+INFO - 2020-08-21 14:37:04 --> Security Class Initialized
+DEBUG - 2020-08-21 14:37:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-21 14:37:04 --> Input Class Initialized
+INFO - 2020-08-21 14:37:04 --> Language Class Initialized
+INFO - 2020-08-21 14:37:04 --> Loader Class Initialized
+INFO - 2020-08-21 14:37:04 --> Helper loaded: form_helper
+INFO - 2020-08-21 14:37:04 --> Helper loaded: url_helper
+INFO - 2020-08-21 14:37:04 --> Helper loaded: html_helper
+INFO - 2020-08-21 14:37:04 --> Helper loaded: file_helper
+INFO - 2020-08-21 14:37:04 --> Helper loaded: component_helper
+INFO - 2020-08-21 14:37:04 --> Helper loaded: date_helper
+INFO - 2020-08-21 14:37:04 --> Database Driver Class Initialized
+INFO - 2020-08-21 14:37:06 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-21 14:37:06 --> Email Class Initialized
+INFO - 2020-08-21 14:37:06 --> Parser Class Initialized
+INFO - 2020-08-21 14:37:06 --> Controller Class Initialized
+INFO - 2020-08-21 14:37:06 --> Upload Class Initialized
+INFO - 2020-08-21 14:37:06 --> Model "modelpernyataan" initialized
+INFO - 2020-08-21 14:37:06 --> Model "ModelPendidikan" initialized
+INFO - 2020-08-21 14:37:06 --> Model "ModelRiwayatPekerjaan" initialized
+INFO - 2020-08-21 14:37:06 --> Model "ModelRiwayat" initialized
+INFO - 2020-08-21 14:37:06 --> Final output sent to browser
+DEBUG - 2020-08-21 14:37:06 --> Total execution time: 2.2592

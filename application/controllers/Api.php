@@ -15,7 +15,7 @@ class Api extends CI_Controller {
         $config['max_width']            = 1024;
         $config['max_height']           = 768;
         $this->load->library('upload', $config);
-        $this->load->model(['modelpernyataan', 'ModelPendidikan', 'ModelRiwayatPekerjaan', 'ModelTempatTinggal', 'ModelRiwayat']);
+        $this->load->model(['modelpernyataan', 'ModelPendidikan', 'ModelRiwayatPekerjaan', 'ModelRiwayat']);
     }
     private function statuscode($status, $message){
         switch($status){
@@ -67,9 +67,13 @@ class Api extends CI_Controller {
         // $this->RiwayatOrganisasi();
         // $this->RiwayatPerjuangan();
         // $this->RiwayatPenghargaan();
-        $this->SavePernikahan();
-
-        
+        // $this->SavePernikahan();
+        // $this->SaveAyahKandung();
+        // $this->SaveAyahTiri();
+        // $this->SaveIbuKandung();
+        // $this->SaveIbuTiri();
+        // $this->SaveMertuaLaki();
+        // $this->SaveMertuaPerempuan();
     }
     private function saveIdentity()
     {
@@ -280,32 +284,80 @@ class Api extends CI_Controller {
     {
         $data = $this->data['ayahkandung'];
         $model = new ModelAyahKandung;
-        // $model->id_personil = $this->lastId;
-        // $model->nama_ayahkandung = $data->pernikahannama;
-        // $model->alias_ayahkandung = $data->pernikahanalias;
-        // $model->tempat_ayahkandung = $data->pernikahantempat;
-        // $model->tgllahir_ayahkandung = $data->pernikahantanggal;
-        // $model->suku_ayahkandung = $data->pernikahansuku;
-        // $model->kewarganegaraan = $data->pernikahankwn;
-        // $model->caramemperoleh_ayahkandung = $data->cara_memperoleh;
-        // $model->agama_ayahkandung = $data->pernikahanagamanow;
-        // $model->aliran_ayahkandung = $data->pernikahanaliran;
-        // $model->alamatsekarang_ayahkandung = $data->pernikahannowalamat;
-        // $model->alamatsebelum_ayahkandung = $data->pernikahanoldalamat;
-        // $model->pendidikanterakhir_ayahkandung = $data->pernikahanpendidikan;
-        // $model->alamatkantor_ayahkandung = $data->pernikahankantor;
-        // $model->pekerjaan_ayahkandung = $data->pernikahanjabatan;
-        // $model->organisasidiikuti_ayahkandung = $data->pernikahanorgnow;
-        // $model->organisasipernah_ayahkandung = $data->pernikahanorgold;
-        // $model->kedudukanorganisasi_ayahkandung = $data->pernikahanorgnowkedudukan;
-        // $model->kedudukanpernah_ayahkandung = $data->pernikahanorgoldkedudukan;
-        // $model->kapanorganisasi_ayahkandung = $data->pernikahanorgnowkapan;
-        // $model->lamaorganisasi_ayahkandung = $data->pernikahanorgoldkapan;
-        // $model->alasanorganisasi_ayahkandung = $data->pernikahanorgnowalasan;
-        // $model->alasanorganisasipernah_ayahkandung = $data->pernikahanorgoldalasan;
-        // $model->alasanmeninggal_ayahkandung = $data->pernikahanorgoldalasan ? $data->pernikahanorgoldalasan : 'Belum Meninggal';
-        // $model->save();
+        $model->id_personil = $this->lastId;
+        $model->nama_ayahkandung = $data->ayahkandungnama;
+        $model->alias_ayahkandung = $data->ayahkandungalias;
+        $model->tempat_ayahkandung = $data->ayahkandungtempat;
+        $model->tgllahir_ayahkandung = $data->ayahkandungtanggal;
+        $model->suku_ayahkandung = $data->ayahkandungsuku;
+        $model->kewarganegaraan_ayahkandung = $data->ayahkandungkewarganegaraan;
+        $model->caramemperoleh_ayahkandung = $data->ayahkandungcaramemperoleh;
+        $model->agama_ayahkandung = $data->ayahkandungagama;
+        $model->aliran_ayahkandung = $data->ayahkandungaliran;
+        $model->alamatsekarang_ayahkandung = $data->ayahkandungalamat;
+        $model->alamatsebelum_ayahkandung = $data->ayahkandungoldalamat;
+        $model->pendidikanterakhir_ayahkandung = $data->ayahkandungpendidikan;
+        // $model->alamatkantor_ayahkandung = $data->ayahkandungalamatkantor;
+        $model->pekerjaan_ayahkandung = $data->ayahkandungoldpekerjaan;
+        $model->organisasidiikuti_ayahkandung = $data->ayahkandungorgnownama;
+        $model->organisasipernah_ayahkandung = $data->ayahkandungoldorgnama;
+        $model->kedudukanorganisasi_ayahkandung = $data->ayahkandungorgnowkedudukan;
+        $model->kedudukanpernah_ayahkandung = $data->ayahkandungoldorgkedudukan;
+        $model->kapanorganisasi_ayahkandung = $data->ayahkandungorgnowkapan;
+        // $model->lamaorganisasi_ayahkandung = $data->ayahkandungoldorglama;
+        $model->alasanorganisasi_ayahkandung = $data->ayahkandungorgnowalasan;
+        $model->alasanorganisasipernah_ayahkandung = $data->ayahkandungoldorgalasan;
+        $model->alasanmeninggal_ayahkandung = $data->ayahkandungalasanmeninggal ? $data->ayahkandungalasanmeninggal : 'Belum Meninggal';
+        $model->save();
         var_dump($data);
+    }
+    private function SaveAyahTiri()
+    {
+        $data = $this->data['ayahtiri'];
+        $model = new ModelAyahTiri;
+        $model->id_personil = $this->lastId;
+        $model->nama_ayahtiri = $data->ayahtirinama;
+        $model->alias_ayahtiri = $data->ayahtirialias;
+        $model->tempat_ayahtiri = $data->ayahtiritempat;
+        $model->tanggal_ayahtiri = $data->ayahtiritanggal;
+        $model->suku_ayahtiri = $data->ayahtirisuku;
+        $model->kewarganegaraan_ayahtiri = $data->ayahtirikewarganegaraan;
+        $model->caramemperoleh_ayahtiri = $data->ayahtiricaramemperoleh;
+        $model->agama_ayahtiri = $data->ayahtiriagama;
+        $model->aliran_ayahtiri = $data->ayahtirialiran;
+        $model->alamatsekarang_ayahtiri = $data->ayahtirialamat;
+        $model->alamatsebelum_ayahtiri = $data->ayahtirioldalamat;
+        $model->pendidikanterakhir_ayahtiri = $data->ayahtiripendidikan;
+        // $model->alamatkantor_ayahtiri = $data->ayahtirialamatkantor;
+        $model->pekerjaanterakhir_ayahtiri = $data->ayahtiripekerjaan;
+        $model->pekerjaansebelum_ayahtiri = $data->ayahtirioldpekerjaan;
+        $model->organisasidiikuti_ayahtiri = $data->ayahtiriorgnownama;
+        $model->organisasipernah_ayahtiri = $data->ayahtirioldorgnama;
+        $model->kedudukanorganisasi_ayahtiri = $data->ayahtiriorgnowkedudukan;
+        $model->kedudukanpernah_ayahtiri = $data->ayahtirioldorgkedudukan;
+        $model->kapanorganisasi_ayahtiri = $data->ayahtiriorgnowkapan;
+        // $model->lamapernah_ayahtiri = $data->ayahtirioldorglama;
+        $model->alasanorganisasi_ayahtiri = $data->ayahtiriorgnowalasan;
+        $model->alasanpernah_ayahtiri = $data->ayahtirioldorgalasan;
+        $model->alasanmeninggal_ayahtiri = $data->ayahtirialasanmeninggal ? $data->ayahtirialasanmeninggal : 'Belum Meninggal';
+        $model->save();
+        var_dump($data);
+    }
+    private function SaveIbuKandung()
+    {
+
+    }
+    private function SaveIbuTiri()
+    {
+
+    }
+    private function SaveMertuaLaki()
+    {
+
+    }
+    private function SaveMertuaPerempuan()
+    {
+
     }
 }
 ?>
