@@ -59,6 +59,7 @@
 	</div>
 	<div class="col-md-12">
 		<div class="form-group">
+<<<<<<< HEAD
 			<label>Kewarganegaraan</label>
 			<input type="text" name="pernikahan['cara_memperoleh']" class="form-control" required=""/>
 =======
@@ -68,6 +69,8 @@
 	</div>
 	<div class="col-md-12">
 		<div class="form-group">
+=======
+>>>>>>> parent of 4ab4ff9... Update API.
 			<label>Agama yang Dianut Saat Ini</label>
 <<<<<<< HEAD
 			<input type="text" name="pernikahan['agama_now']" class="form-control" required=""/>

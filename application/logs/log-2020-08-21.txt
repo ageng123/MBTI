@@ -3955,6 +3955,7 @@ INFO - 2020-08-21 11:35:33 --> Model "ModelPendidikan" initialized
 INFO - 2020-08-21 11:35:33 --> Model "ModelRiwayatPekerjaan" initialized
 INFO - 2020-08-21 11:35:33 --> Final output sent to browser
 DEBUG - 2020-08-21 11:35:33 --> Total execution time: 2.3994
+<<<<<<< HEAD
 INFO - 2020-08-21 12:58:02 --> Config Class Initialized
 INFO - 2020-08-21 12:58:02 --> Hooks Class Initialized
 DEBUG - 2020-08-21 12:58:02 --> UTF-8 Support Enabled
@@ -5948,3 +5949,5 @@ INFO - 2020-08-21 13:02:36 --> File loaded: C:/xampp/htdocs/MBTI/application/mod
 INFO - 2020-08-21 13:02:36 --> Final output sent to browser
 DEBUG - 2020-08-21 13:02:36 --> Total execution time: 1.0342
 >>>>>>> a0a695a3b6a41a16eb3f089a47e2910c7f01a38c
+=======
+>>>>>>> parent of 4ab4ff9... Update API.
