@@ -9,7 +9,11 @@ $db['default'] = [
     'dsn' => '',
     'hostname' => 'localhost',
     'username' => 'root',
+<<<<<<< HEAD
     'password' => 'secret',
+=======
+    'password' => '',
+>>>>>>> a0a695a3b6a41a16eb3f089a47e2910c7f01a38c
     'database' => 'maspriya_mbtni',
     'dbdriver' => 'mysqli',
     'dbprefix' => '',

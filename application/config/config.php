@@ -45,11 +45,19 @@ $config['cookie_secure'] = false;
 $config['cookie_httponly'] = false;
 $config['standardize_newlines'] = false;
 $config['global_xss_filtering'] = true;
+<<<<<<< HEAD
 $config['csrf_protection'] = false;
 $config['csrf_token_name'] = 'mbtni_csrf_token';
 $config['csrf_cookie_name'] = 'mbtni_csrf_name';
 $config['csrf_expire'] = 7200;
 $config['csrf_regenerate'] = false;
+=======
+$config['csrf_protection'] = true;
+$config['csrf_token_name'] = 'mbtni_csrf_token';
+$config['csrf_cookie_name'] = 'mbtni_csrf_name';
+$config['csrf_expire'] = 7200;
+$config['csrf_regenerate'] = true;
+>>>>>>> a0a695a3b6a41a16eb3f089a47e2910c7f01a38c
 $config['csrf_exclude_uris'] = [];
 $config['compress_output'] = false;
 $config['time_reference'] = 'local';
