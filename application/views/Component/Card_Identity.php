@@ -14,23 +14,7 @@
                 <h6><?= $pangkat.' | '.$pekerjaan; ?></h6>
                 <small class="text-muted">Agama</small>
                 <h6 class="text-uppercase">
-                    <?php
-                    if ($agama == 1) {
-                        echo 'ISLAM';
-                    } elseif ($agama == 2) {
-                        echo 'KATOLIK';
-                    } elseif ($agama == 3) {
-                        echo 'PROTESTAN';
-                    } elseif ($agama == 4) {
-                        echo 'HINDU';
-                    } elseif ($agama == 5) {
-                        echo 'BUDHA';
-                    } elseif ($agama == 6) {
-                        echo 'KONG HU CU';
-                    } else {
-                        echo 'Lainnya';
-                    }
-                    ?>
+                    <?php echo $agama?>
                 </h6>
                 <small class="text-muted">Tempat, Tanggal Lahir</small>
                 <h6 class="text-uppercase"><?= $tmp_lahir . ', ' . dateIndoLengkap($tgl_lahir); ?></h6>
