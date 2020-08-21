@@ -7,7 +7,6 @@
 	    RiwayatTempatTinggal = new Array(), 
 	    RiwayatOrganisasiArr = new Array()
 	    RiwayatPerjuanganArr = new Array(),
-<<<<<<< HEAD
 		RiwayatPenghargaanArr = new Array(),
 		IdentitasDiriArr = new Object(),
 		PernikahanArr = new Object(), 
@@ -20,12 +19,6 @@
 	const pendidikanForm = {
 	    add: () => {
 	        let data = new Object();
-=======
-	    RiwayatPenghargaanArr = new Array();
-	const pendidikanForm = {
-	    add: () => {
-	        let data = new Array();
->>>>>>> a0a695a3b6a41a16eb3f089a47e2910c7f01a38c
 	        let sekolahnama = $('input[name="sekolahnama"]').val();
 	        let tahunsekolah = $('input[name="tahunsekolah"]').val();
 	        let tempatsekolah = $('input[name="kotasekolah"]').val();
@@ -74,11 +67,7 @@
 
 	    },
 	    update: (index) => {
-<<<<<<< HEAD
 	        let data = new Object();
-=======
-	        let data = new Array();
->>>>>>> a0a695a3b6a41a16eb3f089a47e2910c7f01a38c
 	        let sekolahnama = $('input[name="sekolahnama"]').val();
 	        let tahunsekolah = $('input[name="tahunsekolah"]').val();
 	        let tempatsekolah = $('input[name="kotasekolah"]').val();
@@ -105,11 +94,7 @@
 	};
 	const pendidikanDinas = {
 	    add: () => {
-<<<<<<< HEAD
 	        let data = new Object();
-=======
-	        let data = new Array();
->>>>>>> a0a695a3b6a41a16eb3f089a47e2910c7f01a38c
 	        let sekolahnama = $('input[name="namasekolahdinas"]').val();
 	        let tahunsekolah = $('input[name="tahunsekolahdinas"]').val();
 	        let tempatsekolah = $('input[name="kotasekolahdinas"]').val();
@@ -129,11 +114,7 @@
 	        pendidikanDinas.appendToTbBody();
 	    },
 	    update: (id) => {
-<<<<<<< HEAD
 	        let data = new Object();
-=======
-	        let data = new Array();
->>>>>>> a0a695a3b6a41a16eb3f089a47e2910c7f01a38c
 	        let sekolahnama = $('input[name="namasekolahdinas"]').val();
 	        let tahunsekolah = $('input[name="tahunsekolahdinas"]').val();
 	        let tempatsekolah = $('input[name="kotasekolahdinas"]').val();
@@ -188,11 +169,7 @@
 	}
 	const PendidikanLainAction = {
 	    add: () => {
-<<<<<<< HEAD
 	        let data = new Object();
-=======
-	        let data = new Array();
->>>>>>> a0a695a3b6a41a16eb3f089a47e2910c7f01a38c
 	        let sekolahnama = $('input[name="sekolahlainnama"]').val();
 	        let tahunsekolah = $('input[name="tahunsekolahlain"]').val();
 	        let tempatsekolah = $('input[name="tempatsekolahlain"]').val();
@@ -212,11 +189,7 @@
 	        PendidikanLainAction.appendToTbBody();
 	    },
 	    update: (id) => {
-<<<<<<< HEAD
 	        let data = new Object();
-=======
-	        let data = new Array();
->>>>>>> a0a695a3b6a41a16eb3f089a47e2910c7f01a38c
 	        let sekolahnama = $('input[name="sekolahlainnama"]').val();
 	        let tahunsekolah = $('input[name="tahunsekolahlain"]').val();
 	        let tempatsekolah = $('input[name="tempatsekolahlain"]').val();
@@ -271,11 +244,7 @@
 	}
 	const RiwayatPekerjaanAct = {
 	    add: () => {
-<<<<<<< HEAD
 	        let data = new Object();
-=======
-	        let data = new Array();
->>>>>>> a0a695a3b6a41a16eb3f089a47e2910c7f01a38c
 	        let namakerja = $('input[name="namapekerjaan"]').val();
 	        let pangkatkerja = $('input[name="pangkatpekerjaan"]').val();
 	        let instansikerja = $('input[name="instansikerja"]').val();
@@ -295,11 +264,7 @@
 	        RiwayatPekerjaanAct.appendToTbBody();
 	    },
 	    update: (id) => {
-<<<<<<< HEAD
 	        let data = new Object();
-=======
-	        let data = new Array();
->>>>>>> a0a695a3b6a41a16eb3f089a47e2910c7f01a38c
 	        let namakerja = $('input[name="namapekerjaan"]').val();
 	        let pangkatkerja = $('input[name="pangkatpekerjaan"]').val();
 	        let instansikerja = $('input[name="instansikerja"]').val();
@@ -354,11 +319,7 @@
 	}
 	const RiwayatPekerjaanDinasAct = {
 	    add: () => {
-<<<<<<< HEAD
 	        let data = new Object();
-=======
-	        let data = new Array();
->>>>>>> a0a695a3b6a41a16eb3f089a47e2910c7f01a38c
 	        let namakerja = $('input[name="namakerjadinas"]').val();
 	        let pangkatkerja = $('input[name="pangkatkerjadinas"]').val();
 	        let instansikerja = $('input[name="instansikerjadinas"]').val();
@@ -381,11 +342,7 @@
 	        RiwayatPekerjaanDinasAct.appendToTbBody();
 	    },
 	    update: (id) => {
-<<<<<<< HEAD
 	        let data = new Object();
-=======
-	        let data = new Array();
->>>>>>> a0a695a3b6a41a16eb3f089a47e2910c7f01a38c
 	        let namakerja = $('input[name="namakerjadinas"]').val();
 	        let pangkatkerja = $('input[name="pangkatkerjadinas"]').val();
 	        let instansikerja = $('input[name="instansikerjadinas"]').val();
@@ -445,11 +402,7 @@
 	}
 	const RiwayatTempatTinggalAct = {
 	    add: () => {
-<<<<<<< HEAD
 	        let data = new Object();
-=======
-	        let data = new Array();
->>>>>>> a0a695a3b6a41a16eb3f089a47e2910c7f01a38c
 	        let alamat = $('input[name="alamattinggal"]').val();
 	        let tahun = $('input[name="tahuntinggal"]').val();
 	        let rangka = $('input[name="rangkatinggal"]').val();
@@ -466,11 +419,7 @@
 	        RiwayatTempatTinggalAct.appendToTbBody();
 	    },
 	    update: (id) => {
-<<<<<<< HEAD
 	        let data = new Object();
-=======
-	        let data = new Array();
->>>>>>> a0a695a3b6a41a16eb3f089a47e2910c7f01a38c
 	       	let alamat = $('input[name="alamattinggal"]').val();
 	        let tahun = $('input[name="tahuntinggal"]').val();
 	        let rangka = $('input[name="rangkatinggal"]').val();
@@ -520,11 +469,7 @@
 	}
 	const RiwayatOrganisasiAct = {
 	    add: () => {
-<<<<<<< HEAD
 	        let data = new Object();
-=======
-	        let data = new Array();
->>>>>>> a0a695a3b6a41a16eb3f089a47e2910c7f01a38c
 	        let nama = $('input[name="namaorganisasi"]').val();
 	        let tahun = $('input[name="tahunorganisasi"]').val();
 	        let rangka = $('input[name="kedudukanorganisasi"]').val();
@@ -547,11 +492,7 @@
 	        RiwayatOrganisasiAct.appendToTbBody();
 	    },
 	    update: (id) => {
-<<<<<<< HEAD
 	        let data = new Object();
-=======
-	        let data = new Array();
->>>>>>> a0a695a3b6a41a16eb3f089a47e2910c7f01a38c
 	       	let nama = $('input[name="namaorganisasi"]').val();
 	        let tahun = $('input[name="tahunorganisasi"]').val();
 	        let rangka = $('input[name="kedudukanorganisasi"]').val();
@@ -611,11 +552,7 @@
 	}
 	const RiwayatPerjuanganAct = {
 	    add: () => {
-<<<<<<< HEAD
 	        let data = new Object();
-=======
-	        let data = new Array();
->>>>>>> a0a695a3b6a41a16eb3f089a47e2910c7f01a38c
 	        let peristiwaperjuangan = $('input[name="peristiwaperjuangan"]').val();
 	        let tempatperjuangan = $('input[name="tempatperjuangan"]').val();
 	        let tahunperjuangan = $('input[name="tahunperjuangan"]').val();
@@ -664,11 +601,7 @@
 
 	    },
 	    update: (index) => {
-<<<<<<< HEAD
 	        let data = new Object();
-=======
-	        let data = new Array();
->>>>>>> a0a695a3b6a41a16eb3f089a47e2910c7f01a38c
 	        let peristiwaperjuangan = $('input[name="peristiwaperjuangan"]').val();
 	        let tempatperjuangan = $('input[name="tempatperjuangan"]').val();
 	        let tahunperjuangan = $('input[name="tahunperjuangan"]').val();
@@ -695,11 +628,7 @@
 	};
 	const RiwayatPenghargaanAct = {
 	    add: () => {
-<<<<<<< HEAD
 	        let data = new Object();
-=======
-	        let data = new Array();
->>>>>>> a0a695a3b6a41a16eb3f089a47e2910c7f01a38c
 	        let bintangpenghargaan = $('input[name="bintangpenghargaan"]').val();
 	        let diterimapenghargaan = $('input[name="diterimapenghargaan"]').val();
 	        let rangkapenghargaan = $('input[name="rangkapenghargaan"]').val();
@@ -748,11 +677,7 @@
 
 	    },
 	    update: (index) => {
-<<<<<<< HEAD
 	        let data = new Object();
-=======
-	        let data = new Array();
->>>>>>> a0a695a3b6a41a16eb3f089a47e2910c7f01a38c
 	        let bintangpenghargaan = $('input[name="bintangpenghargaan"]').val();
 	        let diterimapenghargaan = $('input[name="diterimapenghargaan"]').val();
 	        let rangkapenghargaan = $('input[name="rangkapenghargaan"]').val();
