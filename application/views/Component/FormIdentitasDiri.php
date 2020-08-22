@@ -52,7 +52,13 @@
 </div>
 <div class="col-md-12">
 	<div class="form-group">
-		<label>Pangkat / Golongan / NRP / NIP</label>
+		<label>NRP / NIP</label>
+		<input type="text" name="identity['nrp']" class="form-control" required=""/>
+	</div>
+</div>
+<div class="col-md-12">
+	<div class="form-group">
+		<label>Pangkat / Golongan </label>
 		<input type="text" name="identity['pangkat']" class="form-control" required=""/>
 	</div>
 </div>

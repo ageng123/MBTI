@@ -105,6 +105,15 @@ class Api extends CI_Controller {
         $model->jml_anak = $data->jumlahanak;
         $model->save();
         $this->lastId = $model->lastId();
+        $personal = new model_personal;
+        $personal->id_personil = $this->lastId;
+        $personal->kesatuan_instansi = $data->kesatuan;
+        $personal->pangkat_gol_nrp_nip = $data->pangkat;
+        $personal->pekerjaan_jabatan = $data->pekerjaan;
+        $personal->nrp_nip = $data->nrp;
+        $personal->alamat = $data->alamatkantor;
+        $personal->save();
+
     }
     private function PendidikanUmum()
     {
