@@ -1,5 +1,5 @@
 <div class="table-responsive">
-    <table class="table table-bordered table-hover table-striped" style="width:100%;">
+    <table class="table table-bordered clientside table-hover table-striped" style="width:100%;">
         <thead class="text-center text-uppercase">
             <tr>
                 <th>
@@ -49,5 +49,5 @@
     </table>
 </div>
 <script>
-    $('table').dataTable();
+    $('.clientside').dataTable();
 </script>

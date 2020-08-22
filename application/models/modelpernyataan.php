@@ -38,7 +38,7 @@ class modelpernyataan extends CI_Model {
 
 }
 class model_personal extends CI_Model{
-    protected $table = 'personal_information';
+    protected $table = 'data_pekerjaan';
     protected $primaryKey = 'id';
     public function save()
     {

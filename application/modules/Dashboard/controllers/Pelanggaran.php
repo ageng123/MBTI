@@ -39,7 +39,7 @@ class Pelanggaran extends CI_Controller {
     public function Usulan($id) {
         $dec = $this->Dec($id);
         $data = [
-            'title' => 'Dashboard Mutasi',
+            'title' => 'Dashboard Pelanggaran - Input Pelanggaran Anggota',
             'logo' => '',
             'username' => $this->session->userdata('nama'),
             'peserta' => $this->M_Mutasi->Usulan($dec),
@@ -47,6 +47,23 @@ class Pelanggaran extends CI_Controller {
         ];
         $data['content'] = $this->parser->parse('V_pelanggaranusul', $data, true);
         return $this->parser->parse('Templates/Template', $data);
+    }
+    public function getHistory(){
+        $id = $_GET['id'];
+        $model = new M_Pelanggaran;
+        $process = $model->find(['id_personil' => $id]);
+        $rows = array();
+        foreach($process as $key => $value){
+            $row = array();
+            $row[] = $key+1;
+            $row[] = $value->keterangan;
+            $row[] = $value->tanggal_pelanggaran;
+            $row[] = $value->created_date;
+            $rows[] = $row;
+            
+        }
+        echo json_encode(['data' => $rows]);
+
     }
 
 }

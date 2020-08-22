@@ -815,3 +815,18 @@
 	$('.btn-submit-pernyataan').on('click', () => {
 		PersonilServices.ADD_PERSONIL();
 	})
+	const DataTableServices = {
+		init: (container, uri) => {
+			$('#'+container).DataTable({
+				ajax: uri,
+				processing: true,
+			})
+		}
+	}
+	$(document).ready(() => {
+		$('.serverSide').each((index, element) => {
+			let container = element.id;
+			let url = element.dataset.url;
+			DataTableServices.init(container, url);
+		})
+	})

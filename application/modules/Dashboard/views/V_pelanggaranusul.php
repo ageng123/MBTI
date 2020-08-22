@@ -35,7 +35,7 @@
         <div class="card">
             <div class="card-header">
                 <div class="card-title">
-                    Penetapan Mutasi
+                    Penetapan Pelanggaran
                 </div>
             </div>
             <div class="card-body">
@@ -47,7 +47,10 @@
                                 <label>Tanggal Pelanggaran</label>
                                 <input type="text" name="usulan" class="form-control datepicker" required="" autocomplete="off"/>
                             </div>
-                            
+                            <div class="form-group">
+                                <label>Proses Pelanggaran</label>
+                                <input type="text" name="usulan" class="form-control" required="" autocomplete="off"/>
+                            </div>
                         </div>
                     </div>
                     <div class="form-group">
@@ -61,6 +64,23 @@
                         </div>
                     </div>
                 </form>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">
+                    History Pelanggaran
+                </div>
+            </div>
+            <div class="card-body">
+                <table id="tb_pelanggar" style="width: 100%" class="table serverSide table-striped table-bordered" data-url="<?= site_url('Dashboard/Pelanggaran/getHistory?id=').$peserta[0]->id ?>">
+                    <thead>
+                        <td>Nomor</td>
+                        <td>keterangan</td>
+                        <td>Tanggal Pelanggaran</td>
+                        <td>Tanggal Pembuatan Pelanggaran</td>
+                    </thead>
+                </table>
             </div>
         </div>
     </div>

@@ -107,10 +107,10 @@ class Api extends CI_Controller {
         $this->lastId = $model->lastId();
         $personal = new model_personal;
         $personal->id_personil = $this->lastId;
-        $personal->kesatuan_instansi = $data->kesatuan;
-        $personal->pangkat_gol_nrp_nip = $data->pangkat;
-        $personal->pekerjaan_jabatan = $data->pekerjaan;
-        $personal->nrp_nip = $data->nrp;
+        $personal->kesatuan = $data->kesatuan;
+        $personal->pangkat = $data->pangkat;
+        $personal->pekerjaan = $data->pekerjaan;
+        $personal->nip = $data->nrp;
         $personal->alamat = $data->alamatkantor;
         $personal->save();
 

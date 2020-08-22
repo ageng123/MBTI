@@ -76,5 +76,20 @@
                 </form>
             </div>
         </div>
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">History Mutasi</div>
+            </div>
+            <div class="card-body">
+                <table style="width: 100%" id="tbHistoryMutasi" class="table table-bordered serverSide table-striped" data-url="<?= site_url('Dashboard/Mutasi/getHistoryMutasi?id=').$peserta[0]->id ?>">
+                    <thead>
+                        <td>Nomor</td>
+                        <td>Tanggal Mutasi</td>
+                        <td>Keterangan</td>
+                        <td>Tanggal Pembuatan Pelanggaran</td>
+                    </thead>
+                </table>
+            </div>
+        </div>
     </div>
 </div>
