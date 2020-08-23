@@ -2,9 +2,9 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 $autoload['packages'] = [];
-$autoload['libraries'] = ['session', 'database', 'email', 'parser'];
+$autoload['libraries'] = ['session', 'database', 'email', 'parser', 'encryption'];
 $autoload['drivers'] = [];
-$autoload['helper'] = ['form', 'url', 'html', 'file', 'Component_helper', 'Date_helper'];
+$autoload['helper'] = ['form', 'url', 'html', 'file', 'Component_helper', 'Date_helper', 'Encrypt_Helper'];
 $autoload['config'] = [];
 $autoload['language'] = [];
-$autoload['model'] = [];
+$autoload['model'] = ['Main'];

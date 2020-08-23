@@ -820,6 +820,12 @@
 			$('#'+container).DataTable({
 				ajax: uri,
 				processing: true,
+				createdRow: function(row, data, dataIndex){
+					let string = data[2].replace('<p hidden>', '');
+					string = string.replace('</p>', '');
+					string = string.split('/');
+					$(row).attr('data-id', string[1]);
+				}
 			})
 		}
 	}
@@ -828,5 +834,9 @@
 			let container = element.id;
 			let url = element.dataset.url;
 			DataTableServices.init(container, url);
+		})
+		$('.serverSide').on('click', 'tbody tr', (index) => {
+			let id_data = index.currentTarget.dataset.id
+			console.log(id_data);
 		})
 	})

@@ -39,7 +39,7 @@
                 </div>
             </div>
             <div class="card-body">
-                <form action="<?= base_url('Dashboard/Pelanggaran/Save/'); ?>" method="POST">
+                <form action="<?= base_url('Dashboard/Pelanggaran/add?id='); ?><?= encode($peserta[0]->id) ?>" method="POST">
                     <input type="hidden" name="<?= $csrf['name'] ?>" value="<?= $csrf['hash'] ?>"/>
                     <div class="row">
                         <div class="col-md-12">
@@ -49,7 +49,7 @@
                             </div>
                             <div class="form-group">
                                 <label>Proses Pelanggaran</label>
-                                <input type="text" name="usulan" class="form-control" required="" autocomplete="off"/>
+                                <input type="text" name="proses" class="form-control" required="" autocomplete="off"/>
                             </div>
                         </div>
                     </div>

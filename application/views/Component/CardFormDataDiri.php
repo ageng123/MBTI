@@ -114,9 +114,37 @@
     </form>
     </div>
     <div class="card-footer">
-        <div class="button-group">
-            <button class="btn btn-danger">Cancel</button>
-            <button class="btn btn-success btn-submit-pernyataan">Kirim</button>
+        <div class="button-group" data-url="<?=  $this->uri->segment(3) ?>">
+            <?php switch($this->uri->segment(3)){
+                case 'Add':
+            ?> 
+                <button class="btn btn-danger">Cancel</button>
+                <button class="btn btn-success btn-submit-pernyataan">Simpan</button>
+            <?php
+                break;
+                case 'Detail':
+            ?>
+                <button class="btn btn-danger">Cancel</button>
+                <button class="btn btn-success btn-submit-pernyataan">Edit</button>
+                <button class="btn btn-primary btn">Print Pernyataan</button>
+                <button class="btn btn-primary btn">Print ID Card</button>
+            <?php 
+                break;
+                default:
+            ?>
+                <button class="btn btn-danger">Cancel</button>
+                <button class="btn btn-success btn">Simpan</button>
+                <button class="btn btn-success btn-submit-pernyataan">Kirim</button>
+            <?php 
+                break;
+            } ?>
+            <?php if($this->uri->segment(3) == 'Add' or 'add'): ?>
+            
+            <?php elseif($this->uri->segment(3) == 'Detail' or 'detail'): ?>
+            
+            <?php else: ?>
+                <button><?= $this->uri->segment(3) ?></button>
+            <?php endif; ?>
         </div>
     </div>
 </div>

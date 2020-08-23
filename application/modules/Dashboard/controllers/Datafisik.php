@@ -122,6 +122,18 @@ class Datafisik extends CI_Controller {
         $data['content'] = $this->parser->parse('V_Datafisikdetail', $data, true);
         return $this->parser->parse('Templates/Template', $data);
     }
+    public function Edit() {
+        $id_anggota = decode($_GET['session_id']);
+        $data = [
+            'title' => 'Dashboard application',
+            'logo' => 'https://cdn.maspriyambodo.com/images/mp_logo.png',
+            'username' => $this->session->userdata('nama'),
+            'peserta' => $this->M_Datafisik->Detail($id_anggota),
+            'csrf' => $this->Csrf()
+        ];
+        $data['content'] = $this->parser->parse('V_Datafisikedit', $data, true);
+        return $this->parser->parse('Templates/Template', $data);
+    }
 
     public function Print($id) {
         $id_anggota = $this->Dec($id);

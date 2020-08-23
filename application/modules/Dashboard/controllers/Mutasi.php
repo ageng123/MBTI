@@ -28,17 +28,19 @@ class Mutasi extends CI_Controller {
     }
 
     private function Nosurat() {
-        //every first month, number will be reset from 1
-        $roman = ['01' => 'I', '02' => 'II', '03' => 'III', '04' => 'IV', '05' => 'V', '06' => 'VI', '07' => 'VII', '08' => 'VIII', '09' => 'IX', '10' => 'X', '11' => 'XI', '12' => 'XII'];
-//        $no_of_digit = 4;
-//        $number = $this->M_quotation->NumQuotation() + 1;
-//        $length = strlen((string) $number);
-//        for ($i = $length; $i < $no_of_digit; $i++) {
-//            $number = '0' . $number;
-//        }
-        $nu_quotation = date('d') . '/MTS/' . $roman[date('m')] . '/' . date('Y');
-//        $nu_quotation = date('Ymd') . $number;
-        return $nu_quotation;
+        $model = new No_Surat;
+        $params = [
+            'jenis_surat' => 'Mutasi'
+        ];
+        $process = $model->getLastNoSurat($params);
+        $nosurat = $process->nomor_terakhir + 1;
+        $format_nomor = $process->format_nomor;
+        $model->nomor_terakhir = $nosurat;
+        $format_nomor = str_replace(['[nomor]', '[tahun]', '[jenis_surat]'], [$nosurat, date('Y'), 'MTS'], $format_nomor);
+        $model->saveNoSurat($params);
+        return $format_nomor;
+
+
     }
 
     public function index() {
@@ -104,16 +106,26 @@ class Mutasi extends CI_Controller {
 //    }
 
     public function Save() {
-        $input = [
-            'no_surat' => $this->Nosurat(),
-            'nama' => 'PRIYAMBODO',
-            'pekerjaan' => 'Perwira Pertama',
-            'pangkat' => 'Letnan Satu',
-            'usulan' => date('Y-m-d'),
-            'berlaku' => date('Y-m-d'),
-            'n_pangkat' => 'Perwira Pertama',
-            'jabatan' => 'KAPTEN',
-        ];
+
+        // $input = [
+        //     'no_surat' => $this->Nosurat(),
+        //     'nama' => 'PRIYAMBODO',
+        //     'pekerjaan' => 'Perwira Pertama',
+        //     'pangkat' => 'Letnan Satu',
+        //     'usulan' => date('Y-m-d'),
+        //     'berlaku' => date('Y-m-d'),
+        //     'n_pangkat' => 'Perwira Pertama',
+        //     'jabatan' => 'KAPTEN',
+        // ];
+        $model = new M_Mutasi;
+        $model->no_mutasi = $this->Nosurat();
+        $model->keterangan = $this->input->post('keterangan');
+        $model->id_personil = $this->input->post('personil_number');
+        $model->tanggal_mutasi = $this->input->post('berlaku');
+        $model->pangkat_jabatan = $this->input->post('n_pangkat').'/'.$this->input->post('jabatan');
+        if($model->save()){
+            return redirect(site_url('Dashboard/Mutasi/Index'));
+        };
         $data = [
             'title' => 'Dashboard Mutasi',
             'logo' => '',

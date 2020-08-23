@@ -38,7 +38,7 @@
                         <div class="text-center">
                             <?php $url = str_replace(['+', '/', '='], ['-', '_', '~'], $this->encryption->encrypt($t_peserta->id)); ?>
                             <div class="btn-group">
-                                <a href="<?= base_url('Dashboard/Pelanggaran/Usulan/' . $url . ''); ?>" class="btn waves-effect waves-light btn-primary btn-xs" title="Edit data pelanggaran"><i class="fas fa-edit"></i></a>
+                                <a href="<?= base_url('Dashboard/Pelanggaran/Usulan?id='.encode($t_peserta->id).''); ?><?php $_COOKIE['id_user'] = encode($t_peserta->id)  ?>" class="btn waves-effect waves-light btn-primary btn-xs" title="Edit data pelanggaran"><i class="fas fa-edit"></i></a>
 <!--                                <a href="<?= base_url('Dashboard/Mutasi/Detail/' . $url . ''); ?>" class="btn waves-effect waves-light btn-success btn-xs" title="Usulan Mutasi"><i class="fas fa-check-circle"></i></a>-->
                             </div>
                         </div>

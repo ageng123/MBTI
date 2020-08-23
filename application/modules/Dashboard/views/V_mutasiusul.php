@@ -52,6 +52,7 @@
                         <div class="col-md-6 col-sm-12">
                             <div class="form-group">
                                 <label>Pangkat</label>
+                                <input type="text" hidden name="personil_number" value="<?= $peserta[0]->id ?>">
                                 <input type="text" name="n_pangkat" class="form-control" required=""/>
                             </div>
                         </div>

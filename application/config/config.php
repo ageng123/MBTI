@@ -54,3 +54,4 @@ $config['csrf_exclude_uris'] = [];
 $config['compress_output'] = false;
 $config['time_reference'] = 'local';
 $config['rewrite_short_tags'] = false;
+$config['encryption_key'] = md5(base64_encode('3nCrypT3R'));

@@ -9,7 +9,21 @@ class Pelanggaran extends CI_Controller {
         $this->load->library('encryption');
         $this->load->model('M_Mutasi');
     }
+    private function Nosurat() {
+        $model = new No_Surat;
+        $params = [
+            'jenis_surat' => 'Pelanggaran'
+        ];
+        $process = $model->getLastNoSurat($params);
+        $nosurat = $process->nomor_terakhir + 1;
+        $format_nomor = $process->format_nomor;
+        $model->nomor_terakhir = $nosurat;
+        $format_nomor = str_replace(['[nomor]', '[tahun]', '[jenis_surat]'], [$nosurat, date('Y'), 'PELANGGARAN'], $format_nomor);
+        $model->saveNoSurat($params);
+        return $format_nomor;
 
+
+    }
     private function Csrf() {
         $csrf = array(
             'name' => $this->security->get_csrf_token_name(),
@@ -36,8 +50,8 @@ class Pelanggaran extends CI_Controller {
         return $this->parser->parse('Templates/Template', $data);
     }
 
-    public function Usulan($id) {
-        $dec = $this->Dec($id);
+    public function Usulan() {
+        $dec = decode($_GET['id']);
         $data = [
             'title' => 'Dashboard Pelanggaran - Input Pelanggaran Anggota',
             'logo' => '',
@@ -53,17 +67,31 @@ class Pelanggaran extends CI_Controller {
         $model = new M_Pelanggaran;
         $process = $model->find(['id_personil' => $id]);
         $rows = array();
+        $rowid;
         foreach($process as $key => $value){
             $row = array();
+            
             $row[] = $key+1;
             $row[] = $value->keterangan;
-            $row[] = $value->tanggal_pelanggaran;
+            $row[] = $value->tanggal_pelanggaran.'<p hidden>/'.$value->id_pelanggaran.'</p>';
             $row[] = $value->created_date;
             $rows[] = $row;
             
         }
         echo json_encode(['data' => $rows]);
 
+    }
+    public function add()
+    {
+        $model = new M_Pelanggaran;
+        $model->no_pelanggaran = $this->Nosurat();
+        $model->id_personil = decode($_GET['id']);
+        $model->keterangan = $this->input->post('keterangan');
+        $model->proses = $this->input->post('proses');
+        $model->tanggal_pelanggaran = $this->input->post('usulan');
+        if($model->save()){
+            return redirect(site_url('Dashboard/Pelanggaran/index'));
+        };
     }
 
 }
