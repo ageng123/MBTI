@@ -94,7 +94,7 @@
                 <div id="tab-ibu-kandung" class="tab-pane">
                     <?php $this->load->view('Component/FormIbuKandung') ?>
                 </div>
-                <div id="tab-ibu-tiri" class="tab-pane">
+                <div id="tab-ibu-tiri" class="tab-pane">    
                     <?php $this->load->view('Component/FormIbuTiri') ?>
                 </div>
                 <div id="tab-mertua-laki" class="tab-pane">

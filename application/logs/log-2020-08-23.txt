@@ -1,0 +1,196 @@
+INFO - 2020-08-23 10:07:41 --> Config Class Initialized
+INFO - 2020-08-23 10:07:41 --> Hooks Class Initialized
+DEBUG - 2020-08-23 10:07:41 --> UTF-8 Support Enabled
+INFO - 2020-08-23 10:07:42 --> Utf8 Class Initialized
+INFO - 2020-08-23 10:07:42 --> URI Class Initialized
+INFO - 2020-08-23 10:07:42 --> Router Class Initialized
+INFO - 2020-08-23 10:07:42 --> Output Class Initialized
+INFO - 2020-08-23 10:07:42 --> Security Class Initialized
+DEBUG - 2020-08-23 10:07:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-23 10:07:42 --> Input Class Initialized
+INFO - 2020-08-23 10:07:42 --> Language Class Initialized
+INFO - 2020-08-23 10:07:42 --> Loader Class Initialized
+INFO - 2020-08-23 10:07:42 --> Helper loaded: form_helper
+INFO - 2020-08-23 10:07:42 --> Helper loaded: url_helper
+INFO - 2020-08-23 10:07:42 --> Helper loaded: html_helper
+INFO - 2020-08-23 10:07:42 --> Helper loaded: file_helper
+INFO - 2020-08-23 10:07:42 --> Helper loaded: component_helper
+INFO - 2020-08-23 10:07:42 --> Helper loaded: date_helper
+INFO - 2020-08-23 10:07:42 --> Database Driver Class Initialized
+INFO - 2020-08-23 10:07:42 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-23 10:07:42 --> Email Class Initialized
+INFO - 2020-08-23 10:07:42 --> Parser Class Initialized
+INFO - 2020-08-23 10:07:42 --> Controller Class Initialized
+DEBUG - 2020-08-23 10:07:42 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-23 10:07:42 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-23 10:07:42 --> Encryption Class Initialized
+INFO - 2020-08-23 10:07:42 --> Model "M_Datafisik" initialized
+INFO - 2020-08-23 10:07:43 --> File loaded: C:/xampp/htdocs/MBTI/application/modules/Dashboard/views/V_Datafisik.php
+INFO - 2020-08-23 10:07:43 --> File loaded: C:/xampp/htdocs/MBTI/application/modules/Templates/views/Template.php
+INFO - 2020-08-23 10:07:43 --> Final output sent to browser
+DEBUG - 2020-08-23 10:07:43 --> Total execution time: 1.9783
+INFO - 2020-08-23 10:08:01 --> Config Class Initialized
+INFO - 2020-08-23 10:08:01 --> Hooks Class Initialized
+DEBUG - 2020-08-23 10:08:01 --> UTF-8 Support Enabled
+INFO - 2020-08-23 10:08:01 --> Utf8 Class Initialized
+INFO - 2020-08-23 10:08:01 --> URI Class Initialized
+INFO - 2020-08-23 10:08:01 --> Router Class Initialized
+INFO - 2020-08-23 10:08:01 --> Output Class Initialized
+INFO - 2020-08-23 10:08:01 --> Security Class Initialized
+DEBUG - 2020-08-23 10:08:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-23 10:08:01 --> Input Class Initialized
+INFO - 2020-08-23 10:08:01 --> Language Class Initialized
+INFO - 2020-08-23 10:08:01 --> Loader Class Initialized
+INFO - 2020-08-23 10:08:01 --> Helper loaded: form_helper
+INFO - 2020-08-23 10:08:01 --> Helper loaded: url_helper
+INFO - 2020-08-23 10:08:01 --> Helper loaded: html_helper
+INFO - 2020-08-23 10:08:01 --> Helper loaded: file_helper
+INFO - 2020-08-23 10:08:01 --> Helper loaded: component_helper
+INFO - 2020-08-23 10:08:01 --> Helper loaded: date_helper
+INFO - 2020-08-23 10:08:01 --> Database Driver Class Initialized
+INFO - 2020-08-23 10:08:01 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-23 10:08:01 --> Email Class Initialized
+INFO - 2020-08-23 10:08:01 --> Parser Class Initialized
+INFO - 2020-08-23 10:08:01 --> Controller Class Initialized
+DEBUG - 2020-08-23 10:08:01 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-23 10:08:01 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-23 10:08:01 --> Encryption Class Initialized
+INFO - 2020-08-23 10:08:01 --> Model "M_Datafisik" initialized
+INFO - 2020-08-23 10:08:02 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/Card_Identity.php
+INFO - 2020-08-23 10:08:02 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-23 10:08:02 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormPernikahan.php
+INFO - 2020-08-23 10:08:02 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormPendidikan.php
+INFO - 2020-08-23 10:08:02 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-23 10:08:02 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-23 10:08:02 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-23 10:08:02 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-23 10:08:02 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-23 10:08:02 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-23 10:08:02 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-23 10:08:02 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-23 10:08:02 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormPernikahan.php
+INFO - 2020-08-23 10:08:02 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-23 10:08:02 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-23 10:08:02 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-23 10:08:02 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-23 10:08:02 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-23 10:08:02 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormMertuaPerempuan.php
+INFO - 2020-08-23 10:08:02 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-23 10:08:02 --> File loaded: C:/xampp/htdocs/MBTI/application/modules/Dashboard/views/V_Datafisikdetail.php
+INFO - 2020-08-23 10:08:02 --> File loaded: C:/xampp/htdocs/MBTI/application/modules/Templates/views/Template.php
+INFO - 2020-08-23 10:08:02 --> Final output sent to browser
+DEBUG - 2020-08-23 10:08:03 --> Total execution time: 1.5936
+INFO - 2020-08-23 10:08:33 --> Config Class Initialized
+INFO - 2020-08-23 10:08:33 --> Hooks Class Initialized
+DEBUG - 2020-08-23 10:08:33 --> UTF-8 Support Enabled
+INFO - 2020-08-23 10:08:33 --> Utf8 Class Initialized
+INFO - 2020-08-23 10:08:33 --> URI Class Initialized
+INFO - 2020-08-23 10:08:33 --> Router Class Initialized
+INFO - 2020-08-23 10:08:33 --> Output Class Initialized
+INFO - 2020-08-23 10:08:33 --> Security Class Initialized
+DEBUG - 2020-08-23 10:08:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-23 10:08:33 --> Input Class Initialized
+INFO - 2020-08-23 10:08:33 --> Language Class Initialized
+INFO - 2020-08-23 10:08:33 --> Loader Class Initialized
+INFO - 2020-08-23 10:08:33 --> Helper loaded: form_helper
+INFO - 2020-08-23 10:08:33 --> Helper loaded: url_helper
+INFO - 2020-08-23 10:08:33 --> Helper loaded: html_helper
+INFO - 2020-08-23 10:08:33 --> Helper loaded: file_helper
+INFO - 2020-08-23 10:08:33 --> Helper loaded: component_helper
+INFO - 2020-08-23 10:08:33 --> Helper loaded: date_helper
+INFO - 2020-08-23 10:08:33 --> Database Driver Class Initialized
+INFO - 2020-08-23 10:08:33 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-23 10:08:33 --> Email Class Initialized
+INFO - 2020-08-23 10:08:33 --> Parser Class Initialized
+INFO - 2020-08-23 10:08:33 --> Controller Class Initialized
+DEBUG - 2020-08-23 10:08:33 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-23 10:08:34 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-23 10:08:34 --> Encryption Class Initialized
+INFO - 2020-08-23 10:08:34 --> Model "M_Datafisik" initialized
+INFO - 2020-08-23 10:08:34 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/Card_Identity.php
+INFO - 2020-08-23 10:08:34 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormIdentitasDiri.php
+INFO - 2020-08-23 10:08:34 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormPernikahan.php
+INFO - 2020-08-23 10:08:34 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormPendidikan.php
+INFO - 2020-08-23 10:08:34 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormPendidikanKedinasan.php
+INFO - 2020-08-23 10:08:34 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormPendidikanLain.php
+INFO - 2020-08-23 10:08:34 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormRiwayatPekerjaan.php
+INFO - 2020-08-23 10:08:34 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormRiwayatPekerjaanDinas.php
+INFO - 2020-08-23 10:08:34 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormRiwayatTempatTinggal.php
+INFO - 2020-08-23 10:08:34 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormRiwayatOrganisasi.php
+INFO - 2020-08-23 10:08:34 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormRiwayatPerjuangan.php
+INFO - 2020-08-23 10:08:34 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormRiwayatPenghargaan.php
+INFO - 2020-08-23 10:08:34 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormPernikahan.php
+INFO - 2020-08-23 10:08:34 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormAyahKandung.php
+INFO - 2020-08-23 10:08:34 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormAyahTiri.php
+INFO - 2020-08-23 10:08:34 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormIbuKandung.php
+INFO - 2020-08-23 10:08:34 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormIbuTiri.php
+INFO - 2020-08-23 10:08:34 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormMertuaLaki.php
+INFO - 2020-08-23 10:08:34 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/FormMertuaPerempuan.php
+INFO - 2020-08-23 10:08:34 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/CardFormDataDiri.php
+INFO - 2020-08-23 10:08:34 --> File loaded: C:/xampp/htdocs/MBTI/application/modules/Dashboard/views/V_Datafisikdetail.php
+INFO - 2020-08-23 10:08:34 --> File loaded: C:/xampp/htdocs/MBTI/application/modules/Templates/views/Template.php
+INFO - 2020-08-23 10:08:34 --> Final output sent to browser
+DEBUG - 2020-08-23 10:08:34 --> Total execution time: 0.7997
+INFO - 2020-08-23 10:09:03 --> Config Class Initialized
+INFO - 2020-08-23 10:09:03 --> Hooks Class Initialized
+DEBUG - 2020-08-23 10:09:03 --> UTF-8 Support Enabled
+INFO - 2020-08-23 10:09:03 --> Utf8 Class Initialized
+INFO - 2020-08-23 10:09:03 --> URI Class Initialized
+INFO - 2020-08-23 10:09:03 --> Router Class Initialized
+INFO - 2020-08-23 10:09:03 --> Output Class Initialized
+INFO - 2020-08-23 10:09:03 --> Security Class Initialized
+DEBUG - 2020-08-23 10:09:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-23 10:09:03 --> Input Class Initialized
+INFO - 2020-08-23 10:09:03 --> Language Class Initialized
+INFO - 2020-08-23 10:09:03 --> Loader Class Initialized
+INFO - 2020-08-23 10:09:03 --> Helper loaded: form_helper
+INFO - 2020-08-23 10:09:03 --> Helper loaded: url_helper
+INFO - 2020-08-23 10:09:03 --> Helper loaded: html_helper
+INFO - 2020-08-23 10:09:03 --> Helper loaded: file_helper
+INFO - 2020-08-23 10:09:03 --> Helper loaded: component_helper
+INFO - 2020-08-23 10:09:03 --> Helper loaded: date_helper
+INFO - 2020-08-23 10:09:03 --> Database Driver Class Initialized
+INFO - 2020-08-23 10:09:03 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-23 10:09:03 --> Email Class Initialized
+INFO - 2020-08-23 10:09:03 --> Parser Class Initialized
+INFO - 2020-08-23 10:09:03 --> Controller Class Initialized
+DEBUG - 2020-08-23 10:09:03 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-23 10:09:03 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-23 10:09:03 --> Encryption Class Initialized
+INFO - 2020-08-23 10:09:03 --> Model "M_Datafisik" initialized
+INFO - 2020-08-23 10:09:03 --> File loaded: C:\xampp\htdocs\MBTI\application\views\Component/Card_Identity.php
+INFO - 2020-08-23 10:09:03 --> File loaded: C:/xampp/htdocs/MBTI/application/modules/Dashboard/views/V_Datafisikdetail.php
+INFO - 2020-08-23 10:09:03 --> File loaded: C:/xampp/htdocs/MBTI/application/modules/Templates/views/Template.php
+INFO - 2020-08-23 10:09:03 --> Final output sent to browser
+DEBUG - 2020-08-23 10:09:03 --> Total execution time: 0.4985
+INFO - 2020-08-23 10:09:12 --> Config Class Initialized
+INFO - 2020-08-23 10:09:12 --> Hooks Class Initialized
+DEBUG - 2020-08-23 10:09:12 --> UTF-8 Support Enabled
+INFO - 2020-08-23 10:09:12 --> Utf8 Class Initialized
+INFO - 2020-08-23 10:09:12 --> URI Class Initialized
+INFO - 2020-08-23 10:09:12 --> Router Class Initialized
+INFO - 2020-08-23 10:09:12 --> Output Class Initialized
+INFO - 2020-08-23 10:09:12 --> Security Class Initialized
+DEBUG - 2020-08-23 10:09:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-23 10:09:12 --> Input Class Initialized
+INFO - 2020-08-23 10:09:12 --> Language Class Initialized
+INFO - 2020-08-23 10:09:12 --> Loader Class Initialized
+INFO - 2020-08-23 10:09:12 --> Helper loaded: form_helper
+INFO - 2020-08-23 10:09:12 --> Helper loaded: url_helper
+INFO - 2020-08-23 10:09:12 --> Helper loaded: html_helper
+INFO - 2020-08-23 10:09:12 --> Helper loaded: file_helper
+INFO - 2020-08-23 10:09:12 --> Helper loaded: component_helper
+INFO - 2020-08-23 10:09:12 --> Helper loaded: date_helper
+INFO - 2020-08-23 10:09:12 --> Database Driver Class Initialized
+INFO - 2020-08-23 10:09:12 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-23 10:09:12 --> Email Class Initialized
+INFO - 2020-08-23 10:09:12 --> Parser Class Initialized
+INFO - 2020-08-23 10:09:13 --> Controller Class Initialized
+DEBUG - 2020-08-23 10:09:13 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-23 10:09:13 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-23 10:09:13 --> Encryption Class Initialized
+INFO - 2020-08-23 10:09:13 --> Model "M_Pernyataan" initialized
+INFO - 2020-08-23 10:09:13 --> File loaded: C:/xampp/htdocs/MBTI/application/modules/Dashboard/views/V_Pernyataan.php
+INFO - 2020-08-23 10:09:13 --> File loaded: C:/xampp/htdocs/MBTI/application/modules/Templates/views/Template.php
+INFO - 2020-08-23 10:09:13 --> Final output sent to browser
+DEBUG - 2020-08-23 10:09:13 --> Total execution time: 0.5554

@@ -47,7 +47,7 @@
                     <td class="text-center">
                         <div class="btn-group">
                             <?php $id = str_replace(['+', '/', '='], ['-', '_', '~'], $this->encryption->encrypt($t_peserta->id)); ?>
-                            <a href="<?= base_url('Dashboard/Datafisik/Detail/' . $id . ''); ?>" class="btn waves-effect waves-light btn-default btn-xs" title="Detail Anggota"><i class="fas fa-eye"></i></a>
+                            <a href="<?= base_url('Dashboard/Datafisik/Detail/' . $id . ''); ?>" class="btn waves-effect waves-light btn-default btn-xs" title="Detail Fisik Anggota"><i class="fas fa-edit"></i></a>
                         </div>
                     </td>
                 </tr>
