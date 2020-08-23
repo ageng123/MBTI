@@ -127,7 +127,7 @@
                 <button class="btn btn-danger">Cancel</button>
                 <button class="btn btn-success btn-submit-pernyataan">Edit</button>
                 <button class="btn btn-primary btn">Print Pernyataan</button>
-                <button class="btn btn-primary btn">Print ID Card</button>
+                <button class="btn btn-primary btn" onclick="PersonilServices.PRINT_ID('<?= encode($peserta[0]->id) ?>')">Print ID Card</button>
             <?php 
                 break;
                 default:

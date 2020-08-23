@@ -810,6 +810,11 @@
 				data: JSON.stringify({data: FormData }),
 				success: function(resultData) { console.log(resultData) }
 		  });	
+		},
+		PRINT_ID: (idPersonil) => {
+			let url = BaseUri+'Dashboard/Pernyataan/Print_id?SESSION_ID='+idPersonil;
+			window.open(url, '_blank');
+
 		}
 	}
 	$('.btn-submit-pernyataan').on('click', () => {

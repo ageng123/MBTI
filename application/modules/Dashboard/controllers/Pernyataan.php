@@ -134,5 +134,12 @@ class Pernyataan extends CI_Controller {
         ];
         return $this->parser->parse('V_Pernyataanprint', $data);
     }
+    public function Print_id(){
+        $id = decode($_GET['SESSION_ID']);
+        $data = [
+            'id_anggota' => $id
+        ];
+        return $this->parser->parse('V_idprint', $data);
+    }
 
 }

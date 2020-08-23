@@ -8,6 +8,13 @@
         }
     ],
     "require": {
-        "chriskacerguis/codeigniter-restserver": "dev-master"
-    }
+        "chriskacerguis/codeigniter-restserver": "dev-master",
+        "tecnickcom/tc-lib-pdf": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:tecnickcom/tc-lib-pdf.git"
+        }
+    ]
 }
