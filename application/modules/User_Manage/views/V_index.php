@@ -34,7 +34,7 @@
                 {
                     data: null, className: "text-center",
                     "render": function (data) {
-                        return '<a href="" class="btn waves-effect waves-light btn-primary btn-xs" title="Reset password to default"><i class="fas fa-key"></i></a>';
+                        return '<a href="" class="btn waves-effect waves-light btn-default btn-xs" title="Reset password to default"><i class="fas fa-key"></i></a>';
                     }
                 }
             ]
