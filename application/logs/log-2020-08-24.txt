@@ -1,0 +1,94 @@
+INFO - 2020-08-24 19:19:28 --> Config Class Initialized
+INFO - 2020-08-24 19:19:28 --> Hooks Class Initialized
+DEBUG - 2020-08-24 19:19:29 --> UTF-8 Support Enabled
+INFO - 2020-08-24 19:19:29 --> Utf8 Class Initialized
+INFO - 2020-08-24 19:19:29 --> URI Class Initialized
+DEBUG - 2020-08-24 19:19:29 --> No URI present. Default module controller set.
+INFO - 2020-08-24 19:19:29 --> Router Class Initialized
+INFO - 2020-08-24 19:19:30 --> Output Class Initialized
+INFO - 2020-08-24 19:19:30 --> Security Class Initialized
+DEBUG - 2020-08-24 19:19:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-24 19:19:30 --> Input Class Initialized
+INFO - 2020-08-24 19:19:30 --> Language Class Initialized
+INFO - 2020-08-24 19:19:30 --> Loader Class Initialized
+INFO - 2020-08-24 19:19:30 --> Helper loaded: form_helper
+INFO - 2020-08-24 19:19:31 --> Helper loaded: url_helper
+INFO - 2020-08-24 19:19:31 --> Helper loaded: html_helper
+INFO - 2020-08-24 19:19:31 --> Helper loaded: file_helper
+INFO - 2020-08-24 19:19:31 --> Helper loaded: component_helper
+INFO - 2020-08-24 19:19:31 --> Helper loaded: date_helper
+INFO - 2020-08-24 19:19:31 --> Helper loaded: encrypt_helper
+INFO - 2020-08-24 19:19:31 --> Database Driver Class Initialized
+INFO - 2020-08-24 19:19:33 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-24 19:19:34 --> Email Class Initialized
+INFO - 2020-08-24 19:19:34 --> Parser Class Initialized
+DEBUG - 2020-08-24 19:19:34 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-24 19:19:34 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-24 19:19:34 --> Encryption Class Initialized
+INFO - 2020-08-24 19:19:34 --> Model "Main" initialized
+INFO - 2020-08-24 19:19:34 --> Controller Class Initialized
+INFO - 2020-08-24 19:19:34 --> Model "M_Auth" initialized
+INFO - 2020-08-24 19:19:34 --> File loaded: D:/Project/Mbtni/application/modules/Auth/views/V_login.php
+INFO - 2020-08-24 19:19:35 --> Final output sent to browser
+DEBUG - 2020-08-24 19:19:35 --> Total execution time: 7.3358
+INFO - 2020-08-24 19:20:09 --> Config Class Initialized
+INFO - 2020-08-24 19:20:09 --> Hooks Class Initialized
+DEBUG - 2020-08-24 19:20:09 --> UTF-8 Support Enabled
+INFO - 2020-08-24 19:20:09 --> Utf8 Class Initialized
+INFO - 2020-08-24 19:20:09 --> URI Class Initialized
+INFO - 2020-08-24 19:20:09 --> Router Class Initialized
+INFO - 2020-08-24 19:20:09 --> Output Class Initialized
+INFO - 2020-08-24 19:20:09 --> Security Class Initialized
+DEBUG - 2020-08-24 19:20:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-24 19:20:09 --> Input Class Initialized
+INFO - 2020-08-24 19:20:09 --> Language Class Initialized
+INFO - 2020-08-24 19:20:09 --> Loader Class Initialized
+INFO - 2020-08-24 19:20:09 --> Helper loaded: form_helper
+INFO - 2020-08-24 19:20:09 --> Helper loaded: url_helper
+INFO - 2020-08-24 19:20:09 --> Helper loaded: html_helper
+INFO - 2020-08-24 19:20:09 --> Helper loaded: file_helper
+INFO - 2020-08-24 19:20:09 --> Helper loaded: component_helper
+INFO - 2020-08-24 19:20:09 --> Helper loaded: date_helper
+INFO - 2020-08-24 19:20:09 --> Helper loaded: encrypt_helper
+INFO - 2020-08-24 19:20:09 --> Database Driver Class Initialized
+INFO - 2020-08-24 19:20:11 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-24 19:20:11 --> Email Class Initialized
+INFO - 2020-08-24 19:20:11 --> Parser Class Initialized
+DEBUG - 2020-08-24 19:20:11 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-24 19:20:11 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-24 19:20:11 --> Encryption Class Initialized
+INFO - 2020-08-24 19:20:11 --> Model "Main" initialized
+INFO - 2020-08-24 19:20:11 --> Controller Class Initialized
+INFO - 2020-08-24 19:20:11 --> Model "M_Auth" initialized
+INFO - 2020-08-24 19:20:12 --> Config Class Initialized
+INFO - 2020-08-24 19:20:12 --> Hooks Class Initialized
+DEBUG - 2020-08-24 19:20:12 --> UTF-8 Support Enabled
+INFO - 2020-08-24 19:20:12 --> Utf8 Class Initialized
+INFO - 2020-08-24 19:20:12 --> URI Class Initialized
+INFO - 2020-08-24 19:20:12 --> Router Class Initialized
+INFO - 2020-08-24 19:20:12 --> Output Class Initialized
+INFO - 2020-08-24 19:20:12 --> Security Class Initialized
+DEBUG - 2020-08-24 19:20:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-24 19:20:12 --> Input Class Initialized
+INFO - 2020-08-24 19:20:12 --> Language Class Initialized
+INFO - 2020-08-24 19:20:12 --> Loader Class Initialized
+INFO - 2020-08-24 19:20:12 --> Helper loaded: form_helper
+INFO - 2020-08-24 19:20:12 --> Helper loaded: url_helper
+INFO - 2020-08-24 19:20:12 --> Helper loaded: html_helper
+INFO - 2020-08-24 19:20:12 --> Helper loaded: file_helper
+INFO - 2020-08-24 19:20:12 --> Helper loaded: component_helper
+INFO - 2020-08-24 19:20:12 --> Helper loaded: date_helper
+INFO - 2020-08-24 19:20:12 --> Helper loaded: encrypt_helper
+INFO - 2020-08-24 19:20:12 --> Database Driver Class Initialized
+INFO - 2020-08-24 19:20:14 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-24 19:20:14 --> Email Class Initialized
+INFO - 2020-08-24 19:20:14 --> Parser Class Initialized
+DEBUG - 2020-08-24 19:20:14 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-24 19:20:14 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-24 19:20:14 --> Encryption Class Initialized
+INFO - 2020-08-24 19:20:14 --> Model "Main" initialized
+INFO - 2020-08-24 19:20:14 --> Controller Class Initialized
+INFO - 2020-08-24 19:20:14 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_index.php
+INFO - 2020-08-24 19:20:15 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-24 19:20:15 --> Final output sent to browser
+DEBUG - 2020-08-24 19:20:15 --> Total execution time: 2.4725
