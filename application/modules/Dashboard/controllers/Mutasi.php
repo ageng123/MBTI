@@ -76,7 +76,7 @@ class Mutasi extends CI_Controller {
             $row = array();
             $row[] = $key+1;
             $row[] = $value->tanggal_mutasi;
-            $row[] = $value->keterangan;
+            $row[] = $value->keterangan.'<p data-id="'.encode($value->id_mutasi).'"></p>';
             $row[] = $value->created_date;
             $rows[] = $row;
             

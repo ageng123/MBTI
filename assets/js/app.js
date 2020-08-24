@@ -826,12 +826,28 @@
 				ajax: uri,
 				processing: true,
 				createdRow: function(row, data, dataIndex){
-					let string = data[2].replace('<p hidden>', '');
+					let string = data[2].replace('<p>', '');
 					string = string.replace('</p>', '');
 					string = string.split('/');
 					$(row).attr('data-id', string[1]);
 				}
 			})
+		}
+	}
+	const MutasiServices = {
+		ACTION: (action, id) => {
+			switch(action){
+				case 'detail':
+					MutasiServices.SHOW_DETAIL(id);
+				break;
+				case 'print':
+				break;
+
+			}
+		},
+		SHOW_DETAIL: (id) => {
+			console.log(id);
+			$('#ModalMutasi').modal();
 		}
 	}
 	$(document).ready(() => {
@@ -841,7 +857,7 @@
 			DataTableServices.init(container, url);
 		})
 		$('.serverSide').on('click', 'tbody tr', (index) => {
-			let id_data = index.currentTarget.dataset.id
-			console.log(id_data);
+			let id_data = index.currentTarget.childNodes[2].lastElementChild.dataset.id;
+			MutasiServices.ACTION('detail', id_data);
 		})
 	})
