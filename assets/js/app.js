@@ -798,7 +798,6 @@
 			FormData.riwayatorganisasi = JSON.stringify(RiwayatOrganisasiArr);
 			FormData.riwayatperjuangan = JSON.stringify(RiwayatPerjuanganArr);
 			FormData.penghargaan = JSON.stringify(RiwayatPenghargaanArr);
-			console.log(FormData);
 			let token = $('input[name="mbtni_csrf_token"]').val();
 			FormData.mbtni_csrf_token = token;
 			$.ajax({
@@ -806,15 +805,41 @@
 				url: BaseUri+"api/post_pernyataan",
 				mimeType: 'multipart/form-data',
 				contentType: false,
-    			processData: false,
+				processData: false,
+				async: false,
 				data: JSON.stringify({data: FormData }),
-				success: function(resultData) { console.log(resultData) }
+				success: function(resultData) { 
+					console.log(resultData)
+					let data = JSON.parse(resultData);
+					PersonilServices.UPLOAD_PHOTO(data.id_personil) }
 		  });	
 		},
 		PRINT_ID: (idPersonil) => {
 			let url = BaseUri+'Dashboard/Pernyataan/Print_id?SESSION_ID='+idPersonil;
 			window.open(url, '_blank');
 
+		},
+		UPLOAD_PHOTO: (id) => {
+			console.log(id);
+			let files = $('#identityphoto')[0].files[0];
+			let fd = new FormData();
+			fd.append('userfiles', files);
+			console.log(fd);
+			$.ajax({
+				url: BaseUri+'api/upload_photo?SESSION='+id,
+				type: 'POST',
+				data: fd,
+				contentType: false,
+				processData: false,
+				success: function(response){
+					console.log(response);
+					window.location.href = BaseUri+'Dashboard/Pernyataan/index';
+				},
+				error: function(jqXHR, textStatus, errorThrown) { 
+					/* implementation goes here */ 
+					console.log('error'+errorThrown)
+				}
+		})
 		}
 	}
 	$('.btn-submit-pernyataan').on('click', () => {
@@ -841,13 +866,67 @@
 					MutasiServices.SHOW_DETAIL(id);
 				break;
 				case 'print':
+					console.log($('#print_button')[0].dataset.id);
+					let id_data = $('#print_button')[0].dataset.id
+					MutasiServices.PRINT_DETAIL(id_data);
 				break;
 
 			}
 		},
 		SHOW_DETAIL: (id) => {
-			console.log(id);
 			$('#ModalMutasi').modal();
+			$.ajax({
+				type: 'GET',
+				url: BaseUri+'Dashboard/Mutasi/GetMutasiDetail?SESSION_ID='+id,
+				success: (resp) => {
+					console.log(resp);
+					let data = JSON.parse(resp);
+					let mutasidata = data.mutasi;
+					$('#nomor_surat').html(mutasidata.no_mutasi);
+					$('#nama').html(mutasidata.nama);
+					$('#pangkat').html(mutasidata.pangkat_jabatan);
+					$('#tanggal').html(mutasidata.tanggal_mutasi);
+					$('#print_button').attr('data-id', id);
+				}
+			})
+		},
+		PRINT_DETAIL: (id) => {
+			window.open(BaseUri+'Dashboard/Mutasi/print?SESSION_ID='+id, '_blank');
+		}
+	}
+	const PelanggaranServices = {
+		ACTION: (action, id) => {
+			switch(action){
+				case 'detail':
+					PelanggaranServices.SHOW_DETAIL(id);
+				break;
+				case 'print':
+					console.log($('#print_button')[0].dataset.id);
+					let id_data = $('#print_button')[0].dataset.id
+					PelanggaranServices.PRINT_DETAIL(id_data);
+				break;
+
+			}
+		},
+		SHOW_DETAIL: (id) => {
+			$('#ModalMutasi').modal();
+			$.ajax({
+				type: 'GET',
+				url: BaseUri+'Dashboard/Pelanggaran/GetPelanggaranDetail?SESSION_ID='+id,
+				success: (resp) => {
+					console.log(resp);
+					let data = JSON.parse(resp);
+					let mutasidata = data.pelanggaran;
+					$('#nomor_surat').html(mutasidata.no_pelanggaran);
+					$('#nama').html(mutasidata.nama);
+					$('#pangkat').html(mutasidata.proses);
+					$('#tanggal').html(mutasidata.tanggal_pelanggaran);
+					$('#print_button').attr('data-id', id);
+				}
+			})
+		},
+		PRINT_DETAIL: (id) => {
+			window.open(BaseUri+'Dashboard/Pelanggaran/print?SESSION_ID='+id, '_blank');
 		}
 	}
 	$(document).ready(() => {
@@ -858,6 +937,19 @@
 		})
 		$('.serverSide').on('click', 'tbody tr', (index) => {
 			let id_data = index.currentTarget.childNodes[2].lastElementChild.dataset.id;
-			MutasiServices.ACTION('detail', id_data);
+			let datatype = index.currentTarget.childNodes[2].lastElementChild.dataset.type;
+			console.log(datatype);
+			switch(datatype){
+				case 'mutasi':
+					MutasiServices.ACTION('detail', id_data);
+				break;
+				case 'pelanggaran':
+					PelanggaranServices.ACTION('detail', id_data);
+				break;
+			}
+		})
+		$('#search_face').on('click', () => {
+			$('#tb_faceindex').toggleClass('hidden');
+			e.preventDefault();
 		})
 	})

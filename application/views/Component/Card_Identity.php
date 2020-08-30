@@ -1,11 +1,11 @@
 <div class="card" style="flex-direction: row !important">
             <div class="card-body">
-                <center class="m-t-30"> <img src="<?= base_url('assets/images/personil/' . $foto . ''); ?>" style="width: 40%" />
+                <center class="m-t-30"> <img src="<?= base_url('resources/' . $foto . ''); ?>" width="500" height="600" style="width: 40%" />
                 </center>
             </div>
             <div>
                 <hr> </div>
-            <div class="card-body">
+            <div class="card-body" style="min-width: 40%">
                 <small class="text-muted">Nama</small>
                 <h6><?= $nama; ?></h6>
                 <small class="text-muted">Kesatuan</small>
@@ -20,13 +20,7 @@
                 <h6 class="text-uppercase"><?= $tmp_lahir . ', ' . dateIndoLengkap($tgl_lahir); ?></h6>
                 <small class="text-muted">Jenis Kelamin</small>
                 <h6>
-                    <?php
-                    if ($j_k == 1) {
-                        echo 'LAKI-LAKI';
-                    } else {
-                        echo 'PEREMPUAN';
-                    }
-                    ?>
+                    <?= $j_k ?>
                 </h6>
                 <small class="text-muted">No. Identitas</small>
                 <h6><?= $no_identitas; ?></h6>

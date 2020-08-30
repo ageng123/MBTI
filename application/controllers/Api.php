@@ -69,11 +69,19 @@ class Api extends CI_Controller {
         $this->RiwayatPenghargaan();
         $this->SavePernikahan();
         $this->SaveAyahKandung();
-        $this->SaveAyahTiri();
         $this->SaveIbuKandung();
-        $this->SaveIbuTiri();
-        $this->SaveMertuaLaki();
-        $this->SaveMertuaPerempuan();
+        if(!empty($this->data['ibutiri']->ibutirinama)){
+            $this->SaveIbuTiri();
+        }
+        if(!empty($this->data['ayahtiri']->ayahtirinama)){
+            $this->SaveAyahTiri();
+        }
+        if(!empty($this->data['mertualaki']->mertualakinama)){
+            $this->SaveMertuaLaki();
+        }
+        if(!empty($this->data['mertuaperempuan']->mertuaperempuannama)){
+            $this->SaveMertuaPerempuan();
+        }
 
     }
     private function saveIdentity()
@@ -103,6 +111,7 @@ class Api extends CI_Controller {
         $model->tempat_nikah = $data->tempatnikah;
         $model->total_nikah = $data->jumlahnikah;
         $model->jml_anak = $data->jumlahanak;
+        $model->is_active = '1';
         $model->save();
         $this->lastId = $model->lastId();
         $personal = new model_personal;
@@ -113,7 +122,39 @@ class Api extends CI_Controller {
         $personal->nip = $data->nrp;
         $personal->alamat = $data->alamatkantor;
         $personal->save();
+        echo json_encode(['id_personil' => encode($this->lastId)]);
 
+    }
+    public function upload_photo(){
+                $config['upload_path']          = FCPATH.'resources';
+                $config['allowed_types']        = 'gif|jpg|png|jpeg|webp';
+                $config['max_size']             = 10000;
+
+                $this->load->library('upload');
+                $this->upload->initialize($config);
+                var_dump($config['upload_path']);
+                if ( ! $this->upload->do_upload('userfiles'))
+                {
+                        $error = array('error' => $this->upload->display_errors());
+
+                       echo json_encode($error, JSON_PRETTY_PRINT);
+                }
+                else
+                {
+                        $data = array('upload_data' => $this->upload->data(), 'is_success' => true);
+                        $id = $_GET['SESSION'];
+                        $data_update = [
+                            'foto' => $data['upload_data']['file_name']
+                        ];
+                        $params = [
+                            'id' => decode($id)
+                        ];
+                        var_dump($data_update);
+                        print_r($id);
+                        $Model = new modelpernyataan;
+                        $save = $Model->update($params, $data_update);
+                        echo json_encode($data, JSON_PRETTY_PRINT);
+                }
     }
     private function PendidikanUmum()
     {
@@ -160,7 +201,7 @@ class Api extends CI_Controller {
             $model->seq = (int)$key + 1;
             $model->save();
         endforeach;
-        var_dump($data);
+        
     }
     private function RiwayatPekerjaan()
     {
@@ -176,7 +217,7 @@ class Api extends CI_Controller {
             $model->seq = (int)$key + 1;
             $model->save();
         endforeach;
-        var_dump($data);
+        
     }
     private function RiwayatPekerjaanDinas()
     {
@@ -192,7 +233,7 @@ class Api extends CI_Controller {
             $model->seq = (int)$key + 1;
             $model->save();
         endforeach;
-        var_dump($data);
+        
     }
     private function RiwayatAlamat()
     {
@@ -207,7 +248,7 @@ class Api extends CI_Controller {
             $model->seq = (int)$key + 1;
             $model->save();
         endforeach;
-        var_dump($data);
+        
     }
     private function RiwayatOrganisasi()
     {
@@ -224,7 +265,7 @@ class Api extends CI_Controller {
             $model->seq = (int)$key + 1;
             $model->save();
         endforeach;
-        var_dump($data);
+        
     }
     private function RiwayatPerjuangan()
     {
@@ -240,7 +281,7 @@ class Api extends CI_Controller {
             $model->seq = (int)$key + 1;
             $model->save();
         endforeach;
-        var_dump($data);
+        
     }
     private function RiwayatPenghargaan()
     {
@@ -256,7 +297,7 @@ class Api extends CI_Controller {
             $model->seq = (int)$key + 1;
             $model->save();
         endforeach;
-        var_dump($data);
+        
     }
     private function SavePernikahan()
     {
@@ -288,7 +329,7 @@ class Api extends CI_Controller {
         $model->alasan_org1 = $data->pernikahanorgnowalasan;
         $model->alasan_org2 = $data->pernikahanorgoldalasan;
         $model->save();
-        var_dump($data);
+        
     }
     private function SaveAyahKandung()
     {
@@ -319,7 +360,6 @@ class Api extends CI_Controller {
         $model->alasanorganisasipernah_ayahkandung = $data->ayahkandungoldorgalasan;
         $model->alasanmeninggal_ayahkandung = $data->ayahkandungalasanmeninggal ? $data->ayahkandungalasanmeninggal : 'Belum Meninggal';
         $model->save();
-        var_dump($data);
     }
     private function SaveAyahTiri()
     {
@@ -351,7 +391,6 @@ class Api extends CI_Controller {
         $model->alasanpernah_ayahtiri = $data->ayahtirioldorgalasan;
         $model->alasanmeninggal_ayahtiri = $data->ayahtirialasanmeninggal ? $data->ayahtirialasanmeninggal : 'Belum Meninggal';
         $model->save();
-        var_dump($data);
     }
     private function SaveIbuKandung()
     {
@@ -369,21 +408,20 @@ class Api extends CI_Controller {
         $model->aliran_ibukandung = $data->ibukandungaliran;
         $model->alamatsekarang_ibukandung = $data->ibukandungalamat;
         $model->alamatsebelum_ibukandung = $data->ibukandungoldalamat;
-        $model->pendidikanterakhir_ibukandung = $data->ibukandungpendidikan;
+        $model->pendidikan_ibukandung = $data->ibukandungpendidikan;
         $model->alamatkantor_ibukandung = $data->ibukandungalamatkantor;
         $model->pekerjaanterakhir_ibukandung = $data->ibukandungpekerjaan;
-        $model->pekerjaansebelum_ibukandung = $data->ibukandungoldpekerjaan;
+        // $model->pekerjaansebelum_ibukandung = $data->ibukandungoldpekerjaan;
         $model->organisasidiikuti_ibukandung = $data->ibukandungorgnownama;
         $model->organisasipernah_ibukandung = $data->ibukandungoldorgnama;
         $model->kedudukanorganisasi_ibukandung = $data->ibukandungorgnowkedudukan;
         $model->kedudukanpernah_ibukandung = $data->ibukandungoldorgkedudukan;
         $model->sejakorganisasi_ibukandung = $data->ibukandungorgnowkapan;
-        $model->lamaorganisasi_ibukandung = $data->ibukandungoldorglama;
+        // $model->lamaorganisasi_ibukandung = $data->ibukandungoldorglama;
         $model->alasanorganisasi_ibukandung = $data->ibukandungorgnowalasan;
         $model->alasanpernah_ibukandung = $data->ibukandungoldorgalasan;
         $model->alasanmeninggal_ibukandung = $data->ibukandungalasanmeninggal ? $data->ibukandungalasanmeninggal : 'Belum Meninggal';
         $model->save();
-        var_dump($data);
     }
     private function SaveIbuTiri()
     {
@@ -415,7 +453,6 @@ class Api extends CI_Controller {
         $model->alasanpernah_ibutiiri = $data->ibutiirioldorgalasan;
         $model->alasanmeninggal_ibutiiri = $data->ibutiirialasanmeninggal ? $data->ibutiirialasanmeninggal : 'Belum Meninggal';
         $model->save();
-        var_dump($data);
     }
     private function SaveMertuaLaki()
     {
@@ -447,7 +484,6 @@ class Api extends CI_Controller {
         $model->alasanpernah_mertualaki = $data->mertualakioldorgalasan;
         $model->alasanmeninggal_mertualaki = $data->mertualakialasanmeninggal ? $data->mertualakialasanmeninggal : 'Belum Meninggal';
         $model->save();
-        var_dump($data);
     }
     private function SaveMertuaPerempuan()
     {
@@ -479,7 +515,6 @@ class Api extends CI_Controller {
         $model->alasanpernah_mertuaperempuan = $data->mertuaperempuanoldorgalasan;
         $model->alasanmeninggal_mertuaperempuan = $data->mertuaperempuanalasanmeninggal ? $data->mertuaperempuanalasanmeninggal : 'Belum Meninggal';
         $model->save();
-        var_dump($data);
     }
 }
 ?>

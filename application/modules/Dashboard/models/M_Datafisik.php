@@ -5,9 +5,9 @@ defined('BASEPATH')OR exit('No direct script access allowed');
 class M_Datafisik extends CI_Model {
 
     function index() {
-        $exec = $this->db->select('data_diri.nama,data_diri.id, data_pekerjaan.nip, data_pekerjaan.pekerjaan, data_pekerjaan.pangkat, data_pekerjaan.kesatuan,')
+        $exec = $this->db->select('data_diri.nama,data_diri.id, data_pekerjaan.nip, data_pekerjaan.pekerjaan, data_diri.foto, data_pekerjaan.pangkat, data_pekerjaan.kesatuan,')
                 ->from('data_diri')
-                ->join('data_pekerjaan', 'data_diri.id = data_pekerjaan.id', 'LEFT')
+                ->join('data_pekerjaan', 'data_diri.id = data_pekerjaan.id_personil', 'LEFT')
                 ->where('`data_diri`.`is_active`', 1, false)
                 ->get()
                 ->result();

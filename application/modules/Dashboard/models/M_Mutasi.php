@@ -25,7 +25,7 @@ class M_Mutasi extends CI_Model {
     public function index() {
         $exec = $this->db->select('data_diri.nama,data_diri.id, data_pekerjaan.nip, data_pekerjaan.pekerjaan, data_pekerjaan.pangkat, data_pekerjaan.kesatuan')
                 ->from('data_diri')
-                ->join('data_pekerjaan', 'data_diri.id = data_pekerjaan.id', 'LEFT')
+                ->join('data_pekerjaan', 'data_diri.id = data_pekerjaan.id_personil', 'LEFT')
                 ->where('`data_diri`.`is_active`', 1, false)
                 ->get()
                 ->result();
@@ -35,7 +35,7 @@ class M_Mutasi extends CI_Model {
     public function Usulan($id) {
         $exec = $this->db->select('data_diri.nama,data_diri.alamat,data_diri.id,data_diri.foto, data_pekerjaan.nip, data_pekerjaan.pekerjaan, data_pekerjaan.pangkat, data_pekerjaan.kesatuan,data_diri.no_identitas, data_diri.tmp_lahir, data_diri.tgl_lahir, data_diri.alamat, data_diri.telepon')
                 ->from('data_diri')
-                ->join('data_pekerjaan', 'data_diri.id = data_pekerjaan.id', 'LEFT')
+                ->join('data_pekerjaan', 'data_diri.id = data_pekerjaan.id_personil', 'LEFT')
                 ->where('`data_diri`.`is_active`', 1, false)
                 ->where('`data_diri`.`id`', $id, false)
                 ->get()
@@ -50,6 +50,9 @@ class M_Mutasi extends CI_Model {
     public function save(){
         return $this->db->insert($this->table, $this);
     }
+    public function getMutasi($id){
+        return $this->db->select('a.*, b.nama')->join('data_diri b', 'a.id_personil = b.id')->where('id_mutasi', $id)->get($this->table.' a')->row_object();
+    }
 
 }
 
@@ -62,7 +65,7 @@ class M_Pelanggaran extends CI_Model{
     public function index() {
         $exec = $this->db->select('data_diri.nama,data_diri.id, data_pekerjaan.nip, data_pekerjaan.pekerjaan, data_pekerjaan.pangkat, data_pekerjaan.kesatuan')
                 ->from('data_diri')
-                ->join('data_pekerjaan', 'data_diri.id = data_pekerjaan.id', 'LEFT')
+                ->join('data_pekerjaan', 'data_diri.id = data_pekerjaan.id_personil', 'LEFT')
                 ->where('`data_diri`.`is_active`', 1, false)
                 ->get()
                 ->result();
@@ -72,7 +75,7 @@ class M_Pelanggaran extends CI_Model{
     public function Usulan($id) {
         $exec = $this->db->select('data_diri.nama,data_diri.alamat,data_diri.id,data_diri.foto, data_pekerjaan.nip, data_pekerjaan.pekerjaan, data_pekerjaan.pangkat, data_pekerjaan.kesatuan,data_diri.no_identitas, data_diri.tmp_lahir, data_diri.tgl_lahir, data_diri.alamat, data_diri.telepon')
                 ->from('data_diri')
-                ->join('data_pekerjaan', 'data_diri.id = data_pekerjaan.id', 'LEFT')
+                ->join('data_pekerjaan', 'data_diri.id = data_pekerjaan.id_personil', 'LEFT')
                 ->where('`data_diri`.`is_active`', 1, false)
                 ->where('`data_diri`.`id`', $id, false)
                 ->get()
@@ -87,5 +90,8 @@ class M_Pelanggaran extends CI_Model{
     
     public function save(){
         return $this->db->insert($this->table, $this);
+    }
+    public function getPelanggaran($id){
+        return $this->db->select('a.*, b.nama')->join('data_diri b', 'a.id_personil = b.id')->where('id_pelanggaran', $id)->get($this->table.' a')->row_object();
     }
 }

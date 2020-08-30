@@ -2,7 +2,7 @@
 <div class="col-md-12">
 	<div class="form-group">
 		<label>Foto</label>
-		<input type="file" name="identity['foto']" class="form-control-file" required=""/>
+		<input type="file" id="identityphoto" name="identity['foto']" class="form-control-file" required=""/>
 	</div>
 </div>
 <div class="col-md-12">

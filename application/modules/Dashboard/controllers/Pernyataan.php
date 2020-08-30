@@ -110,8 +110,8 @@ class Pernyataan extends CI_Controller {
         }
     }
 
-    public function Detail($id) {
-        $id_anggota = $this->Dec($id);
+    public function Detail() {
+        $id_anggota = decode($_GET['SESSION']);
         $data = [
             'title' => 'Dashboard application',
             'logo' => 'https://cdn.maspriyambodo.com/images/mp_logo.png',
@@ -135,11 +135,28 @@ class Pernyataan extends CI_Controller {
         return $this->parser->parse('V_Pernyataanprint', $data);
     }
     public function Print_id(){
-        $id = decode($_GET['SESSION_ID']);
+        $id_anggota = decode($_GET['SESSION_ID']);
         $data = [
-            'id_anggota' => $id
+            'id_anggota' => $id_anggota,
+            'anggota' =>  $this->M_Pernyataan->Detail($id_anggota),
         ];
-        return $this->parser->parse('V_idprint', $data);
+        // require_once('tcpdf/config/lang/eng.php');
+        // require_once('tcpdf/tcpdf.php');
+        // require_once('tcpdf_include.php');
+        // require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
+        $this->load->library('Pdf');
+        $pdf = new Pdf();
+        $pdf->AddPage('p', 'A6');
+        ob_start();
+    // we can have any view part here like HTML, PHP etc
+            $this->load->view('V_idprint', $data);
+            $content = ob_get_contents();
+            // $content = $this->load->view('V_idprint', $data);
+        ob_end_clean();
+        // $content = $this->load->view('V_idprint', $data);
+        $pdf->writeHTML($content, true, false, true, false, '');
+        $pdf->Output('output.pdf', 'I');
+        // return $this->parser->parse('V_idprint', $data);
     }
 
 }

@@ -52,7 +52,7 @@
                     <td class="text-center">
                         <div class="btn-group">
                             <?php $id = str_replace(['+', '/', '='], ['-', '_', '~'], $this->encryption->encrypt($t_peserta->id)); ?>
-                            <a href="<?= base_url('Dashboard/Pernyataan/Detail/' . $id . ''); ?>" class="btn waves-effect waves-light btn-default btn-xs" title="Detail Anggota"><i class="fas fa-clipboard-list"></i></a>
+                            <a href="<?= base_url('Dashboard/Pernyataan/Detail?SESSION=' . encode($t_peserta->id) . ''); ?>" class="btn waves-effect waves-light btn-default btn-xs" title="Detail Anggota"><i class="fas fa-clipboard-list"></i></a>
                         </div>
                     </td>
                 </tr>

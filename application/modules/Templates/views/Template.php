@@ -21,10 +21,13 @@
         <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.10.20/af-2.3.4/b-1.6.1/b-colvis-1.6.1/b-flash-1.6.1/b-html5-1.6.1/b-print-1.6.1/cr-1.5.2/fc-3.3.0/fh-3.1.6/kt-2.5.1/r-2.2.3/rg-1.1.1/rr-1.2.6/sc-2.0.1/sp-1.0.1/sl-1.3.1/datatables.min.css"/>
                 <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
         <link rel="stylesheet" href="<?= site_url('assets/datepicker/css/bootstrap-datetimepicker.min.css') ?>">
-        <link rel="stylesheet" href="<?= site_url('assets/css/custom.css') ?>">
+        <link rel="stylesheet" type="text/css" href="<?= site_url('assets/css/custom.css') ?>">
         <style> 
             body{
                 letter-spacing: 0.05em !important;
+            }
+            .hidden{
+                display:none;
             }
         </style>
     </head>
@@ -135,6 +138,12 @@
                                     <span class="hide-menu">Data Fisik Anggota</span>
                                 </a>
                             </li>
+                            <li class="sidebar-item">
+                                <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('Dashboard/Datafisik/face/'); ?>" aria-expanded="false">
+                                <i class="fas fa-universal-access"></i>
+                                    <span class="hide-menu">Face-Detect</span>
+                                </a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -177,7 +186,11 @@
                 })
             </script>
             <script src="<?= site_url('assets/js/app.js') ?>"></script>
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.js" integrity="sha512-BgV3bZfMmUklIZI+dP0SILdmQ0RBY2gxegFFyfgo4Ui56WhKF4Pny9LsV/l96jxDDA+2w47zAXA4IyHo2UT/Qg==" crossorigin="anonymous"></script>
            <!--  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script> -->
+            <script>
+                $('body').particleGround();
+            </script>
         </div>
     </body>
 </html>

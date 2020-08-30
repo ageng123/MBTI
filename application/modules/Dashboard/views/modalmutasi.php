@@ -10,13 +10,17 @@
       </div>
       <div class="modal-body">
         <p class="text-muted">Nomor Mutasi</p>
+        <p id="nomor_surat"></p>
         <p class="text-muted">Nama</p>
+        <p id="nama"></p>
         <p class="text-muted">Pangkat / Jabatan</p>
+        <p id="pangkat"></p>
         <p class="text-muted">Tanggal Mutasi</p>
+        <p id="tanggal"></p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Print</button>
+        <button type="button" class="btn btn-primary" id="print_button" onclick="MutasiServices.ACTION('print', null)">Print</button>
       </div>
     </div>
   </div>

@@ -124,6 +124,29 @@ class Datafisik extends CI_Controller {
     }
     public function Edit() {
         $id_anggota = decode($_GET['session_id']);
+        $action = $_GET['action'];
+        switch(decode($action)){
+            case 'add':
+                $data = [
+                    'title' => 'Dashboard application',
+                    'logo' => 'https://cdn.maspriyambodo.com/images/mp_logo.png',
+                    'username' => $this->session->userdata('nama'),
+                    'peserta' => $this->M_Datafisik->Detail($id_anggota),
+                    'csrf' => $this->Csrf(),
+                    'data' => ''
+                ];
+            break;
+            case 'edit':
+                $data = [
+                    'title' => 'Dashboard application',
+                    'logo' => 'https://cdn.maspriyambodo.com/images/mp_logo.png',
+                    'username' => $this->session->userdata('nama'),
+                    'peserta' => $this->M_Datafisik->Detail($id_anggota),
+                    'csrf' => $this->Csrf(),
+                    'data' => ''
+                ];
+            break;
+        }
         $data = [
             'title' => 'Dashboard application',
             'logo' => 'https://cdn.maspriyambodo.com/images/mp_logo.png',
@@ -145,6 +168,17 @@ class Datafisik extends CI_Controller {
             'csrf' => $this->Csrf()
         ];
         return $this->parser->parse('V_Pernyataanprint', $data);
+    }
+    public function face(){
+        $data = [
+            'title' => 'Dashboard application',
+            'logo' => 'https://cdn.maspriyambodo.com/images/mp_logo.png',
+            'username' => $this->session->userdata('nama'),
+            'peserta' => $this->M_Datafisik->index(),
+            'csrf' => $this->Csrf()
+        ];
+        $data['content'] = $this->parser->parse('FaceIndex', $data, true);
+        return $this->parser->parse('Templates/Template', $data);
     }
 
 }

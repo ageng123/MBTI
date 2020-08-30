@@ -73,7 +73,7 @@ class Pelanggaran extends CI_Controller {
             
             $row[] = $key+1;
             $row[] = $value->keterangan;
-            $row[] = $value->tanggal_pelanggaran.'<p hidden>/'.$value->id_pelanggaran.'</p>';
+            $row[] = $value->tanggal_pelanggaran.'<p data-type="pelanggaran" data-id="'.encode($value->id_pelanggaran).'"></p>';
             $row[] = $value->created_date;
             $rows[] = $row;
             
@@ -92,6 +92,38 @@ class Pelanggaran extends CI_Controller {
         if($model->save()){
             return redirect(site_url('Dashboard/Pelanggaran/index'));
         };
+    }
+    public function GetPelanggaranDetail(){
+        $id = decode($_GET['SESSION_ID']);
+        $model = new M_Pelanggaran;
+        $data = [
+            'pelanggaran' => $model->getPelanggaran($id)
+        ];
+        echo json_encode($data, JSON_PRETTY_PRINT);
+    }
+    public function print(){
+        $id_anggota = decode($_GET['SESSION_ID']);
+        $model = new M_Pelanggaran;
+        $data = [
+            'id_anggota' => $id_anggota,
+            'anggota' =>  $model->getPelanggaran($id_anggota)
+        ];
+        // require_once('tcpdf/config/lang/eng.php');
+        // require_once('tcpdf/tcpdf.php');
+        // require_once('tcpdf_include.php');
+        // require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
+        $this->load->library('Pdf');
+        $pdf = new Pdf();
+        $pdf->AddPage('p', 'A4');
+        ob_start();
+    // we can have any view part here like HTML, PHP etc
+            $this->load->view('V_pelanggaranprint', $data);
+            $content = ob_get_contents();
+            // $content = $this->load->view('V_idprint', $data);
+        ob_end_clean();
+        // $content = $this->load->view('V_idprint', $data);
+        $pdf->writeHTML($content, true, false, true, false, '');
+        $pdf->Output('Mutasi-'.date('Ymd').'.pdf', 'I');
     }
 
 }

@@ -85,3 +85,4 @@
         </div>
     </div>
 </div>
+<?php $this->load->view('Dashboard/modalpelanggaran') ?>

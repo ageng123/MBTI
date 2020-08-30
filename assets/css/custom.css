@@ -8,3 +8,6 @@
 .nav-tabs > li{
 	float: none;
 }
+.hidden{
+	display: none;
+}

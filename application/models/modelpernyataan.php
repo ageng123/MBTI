@@ -35,6 +35,9 @@ class modelpernyataan extends CI_Model {
     {
         return $this->db->insert_id();
     }
+    public function update($id, $data){
+        return $this->db->update($this->table, $data, $id);
+    }
 
 }
 class model_personal extends CI_Model{
@@ -42,7 +45,7 @@ class model_personal extends CI_Model{
     protected $primaryKey = 'id';
     public function save()
     {
-        var_dump($this);
+        return $this->db->insert($this->table, $this);
     }
 }
 class ModelPernikahan extends CI_Model {

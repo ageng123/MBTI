@@ -14,7 +14,9 @@
             </div>
             <div class="card-footer">
                 <button class="btn btn-md btn-danger">Cancel</button>
-                <a href="<?= site_url('Dashboard/Datafisik/edit?session_id=') ?><?= encode($peserta[0]->id) ?>" class="btn btn-md btn-success">Edit</a>
+                <a href="<?= site_url('Dashboard/Datafisik/edit?action='.encode('add').'&session_id=') ?><?= encode($peserta[0]->id) ?>" class="btn btn-md btn-success">Tambah</a>
+                <a href="<?= site_url('Dashboard/Datafisik/edit?action='.encode('edit').'&session_id=') ?><?= encode($peserta[0]->id) ?>" class="btn btn-md btn-success">Edit</a>
+
             </div>
         </div>
     </div>

@@ -76,7 +76,7 @@ class Mutasi extends CI_Controller {
             $row = array();
             $row[] = $key+1;
             $row[] = $value->tanggal_mutasi;
-            $row[] = $value->keterangan.'<p data-id="'.encode($value->id_mutasi).'"></p>';
+            $row[] = $value->keterangan.'<p data-type="mutasi" data-id="'.encode($value->id_mutasi).'"></p>';
             $row[] = $value->created_date;
             $rows[] = $row;
             
@@ -136,5 +136,36 @@ class Mutasi extends CI_Controller {
         $data['content'] = $this->parser->parse('V_mutasiprint', $data, true);
         return $this->parser->parse('Templates/Template', $data);
     }
-
+    public function GetMutasiDetail(){
+        $id = decode($_GET['SESSION_ID']);
+        $model = new M_Mutasi;
+        $data = [
+            'mutasi' => $model->getMutasi($id)
+        ];
+        echo json_encode($data, JSON_PRETTY_PRINT);
+    }
+    public function print(){
+        $id_anggota = decode($_GET['SESSION_ID']);
+        $model = new M_Mutasi;
+        $data = [
+            'id_anggota' => $id_anggota,
+            'anggota' =>  $model->getMutasi($id_anggota)
+        ];
+        // require_once('tcpdf/config/lang/eng.php');
+        // require_once('tcpdf/tcpdf.php');
+        // require_once('tcpdf_include.php');
+        // require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
+        $this->load->library('Pdf');
+        $pdf = new Pdf();
+        $pdf->AddPage('p', 'A4');
+        ob_start();
+    // we can have any view part here like HTML, PHP etc
+            $this->load->view('V_mutasiprint', $data);
+            $content = ob_get_contents();
+            // $content = $this->load->view('V_idprint', $data);
+        ob_end_clean();
+        // $content = $this->load->view('V_idprint', $data);
+        $pdf->writeHTML($content, true, false, true, false, '');
+        $pdf->Output('Mutasi-'.date('Ymd').'.pdf', 'I');
+    }
 }

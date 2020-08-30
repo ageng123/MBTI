@@ -25,8 +25,8 @@
         <style>
             body{
                 border: 1px solid #666;
-                width: 85.6mm;
-                height: 53.98mm;
+                width: 85mm;
+                height: 90mm;
                 font-size: 11pt;
             }
             .container-fluid{
@@ -34,21 +34,32 @@
                 background-repeat: no-repeat;
                 background-size: cover;
             }
-            
+            h2{
+                font-size: 14px
+            }
+            p{
+                font-size: 10px;
+            }
+            h3{
+                font-size: 12px;
+            }
         </style>
     </head>
     <!--onload="window.print();"-->
     <body>
-    <div>
-        <div style="width: 100%; height: 30%; background-color: red !important; padding: 10px" class="text-center">
+    <div style="text-align: center">
+        <div style="width: 100%; height: 30%; background-color: rgb(255,0,0) !important; padding: 10px; color: rgb(255,255,255)!important " class="text-center">
             <h2>Tanda Pengenal Pasukan Paspampres</h2>
             <p>Markas Besar Tentara Nasional Indonesia</p>
         </div>
        <div class="p-4">
-       <h3>NRP</h3>
-        <p>081211138331</p>
-        <h3>Nama</h3>
-        <p>Ageng Muhammad Wijayanto</p>
+       <center class="m-t-30"> <img src="<?= $_SERVER['DOCUMENT_ROOT'].'resources/'.$anggota[0]->foto ?>" width="100" height="120" style="width: 40%" />
+        <p><?= $anggota[0]->nip ? $anggota[0]->nip : '081211138331' ?></p>
+        <p><?= $anggota[0]->nama ?></p>
+        <p><?= $anggota[0]->pangkat ? $anggota[0]->pangkat : 'Staff' ?></p>
+
+        </center>
+      
        </div>
     </div>
    

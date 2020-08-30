@@ -7,8 +7,8 @@ class M_Pernyataan extends CI_Model {
     function index() {
         $exec = $this->db->select('data_diri.nama,data_diri.id, data_pekerjaan.nip, data_pekerjaan.pekerjaan, data_pekerjaan.pangkat, data_pekerjaan.kesatuan,')
                 ->from('data_diri')
-                ->join('data_pekerjaan', 'data_diri.id = data_pekerjaan.id', 'LEFT')
-                ->where('`data_diri`.`stat`', 1, false)
+                ->join('data_pekerjaan', 'data_diri.id = data_pekerjaan.id_personil', 'LEFT')
+                ->where('`data_diri`.`is_active`', 1, false)
                 ->get()
                 ->result();
         return $exec;
@@ -18,7 +18,7 @@ class M_Pernyataan extends CI_Model {
         $exec = $this->db->select('data_diri.id, data_diri.nama, data_diri.nick, data_diri.no_identitas, data_diri.j_k, data_diri.tmp_lahir, data_diri.tgl_lahir, data_diri.suku, data_diri.kewarganegaraan, data_diri.cara_kewarganegaraan, data_diri.agama, data_diri.agama_sebelumnya, data_diri.aliran, data_diri.alamat AS alamat_peserta, data_diri.telepon, data_diri.hobi, data_diri.kebiasaan, data_diri.bahasa, data_diri.foto, data_pekerjaan.nip, data_pekerjaan.pekerjaan, data_pekerjaan.pangkat, data_pekerjaan.kesatuan')
                 ->from('data_diri')
                 ->join('data_pekerjaan', 'data_diri.id = data_pekerjaan.id', 'LEFT')
-                ->where('`data_diri`.`stat`', 1, false)
+                ->where('`data_diri`.`is_active`', 1, false)
                 ->where('`data_diri`.`id`', $id, false)
                 ->get()
                 ->result();

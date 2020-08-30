@@ -1,0 +1,1105 @@
+INFO - 2020-08-30 10:56:30 --> Config Class Initialized
+INFO - 2020-08-30 10:56:30 --> Hooks Class Initialized
+DEBUG - 2020-08-30 10:56:30 --> UTF-8 Support Enabled
+INFO - 2020-08-30 10:56:30 --> Utf8 Class Initialized
+INFO - 2020-08-30 10:56:30 --> URI Class Initialized
+DEBUG - 2020-08-30 10:56:30 --> No URI present. Default module controller set.
+INFO - 2020-08-30 10:56:30 --> Router Class Initialized
+INFO - 2020-08-30 10:56:30 --> Output Class Initialized
+INFO - 2020-08-30 10:56:30 --> Security Class Initialized
+DEBUG - 2020-08-30 10:56:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-30 10:56:30 --> Input Class Initialized
+INFO - 2020-08-30 10:56:30 --> Language Class Initialized
+INFO - 2020-08-30 10:56:30 --> Loader Class Initialized
+INFO - 2020-08-30 10:56:30 --> Helper loaded: form_helper
+INFO - 2020-08-30 10:56:30 --> Helper loaded: url_helper
+INFO - 2020-08-30 10:56:30 --> Helper loaded: html_helper
+INFO - 2020-08-30 10:56:30 --> Helper loaded: file_helper
+INFO - 2020-08-30 10:56:30 --> Helper loaded: component_helper
+INFO - 2020-08-30 10:56:30 --> Helper loaded: date_helper
+INFO - 2020-08-30 10:56:30 --> Helper loaded: encrypt_helper
+INFO - 2020-08-30 10:56:31 --> Database Driver Class Initialized
+INFO - 2020-08-30 10:56:33 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-30 10:56:33 --> Email Class Initialized
+INFO - 2020-08-30 10:56:33 --> Parser Class Initialized
+DEBUG - 2020-08-30 10:56:33 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-30 10:56:33 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-30 10:56:33 --> Encryption Class Initialized
+INFO - 2020-08-30 10:56:33 --> Upload Class Initialized
+INFO - 2020-08-30 10:56:33 --> Model "Main" initialized
+INFO - 2020-08-30 10:56:33 --> Controller Class Initialized
+INFO - 2020-08-30 10:56:33 --> Model "M_Auth" initialized
+INFO - 2020-08-30 10:56:33 --> File loaded: D:/Project/Mbtni/application/modules/Auth/views/V_login.php
+INFO - 2020-08-30 10:56:33 --> Final output sent to browser
+DEBUG - 2020-08-30 10:56:33 --> Total execution time: 2.7314
+INFO - 2020-08-30 10:56:50 --> Config Class Initialized
+INFO - 2020-08-30 10:56:50 --> Hooks Class Initialized
+DEBUG - 2020-08-30 10:56:50 --> UTF-8 Support Enabled
+INFO - 2020-08-30 10:56:50 --> Utf8 Class Initialized
+INFO - 2020-08-30 10:56:50 --> URI Class Initialized
+INFO - 2020-08-30 10:56:50 --> Router Class Initialized
+INFO - 2020-08-30 10:56:50 --> Output Class Initialized
+INFO - 2020-08-30 10:56:50 --> Security Class Initialized
+DEBUG - 2020-08-30 10:56:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-30 10:56:50 --> Input Class Initialized
+INFO - 2020-08-30 10:56:50 --> Language Class Initialized
+INFO - 2020-08-30 10:56:50 --> Loader Class Initialized
+INFO - 2020-08-30 10:56:50 --> Helper loaded: form_helper
+INFO - 2020-08-30 10:56:50 --> Helper loaded: url_helper
+INFO - 2020-08-30 10:56:50 --> Helper loaded: html_helper
+INFO - 2020-08-30 10:56:50 --> Helper loaded: file_helper
+INFO - 2020-08-30 10:56:50 --> Helper loaded: component_helper
+INFO - 2020-08-30 10:56:50 --> Helper loaded: date_helper
+INFO - 2020-08-30 10:56:50 --> Helper loaded: encrypt_helper
+INFO - 2020-08-30 10:56:50 --> Database Driver Class Initialized
+INFO - 2020-08-30 10:56:52 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-30 10:56:52 --> Email Class Initialized
+INFO - 2020-08-30 10:56:52 --> Parser Class Initialized
+DEBUG - 2020-08-30 10:56:52 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-30 10:56:52 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-30 10:56:52 --> Encryption Class Initialized
+INFO - 2020-08-30 10:56:52 --> Upload Class Initialized
+INFO - 2020-08-30 10:56:52 --> Model "Main" initialized
+INFO - 2020-08-30 10:56:52 --> Controller Class Initialized
+INFO - 2020-08-30 10:56:52 --> Model "M_Auth" initialized
+INFO - 2020-08-30 10:56:53 --> Config Class Initialized
+INFO - 2020-08-30 10:56:53 --> Hooks Class Initialized
+DEBUG - 2020-08-30 10:56:53 --> UTF-8 Support Enabled
+INFO - 2020-08-30 10:56:53 --> Utf8 Class Initialized
+INFO - 2020-08-30 10:56:53 --> URI Class Initialized
+INFO - 2020-08-30 10:56:53 --> Router Class Initialized
+INFO - 2020-08-30 10:56:53 --> Output Class Initialized
+INFO - 2020-08-30 10:56:53 --> Security Class Initialized
+DEBUG - 2020-08-30 10:56:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-30 10:56:53 --> Input Class Initialized
+INFO - 2020-08-30 10:56:53 --> Language Class Initialized
+INFO - 2020-08-30 10:56:53 --> Loader Class Initialized
+INFO - 2020-08-30 10:56:53 --> Helper loaded: form_helper
+INFO - 2020-08-30 10:56:53 --> Helper loaded: url_helper
+INFO - 2020-08-30 10:56:53 --> Helper loaded: html_helper
+INFO - 2020-08-30 10:56:53 --> Helper loaded: file_helper
+INFO - 2020-08-30 10:56:53 --> Helper loaded: component_helper
+INFO - 2020-08-30 10:56:53 --> Helper loaded: date_helper
+INFO - 2020-08-30 10:56:53 --> Helper loaded: encrypt_helper
+INFO - 2020-08-30 10:56:53 --> Database Driver Class Initialized
+INFO - 2020-08-30 10:56:55 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-30 10:56:55 --> Email Class Initialized
+INFO - 2020-08-30 10:56:55 --> Parser Class Initialized
+DEBUG - 2020-08-30 10:56:55 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-30 10:56:55 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-30 10:56:55 --> Encryption Class Initialized
+INFO - 2020-08-30 10:56:55 --> Upload Class Initialized
+INFO - 2020-08-30 10:56:55 --> Model "Main" initialized
+INFO - 2020-08-30 10:56:55 --> Controller Class Initialized
+INFO - 2020-08-30 10:56:55 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_index.php
+INFO - 2020-08-30 10:56:55 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-30 10:56:55 --> Final output sent to browser
+DEBUG - 2020-08-30 10:56:55 --> Total execution time: 2.1926
+INFO - 2020-08-30 10:58:35 --> Config Class Initialized
+INFO - 2020-08-30 10:58:35 --> Hooks Class Initialized
+DEBUG - 2020-08-30 10:58:35 --> UTF-8 Support Enabled
+INFO - 2020-08-30 10:58:35 --> Utf8 Class Initialized
+INFO - 2020-08-30 10:58:35 --> URI Class Initialized
+INFO - 2020-08-30 10:58:35 --> Router Class Initialized
+INFO - 2020-08-30 10:58:35 --> Output Class Initialized
+INFO - 2020-08-30 10:58:35 --> Security Class Initialized
+DEBUG - 2020-08-30 10:58:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-30 10:58:35 --> Input Class Initialized
+INFO - 2020-08-30 10:58:35 --> Language Class Initialized
+INFO - 2020-08-30 10:58:35 --> Loader Class Initialized
+INFO - 2020-08-30 10:58:35 --> Helper loaded: form_helper
+INFO - 2020-08-30 10:58:35 --> Helper loaded: url_helper
+INFO - 2020-08-30 10:58:35 --> Helper loaded: html_helper
+INFO - 2020-08-30 10:58:35 --> Helper loaded: file_helper
+INFO - 2020-08-30 10:58:35 --> Helper loaded: component_helper
+INFO - 2020-08-30 10:58:35 --> Helper loaded: date_helper
+INFO - 2020-08-30 10:58:35 --> Helper loaded: encrypt_helper
+INFO - 2020-08-30 10:58:35 --> Database Driver Class Initialized
+INFO - 2020-08-30 10:58:37 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-30 10:58:37 --> Email Class Initialized
+INFO - 2020-08-30 10:58:37 --> Parser Class Initialized
+DEBUG - 2020-08-30 10:58:37 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-30 10:58:37 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-30 10:58:37 --> Encryption Class Initialized
+INFO - 2020-08-30 10:58:37 --> Upload Class Initialized
+INFO - 2020-08-30 10:58:37 --> Model "Main" initialized
+INFO - 2020-08-30 10:58:37 --> Controller Class Initialized
+DEBUG - 2020-08-30 10:58:37 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 10:58:37 --> Model "M_Datafisik" initialized
+INFO - 2020-08-30 10:58:37 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Datafisik.php
+INFO - 2020-08-30 10:58:37 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-30 10:58:37 --> Final output sent to browser
+DEBUG - 2020-08-30 10:58:37 --> Total execution time: 2.1873
+INFO - 2020-08-30 11:00:53 --> Config Class Initialized
+INFO - 2020-08-30 11:00:53 --> Hooks Class Initialized
+DEBUG - 2020-08-30 11:00:53 --> UTF-8 Support Enabled
+INFO - 2020-08-30 11:00:53 --> Utf8 Class Initialized
+INFO - 2020-08-30 11:00:53 --> URI Class Initialized
+INFO - 2020-08-30 11:00:53 --> Router Class Initialized
+INFO - 2020-08-30 11:00:53 --> Output Class Initialized
+INFO - 2020-08-30 11:00:53 --> Security Class Initialized
+DEBUG - 2020-08-30 11:00:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-30 11:00:53 --> Input Class Initialized
+INFO - 2020-08-30 11:00:53 --> Language Class Initialized
+INFO - 2020-08-30 11:00:53 --> Loader Class Initialized
+INFO - 2020-08-30 11:00:53 --> Helper loaded: form_helper
+INFO - 2020-08-30 11:00:53 --> Helper loaded: url_helper
+INFO - 2020-08-30 11:00:53 --> Helper loaded: html_helper
+INFO - 2020-08-30 11:00:53 --> Helper loaded: file_helper
+INFO - 2020-08-30 11:00:53 --> Helper loaded: component_helper
+INFO - 2020-08-30 11:00:53 --> Helper loaded: date_helper
+INFO - 2020-08-30 11:00:53 --> Helper loaded: encrypt_helper
+INFO - 2020-08-30 11:00:53 --> Database Driver Class Initialized
+INFO - 2020-08-30 11:00:55 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-30 11:00:55 --> Email Class Initialized
+INFO - 2020-08-30 11:00:55 --> Parser Class Initialized
+DEBUG - 2020-08-30 11:00:55 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-30 11:00:55 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-30 11:00:55 --> Encryption Class Initialized
+INFO - 2020-08-30 11:00:55 --> Upload Class Initialized
+INFO - 2020-08-30 11:00:55 --> Model "Main" initialized
+INFO - 2020-08-30 11:00:55 --> Controller Class Initialized
+DEBUG - 2020-08-30 11:00:55 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 11:00:55 --> Model "M_Datafisik" initialized
+INFO - 2020-08-30 11:00:55 --> File loaded: D:\Project\Mbtni\application\views\Component/Card_Identity.php
+DEBUG - 2020-08-30 11:00:55 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 11:00:55 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+DEBUG - 2020-08-30 11:00:55 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 11:00:55 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+DEBUG - 2020-08-30 11:00:55 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 11:00:55 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+DEBUG - 2020-08-30 11:00:55 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 11:00:55 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 11:00:55 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Datafisikdetail.php
+INFO - 2020-08-30 11:00:55 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-30 11:00:55 --> Final output sent to browser
+DEBUG - 2020-08-30 11:00:55 --> Total execution time: 2.1392
+INFO - 2020-08-30 11:40:21 --> Config Class Initialized
+INFO - 2020-08-30 11:40:21 --> Hooks Class Initialized
+DEBUG - 2020-08-30 11:40:21 --> UTF-8 Support Enabled
+INFO - 2020-08-30 11:40:21 --> Utf8 Class Initialized
+INFO - 2020-08-30 11:40:21 --> URI Class Initialized
+INFO - 2020-08-30 11:40:21 --> Router Class Initialized
+INFO - 2020-08-30 11:40:21 --> Output Class Initialized
+INFO - 2020-08-30 11:40:21 --> Security Class Initialized
+DEBUG - 2020-08-30 11:40:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-30 11:40:21 --> Input Class Initialized
+INFO - 2020-08-30 11:40:21 --> Language Class Initialized
+INFO - 2020-08-30 11:40:21 --> Loader Class Initialized
+INFO - 2020-08-30 11:40:21 --> Helper loaded: form_helper
+INFO - 2020-08-30 11:40:21 --> Helper loaded: url_helper
+INFO - 2020-08-30 11:40:21 --> Helper loaded: html_helper
+INFO - 2020-08-30 11:40:21 --> Helper loaded: file_helper
+INFO - 2020-08-30 11:40:21 --> Helper loaded: component_helper
+INFO - 2020-08-30 11:40:21 --> Helper loaded: date_helper
+INFO - 2020-08-30 11:40:21 --> Helper loaded: encrypt_helper
+INFO - 2020-08-30 11:40:21 --> Database Driver Class Initialized
+INFO - 2020-08-30 11:40:23 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-30 11:40:23 --> Email Class Initialized
+INFO - 2020-08-30 11:40:23 --> Parser Class Initialized
+DEBUG - 2020-08-30 11:40:23 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-30 11:40:23 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-30 11:40:23 --> Encryption Class Initialized
+INFO - 2020-08-30 11:40:23 --> Upload Class Initialized
+INFO - 2020-08-30 11:40:23 --> Model "Main" initialized
+INFO - 2020-08-30 11:40:23 --> Controller Class Initialized
+DEBUG - 2020-08-30 11:40:23 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 11:40:23 --> Model "M_Datafisik" initialized
+INFO - 2020-08-30 11:40:23 --> File loaded: D:\Project\Mbtni\application\views\Component/Card_Identity.php
+DEBUG - 2020-08-30 11:40:23 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 11:40:23 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+DEBUG - 2020-08-30 11:40:23 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 11:40:23 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+DEBUG - 2020-08-30 11:40:23 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 11:40:23 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+DEBUG - 2020-08-30 11:40:23 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 11:40:23 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 11:40:23 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Datafisikdetail.php
+INFO - 2020-08-30 11:40:23 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-30 11:40:23 --> Final output sent to browser
+DEBUG - 2020-08-30 11:40:23 --> Total execution time: 2.1030
+INFO - 2020-08-30 11:40:38 --> Config Class Initialized
+INFO - 2020-08-30 11:40:38 --> Hooks Class Initialized
+DEBUG - 2020-08-30 11:40:38 --> UTF-8 Support Enabled
+INFO - 2020-08-30 11:40:38 --> Utf8 Class Initialized
+INFO - 2020-08-30 11:40:38 --> URI Class Initialized
+INFO - 2020-08-30 11:40:38 --> Router Class Initialized
+INFO - 2020-08-30 11:40:38 --> Output Class Initialized
+INFO - 2020-08-30 11:40:38 --> Security Class Initialized
+DEBUG - 2020-08-30 11:40:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-30 11:40:39 --> Input Class Initialized
+INFO - 2020-08-30 11:40:39 --> Language Class Initialized
+INFO - 2020-08-30 11:40:39 --> Loader Class Initialized
+INFO - 2020-08-30 11:40:39 --> Helper loaded: form_helper
+INFO - 2020-08-30 11:40:39 --> Helper loaded: url_helper
+INFO - 2020-08-30 11:40:39 --> Helper loaded: html_helper
+INFO - 2020-08-30 11:40:39 --> Helper loaded: file_helper
+INFO - 2020-08-30 11:40:39 --> Helper loaded: component_helper
+INFO - 2020-08-30 11:40:39 --> Helper loaded: date_helper
+INFO - 2020-08-30 11:40:39 --> Helper loaded: encrypt_helper
+INFO - 2020-08-30 11:40:39 --> Database Driver Class Initialized
+INFO - 2020-08-30 11:40:41 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-30 11:40:41 --> Email Class Initialized
+INFO - 2020-08-30 11:40:41 --> Parser Class Initialized
+DEBUG - 2020-08-30 11:40:41 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-30 11:40:41 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-30 11:40:41 --> Encryption Class Initialized
+INFO - 2020-08-30 11:40:41 --> Upload Class Initialized
+INFO - 2020-08-30 11:40:41 --> Model "Main" initialized
+INFO - 2020-08-30 11:40:41 --> Controller Class Initialized
+DEBUG - 2020-08-30 11:40:41 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 11:40:41 --> Model "M_Datafisik" initialized
+INFO - 2020-08-30 11:40:41 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+ERROR - 2020-08-30 11:40:41 --> Severity: Notice --> Undefined variable: action D:\Project\Mbtni\application\modules\Dashboard\controllers\Datafisik.php 127
+INFO - 2020-08-30 11:40:41 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 11:40:41 --> File loaded: D:\Project\Mbtni\application\views\Component/Card_Identity.php
+DEBUG - 2020-08-30 11:40:41 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 11:40:41 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 11:40:41 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Datafisikedit.php
+INFO - 2020-08-30 11:40:41 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-30 11:40:41 --> Final output sent to browser
+DEBUG - 2020-08-30 11:40:41 --> Total execution time: 2.1207
+INFO - 2020-08-30 11:40:46 --> Config Class Initialized
+INFO - 2020-08-30 11:40:46 --> Hooks Class Initialized
+DEBUG - 2020-08-30 11:40:46 --> UTF-8 Support Enabled
+INFO - 2020-08-30 11:40:46 --> Utf8 Class Initialized
+INFO - 2020-08-30 11:40:46 --> URI Class Initialized
+INFO - 2020-08-30 11:40:46 --> Router Class Initialized
+INFO - 2020-08-30 11:40:46 --> Output Class Initialized
+INFO - 2020-08-30 11:40:46 --> Security Class Initialized
+DEBUG - 2020-08-30 11:40:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-30 11:40:46 --> Input Class Initialized
+INFO - 2020-08-30 11:40:46 --> Language Class Initialized
+INFO - 2020-08-30 11:40:46 --> Loader Class Initialized
+INFO - 2020-08-30 11:40:46 --> Helper loaded: form_helper
+INFO - 2020-08-30 11:40:46 --> Helper loaded: url_helper
+INFO - 2020-08-30 11:40:46 --> Helper loaded: html_helper
+INFO - 2020-08-30 11:40:46 --> Helper loaded: file_helper
+INFO - 2020-08-30 11:40:46 --> Helper loaded: component_helper
+INFO - 2020-08-30 11:40:46 --> Helper loaded: date_helper
+INFO - 2020-08-30 11:40:46 --> Helper loaded: encrypt_helper
+INFO - 2020-08-30 11:40:46 --> Database Driver Class Initialized
+INFO - 2020-08-30 11:40:48 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-30 11:40:48 --> Email Class Initialized
+INFO - 2020-08-30 11:40:48 --> Parser Class Initialized
+DEBUG - 2020-08-30 11:40:48 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-30 11:40:48 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-30 11:40:48 --> Encryption Class Initialized
+INFO - 2020-08-30 11:40:48 --> Upload Class Initialized
+INFO - 2020-08-30 11:40:48 --> Model "Main" initialized
+INFO - 2020-08-30 11:40:48 --> Controller Class Initialized
+DEBUG - 2020-08-30 11:40:48 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 11:40:48 --> Model "M_Datafisik" initialized
+INFO - 2020-08-30 11:40:48 --> File loaded: D:\Project\Mbtni\application\views\Component/Card_Identity.php
+DEBUG - 2020-08-30 11:40:48 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 11:40:48 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+DEBUG - 2020-08-30 11:40:48 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 11:40:48 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+DEBUG - 2020-08-30 11:40:48 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 11:40:48 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+DEBUG - 2020-08-30 11:40:48 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 11:40:48 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 11:40:48 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Datafisikdetail.php
+INFO - 2020-08-30 11:40:48 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-30 11:40:48 --> Final output sent to browser
+DEBUG - 2020-08-30 11:40:48 --> Total execution time: 2.0784
+INFO - 2020-08-30 11:41:09 --> Config Class Initialized
+INFO - 2020-08-30 11:41:09 --> Hooks Class Initialized
+DEBUG - 2020-08-30 11:41:09 --> UTF-8 Support Enabled
+INFO - 2020-08-30 11:41:09 --> Utf8 Class Initialized
+INFO - 2020-08-30 11:41:09 --> URI Class Initialized
+INFO - 2020-08-30 11:41:09 --> Router Class Initialized
+INFO - 2020-08-30 11:41:09 --> Output Class Initialized
+INFO - 2020-08-30 11:41:09 --> Security Class Initialized
+DEBUG - 2020-08-30 11:41:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-30 11:41:09 --> Input Class Initialized
+INFO - 2020-08-30 11:41:09 --> Language Class Initialized
+INFO - 2020-08-30 11:41:09 --> Loader Class Initialized
+INFO - 2020-08-30 11:41:09 --> Helper loaded: form_helper
+INFO - 2020-08-30 11:41:09 --> Helper loaded: url_helper
+INFO - 2020-08-30 11:41:09 --> Helper loaded: html_helper
+INFO - 2020-08-30 11:41:09 --> Helper loaded: file_helper
+INFO - 2020-08-30 11:41:09 --> Helper loaded: component_helper
+INFO - 2020-08-30 11:41:09 --> Helper loaded: date_helper
+INFO - 2020-08-30 11:41:09 --> Helper loaded: encrypt_helper
+INFO - 2020-08-30 11:41:09 --> Database Driver Class Initialized
+INFO - 2020-08-30 11:41:11 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-30 11:41:11 --> Email Class Initialized
+INFO - 2020-08-30 11:41:11 --> Parser Class Initialized
+DEBUG - 2020-08-30 11:41:11 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-30 11:41:11 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-30 11:41:11 --> Encryption Class Initialized
+INFO - 2020-08-30 11:41:11 --> Upload Class Initialized
+INFO - 2020-08-30 11:41:11 --> Model "Main" initialized
+INFO - 2020-08-30 11:41:11 --> Controller Class Initialized
+DEBUG - 2020-08-30 11:41:11 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 11:41:11 --> Model "M_Datafisik" initialized
+INFO - 2020-08-30 11:41:11 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 11:41:11 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 11:41:11 --> File loaded: D:\Project\Mbtni\application\views\Component/Card_Identity.php
+DEBUG - 2020-08-30 11:41:11 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 11:41:11 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 11:41:11 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Datafisikedit.php
+INFO - 2020-08-30 11:41:11 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-30 11:41:11 --> Final output sent to browser
+DEBUG - 2020-08-30 11:41:11 --> Total execution time: 2.0846
+INFO - 2020-08-30 12:43:24 --> Config Class Initialized
+INFO - 2020-08-30 12:43:24 --> Hooks Class Initialized
+DEBUG - 2020-08-30 12:43:24 --> UTF-8 Support Enabled
+INFO - 2020-08-30 12:43:24 --> Utf8 Class Initialized
+INFO - 2020-08-30 12:43:24 --> URI Class Initialized
+INFO - 2020-08-30 12:43:24 --> Router Class Initialized
+INFO - 2020-08-30 12:43:24 --> Output Class Initialized
+INFO - 2020-08-30 12:43:24 --> Security Class Initialized
+DEBUG - 2020-08-30 12:43:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-30 12:43:24 --> Input Class Initialized
+INFO - 2020-08-30 12:43:24 --> Language Class Initialized
+INFO - 2020-08-30 12:43:24 --> Loader Class Initialized
+INFO - 2020-08-30 12:43:24 --> Helper loaded: form_helper
+INFO - 2020-08-30 12:43:24 --> Helper loaded: url_helper
+INFO - 2020-08-30 12:43:24 --> Helper loaded: html_helper
+INFO - 2020-08-30 12:43:24 --> Helper loaded: file_helper
+INFO - 2020-08-30 12:43:24 --> Helper loaded: component_helper
+INFO - 2020-08-30 12:43:24 --> Helper loaded: date_helper
+INFO - 2020-08-30 12:43:24 --> Helper loaded: encrypt_helper
+INFO - 2020-08-30 12:43:24 --> Database Driver Class Initialized
+INFO - 2020-08-30 12:43:26 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-30 12:43:26 --> Email Class Initialized
+INFO - 2020-08-30 12:43:26 --> Parser Class Initialized
+DEBUG - 2020-08-30 12:43:26 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-30 12:43:26 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-30 12:43:26 --> Encryption Class Initialized
+INFO - 2020-08-30 12:43:26 --> Upload Class Initialized
+INFO - 2020-08-30 12:43:26 --> Model "Main" initialized
+INFO - 2020-08-30 12:43:26 --> Controller Class Initialized
+DEBUG - 2020-08-30 12:43:26 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 12:43:26 --> Model "M_Datafisik" initialized
+INFO - 2020-08-30 12:43:26 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 12:43:26 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 12:43:26 --> File loaded: D:\Project\Mbtni\application\views\Component/Card_Identity.php
+DEBUG - 2020-08-30 12:43:26 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 12:43:26 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 12:43:26 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Datafisikedit.php
+INFO - 2020-08-30 12:43:26 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-30 12:43:26 --> Final output sent to browser
+DEBUG - 2020-08-30 12:43:26 --> Total execution time: 2.1666
+INFO - 2020-08-30 12:43:38 --> Config Class Initialized
+INFO - 2020-08-30 12:43:38 --> Hooks Class Initialized
+DEBUG - 2020-08-30 12:43:39 --> UTF-8 Support Enabled
+INFO - 2020-08-30 12:43:39 --> Utf8 Class Initialized
+INFO - 2020-08-30 12:43:39 --> URI Class Initialized
+INFO - 2020-08-30 12:43:39 --> Router Class Initialized
+INFO - 2020-08-30 12:43:39 --> Output Class Initialized
+INFO - 2020-08-30 12:43:39 --> Security Class Initialized
+DEBUG - 2020-08-30 12:43:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-30 12:43:39 --> Input Class Initialized
+INFO - 2020-08-30 12:43:39 --> Language Class Initialized
+INFO - 2020-08-30 12:43:39 --> Loader Class Initialized
+INFO - 2020-08-30 12:43:39 --> Helper loaded: form_helper
+INFO - 2020-08-30 12:43:39 --> Helper loaded: url_helper
+INFO - 2020-08-30 12:43:39 --> Helper loaded: html_helper
+INFO - 2020-08-30 12:43:39 --> Helper loaded: file_helper
+INFO - 2020-08-30 12:43:39 --> Helper loaded: component_helper
+INFO - 2020-08-30 12:43:39 --> Helper loaded: date_helper
+INFO - 2020-08-30 12:43:39 --> Helper loaded: encrypt_helper
+INFO - 2020-08-30 12:43:39 --> Database Driver Class Initialized
+INFO - 2020-08-30 12:43:41 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-30 12:43:41 --> Email Class Initialized
+INFO - 2020-08-30 12:43:41 --> Parser Class Initialized
+DEBUG - 2020-08-30 12:43:41 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-30 12:43:41 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-30 12:43:41 --> Encryption Class Initialized
+INFO - 2020-08-30 12:43:41 --> Upload Class Initialized
+INFO - 2020-08-30 12:43:41 --> Model "Main" initialized
+INFO - 2020-08-30 12:43:41 --> Controller Class Initialized
+DEBUG - 2020-08-30 12:43:41 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 12:43:41 --> Model "M_Datafisik" initialized
+INFO - 2020-08-30 12:43:41 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 12:43:41 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 12:43:41 --> File loaded: D:\Project\Mbtni\application\views\Component/Card_Identity.php
+DEBUG - 2020-08-30 12:43:41 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 12:43:41 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 12:43:41 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Datafisikedit.php
+INFO - 2020-08-30 12:43:41 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-30 12:43:41 --> Final output sent to browser
+DEBUG - 2020-08-30 12:43:41 --> Total execution time: 2.1516
+INFO - 2020-08-30 12:44:03 --> Config Class Initialized
+INFO - 2020-08-30 12:44:03 --> Hooks Class Initialized
+DEBUG - 2020-08-30 12:44:03 --> UTF-8 Support Enabled
+INFO - 2020-08-30 12:44:03 --> Utf8 Class Initialized
+INFO - 2020-08-30 12:44:03 --> URI Class Initialized
+INFO - 2020-08-30 12:44:03 --> Router Class Initialized
+INFO - 2020-08-30 12:44:03 --> Output Class Initialized
+INFO - 2020-08-30 12:44:03 --> Security Class Initialized
+DEBUG - 2020-08-30 12:44:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-30 12:44:03 --> Input Class Initialized
+INFO - 2020-08-30 12:44:03 --> Language Class Initialized
+INFO - 2020-08-30 12:44:03 --> Loader Class Initialized
+INFO - 2020-08-30 12:44:03 --> Helper loaded: form_helper
+INFO - 2020-08-30 12:44:03 --> Helper loaded: url_helper
+INFO - 2020-08-30 12:44:03 --> Helper loaded: html_helper
+INFO - 2020-08-30 12:44:03 --> Helper loaded: file_helper
+INFO - 2020-08-30 12:44:03 --> Helper loaded: component_helper
+INFO - 2020-08-30 12:44:03 --> Helper loaded: date_helper
+INFO - 2020-08-30 12:44:03 --> Helper loaded: encrypt_helper
+INFO - 2020-08-30 12:44:03 --> Database Driver Class Initialized
+INFO - 2020-08-30 12:44:05 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-30 12:44:05 --> Email Class Initialized
+INFO - 2020-08-30 12:44:05 --> Parser Class Initialized
+DEBUG - 2020-08-30 12:44:05 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-30 12:44:05 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-30 12:44:05 --> Encryption Class Initialized
+INFO - 2020-08-30 12:44:05 --> Upload Class Initialized
+INFO - 2020-08-30 12:44:05 --> Model "Main" initialized
+INFO - 2020-08-30 12:44:05 --> Controller Class Initialized
+DEBUG - 2020-08-30 12:44:05 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 12:44:05 --> Model "M_Datafisik" initialized
+INFO - 2020-08-30 12:44:05 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 12:44:05 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 12:44:05 --> File loaded: D:\Project\Mbtni\application\views\Component/Card_Identity.php
+DEBUG - 2020-08-30 12:44:05 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 12:44:05 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 12:44:05 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Datafisikedit.php
+INFO - 2020-08-30 12:44:05 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-30 12:44:05 --> Final output sent to browser
+DEBUG - 2020-08-30 12:44:05 --> Total execution time: 2.1742
+INFO - 2020-08-30 12:44:55 --> Config Class Initialized
+INFO - 2020-08-30 12:44:55 --> Hooks Class Initialized
+DEBUG - 2020-08-30 12:44:55 --> UTF-8 Support Enabled
+INFO - 2020-08-30 12:44:55 --> Utf8 Class Initialized
+INFO - 2020-08-30 12:44:55 --> URI Class Initialized
+INFO - 2020-08-30 12:44:55 --> Router Class Initialized
+INFO - 2020-08-30 12:44:55 --> Output Class Initialized
+INFO - 2020-08-30 12:44:55 --> Security Class Initialized
+DEBUG - 2020-08-30 12:44:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-30 12:44:55 --> Input Class Initialized
+INFO - 2020-08-30 12:44:55 --> Language Class Initialized
+INFO - 2020-08-30 12:44:55 --> Loader Class Initialized
+INFO - 2020-08-30 12:44:55 --> Helper loaded: form_helper
+INFO - 2020-08-30 12:44:55 --> Helper loaded: url_helper
+INFO - 2020-08-30 12:44:55 --> Helper loaded: html_helper
+INFO - 2020-08-30 12:44:55 --> Helper loaded: file_helper
+INFO - 2020-08-30 12:44:55 --> Helper loaded: component_helper
+INFO - 2020-08-30 12:44:55 --> Helper loaded: date_helper
+INFO - 2020-08-30 12:44:55 --> Helper loaded: encrypt_helper
+INFO - 2020-08-30 12:44:55 --> Database Driver Class Initialized
+INFO - 2020-08-30 12:44:57 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-30 12:44:57 --> Email Class Initialized
+INFO - 2020-08-30 12:44:57 --> Parser Class Initialized
+DEBUG - 2020-08-30 12:44:57 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-30 12:44:57 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-30 12:44:57 --> Encryption Class Initialized
+INFO - 2020-08-30 12:44:57 --> Upload Class Initialized
+INFO - 2020-08-30 12:44:57 --> Model "Main" initialized
+INFO - 2020-08-30 12:44:57 --> Controller Class Initialized
+DEBUG - 2020-08-30 12:44:57 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 12:44:57 --> Model "M_Datafisik" initialized
+INFO - 2020-08-30 12:44:57 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 12:44:57 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 12:44:57 --> File loaded: D:\Project\Mbtni\application\views\Component/Card_Identity.php
+DEBUG - 2020-08-30 12:44:57 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 12:44:57 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 12:44:57 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Datafisikedit.php
+INFO - 2020-08-30 12:44:57 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-30 12:44:57 --> Final output sent to browser
+DEBUG - 2020-08-30 12:44:57 --> Total execution time: 2.1610
+INFO - 2020-08-30 12:45:21 --> Config Class Initialized
+INFO - 2020-08-30 12:45:21 --> Hooks Class Initialized
+DEBUG - 2020-08-30 12:45:21 --> UTF-8 Support Enabled
+INFO - 2020-08-30 12:45:21 --> Utf8 Class Initialized
+INFO - 2020-08-30 12:45:21 --> URI Class Initialized
+INFO - 2020-08-30 12:45:21 --> Router Class Initialized
+INFO - 2020-08-30 12:45:21 --> Output Class Initialized
+INFO - 2020-08-30 12:45:21 --> Security Class Initialized
+DEBUG - 2020-08-30 12:45:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-30 12:45:21 --> Input Class Initialized
+INFO - 2020-08-30 12:45:21 --> Language Class Initialized
+INFO - 2020-08-30 12:45:21 --> Loader Class Initialized
+INFO - 2020-08-30 12:45:21 --> Helper loaded: form_helper
+INFO - 2020-08-30 12:45:21 --> Helper loaded: url_helper
+INFO - 2020-08-30 12:45:21 --> Helper loaded: html_helper
+INFO - 2020-08-30 12:45:21 --> Helper loaded: file_helper
+INFO - 2020-08-30 12:45:21 --> Helper loaded: component_helper
+INFO - 2020-08-30 12:45:21 --> Helper loaded: date_helper
+INFO - 2020-08-30 12:45:21 --> Helper loaded: encrypt_helper
+INFO - 2020-08-30 12:45:21 --> Database Driver Class Initialized
+INFO - 2020-08-30 12:45:23 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-30 12:45:23 --> Email Class Initialized
+INFO - 2020-08-30 12:45:23 --> Parser Class Initialized
+DEBUG - 2020-08-30 12:45:23 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-30 12:45:23 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-30 12:45:23 --> Encryption Class Initialized
+INFO - 2020-08-30 12:45:23 --> Upload Class Initialized
+INFO - 2020-08-30 12:45:23 --> Model "Main" initialized
+INFO - 2020-08-30 12:45:23 --> Controller Class Initialized
+DEBUG - 2020-08-30 12:45:23 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 12:45:23 --> Model "M_Datafisik" initialized
+INFO - 2020-08-30 12:45:23 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 12:45:23 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 12:45:23 --> File loaded: D:\Project\Mbtni\application\views\Component/Card_Identity.php
+DEBUG - 2020-08-30 12:45:23 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 12:45:23 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 12:45:23 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Datafisikedit.php
+INFO - 2020-08-30 12:45:23 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-30 12:45:23 --> Final output sent to browser
+DEBUG - 2020-08-30 12:45:23 --> Total execution time: 2.1636
+INFO - 2020-08-30 12:56:12 --> Config Class Initialized
+INFO - 2020-08-30 12:56:12 --> Hooks Class Initialized
+DEBUG - 2020-08-30 12:56:12 --> UTF-8 Support Enabled
+INFO - 2020-08-30 12:56:12 --> Utf8 Class Initialized
+INFO - 2020-08-30 12:56:12 --> URI Class Initialized
+INFO - 2020-08-30 12:56:12 --> Router Class Initialized
+INFO - 2020-08-30 12:56:12 --> Output Class Initialized
+INFO - 2020-08-30 12:56:12 --> Security Class Initialized
+DEBUG - 2020-08-30 12:56:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-30 12:56:12 --> Input Class Initialized
+INFO - 2020-08-30 12:56:12 --> Language Class Initialized
+INFO - 2020-08-30 12:56:12 --> Loader Class Initialized
+INFO - 2020-08-30 12:56:12 --> Helper loaded: form_helper
+INFO - 2020-08-30 12:56:12 --> Helper loaded: url_helper
+INFO - 2020-08-30 12:56:12 --> Helper loaded: html_helper
+INFO - 2020-08-30 12:56:13 --> Helper loaded: file_helper
+INFO - 2020-08-30 12:56:13 --> Helper loaded: component_helper
+INFO - 2020-08-30 12:56:13 --> Helper loaded: date_helper
+INFO - 2020-08-30 12:56:13 --> Helper loaded: encrypt_helper
+INFO - 2020-08-30 12:56:13 --> Database Driver Class Initialized
+INFO - 2020-08-30 12:56:15 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-30 12:56:15 --> Email Class Initialized
+INFO - 2020-08-30 12:56:15 --> Parser Class Initialized
+DEBUG - 2020-08-30 12:56:15 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-30 12:56:15 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-30 12:56:15 --> Encryption Class Initialized
+INFO - 2020-08-30 12:56:15 --> Upload Class Initialized
+INFO - 2020-08-30 12:56:15 --> Model "Main" initialized
+INFO - 2020-08-30 12:56:15 --> Controller Class Initialized
+DEBUG - 2020-08-30 12:56:15 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 12:56:15 --> Model "M_Datafisik" initialized
+INFO - 2020-08-30 12:56:15 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 12:56:15 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 12:56:15 --> File loaded: D:\Project\Mbtni\application\views\Component/Card_Identity.php
+DEBUG - 2020-08-30 12:56:15 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 12:56:15 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 12:56:15 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Datafisikedit.php
+INFO - 2020-08-30 12:56:15 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-30 12:56:15 --> Final output sent to browser
+DEBUG - 2020-08-30 12:56:15 --> Total execution time: 2.1568
+INFO - 2020-08-30 12:57:31 --> Config Class Initialized
+INFO - 2020-08-30 12:57:31 --> Hooks Class Initialized
+DEBUG - 2020-08-30 12:57:31 --> UTF-8 Support Enabled
+INFO - 2020-08-30 12:57:31 --> Utf8 Class Initialized
+INFO - 2020-08-30 12:57:31 --> URI Class Initialized
+INFO - 2020-08-30 12:57:31 --> Router Class Initialized
+INFO - 2020-08-30 12:57:31 --> Output Class Initialized
+INFO - 2020-08-30 12:57:31 --> Security Class Initialized
+DEBUG - 2020-08-30 12:57:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-30 12:57:31 --> Input Class Initialized
+INFO - 2020-08-30 12:57:31 --> Language Class Initialized
+INFO - 2020-08-30 12:57:31 --> Loader Class Initialized
+INFO - 2020-08-30 12:57:31 --> Helper loaded: form_helper
+INFO - 2020-08-30 12:57:31 --> Helper loaded: url_helper
+INFO - 2020-08-30 12:57:31 --> Helper loaded: html_helper
+INFO - 2020-08-30 12:57:31 --> Helper loaded: file_helper
+INFO - 2020-08-30 12:57:31 --> Helper loaded: component_helper
+INFO - 2020-08-30 12:57:31 --> Helper loaded: date_helper
+INFO - 2020-08-30 12:57:31 --> Helper loaded: encrypt_helper
+INFO - 2020-08-30 12:57:31 --> Database Driver Class Initialized
+INFO - 2020-08-30 12:57:33 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-30 12:57:33 --> Email Class Initialized
+INFO - 2020-08-30 12:57:33 --> Parser Class Initialized
+DEBUG - 2020-08-30 12:57:33 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-30 12:57:33 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-30 12:57:33 --> Encryption Class Initialized
+INFO - 2020-08-30 12:57:33 --> Upload Class Initialized
+INFO - 2020-08-30 12:57:33 --> Model "Main" initialized
+INFO - 2020-08-30 12:57:33 --> Controller Class Initialized
+DEBUG - 2020-08-30 12:57:33 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 12:57:33 --> Model "M_Datafisik" initialized
+INFO - 2020-08-30 12:57:33 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 12:57:33 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 12:57:33 --> File loaded: D:\Project\Mbtni\application\views\Component/Card_Identity.php
+DEBUG - 2020-08-30 12:57:33 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 12:57:33 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 12:57:33 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Datafisikedit.php
+INFO - 2020-08-30 12:57:33 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-30 12:57:33 --> Final output sent to browser
+DEBUG - 2020-08-30 12:57:33 --> Total execution time: 2.1312
+INFO - 2020-08-30 12:59:40 --> Config Class Initialized
+INFO - 2020-08-30 12:59:40 --> Hooks Class Initialized
+DEBUG - 2020-08-30 12:59:40 --> UTF-8 Support Enabled
+INFO - 2020-08-30 12:59:40 --> Utf8 Class Initialized
+INFO - 2020-08-30 12:59:40 --> URI Class Initialized
+INFO - 2020-08-30 12:59:40 --> Router Class Initialized
+INFO - 2020-08-30 12:59:40 --> Output Class Initialized
+INFO - 2020-08-30 12:59:40 --> Security Class Initialized
+DEBUG - 2020-08-30 12:59:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-30 12:59:40 --> Input Class Initialized
+INFO - 2020-08-30 12:59:40 --> Language Class Initialized
+INFO - 2020-08-30 12:59:40 --> Loader Class Initialized
+INFO - 2020-08-30 12:59:40 --> Helper loaded: form_helper
+INFO - 2020-08-30 12:59:40 --> Helper loaded: url_helper
+INFO - 2020-08-30 12:59:40 --> Helper loaded: html_helper
+INFO - 2020-08-30 12:59:40 --> Helper loaded: file_helper
+INFO - 2020-08-30 12:59:40 --> Helper loaded: component_helper
+INFO - 2020-08-30 12:59:40 --> Helper loaded: date_helper
+INFO - 2020-08-30 12:59:40 --> Helper loaded: encrypt_helper
+INFO - 2020-08-30 12:59:40 --> Database Driver Class Initialized
+INFO - 2020-08-30 12:59:42 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-30 12:59:42 --> Email Class Initialized
+INFO - 2020-08-30 12:59:42 --> Parser Class Initialized
+DEBUG - 2020-08-30 12:59:42 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-30 12:59:42 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-30 12:59:42 --> Encryption Class Initialized
+INFO - 2020-08-30 12:59:42 --> Upload Class Initialized
+INFO - 2020-08-30 12:59:42 --> Model "Main" initialized
+INFO - 2020-08-30 12:59:42 --> Controller Class Initialized
+DEBUG - 2020-08-30 12:59:42 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 12:59:42 --> Model "M_Datafisik" initialized
+INFO - 2020-08-30 12:59:42 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 12:59:42 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 12:59:42 --> File loaded: D:\Project\Mbtni\application\views\Component/Card_Identity.php
+DEBUG - 2020-08-30 12:59:42 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 12:59:42 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 12:59:42 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Datafisikedit.php
+INFO - 2020-08-30 12:59:42 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-30 12:59:42 --> Final output sent to browser
+DEBUG - 2020-08-30 12:59:42 --> Total execution time: 2.1408
+INFO - 2020-08-30 13:00:38 --> Config Class Initialized
+INFO - 2020-08-30 13:00:38 --> Hooks Class Initialized
+DEBUG - 2020-08-30 13:00:38 --> UTF-8 Support Enabled
+INFO - 2020-08-30 13:00:38 --> Utf8 Class Initialized
+INFO - 2020-08-30 13:00:38 --> URI Class Initialized
+INFO - 2020-08-30 13:00:38 --> Router Class Initialized
+INFO - 2020-08-30 13:00:38 --> Output Class Initialized
+INFO - 2020-08-30 13:00:38 --> Security Class Initialized
+DEBUG - 2020-08-30 13:00:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-30 13:00:38 --> Input Class Initialized
+INFO - 2020-08-30 13:00:38 --> Language Class Initialized
+INFO - 2020-08-30 13:00:38 --> Loader Class Initialized
+INFO - 2020-08-30 13:00:38 --> Helper loaded: form_helper
+INFO - 2020-08-30 13:00:38 --> Helper loaded: url_helper
+INFO - 2020-08-30 13:00:38 --> Helper loaded: html_helper
+INFO - 2020-08-30 13:00:38 --> Helper loaded: file_helper
+INFO - 2020-08-30 13:00:38 --> Helper loaded: component_helper
+INFO - 2020-08-30 13:00:38 --> Helper loaded: date_helper
+INFO - 2020-08-30 13:00:38 --> Helper loaded: encrypt_helper
+INFO - 2020-08-30 13:00:38 --> Database Driver Class Initialized
+INFO - 2020-08-30 13:00:40 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-30 13:00:40 --> Email Class Initialized
+INFO - 2020-08-30 13:00:40 --> Parser Class Initialized
+DEBUG - 2020-08-30 13:00:40 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-30 13:00:40 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-30 13:00:40 --> Encryption Class Initialized
+INFO - 2020-08-30 13:00:40 --> Upload Class Initialized
+INFO - 2020-08-30 13:00:40 --> Model "Main" initialized
+INFO - 2020-08-30 13:00:40 --> Controller Class Initialized
+DEBUG - 2020-08-30 13:00:40 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 13:00:40 --> Model "M_Datafisik" initialized
+INFO - 2020-08-30 13:00:40 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:00:40 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:00:40 --> File loaded: D:\Project\Mbtni\application\views\Component/Card_Identity.php
+DEBUG - 2020-08-30 13:00:40 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 13:00:40 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:00:40 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Datafisikedit.php
+INFO - 2020-08-30 13:00:40 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-30 13:00:40 --> Final output sent to browser
+DEBUG - 2020-08-30 13:00:40 --> Total execution time: 2.1080
+INFO - 2020-08-30 13:03:11 --> Config Class Initialized
+INFO - 2020-08-30 13:03:11 --> Hooks Class Initialized
+DEBUG - 2020-08-30 13:03:11 --> UTF-8 Support Enabled
+INFO - 2020-08-30 13:03:11 --> Utf8 Class Initialized
+INFO - 2020-08-30 13:03:11 --> URI Class Initialized
+INFO - 2020-08-30 13:03:11 --> Router Class Initialized
+INFO - 2020-08-30 13:03:11 --> Output Class Initialized
+INFO - 2020-08-30 13:03:11 --> Security Class Initialized
+DEBUG - 2020-08-30 13:03:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-30 13:03:11 --> Input Class Initialized
+INFO - 2020-08-30 13:03:11 --> Language Class Initialized
+INFO - 2020-08-30 13:03:11 --> Loader Class Initialized
+INFO - 2020-08-30 13:03:11 --> Helper loaded: form_helper
+INFO - 2020-08-30 13:03:11 --> Helper loaded: url_helper
+INFO - 2020-08-30 13:03:11 --> Helper loaded: html_helper
+INFO - 2020-08-30 13:03:11 --> Helper loaded: file_helper
+INFO - 2020-08-30 13:03:11 --> Helper loaded: component_helper
+INFO - 2020-08-30 13:03:11 --> Helper loaded: date_helper
+INFO - 2020-08-30 13:03:11 --> Helper loaded: encrypt_helper
+INFO - 2020-08-30 13:03:11 --> Database Driver Class Initialized
+INFO - 2020-08-30 13:03:13 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-30 13:03:13 --> Email Class Initialized
+INFO - 2020-08-30 13:03:13 --> Parser Class Initialized
+DEBUG - 2020-08-30 13:03:13 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-30 13:03:13 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-30 13:03:13 --> Encryption Class Initialized
+INFO - 2020-08-30 13:03:13 --> Upload Class Initialized
+INFO - 2020-08-30 13:03:13 --> Model "Main" initialized
+INFO - 2020-08-30 13:03:13 --> Controller Class Initialized
+DEBUG - 2020-08-30 13:03:13 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 13:03:13 --> Model "M_Datafisik" initialized
+INFO - 2020-08-30 13:03:13 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:03:13 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:03:13 --> File loaded: D:\Project\Mbtni\application\views\Component/Card_Identity.php
+DEBUG - 2020-08-30 13:03:13 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 13:03:13 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:03:13 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Datafisikedit.php
+INFO - 2020-08-30 13:03:13 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-30 13:03:13 --> Final output sent to browser
+DEBUG - 2020-08-30 13:03:13 --> Total execution time: 2.1247
+INFO - 2020-08-30 13:05:12 --> Config Class Initialized
+INFO - 2020-08-30 13:05:12 --> Hooks Class Initialized
+DEBUG - 2020-08-30 13:05:12 --> UTF-8 Support Enabled
+INFO - 2020-08-30 13:05:12 --> Utf8 Class Initialized
+INFO - 2020-08-30 13:05:12 --> URI Class Initialized
+INFO - 2020-08-30 13:05:12 --> Router Class Initialized
+INFO - 2020-08-30 13:05:12 --> Output Class Initialized
+INFO - 2020-08-30 13:05:12 --> Security Class Initialized
+DEBUG - 2020-08-30 13:05:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-30 13:05:12 --> Input Class Initialized
+INFO - 2020-08-30 13:05:12 --> Language Class Initialized
+INFO - 2020-08-30 13:05:12 --> Loader Class Initialized
+INFO - 2020-08-30 13:05:12 --> Helper loaded: form_helper
+INFO - 2020-08-30 13:05:12 --> Helper loaded: url_helper
+INFO - 2020-08-30 13:05:12 --> Helper loaded: html_helper
+INFO - 2020-08-30 13:05:12 --> Helper loaded: file_helper
+INFO - 2020-08-30 13:05:12 --> Helper loaded: component_helper
+INFO - 2020-08-30 13:05:12 --> Helper loaded: date_helper
+INFO - 2020-08-30 13:05:12 --> Helper loaded: encrypt_helper
+INFO - 2020-08-30 13:05:12 --> Database Driver Class Initialized
+INFO - 2020-08-30 13:05:14 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-30 13:05:14 --> Email Class Initialized
+INFO - 2020-08-30 13:05:14 --> Parser Class Initialized
+DEBUG - 2020-08-30 13:05:14 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-30 13:05:14 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-30 13:05:14 --> Encryption Class Initialized
+INFO - 2020-08-30 13:05:14 --> Upload Class Initialized
+INFO - 2020-08-30 13:05:14 --> Model "Main" initialized
+INFO - 2020-08-30 13:05:14 --> Controller Class Initialized
+DEBUG - 2020-08-30 13:05:14 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 13:05:14 --> Model "M_Datafisik" initialized
+INFO - 2020-08-30 13:05:14 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:05:14 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:05:14 --> File loaded: D:\Project\Mbtni\application\views\Component/Card_Identity.php
+DEBUG - 2020-08-30 13:05:14 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 13:05:14 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:05:14 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Datafisikedit.php
+INFO - 2020-08-30 13:05:14 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-30 13:05:14 --> Final output sent to browser
+DEBUG - 2020-08-30 13:05:14 --> Total execution time: 2.1654
+INFO - 2020-08-30 13:17:50 --> Config Class Initialized
+INFO - 2020-08-30 13:17:50 --> Hooks Class Initialized
+DEBUG - 2020-08-30 13:17:50 --> UTF-8 Support Enabled
+INFO - 2020-08-30 13:17:50 --> Utf8 Class Initialized
+INFO - 2020-08-30 13:17:50 --> URI Class Initialized
+INFO - 2020-08-30 13:17:50 --> Router Class Initialized
+INFO - 2020-08-30 13:17:50 --> Output Class Initialized
+INFO - 2020-08-30 13:17:50 --> Security Class Initialized
+DEBUG - 2020-08-30 13:17:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-30 13:17:50 --> Input Class Initialized
+INFO - 2020-08-30 13:17:50 --> Language Class Initialized
+INFO - 2020-08-30 13:17:50 --> Loader Class Initialized
+INFO - 2020-08-30 13:17:50 --> Helper loaded: form_helper
+INFO - 2020-08-30 13:17:50 --> Helper loaded: url_helper
+INFO - 2020-08-30 13:17:50 --> Helper loaded: html_helper
+INFO - 2020-08-30 13:17:50 --> Helper loaded: file_helper
+INFO - 2020-08-30 13:17:50 --> Helper loaded: component_helper
+INFO - 2020-08-30 13:17:50 --> Helper loaded: date_helper
+INFO - 2020-08-30 13:17:50 --> Helper loaded: encrypt_helper
+INFO - 2020-08-30 13:17:50 --> Database Driver Class Initialized
+INFO - 2020-08-30 13:17:52 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-30 13:17:52 --> Email Class Initialized
+INFO - 2020-08-30 13:17:52 --> Parser Class Initialized
+DEBUG - 2020-08-30 13:17:52 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-30 13:17:52 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-30 13:17:52 --> Encryption Class Initialized
+INFO - 2020-08-30 13:17:52 --> Upload Class Initialized
+INFO - 2020-08-30 13:17:52 --> Model "Main" initialized
+INFO - 2020-08-30 13:17:52 --> Controller Class Initialized
+DEBUG - 2020-08-30 13:17:52 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 13:17:52 --> Model "M_Datafisik" initialized
+INFO - 2020-08-30 13:17:52 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:17:52 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:17:52 --> File loaded: D:\Project\Mbtni\application\views\Component/Card_Identity.php
+DEBUG - 2020-08-30 13:17:52 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 13:17:52 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:17:52 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Datafisikedit.php
+INFO - 2020-08-30 13:17:52 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-30 13:17:52 --> Final output sent to browser
+DEBUG - 2020-08-30 13:17:52 --> Total execution time: 2.1485
+INFO - 2020-08-30 13:21:20 --> Config Class Initialized
+INFO - 2020-08-30 13:21:20 --> Hooks Class Initialized
+DEBUG - 2020-08-30 13:21:20 --> UTF-8 Support Enabled
+INFO - 2020-08-30 13:21:20 --> Utf8 Class Initialized
+INFO - 2020-08-30 13:21:20 --> URI Class Initialized
+INFO - 2020-08-30 13:21:20 --> Router Class Initialized
+INFO - 2020-08-30 13:21:20 --> Output Class Initialized
+INFO - 2020-08-30 13:21:20 --> Security Class Initialized
+DEBUG - 2020-08-30 13:21:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-30 13:21:20 --> Input Class Initialized
+INFO - 2020-08-30 13:21:20 --> Language Class Initialized
+INFO - 2020-08-30 13:21:20 --> Loader Class Initialized
+INFO - 2020-08-30 13:21:20 --> Helper loaded: form_helper
+INFO - 2020-08-30 13:21:20 --> Helper loaded: url_helper
+INFO - 2020-08-30 13:21:20 --> Helper loaded: html_helper
+INFO - 2020-08-30 13:21:20 --> Helper loaded: file_helper
+INFO - 2020-08-30 13:21:20 --> Helper loaded: component_helper
+INFO - 2020-08-30 13:21:20 --> Helper loaded: date_helper
+INFO - 2020-08-30 13:21:20 --> Helper loaded: encrypt_helper
+INFO - 2020-08-30 13:21:20 --> Database Driver Class Initialized
+INFO - 2020-08-30 13:21:22 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-30 13:21:22 --> Email Class Initialized
+INFO - 2020-08-30 13:21:22 --> Parser Class Initialized
+DEBUG - 2020-08-30 13:21:22 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-30 13:21:22 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-30 13:21:22 --> Encryption Class Initialized
+INFO - 2020-08-30 13:21:22 --> Upload Class Initialized
+INFO - 2020-08-30 13:21:22 --> Model "Main" initialized
+INFO - 2020-08-30 13:21:22 --> Controller Class Initialized
+DEBUG - 2020-08-30 13:21:22 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 13:21:22 --> Model "M_Datafisik" initialized
+INFO - 2020-08-30 13:21:22 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:21:22 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:21:22 --> File loaded: D:\Project\Mbtni\application\views\Component/Card_Identity.php
+DEBUG - 2020-08-30 13:21:22 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 13:21:22 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:21:22 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Datafisikedit.php
+INFO - 2020-08-30 13:21:22 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-30 13:21:22 --> Final output sent to browser
+DEBUG - 2020-08-30 13:21:22 --> Total execution time: 2.1454
+INFO - 2020-08-30 13:36:27 --> Config Class Initialized
+INFO - 2020-08-30 13:36:27 --> Hooks Class Initialized
+DEBUG - 2020-08-30 13:36:27 --> UTF-8 Support Enabled
+INFO - 2020-08-30 13:36:27 --> Utf8 Class Initialized
+INFO - 2020-08-30 13:36:27 --> URI Class Initialized
+INFO - 2020-08-30 13:36:27 --> Router Class Initialized
+INFO - 2020-08-30 13:36:27 --> Output Class Initialized
+INFO - 2020-08-30 13:36:27 --> Security Class Initialized
+DEBUG - 2020-08-30 13:36:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-30 13:36:27 --> Input Class Initialized
+INFO - 2020-08-30 13:36:27 --> Language Class Initialized
+INFO - 2020-08-30 13:36:27 --> Loader Class Initialized
+INFO - 2020-08-30 13:36:27 --> Helper loaded: form_helper
+INFO - 2020-08-30 13:36:27 --> Helper loaded: url_helper
+INFO - 2020-08-30 13:36:27 --> Helper loaded: html_helper
+INFO - 2020-08-30 13:36:27 --> Helper loaded: file_helper
+INFO - 2020-08-30 13:36:27 --> Helper loaded: component_helper
+INFO - 2020-08-30 13:36:27 --> Helper loaded: date_helper
+INFO - 2020-08-30 13:36:27 --> Helper loaded: encrypt_helper
+INFO - 2020-08-30 13:36:27 --> Database Driver Class Initialized
+INFO - 2020-08-30 13:36:29 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-30 13:36:29 --> Email Class Initialized
+INFO - 2020-08-30 13:36:29 --> Parser Class Initialized
+DEBUG - 2020-08-30 13:36:29 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-30 13:36:29 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-30 13:36:29 --> Encryption Class Initialized
+INFO - 2020-08-30 13:36:29 --> Upload Class Initialized
+INFO - 2020-08-30 13:36:29 --> Model "Main" initialized
+INFO - 2020-08-30 13:36:29 --> Controller Class Initialized
+DEBUG - 2020-08-30 13:36:29 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 13:36:29 --> Model "M_Datafisik" initialized
+INFO - 2020-08-30 13:36:29 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:36:29 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:36:29 --> File loaded: D:\Project\Mbtni\application\views\Component/Card_Identity.php
+DEBUG - 2020-08-30 13:36:29 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 13:36:29 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:36:29 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Datafisikedit.php
+INFO - 2020-08-30 13:36:29 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-30 13:36:29 --> Final output sent to browser
+DEBUG - 2020-08-30 13:36:29 --> Total execution time: 2.1487
+INFO - 2020-08-30 13:39:49 --> Config Class Initialized
+INFO - 2020-08-30 13:39:49 --> Hooks Class Initialized
+DEBUG - 2020-08-30 13:39:49 --> UTF-8 Support Enabled
+INFO - 2020-08-30 13:39:49 --> Utf8 Class Initialized
+INFO - 2020-08-30 13:39:49 --> URI Class Initialized
+INFO - 2020-08-30 13:39:49 --> Router Class Initialized
+INFO - 2020-08-30 13:39:49 --> Output Class Initialized
+INFO - 2020-08-30 13:39:49 --> Security Class Initialized
+DEBUG - 2020-08-30 13:39:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-30 13:39:49 --> Input Class Initialized
+INFO - 2020-08-30 13:39:49 --> Language Class Initialized
+INFO - 2020-08-30 13:39:49 --> Loader Class Initialized
+INFO - 2020-08-30 13:39:49 --> Helper loaded: form_helper
+INFO - 2020-08-30 13:39:49 --> Helper loaded: url_helper
+INFO - 2020-08-30 13:39:49 --> Helper loaded: html_helper
+INFO - 2020-08-30 13:39:49 --> Helper loaded: file_helper
+INFO - 2020-08-30 13:39:49 --> Helper loaded: component_helper
+INFO - 2020-08-30 13:39:49 --> Helper loaded: date_helper
+INFO - 2020-08-30 13:39:49 --> Helper loaded: encrypt_helper
+INFO - 2020-08-30 13:39:49 --> Database Driver Class Initialized
+INFO - 2020-08-30 13:39:51 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-30 13:39:51 --> Email Class Initialized
+INFO - 2020-08-30 13:39:51 --> Parser Class Initialized
+DEBUG - 2020-08-30 13:39:51 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-30 13:39:51 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-30 13:39:51 --> Encryption Class Initialized
+INFO - 2020-08-30 13:39:51 --> Upload Class Initialized
+INFO - 2020-08-30 13:39:51 --> Model "Main" initialized
+INFO - 2020-08-30 13:39:51 --> Controller Class Initialized
+DEBUG - 2020-08-30 13:39:51 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 13:39:51 --> Model "M_Datafisik" initialized
+INFO - 2020-08-30 13:39:51 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:39:51 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:39:52 --> File loaded: D:\Project\Mbtni\application\views\Component/Card_Identity.php
+DEBUG - 2020-08-30 13:39:52 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 13:39:52 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:39:52 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Datafisikedit.php
+INFO - 2020-08-30 13:39:52 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-30 13:39:52 --> Final output sent to browser
+DEBUG - 2020-08-30 13:39:52 --> Total execution time: 2.1338
+INFO - 2020-08-30 13:40:28 --> Config Class Initialized
+INFO - 2020-08-30 13:40:28 --> Hooks Class Initialized
+DEBUG - 2020-08-30 13:40:28 --> UTF-8 Support Enabled
+INFO - 2020-08-30 13:40:28 --> Utf8 Class Initialized
+INFO - 2020-08-30 13:40:28 --> URI Class Initialized
+INFO - 2020-08-30 13:40:28 --> Router Class Initialized
+INFO - 2020-08-30 13:40:28 --> Output Class Initialized
+INFO - 2020-08-30 13:40:28 --> Security Class Initialized
+DEBUG - 2020-08-30 13:40:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-30 13:40:28 --> Input Class Initialized
+INFO - 2020-08-30 13:40:28 --> Language Class Initialized
+INFO - 2020-08-30 13:40:28 --> Loader Class Initialized
+INFO - 2020-08-30 13:40:28 --> Helper loaded: form_helper
+INFO - 2020-08-30 13:40:28 --> Helper loaded: url_helper
+INFO - 2020-08-30 13:40:28 --> Helper loaded: html_helper
+INFO - 2020-08-30 13:40:28 --> Helper loaded: file_helper
+INFO - 2020-08-30 13:40:28 --> Helper loaded: component_helper
+INFO - 2020-08-30 13:40:28 --> Helper loaded: date_helper
+INFO - 2020-08-30 13:40:28 --> Helper loaded: encrypt_helper
+INFO - 2020-08-30 13:40:28 --> Database Driver Class Initialized
+INFO - 2020-08-30 13:40:30 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-30 13:40:30 --> Email Class Initialized
+INFO - 2020-08-30 13:40:30 --> Parser Class Initialized
+DEBUG - 2020-08-30 13:40:30 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-30 13:40:30 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-30 13:40:30 --> Encryption Class Initialized
+INFO - 2020-08-30 13:40:30 --> Upload Class Initialized
+INFO - 2020-08-30 13:40:30 --> Model "Main" initialized
+INFO - 2020-08-30 13:40:30 --> Controller Class Initialized
+DEBUG - 2020-08-30 13:40:30 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 13:40:30 --> Model "M_Datafisik" initialized
+INFO - 2020-08-30 13:40:30 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:40:30 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:40:30 --> File loaded: D:\Project\Mbtni\application\views\Component/Card_Identity.php
+DEBUG - 2020-08-30 13:40:30 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 13:40:30 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:40:30 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Datafisikedit.php
+INFO - 2020-08-30 13:40:30 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-30 13:40:30 --> Final output sent to browser
+DEBUG - 2020-08-30 13:40:30 --> Total execution time: 2.1820
+INFO - 2020-08-30 13:41:45 --> Config Class Initialized
+INFO - 2020-08-30 13:41:45 --> Hooks Class Initialized
+DEBUG - 2020-08-30 13:41:45 --> UTF-8 Support Enabled
+INFO - 2020-08-30 13:41:45 --> Utf8 Class Initialized
+INFO - 2020-08-30 13:41:45 --> URI Class Initialized
+INFO - 2020-08-30 13:41:45 --> Router Class Initialized
+INFO - 2020-08-30 13:41:45 --> Output Class Initialized
+INFO - 2020-08-30 13:41:45 --> Security Class Initialized
+DEBUG - 2020-08-30 13:41:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-30 13:41:45 --> Input Class Initialized
+INFO - 2020-08-30 13:41:45 --> Language Class Initialized
+INFO - 2020-08-30 13:41:45 --> Loader Class Initialized
+INFO - 2020-08-30 13:41:45 --> Helper loaded: form_helper
+INFO - 2020-08-30 13:41:45 --> Helper loaded: url_helper
+INFO - 2020-08-30 13:41:45 --> Helper loaded: html_helper
+INFO - 2020-08-30 13:41:45 --> Helper loaded: file_helper
+INFO - 2020-08-30 13:41:45 --> Helper loaded: component_helper
+INFO - 2020-08-30 13:41:45 --> Helper loaded: date_helper
+INFO - 2020-08-30 13:41:45 --> Helper loaded: encrypt_helper
+INFO - 2020-08-30 13:41:45 --> Database Driver Class Initialized
+INFO - 2020-08-30 13:41:47 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-30 13:41:47 --> Email Class Initialized
+INFO - 2020-08-30 13:41:47 --> Parser Class Initialized
+DEBUG - 2020-08-30 13:41:47 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-30 13:41:47 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-30 13:41:47 --> Encryption Class Initialized
+INFO - 2020-08-30 13:41:47 --> Upload Class Initialized
+INFO - 2020-08-30 13:41:47 --> Model "Main" initialized
+INFO - 2020-08-30 13:41:47 --> Controller Class Initialized
+DEBUG - 2020-08-30 13:41:47 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 13:41:47 --> Model "M_Datafisik" initialized
+INFO - 2020-08-30 13:41:47 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:41:47 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:41:47 --> File loaded: D:\Project\Mbtni\application\views\Component/Card_Identity.php
+DEBUG - 2020-08-30 13:41:47 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 13:41:47 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:41:47 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Datafisikedit.php
+INFO - 2020-08-30 13:41:47 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-30 13:41:47 --> Final output sent to browser
+DEBUG - 2020-08-30 13:41:47 --> Total execution time: 2.1455
+INFO - 2020-08-30 13:42:56 --> Config Class Initialized
+INFO - 2020-08-30 13:42:56 --> Hooks Class Initialized
+DEBUG - 2020-08-30 13:42:56 --> UTF-8 Support Enabled
+INFO - 2020-08-30 13:42:56 --> Utf8 Class Initialized
+INFO - 2020-08-30 13:42:56 --> URI Class Initialized
+INFO - 2020-08-30 13:42:56 --> Router Class Initialized
+INFO - 2020-08-30 13:42:56 --> Output Class Initialized
+INFO - 2020-08-30 13:42:56 --> Security Class Initialized
+DEBUG - 2020-08-30 13:42:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-30 13:42:56 --> Input Class Initialized
+INFO - 2020-08-30 13:42:56 --> Language Class Initialized
+INFO - 2020-08-30 13:42:56 --> Loader Class Initialized
+INFO - 2020-08-30 13:42:56 --> Helper loaded: form_helper
+INFO - 2020-08-30 13:42:56 --> Helper loaded: url_helper
+INFO - 2020-08-30 13:42:56 --> Helper loaded: html_helper
+INFO - 2020-08-30 13:42:56 --> Helper loaded: file_helper
+INFO - 2020-08-30 13:42:56 --> Helper loaded: component_helper
+INFO - 2020-08-30 13:42:56 --> Helper loaded: date_helper
+INFO - 2020-08-30 13:42:56 --> Helper loaded: encrypt_helper
+INFO - 2020-08-30 13:42:56 --> Database Driver Class Initialized
+INFO - 2020-08-30 13:42:59 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-30 13:42:59 --> Email Class Initialized
+INFO - 2020-08-30 13:42:59 --> Parser Class Initialized
+DEBUG - 2020-08-30 13:42:59 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-30 13:42:59 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-30 13:42:59 --> Encryption Class Initialized
+INFO - 2020-08-30 13:42:59 --> Upload Class Initialized
+INFO - 2020-08-30 13:42:59 --> Model "Main" initialized
+INFO - 2020-08-30 13:42:59 --> Controller Class Initialized
+DEBUG - 2020-08-30 13:42:59 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 13:42:59 --> Model "M_Datafisik" initialized
+INFO - 2020-08-30 13:42:59 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:42:59 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:42:59 --> File loaded: D:\Project\Mbtni\application\views\Component/Card_Identity.php
+DEBUG - 2020-08-30 13:42:59 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 13:42:59 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:42:59 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Datafisikedit.php
+INFO - 2020-08-30 13:42:59 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-30 13:42:59 --> Final output sent to browser
+DEBUG - 2020-08-30 13:42:59 --> Total execution time: 2.1758
+INFO - 2020-08-30 13:48:13 --> Config Class Initialized
+INFO - 2020-08-30 13:48:13 --> Hooks Class Initialized
+DEBUG - 2020-08-30 13:48:13 --> UTF-8 Support Enabled
+INFO - 2020-08-30 13:48:13 --> Utf8 Class Initialized
+INFO - 2020-08-30 13:48:13 --> URI Class Initialized
+INFO - 2020-08-30 13:48:13 --> Router Class Initialized
+INFO - 2020-08-30 13:48:13 --> Output Class Initialized
+INFO - 2020-08-30 13:48:13 --> Security Class Initialized
+DEBUG - 2020-08-30 13:48:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-08-30 13:48:13 --> Input Class Initialized
+INFO - 2020-08-30 13:48:13 --> Language Class Initialized
+INFO - 2020-08-30 13:48:13 --> Loader Class Initialized
+INFO - 2020-08-30 13:48:13 --> Helper loaded: form_helper
+INFO - 2020-08-30 13:48:13 --> Helper loaded: url_helper
+INFO - 2020-08-30 13:48:13 --> Helper loaded: html_helper
+INFO - 2020-08-30 13:48:13 --> Helper loaded: file_helper
+INFO - 2020-08-30 13:48:13 --> Helper loaded: component_helper
+INFO - 2020-08-30 13:48:13 --> Helper loaded: date_helper
+INFO - 2020-08-30 13:48:13 --> Helper loaded: encrypt_helper
+INFO - 2020-08-30 13:48:13 --> Database Driver Class Initialized
+INFO - 2020-08-30 13:48:15 --> Session: Class initialized using 'files' driver.
+INFO - 2020-08-30 13:48:15 --> Email Class Initialized
+INFO - 2020-08-30 13:48:15 --> Parser Class Initialized
+DEBUG - 2020-08-30 13:48:15 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-08-30 13:48:15 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-08-30 13:48:15 --> Encryption Class Initialized
+INFO - 2020-08-30 13:48:15 --> Upload Class Initialized
+INFO - 2020-08-30 13:48:15 --> Model "Main" initialized
+INFO - 2020-08-30 13:48:15 --> Controller Class Initialized
+DEBUG - 2020-08-30 13:48:15 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 13:48:15 --> Model "M_Datafisik" initialized
+INFO - 2020-08-30 13:48:15 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:48:15 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:48:15 --> File loaded: D:\Project\Mbtni\application\views\Component/Card_Identity.php
+DEBUG - 2020-08-30 13:48:15 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-08-30 13:48:15 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-08-30 13:48:15 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Datafisikedit.php
+INFO - 2020-08-30 13:48:15 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-08-30 13:48:15 --> Final output sent to browser
+DEBUG - 2020-08-30 13:48:15 --> Total execution time: 2.1639
