@@ -952,4 +952,11 @@
 			$('#tb_faceindex').toggleClass('hidden');
 			e.preventDefault();
 		})
+		$('#nav-btn-group li > a').on('click', function(){
+			let element = $(this).attr('href');
+			let content = document.getElementById(element.replace('#', '')).innerHTML;
+			console.log(content);
+			console.log(element);
+			document.getElementById('content-loader').innerHTML = content;
+		})
 	})

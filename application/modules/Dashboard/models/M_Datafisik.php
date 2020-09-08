@@ -63,5 +63,86 @@ class M_Datafisik extends CI_Model {
             return redirect(base_url('Dashboard/Datafisik/index/'), $this->session->set_flashdata('message', 'Data berhasil disimpan !'));
         }
     }
+    public function save_finger()
+    {
+
+    }
+    public function save_datafisik()
+    {
+        $savefinger = [
+            'kanan' => $this->save_fingerkanan(),
+            'kiri' => $this->save_fingerkiri()
+        ];
+        $hidung = $this->input->post('hidung');
+        $savehidung = [
+            'pangkal' => $hidung[1],
+            'batang' => $hidung[2],
+            'bentuk' => $hidung[3],
+            'bengkok' => $hidung[4]
+        ];
+        $telinga = $this->input->post('Telinga');
+        $savetelinga = [
+            'menempel' => $telinga[1],
+            'bentuk' => $telinga[2]
+        ];
+        $output = [
+            'finger' => $savefinger,
+            'hidung' => $savehidung,
+            'telinga' => $savetelinga,
+        ];
+        $this->id_personil = decode($_GET['session_id']);
+        $this->hidung = implode('/', $savehidung);
+        $this->telinga = implode('/', $savetelinga);
+        $this->tempat = $this->input->post('tempat');
+        $this->tanggal = $this->input->post('tanggal');
+        $this->lembaga = $this->input->post('lembaga');
+        $this->langkah = $this->input->post('langkah');
+        $this->kaki = $this->input->post('kaki');
+        $this->lengan = $this->input->post('tangan');
+        $this->bangun_kepala = $this->input->post('kepala');
+        $this->rambut = $this->input->post('rambut');
+        $this->kening = $this->input->post('kening');
+        $this->dahi = $this->input->post('dahi');
+        $this->mata = $this->input->post('mata');
+        $this->bibir = $this->input->post('bibir');
+        $this->tanda_istimewa = $this->input->post('tandaistimewa');
+        $this->nama_anak = $this->input->post('anak');
+        $this->last_update = date('Y-m-d H:i:s');
+        $save = M_Datafisik::saveData($this);
+        var_dump($save);
+    }
+    static function saveData($data){
+        $ci =& get_instance();
+        $insert = $ci->db->insert('tb_datafisik', $data);
+        if($insert):
+            return TRUE;
+        endif;
+        return FALSE;
+        
+    }
+    private function save_fingerkanan()
+    {
+        $data = $this->input->post('kanan');
+        $proses = [
+            'jempol' => $data[1],
+            'telunjuk' => $data[2],
+            'jari_tengah' => $data[3],
+            'jari_manis' => $data[4],
+            'kelingking' => $data[5]
+        ];
+        return $proses;
+    }
+    private function save_fingerkiri()
+    {
+        $data = $this->input->post('kiri');
+        $proses = [
+            'jempol' => $data[1],
+            'telunjuk' => $data[2],
+            'jari_tengah' => $data[3],
+            'jari_manis' => $data[4],
+            'kelingking' => $data[5]
+        ];
+        return $proses;
+    }
 
 }

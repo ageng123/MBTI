@@ -112,14 +112,31 @@ class Pernyataan extends CI_Controller {
 
     public function Detail() {
         $id_anggota = decode($_GET['SESSION']);
+        $anggotaData = $this->M_Pernyataan->Detail($id_anggota);
         $data = [
             'title' => 'Dashboard application',
             'logo' => 'https://cdn.maspriyambodo.com/images/mp_logo.png',
             'username' => $this->session->userdata('nama'),
-            'peserta' => $this->M_Pernyataan->Detail($id_anggota),
             'csrf' => $this->Csrf()
         ];
-        $data['content'] = $this->parser->parse('V_Pernyataandetail', $data, true);
+        foreach($anggotaData as $key => $val):
+            $data[$key] = $val;
+        endforeach;
+        $pendidikan = M_Pernyataan::pendidikan_get($id_anggota);
+        $data['pendidikan_umum'] = $pendidikan;
+        $data['pendidikan_dinas'] = M_Pernyataan::pendDinas_get($id_anggota);
+        $data['pendidikan_lain'] = M_Pernyataan::pendLain_get($id_anggota);
+        $data['pekerjaan_dinas'] = M_Pernyataan::pekerjaan1_get($id_anggota);
+        $data['pekerjaan_luardinas'] = M_Pernyataan::pekerjaan2_get($id_anggota);
+        $data['tempat_tinggal'] = M_Pernyataan::tempat_tinggal($id_anggota);
+        $data['organisasi'] = M_Pernyataan::organisasi($id_anggota);
+        $data['perjuangan'] = M_Pernyataan::perjuangan($id_anggota);
+        $data['penghargaan'] = M_Pernyataan::penghargaan($id_anggota);
+        $data['pernikahan'] = M_Pernyataan::data_lain($id_anggota, 'data_pasangan');
+        $data['ayah_kandung'] = M_Pernyataan::data_lain($id_anggota, 'tb_ayahkandung');
+        // var_dump($data);
+        // die;
+        $data['content'] = $this->parser->parse('Detail', $data, true);
         return $this->parser->parse('Templates/Template', $data);
     }
 

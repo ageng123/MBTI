@@ -10,7 +10,7 @@
                 <p>Data Fisik Form</p>
             </div>
             <div class="card-body">
-                <form action="post" class="row" method="post">
+                <form action="<?= site_url('Dashboard/Datafisik/saveData?session_id=').$_GET['session_id'] ?>" class="col-12 w-100" method="post">
                     <div class="row">
                         <div class="col-12">
                             <legend>1. Sidik Jari</legend>
@@ -25,27 +25,27 @@
                                 <tbody>
                                     <td>
                                         <div class="form-group">
-                                            <input type="file" name="kanan['jempol']" class="form-control">
+                                            <input type="file" name="kanan[1]" class="form-control">
                                         </div>
                                     </td>
                                     <td>
                                         <div class="form-group">
-                                            <input type="file" name="kanan['telunjuk']" class="form-control">
+                                            <input type="file" name="kanan[2]" class="form-control">
                                         </div>
                                     </td>
                                     <td>
                                         <div class="form-group">
-                                            <input type="file" name="kanan['tengah']" class="form-control">
+                                            <input type="file" name="kanan[3]" class="form-control">
                                         </div>
                                     </td>
                                     <td>
                                         <div class="form-group">
-                                            <input type="file" name="kanan['manis']" class="form-control">
+                                            <input type="file" name="kanan[4]" class="form-control">
                                         </div>
                                     </td>
                                     <<td>
                                         <div class="form-group">
-                                            <input type="file" name="kanan['kelingking']" class="form-control">
+                                            <input type="file" name="kanan[5]" class="form-control">
                                         </div>
                                         </td>
                                 </tbody>
@@ -59,27 +59,27 @@
                                 <tbody>
                                     <td>
                                         <div class="form-group">
-                                            <input type="file" name="kiri['jempol']" class="form-control">
+                                            <input type="file" name="kiri[1]" class="form-control">
                                         </div>
                                     </td>
                                     <td>
                                         <div class="form-group">
-                                            <input type="file" name="kiri['telunjuk']" class="form-control">
+                                            <input type="file" name="kiri[2]" class="form-control">
                                         </div>
                                     </td>
                                     <td>
                                         <div class="form-group">
-                                            <input type="file" name="kiri['tengah']" class="form-control">
+                                            <input type="file" name="kiri[3]" class="form-control">
                                         </div>
                                     </td>
                                     <td>
                                         <div class="form-group">
-                                            <input type="file" name="kiri['manis']" class="form-control">
+                                            <input type="file" name="kiri[4]" class="form-control">
                                         </div>
                                     </td>
                                     <<td>
                                         <div class="form-group">
-                                            <input type="file" name="kiri['kelingking']" class="form-control">
+                                            <input type="file" name="kiri[5]" class="form-control">
                                         </div>
                                         </td>
                                 </tbody>
@@ -87,26 +87,33 @@
                             <div class="col-12">
                                 <div class="form-group">
                                     <label for="">Tanda Tangan 1</label>
-                                    <input type="file" class="form-control">
+                                    <input type="file" name="tanda_tangan[1]" class="form-control">
+                                    <div id="signArea">
+                                        <h3>Put Signature Below</h3>
+                                        <div class="sign signWrapper">
+                                            <div class="typed"></div>
+                                            <canvas class="sign-pad" id="sign-pad"></canvas>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-group">
                                     <label for="">Tanda Tangan 2</label>
-                                    <input type="file" class="form-control">
+                                    <input type="file" name="tanda_tangan[2]" class="form-control">
                                 </div>
                             </div>
                             <div class="col-md-12 d-flex flex-row">
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label for="">Tempat</label>
-                                        <input type="text" class="form-control">
+                                        <input type="text" name='tempat' class="form-control">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label for="">Tanggal</label>
-                                        <input type="text datepicker" class="form-control">
+                                        <input type="text datepicker" name='tanggal' class="form-control">
                                     </div>
                                 </div>
                             </div>
@@ -117,25 +124,25 @@
                             <div class="col-12">
                                 <div class="form-group">
                                     <label for="">diambil oleh</label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" name="diambil" class="form-control">
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-group">
                                     <label for="">disaksikan oleh</label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" name="saksi" class="form-control">
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-group">
-                                    <label for="">Tinggi Badan</label>
-                                    <input type="text" class="form-control">
+                                    <label for="">Tinggi Badan (dalam cm)</label>
+                                    <input type="text" name="tinggi" oninput="return this.value = this.value.replace(/[^0-9]/g, '');" class="form-control">
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-group">
                                     <label for="">Warna Kulit</label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" name="warna" class="form-control">
                                 </div>
                             </div>
                             <div class="col-12">
@@ -297,9 +304,23 @@
                                         </div>
                                         <div class="form-check form-check-inline">
                                             <input class="form-check-input" type="radio" name="kepala" id="kepala"
-                                                value="Belah Ketupat / Limas Persegi Empat / Panjang" checked>
+                                                value="Belah Ketupat" checked>
                                             <label class="form-check-label" for="exampleRadios1">
-                                                Belah Ketupat / Limas Persegi Empat / Panjang
+                                                Belah Ketupat
+                                            </label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="kepala" id="kepala"
+                                                value="Limas Persegi Empat" checked>
+                                            <label class="form-check-label" for="exampleRadios1">
+                                                Limas Persegi Empat
+                                            </label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="kepala" id="kepala"
+                                                value="Panjang" checked>
+                                            <label class="form-check-label" for="exampleRadios1">
+                                                Panjang
                                             </label>
                                         </div>
                                         <div class="form-check form-check-inline">
@@ -341,14 +362,28 @@
                                             <input class="form-check-input" type="radio" name="rambut" id="rambut"
                                                 value="Lebat" checked>
                                             <label class="form-check-label" for="exampleRadios1">
-                                                Lebat / Jarang
+                                                Lebat
+                                            </label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="rambut" id="rambut"
+                                                value="Jarang" checked>
+                                            <label class="form-check-label" for="exampleRadios1">
+                                                Jarang
                                             </label>
                                         </div>
                                         <div class="form-check form-check-inline">
                                             <input class="form-check-input" type="radio" name="rambut" id="rambut"
                                                 value="Berombak" checked>
                                             <label class="form-check-label" for="exampleRadios1">
-                                                Berombak / Kejur-kejur
+                                                Berombak
+                                            </label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="rambut" id="rambut"
+                                                value="Kejur-kejur" checked>
+                                            <label class="form-check-label" for="exampleRadios1">
+                                                Kejur-kejur
                                             </label>
                                         </div>
                                         <div class="form-check form-check-inline">
@@ -381,9 +416,16 @@
                                         </div>
                                         <div class="form-check form-check-inline">
                                             <input class="form-check-input" type="radio" name="kening" id="kening"
-                                                value="miring" checked>
+                                                value="Miring Keatas" checked>
                                             <label class="form-check-label" for="exampleRadios1">
-                                                Miring Keatas / Kebawah Bertemu Satu Sama Lain.
+                                                Miring Keatas
+                                            </label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="kening" id="kening"
+                                                value="Kebawah Bertemu Satu Sama Lain." checked>
+                                            <label class="form-check-label" for="exampleRadios1">
+                                                Kebawah Bertemu Satu Sama Lain.
                                             </label>
                                         </div>
                                     </div>
@@ -395,7 +437,7 @@
                                     <div class="col md-10">
                                         <div class="form-check form-check-inline">
                                             <input class="form-check-input" type="radio" name="dahi" id="dahi"
-                                                value="Rata" checked>
+                                                value="Loncos Kebelakang" checked>
                                             <label class="form-check-label" for="exampleRadios1">
                                                 Loncos Kebelakang
                                             </label>
@@ -529,14 +571,14 @@
                                         <div class="col-md-2"><label for="">Pangkalnya:</label></div>
                                         <div class="col-md-10">
                                             <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="hidung['pangkal']"
+                                                <input class="form-check-input" type="radio" name="hidung[1]"
                                                     id="hidung" value="rata" checked>
                                                 <label class="form-check-label" for="exampleRadios1">
                                                     Rata
                                                 </label>
                                             </div>
                                             <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="hidung['pangkal']"
+                                                <input class="form-check-input" type="radio" name="hidung[1]"
                                                     id="hidung" value="masuk" checked>
                                                 <label class="form-check-label" for="exampleRadios1">
                                                     Masuk Kedalam
@@ -546,28 +588,28 @@
                                         <div class="col-md-2"><label for="">Batangnya:</label></div>
                                         <div class="col-md-10">
                                             <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="hidung['batang']"
+                                                <input class="form-check-input" type="radio" name="hidung[2]"
                                                     id="hidung" value="kedalam" checked>
                                                 <label class="form-check-label" for="exampleRadios1">
                                                     Membentuk Kedalam
                                                 </label>
                                             </div>
                                             <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="hidung['batang']"
+                                                <input class="form-check-input" type="radio" name="hidung[2]"
                                                     id="hidung" value="Keluar" checked>
                                                 <label class="form-check-label" for="exampleRadios1">
                                                     Keluar Lurus
                                                 </label>
                                             </div>
                                             <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="hidung['batang']"
+                                                <input class="form-check-input" type="radio" name="hidung[2]"
                                                     id="hidung" value="keatas" checked>
                                                 <label class="form-check-label" for="exampleRadios1">
                                                     Alasnya Menuju Keatas
                                                 </label>
                                             </div>
                                             <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="hidung['batang']"
+                                                <input class="form-check-input" type="radio" name="hidung[2]"
                                                     id="hidung" value="kebawah" checked>
                                                 <label class="form-check-label" for="exampleRadios1">
                                                     Kebawah Rata
@@ -577,21 +619,21 @@
                                         <div class="col-md-2"><label for="">Bentuknya:</label></div>
                                         <div class="col-md-10">
                                             <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="hidung['bentuk']"
+                                                <input class="form-check-input" type="radio" name="hidung[3]"
                                                     id="kecil" value="kiri" checked>
                                                 <label class="form-check-label" for="exampleRadios1">
                                                     Kecil
                                                 </label>
                                             </div>
                                             <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="hidung['bentuk']"
+                                                <input class="form-check-input" type="radio" name="hidung[3]"
                                                     id="besar" value="kiri" checked>
                                                 <label class="form-check-label" for="exampleRadios1">
                                                     Besar
                                                 </label>
                                             </div>
                                             <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="hidung['bengkok']"
+                                                <input class="form-check-input" type="radio" name="hidung[3]"
                                                     id="hidung" value="mengangkat" checked>
                                                 <label class="form-check-label" for="exampleRadios1">
                                                     Mengangkat
@@ -601,21 +643,21 @@
                                         <div class="col-md-2"><label for="">Bengkok:</label></div>
                                         <div class="col-md-10">
                                             <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="hidung['bengkok']"
+                                                <input class="form-check-input" type="radio" name="hidung[4]"
                                                     id="hidung" value="kiri" checked>
                                                 <label class="form-check-label" for="exampleRadios1">
                                                     Kekiri
                                                 </label>
                                             </div>
                                             <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="hidung['bengkok']"
+                                                <input class="form-check-input" type="radio" name="hidung[4]"
                                                     id="hidung" value="kanan" checked>
                                                 <label class="form-check-label" for="exampleRadios1">
                                                     Kekanan
                                                 </label>
                                             </div>
                                             <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="hidung['bengkok']"
+                                                <input class="form-check-input" type="radio" name="hidung[4]"
                                                     id="hidung" value="mengangkat" checked>
                                                 <label class="form-check-label" for="exampleRadios1">
                                                     Mengangkat
@@ -654,9 +696,81 @@
                                 </div>
                             </div>
                             <div class="col-12">
-                                <div class="form-group">
-                                    <label for="">Telinga</label>
-                                    <input type="text" class="form-control">
+                                <div class="form-group d-flex row col-12" style="padding-left: 1.8rem !important">
+                                    <div class="col-md-2"><label for="">Telinga</label></div>
+                                    <div class="col-md-10" style="padding-left: 1.05rem !important;">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Telinga[1]"
+                                                id="telinga" value="Bulat" checked>
+                                            <label class="form-check-label" for="exampleRadios1">
+                                                Bulat
+                                            </label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Telinga[1]"
+                                                id="telinga" value="Bulat Bujur Tiga Penjuru" checked>
+                                            <label class="form-check-label" for="exampleRadios1">
+                                                Bulat Bujur Tiga Penjuru
+                                            </label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Telinga[1]"
+                                                id="telinga" value="Jauh Dari Belakang" checked>
+                                            <label class="form-check-label" for="exampleRadios1">
+                                                Jauh Dari Belakang
+                                            </label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="Telinga[1]"
+                                                id="telinga" value="Berlengket dengan Kepala Belakang" checked>
+                                            <label class="form-check-label" for="exampleRadios1">
+                                                Berlengket dengan Kepala Bagian Atas Mengenai Belakang
+                                            </label>
+                                        </div>
+                                        <div class="row pt-2">
+                                            <div class="col-md-2"><label for="">Bentuk Cuping:</label></div>
+                                            <div class="col-md-10">
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="Telinga[2]" id="telinga"
+                                                        value="Berupa Baja Persegi" checked>
+                                                    <label class="form-check-label" for="exampleRadios1">
+                                                        Berupa Baja Persegi
+                                                    </label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="Telinga[2]" id="telinga" value="Melengkung"
+                                                        checked>
+                                                    <label class="form-check-label" for="exampleRadios1">
+                                                        Melengkung
+                                                    </label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="Telinga[2]" id="telinga"
+                                                        value="Bergontang-Ganting Rata" checked>
+                                                    <label class="form-check-label" for="exampleRadios1">
+                                                        Bergontang-Ganting Rata
+                                                    </label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="Telinga[2]" id="telinga" value="Tebal" checked>
+                                                    <label class="form-check-label" for="exampleRadios1">
+                                                        Tebal
+                                                    </label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="Telinga[2]" id="telinga" value="Beralur" checked>
+                                                    <label class="form-check-label" for="exampleRadios1">
+                                                        Beralur
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-12">
@@ -666,15 +780,22 @@
                                         rows="10"></textarea>
                                 </div>
                             </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label for="">Nama Anak</label>
+                                    <textarea name="anak" class="form-control" id="" cols="30"
+                                        rows="10"></textarea>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </form>
             </div>
             <div class="card-footer">
                 <button class="btn btn-md btn-danger">Cancel</button>
-                <a href="<?= site_url('Dashboard/Datafisik/edit?session_id=') ?><?= encode($peserta[0]->id) ?>"
-                    class="btn btn-md btn-success">Simpan</a>
+                <button type="submit" class="btn btn-success">Simpan</button>
             </div>
+            </form>
+
         </div>
     </div>
 </div>

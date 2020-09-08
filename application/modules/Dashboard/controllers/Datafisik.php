@@ -180,5 +180,11 @@ class Datafisik extends CI_Controller {
         $data['content'] = $this->parser->parse('FaceIndex', $data, true);
         return $this->parser->parse('Templates/Template', $data);
     }
+    public function saveData()
+    {
+        $model = new M_Datafisik;
+        $model->save_datafisik();
+        die;
+    }
 
 }

@@ -21,7 +21,7 @@ class M_Pernyataan extends CI_Model {
                 ->where('`data_diri`.`is_active`', 1, false)
                 ->where('`data_diri`.`id`', $id, false)
                 ->get()
-                ->result();
+                ->row_array();
         return $exec;
     }
 
@@ -63,5 +63,63 @@ class M_Pernyataan extends CI_Model {
             return redirect(base_url('Dashboard/Pernyataan/index/'), $this->session->set_flashdata('message', 'Data berhasil disimpan !'));
         }
     }
-
+    static function pendidikan_get($id)
+    {
+        $ci =& get_instance();
+        $data = $ci->db->where('id_personil', $id)->order_by('seq')->get('pendidikan_umum')->result_object();
+        return $data;
+    }
+    static function pendDinas_get($id)
+    {
+        $ci =& get_instance();
+        $data = $ci->db->where('id_personil', $id)->order_by('seq')->get('pendidikan_kedinasan')->result_object();
+        return $data;
+    }
+    static function pekerjaan1_get($id)
+    {
+        $ci =& get_instance();
+        $data = $ci->db->where('id_personil', $id)->order_by('seq')->get('riwayat_pekerjaan')->result_object();
+        return $data;
+    }
+    static function pekerjaan2_get($id)
+    {
+        $ci =& get_instance();
+        $data = $ci->db->where('id_personil', $id)->order_by('seq')->get('data_pekerjaan_luardinas')->result_object();
+        return $data;
+    }
+    static function pendLain_get($id)
+    {
+        $ci =& get_instance();
+        $data = $ci->db->where('id_personil', $id)->order_by('seq')->get('pendidikan_lain')->result_object();
+        return $data;
+    }
+    static function tempat_tinggal($id)
+    {
+        $ci =& get_instance();
+        $data = $ci->db->where('id_personil', $id)->order_by('seq')->get('riwayat_tinggal')->result_object();
+        return $data;
+    }
+    static function organisasi($id)
+    {
+        $ci =& get_instance();
+        $data = $ci->db->where('id_personil', $id)->order_by('seq')->get('riwayat_organisasi')->result_object();
+        return $data;
+    }
+    static function perjuangan($id)
+    {
+        $ci =& get_instance();
+        $data = $ci->db->where('id_personil', $id)->order_by('seq')->get('riwayat_cita')->result_object();
+        return $data;
+    }
+    static function penghargaan($id)
+    {
+        $ci =& get_instance();
+        $data = $ci->db->where('id_personil', $id)->order_by('seq')->get('riwayat_penghargaan')->result_object();
+        return $data;
+    }
+    static function data_lain($id, $table){
+        $ci =& get_instance();
+        $data = $ci->db->where('id_personil', $id)->get($table)->result_object();
+        return $data;
+    }
 }

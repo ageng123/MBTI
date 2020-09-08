@@ -188,8 +188,21 @@
             <script src="<?= site_url('assets/js/app.js') ?>"></script>
             <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.js" integrity="sha512-BgV3bZfMmUklIZI+dP0SILdmQ0RBY2gxegFFyfgo4Ui56WhKF4Pny9LsV/l96jxDDA+2w47zAXA4IyHo2UT/Qg==" crossorigin="anonymous"></script>
            <!--  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script> -->
+           <script src="https://cdn.jsdelivr.net/npm/signature_pad@2.3.2/dist/signature_pad.min.js"></script>
+           <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
             <script>
                 $('body').particleGround();
+                $(document).ready(function(){
+                    var wrapper = document.querySelector('#signArea');
+                    var canvas = wrapper.querySelector("canvas");
+                    var signaturePad = new SignaturePad(canvas, {
+                    // It's Necessary to use an opaque color when saving image as JPEG;
+                    // this option can be omitted if only saving as PNG or SVG
+                    backgroundColor: 'rgb(255, 255, 255)',
+                    penColor: "rgb(66, 133, 244)"
+                    })
+
+                })
             </script>
         </div>
     </body>
