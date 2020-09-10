@@ -16,6 +16,13 @@ class Api extends CI_Controller {
         $config['max_height']           = 768;
         $this->load->library('upload', $config);
         $this->load->model(['modelpernyataan', 'ModelPendidikan', 'ModelRiwayatPekerjaan', 'ModelRiwayat', 'Auth/M_Auth']);
+        // var_dump($_SERVER);
+        // die;
+        $check = isGrantedToAccess();
+        if($check == 'Not Allowed'):
+            echo json_encode($this->statuscode(2, 'You Are Not Authorize'));
+            die;
+        endif;
     }
     private function statuscode($status, $message){
         switch($status){
