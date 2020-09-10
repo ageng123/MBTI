@@ -33,7 +33,11 @@ class Auth extends CI_Controller {
         ];
         $result = $this->M_Auth->Process($data);
         if ($result == true) {
-            $session = ['login_stat' => 1, 'id' => $result[0]->id, 'nama' => $result[0]->uname, 'hakakses' => $result[0]->hak_akses];
+            $session = [
+                'login_stat' => 1, 
+                'id' => $result[0]->id, 
+                'nama' => $result[0]->uname, 
+                'hakakses' => $result[0]->hak_akses];
             $this->session->set_userdata($session);
             redirect(base_url('Dashboard/index/'), 'refresh');
         } else {

@@ -15,7 +15,7 @@ class Api extends CI_Controller {
         $config['max_width']            = 1024;
         $config['max_height']           = 768;
         $this->load->library('upload', $config);
-        $this->load->model(['modelpernyataan', 'ModelPendidikan', 'ModelRiwayatPekerjaan', 'ModelRiwayat']);
+        $this->load->model(['modelpernyataan', 'ModelPendidikan', 'ModelRiwayatPekerjaan', 'ModelRiwayat', 'Auth/M_Auth']);
     }
     private function statuscode($status, $message){
         switch($status){
@@ -34,6 +34,7 @@ class Api extends CI_Controller {
                 ];
             break;
         }
+        return $data;
     }
     public function post_pernyataan()
     {
@@ -515,6 +516,26 @@ class Api extends CI_Controller {
         $model->alasanpernah_mertuaperempuan = $data->mertuaperempuanoldorgalasan;
         $model->alasanmeninggal_mertuaperempuan = $data->mertuaperempuanalasanmeninggal ? $data->mertuaperempuanalasanmeninggal : 'Belum Meninggal';
         $model->save();
+    }
+    public function Login_api()
+    {
+        $repo = new M_Auth();
+        $data = [
+            'uname' => $this->input->post('username', true),
+            'pwd' => $this->input->post('pwd', true)
+        ];
+        if($item = $repo->Process($data)):
+            $session = [
+                'login_stat' => 1, 
+                'id' => $item[0]->id, 
+                'nama' => $item[0]->uname, 
+                'hakakses' => $item[0]->hak_akses];
+            $this->session->set_userdata($session);
+            echo json_encode($this->statuscode(1, $item), JSON_PRETTY_PRINT);
+        else:
+            echo json_encode($this->statuscode(2, $item), JSON_PRETTY_PRINT);
+        endif;
+        
     }
 }
 ?>

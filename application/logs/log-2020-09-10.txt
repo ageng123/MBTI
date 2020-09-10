@@ -1,0 +1,626 @@
+INFO - 2020-09-10 10:16:13 --> Config Class Initialized
+INFO - 2020-09-10 10:16:13 --> Hooks Class Initialized
+DEBUG - 2020-09-10 10:16:13 --> UTF-8 Support Enabled
+INFO - 2020-09-10 10:16:13 --> Utf8 Class Initialized
+INFO - 2020-09-10 10:16:13 --> URI Class Initialized
+INFO - 2020-09-10 10:16:13 --> Router Class Initialized
+INFO - 2020-09-10 10:16:13 --> Output Class Initialized
+INFO - 2020-09-10 10:16:13 --> Security Class Initialized
+DEBUG - 2020-09-10 10:16:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-10 10:16:13 --> Input Class Initialized
+INFO - 2020-09-10 10:16:13 --> Language Class Initialized
+INFO - 2020-09-10 10:16:13 --> Loader Class Initialized
+INFO - 2020-09-10 10:16:13 --> Helper loaded: form_helper
+INFO - 2020-09-10 10:16:13 --> Helper loaded: url_helper
+INFO - 2020-09-10 10:16:13 --> Helper loaded: html_helper
+INFO - 2020-09-10 10:16:13 --> Helper loaded: file_helper
+INFO - 2020-09-10 10:16:13 --> Helper loaded: component_helper
+INFO - 2020-09-10 10:16:13 --> Helper loaded: date_helper
+INFO - 2020-09-10 10:16:13 --> Helper loaded: encrypt_helper
+INFO - 2020-09-10 10:16:13 --> Database Driver Class Initialized
+INFO - 2020-09-10 10:16:15 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-10 10:16:15 --> Email Class Initialized
+INFO - 2020-09-10 10:16:15 --> Parser Class Initialized
+DEBUG - 2020-09-10 10:16:15 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-10 10:16:15 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-10 10:16:15 --> Encryption Class Initialized
+INFO - 2020-09-10 10:16:15 --> Upload Class Initialized
+INFO - 2020-09-10 10:16:15 --> Model "Main" initialized
+INFO - 2020-09-10 10:16:15 --> Controller Class Initialized
+DEBUG - 2020-09-10 10:16:15 --> Upload class already loaded. Second attempt ignored.
+INFO - 2020-09-10 10:16:15 --> Model "modelpernyataan" initialized
+INFO - 2020-09-10 10:16:15 --> Model "ModelPendidikan" initialized
+INFO - 2020-09-10 10:16:15 --> Model "ModelRiwayatPekerjaan" initialized
+INFO - 2020-09-10 10:16:15 --> Model "ModelRiwayat" initialized
+ERROR - 2020-09-10 10:16:15 --> Severity: error --> Exception: Unable to locate the model you have specified: M_Auth D:\Project\Mbtni\system\core\Loader.php 348
+INFO - 2020-09-10 10:16:49 --> Config Class Initialized
+INFO - 2020-09-10 10:16:49 --> Hooks Class Initialized
+DEBUG - 2020-09-10 10:16:50 --> UTF-8 Support Enabled
+INFO - 2020-09-10 10:16:50 --> Utf8 Class Initialized
+INFO - 2020-09-10 10:16:50 --> URI Class Initialized
+INFO - 2020-09-10 10:16:50 --> Router Class Initialized
+INFO - 2020-09-10 10:16:50 --> Output Class Initialized
+INFO - 2020-09-10 10:16:50 --> Security Class Initialized
+DEBUG - 2020-09-10 10:16:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-10 10:16:50 --> Input Class Initialized
+INFO - 2020-09-10 10:16:50 --> Language Class Initialized
+INFO - 2020-09-10 10:16:50 --> Loader Class Initialized
+INFO - 2020-09-10 10:16:50 --> Helper loaded: form_helper
+INFO - 2020-09-10 10:16:50 --> Helper loaded: url_helper
+INFO - 2020-09-10 10:16:50 --> Helper loaded: html_helper
+INFO - 2020-09-10 10:16:50 --> Helper loaded: file_helper
+INFO - 2020-09-10 10:16:50 --> Helper loaded: component_helper
+INFO - 2020-09-10 10:16:50 --> Helper loaded: date_helper
+INFO - 2020-09-10 10:16:50 --> Helper loaded: encrypt_helper
+INFO - 2020-09-10 10:16:50 --> Database Driver Class Initialized
+INFO - 2020-09-10 10:16:52 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-10 10:16:52 --> Email Class Initialized
+INFO - 2020-09-10 10:16:52 --> Parser Class Initialized
+DEBUG - 2020-09-10 10:16:52 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-10 10:16:52 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-10 10:16:52 --> Encryption Class Initialized
+INFO - 2020-09-10 10:16:52 --> Upload Class Initialized
+INFO - 2020-09-10 10:16:52 --> Model "Main" initialized
+INFO - 2020-09-10 10:16:52 --> Controller Class Initialized
+DEBUG - 2020-09-10 10:16:52 --> Upload class already loaded. Second attempt ignored.
+INFO - 2020-09-10 10:16:52 --> Model "modelpernyataan" initialized
+INFO - 2020-09-10 10:16:52 --> Model "ModelPendidikan" initialized
+INFO - 2020-09-10 10:16:52 --> Model "ModelRiwayatPekerjaan" initialized
+INFO - 2020-09-10 10:16:52 --> Model "ModelRiwayat" initialized
+INFO - 2020-09-10 10:16:52 --> Model "M_Auth" initialized
+ERROR - 2020-09-10 10:16:52 --> Severity: error --> Exception: Too few arguments to function Api::Login_api(), 0 passed in D:\Project\Mbtni\system\core\CodeIgniter.php on line 532 and exactly 1 expected D:\Project\Mbtni\application\controllers\Api.php 519
+INFO - 2020-09-10 10:18:35 --> Config Class Initialized
+INFO - 2020-09-10 10:18:35 --> Hooks Class Initialized
+DEBUG - 2020-09-10 10:18:35 --> UTF-8 Support Enabled
+INFO - 2020-09-10 10:18:35 --> Utf8 Class Initialized
+INFO - 2020-09-10 10:18:35 --> URI Class Initialized
+INFO - 2020-09-10 10:18:35 --> Router Class Initialized
+INFO - 2020-09-10 10:18:35 --> Output Class Initialized
+INFO - 2020-09-10 10:18:35 --> Security Class Initialized
+DEBUG - 2020-09-10 10:18:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-10 10:18:35 --> Input Class Initialized
+INFO - 2020-09-10 10:18:35 --> Language Class Initialized
+INFO - 2020-09-10 10:18:35 --> Loader Class Initialized
+INFO - 2020-09-10 10:18:35 --> Helper loaded: form_helper
+INFO - 2020-09-10 10:18:35 --> Helper loaded: url_helper
+INFO - 2020-09-10 10:18:35 --> Helper loaded: html_helper
+INFO - 2020-09-10 10:18:35 --> Helper loaded: file_helper
+INFO - 2020-09-10 10:18:35 --> Helper loaded: component_helper
+INFO - 2020-09-10 10:18:35 --> Helper loaded: date_helper
+INFO - 2020-09-10 10:18:35 --> Helper loaded: encrypt_helper
+INFO - 2020-09-10 10:18:35 --> Database Driver Class Initialized
+INFO - 2020-09-10 10:18:37 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-10 10:18:37 --> Email Class Initialized
+INFO - 2020-09-10 10:18:37 --> Parser Class Initialized
+DEBUG - 2020-09-10 10:18:37 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-10 10:18:37 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-10 10:18:37 --> Encryption Class Initialized
+INFO - 2020-09-10 10:18:37 --> Upload Class Initialized
+INFO - 2020-09-10 10:18:37 --> Model "Main" initialized
+INFO - 2020-09-10 10:18:37 --> Controller Class Initialized
+DEBUG - 2020-09-10 10:18:37 --> Upload class already loaded. Second attempt ignored.
+INFO - 2020-09-10 10:18:37 --> Model "modelpernyataan" initialized
+INFO - 2020-09-10 10:18:37 --> Model "ModelPendidikan" initialized
+INFO - 2020-09-10 10:18:37 --> Model "ModelRiwayatPekerjaan" initialized
+INFO - 2020-09-10 10:18:38 --> Model "ModelRiwayat" initialized
+INFO - 2020-09-10 10:18:38 --> Model "M_Auth" initialized
+ERROR - 2020-09-10 10:18:38 --> Severity: error --> Exception: Call to undefined method M_Auth::Proccess() D:\Project\Mbtni\application\controllers\Api.php 526
+INFO - 2020-09-10 10:19:05 --> Config Class Initialized
+INFO - 2020-09-10 10:19:05 --> Hooks Class Initialized
+DEBUG - 2020-09-10 10:19:05 --> UTF-8 Support Enabled
+INFO - 2020-09-10 10:19:05 --> Utf8 Class Initialized
+INFO - 2020-09-10 10:19:05 --> URI Class Initialized
+INFO - 2020-09-10 10:19:05 --> Router Class Initialized
+INFO - 2020-09-10 10:19:05 --> Output Class Initialized
+INFO - 2020-09-10 10:19:05 --> Security Class Initialized
+DEBUG - 2020-09-10 10:19:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-10 10:19:05 --> Input Class Initialized
+INFO - 2020-09-10 10:19:05 --> Language Class Initialized
+INFO - 2020-09-10 10:19:05 --> Loader Class Initialized
+INFO - 2020-09-10 10:19:05 --> Helper loaded: form_helper
+INFO - 2020-09-10 10:19:05 --> Helper loaded: url_helper
+INFO - 2020-09-10 10:19:05 --> Helper loaded: html_helper
+INFO - 2020-09-10 10:19:05 --> Helper loaded: file_helper
+INFO - 2020-09-10 10:19:05 --> Helper loaded: component_helper
+INFO - 2020-09-10 10:19:05 --> Helper loaded: date_helper
+INFO - 2020-09-10 10:19:05 --> Helper loaded: encrypt_helper
+INFO - 2020-09-10 10:19:05 --> Database Driver Class Initialized
+INFO - 2020-09-10 10:19:08 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-10 10:19:08 --> Email Class Initialized
+INFO - 2020-09-10 10:19:08 --> Parser Class Initialized
+DEBUG - 2020-09-10 10:19:08 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-10 10:19:08 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-10 10:19:08 --> Encryption Class Initialized
+INFO - 2020-09-10 10:19:08 --> Upload Class Initialized
+INFO - 2020-09-10 10:19:08 --> Model "Main" initialized
+INFO - 2020-09-10 10:19:08 --> Controller Class Initialized
+DEBUG - 2020-09-10 10:19:08 --> Upload class already loaded. Second attempt ignored.
+INFO - 2020-09-10 10:19:08 --> Model "modelpernyataan" initialized
+INFO - 2020-09-10 10:19:08 --> Model "ModelPendidikan" initialized
+INFO - 2020-09-10 10:19:08 --> Model "ModelRiwayatPekerjaan" initialized
+INFO - 2020-09-10 10:19:08 --> Model "ModelRiwayat" initialized
+INFO - 2020-09-10 10:19:08 --> Model "M_Auth" initialized
+INFO - 2020-09-10 10:19:08 --> Final output sent to browser
+DEBUG - 2020-09-10 10:19:08 --> Total execution time: 2.1748
+INFO - 2020-09-10 10:20:26 --> Config Class Initialized
+INFO - 2020-09-10 10:20:26 --> Hooks Class Initialized
+DEBUG - 2020-09-10 10:20:26 --> UTF-8 Support Enabled
+INFO - 2020-09-10 10:20:26 --> Utf8 Class Initialized
+INFO - 2020-09-10 10:20:26 --> URI Class Initialized
+INFO - 2020-09-10 10:20:26 --> Router Class Initialized
+INFO - 2020-09-10 10:20:26 --> Output Class Initialized
+INFO - 2020-09-10 10:20:26 --> Security Class Initialized
+DEBUG - 2020-09-10 10:20:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-10 10:20:26 --> Input Class Initialized
+INFO - 2020-09-10 10:20:26 --> Language Class Initialized
+INFO - 2020-09-10 10:20:26 --> Loader Class Initialized
+INFO - 2020-09-10 10:20:26 --> Helper loaded: form_helper
+INFO - 2020-09-10 10:20:26 --> Helper loaded: url_helper
+INFO - 2020-09-10 10:20:26 --> Helper loaded: html_helper
+INFO - 2020-09-10 10:20:26 --> Helper loaded: file_helper
+INFO - 2020-09-10 10:20:26 --> Helper loaded: component_helper
+INFO - 2020-09-10 10:20:26 --> Helper loaded: date_helper
+INFO - 2020-09-10 10:20:26 --> Helper loaded: encrypt_helper
+INFO - 2020-09-10 10:20:26 --> Database Driver Class Initialized
+INFO - 2020-09-10 10:20:28 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-10 10:20:28 --> Email Class Initialized
+INFO - 2020-09-10 10:20:28 --> Parser Class Initialized
+DEBUG - 2020-09-10 10:20:28 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-10 10:20:28 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-10 10:20:28 --> Encryption Class Initialized
+INFO - 2020-09-10 10:20:28 --> Upload Class Initialized
+INFO - 2020-09-10 10:20:28 --> Model "Main" initialized
+INFO - 2020-09-10 10:20:28 --> Controller Class Initialized
+DEBUG - 2020-09-10 10:20:28 --> Upload class already loaded. Second attempt ignored.
+INFO - 2020-09-10 10:20:28 --> Model "modelpernyataan" initialized
+INFO - 2020-09-10 10:20:28 --> Model "ModelPendidikan" initialized
+INFO - 2020-09-10 10:20:28 --> Model "ModelRiwayatPekerjaan" initialized
+INFO - 2020-09-10 10:20:28 --> Model "ModelRiwayat" initialized
+INFO - 2020-09-10 10:20:28 --> Model "M_Auth" initialized
+ERROR - 2020-09-10 10:20:28 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\controllers\Api.php 529
+ERROR - 2020-09-10 10:20:28 --> Severity: Notice --> Trying to get property 'uname' of non-object D:\Project\Mbtni\application\controllers\Api.php 530
+ERROR - 2020-09-10 10:20:28 --> Severity: Notice --> Trying to get property 'hak_akses' of non-object D:\Project\Mbtni\application\controllers\Api.php 531
+INFO - 2020-09-10 10:20:28 --> Final output sent to browser
+DEBUG - 2020-09-10 10:20:28 --> Total execution time: 2.1461
+INFO - 2020-09-10 10:20:43 --> Config Class Initialized
+INFO - 2020-09-10 10:20:43 --> Hooks Class Initialized
+DEBUG - 2020-09-10 10:20:43 --> UTF-8 Support Enabled
+INFO - 2020-09-10 10:20:43 --> Utf8 Class Initialized
+INFO - 2020-09-10 10:20:43 --> URI Class Initialized
+INFO - 2020-09-10 10:20:43 --> Router Class Initialized
+INFO - 2020-09-10 10:20:43 --> Output Class Initialized
+INFO - 2020-09-10 10:20:43 --> Security Class Initialized
+DEBUG - 2020-09-10 10:20:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-10 10:20:43 --> Input Class Initialized
+INFO - 2020-09-10 10:20:43 --> Language Class Initialized
+INFO - 2020-09-10 10:20:43 --> Loader Class Initialized
+INFO - 2020-09-10 10:20:43 --> Helper loaded: form_helper
+INFO - 2020-09-10 10:20:43 --> Helper loaded: url_helper
+INFO - 2020-09-10 10:20:43 --> Helper loaded: html_helper
+INFO - 2020-09-10 10:20:43 --> Helper loaded: file_helper
+INFO - 2020-09-10 10:20:43 --> Helper loaded: component_helper
+INFO - 2020-09-10 10:20:43 --> Helper loaded: date_helper
+INFO - 2020-09-10 10:20:43 --> Helper loaded: encrypt_helper
+INFO - 2020-09-10 10:20:43 --> Database Driver Class Initialized
+INFO - 2020-09-10 10:20:45 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-10 10:20:45 --> Email Class Initialized
+INFO - 2020-09-10 10:20:45 --> Parser Class Initialized
+DEBUG - 2020-09-10 10:20:45 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-10 10:20:45 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-10 10:20:45 --> Encryption Class Initialized
+INFO - 2020-09-10 10:20:45 --> Upload Class Initialized
+INFO - 2020-09-10 10:20:45 --> Model "Main" initialized
+INFO - 2020-09-10 10:20:45 --> Controller Class Initialized
+DEBUG - 2020-09-10 10:20:45 --> Upload class already loaded. Second attempt ignored.
+INFO - 2020-09-10 10:20:45 --> Model "modelpernyataan" initialized
+INFO - 2020-09-10 10:20:45 --> Model "ModelPendidikan" initialized
+INFO - 2020-09-10 10:20:45 --> Model "ModelRiwayatPekerjaan" initialized
+INFO - 2020-09-10 10:20:45 --> Model "ModelRiwayat" initialized
+INFO - 2020-09-10 10:20:45 --> Model "M_Auth" initialized
+ERROR - 2020-09-10 10:20:45 --> Severity: Notice --> Trying to get property 'id' of non-object D:\Project\Mbtni\application\controllers\Api.php 529
+ERROR - 2020-09-10 10:20:45 --> Severity: Notice --> Trying to get property 'uname' of non-object D:\Project\Mbtni\application\controllers\Api.php 530
+ERROR - 2020-09-10 10:20:45 --> Severity: Notice --> Trying to get property 'hak_akses' of non-object D:\Project\Mbtni\application\controllers\Api.php 531
+INFO - 2020-09-10 10:20:45 --> Final output sent to browser
+DEBUG - 2020-09-10 10:20:45 --> Total execution time: 2.1271
+INFO - 2020-09-10 10:21:49 --> Config Class Initialized
+INFO - 2020-09-10 10:21:49 --> Hooks Class Initialized
+DEBUG - 2020-09-10 10:21:49 --> UTF-8 Support Enabled
+INFO - 2020-09-10 10:21:49 --> Utf8 Class Initialized
+INFO - 2020-09-10 10:21:49 --> URI Class Initialized
+INFO - 2020-09-10 10:21:49 --> Router Class Initialized
+INFO - 2020-09-10 10:21:49 --> Output Class Initialized
+INFO - 2020-09-10 10:21:49 --> Security Class Initialized
+DEBUG - 2020-09-10 10:21:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-10 10:21:49 --> Input Class Initialized
+INFO - 2020-09-10 10:21:49 --> Language Class Initialized
+INFO - 2020-09-10 10:21:49 --> Loader Class Initialized
+INFO - 2020-09-10 10:21:49 --> Helper loaded: form_helper
+INFO - 2020-09-10 10:21:49 --> Helper loaded: url_helper
+INFO - 2020-09-10 10:21:49 --> Helper loaded: html_helper
+INFO - 2020-09-10 10:21:49 --> Helper loaded: file_helper
+INFO - 2020-09-10 10:21:49 --> Helper loaded: component_helper
+INFO - 2020-09-10 10:21:49 --> Helper loaded: date_helper
+INFO - 2020-09-10 10:21:49 --> Helper loaded: encrypt_helper
+INFO - 2020-09-10 10:21:49 --> Database Driver Class Initialized
+INFO - 2020-09-10 10:21:51 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-10 10:21:51 --> Email Class Initialized
+INFO - 2020-09-10 10:21:51 --> Parser Class Initialized
+DEBUG - 2020-09-10 10:21:51 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-10 10:21:51 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-10 10:21:51 --> Encryption Class Initialized
+INFO - 2020-09-10 10:21:51 --> Upload Class Initialized
+INFO - 2020-09-10 10:21:51 --> Model "Main" initialized
+INFO - 2020-09-10 10:21:51 --> Controller Class Initialized
+DEBUG - 2020-09-10 10:21:51 --> Upload class already loaded. Second attempt ignored.
+INFO - 2020-09-10 10:21:51 --> Model "modelpernyataan" initialized
+INFO - 2020-09-10 10:21:51 --> Model "ModelPendidikan" initialized
+INFO - 2020-09-10 10:21:51 --> Model "ModelRiwayatPekerjaan" initialized
+INFO - 2020-09-10 10:21:51 --> Model "ModelRiwayat" initialized
+INFO - 2020-09-10 10:21:51 --> Model "M_Auth" initialized
+ERROR - 2020-09-10 10:21:51 --> Severity: error --> Exception: Call to a member function result_array() on bool D:\Project\Mbtni\application\controllers\Api.php 527
+INFO - 2020-09-10 10:22:39 --> Config Class Initialized
+INFO - 2020-09-10 10:22:39 --> Hooks Class Initialized
+DEBUG - 2020-09-10 10:22:39 --> UTF-8 Support Enabled
+INFO - 2020-09-10 10:22:39 --> Utf8 Class Initialized
+INFO - 2020-09-10 10:22:39 --> URI Class Initialized
+INFO - 2020-09-10 10:22:39 --> Router Class Initialized
+INFO - 2020-09-10 10:22:39 --> Output Class Initialized
+INFO - 2020-09-10 10:22:39 --> Security Class Initialized
+DEBUG - 2020-09-10 10:22:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-10 10:22:39 --> Input Class Initialized
+INFO - 2020-09-10 10:22:39 --> Language Class Initialized
+INFO - 2020-09-10 10:22:39 --> Loader Class Initialized
+INFO - 2020-09-10 10:22:39 --> Helper loaded: form_helper
+INFO - 2020-09-10 10:22:39 --> Helper loaded: url_helper
+INFO - 2020-09-10 10:22:39 --> Helper loaded: html_helper
+INFO - 2020-09-10 10:22:39 --> Helper loaded: file_helper
+INFO - 2020-09-10 10:22:39 --> Helper loaded: component_helper
+INFO - 2020-09-10 10:22:39 --> Helper loaded: date_helper
+INFO - 2020-09-10 10:22:39 --> Helper loaded: encrypt_helper
+INFO - 2020-09-10 10:22:39 --> Database Driver Class Initialized
+INFO - 2020-09-10 10:22:41 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-10 10:22:41 --> Email Class Initialized
+INFO - 2020-09-10 10:22:41 --> Parser Class Initialized
+DEBUG - 2020-09-10 10:22:41 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-10 10:22:41 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-10 10:22:41 --> Encryption Class Initialized
+INFO - 2020-09-10 10:22:41 --> Upload Class Initialized
+INFO - 2020-09-10 10:22:41 --> Model "Main" initialized
+INFO - 2020-09-10 10:22:41 --> Controller Class Initialized
+DEBUG - 2020-09-10 10:22:41 --> Upload class already loaded. Second attempt ignored.
+INFO - 2020-09-10 10:22:41 --> Model "modelpernyataan" initialized
+INFO - 2020-09-10 10:22:41 --> Model "ModelPendidikan" initialized
+INFO - 2020-09-10 10:22:41 --> Model "ModelRiwayatPekerjaan" initialized
+INFO - 2020-09-10 10:22:41 --> Model "ModelRiwayat" initialized
+INFO - 2020-09-10 10:22:41 --> Model "M_Auth" initialized
+INFO - 2020-09-10 10:23:33 --> Config Class Initialized
+INFO - 2020-09-10 10:23:33 --> Hooks Class Initialized
+DEBUG - 2020-09-10 10:23:33 --> UTF-8 Support Enabled
+INFO - 2020-09-10 10:23:33 --> Utf8 Class Initialized
+INFO - 2020-09-10 10:23:33 --> URI Class Initialized
+INFO - 2020-09-10 10:23:33 --> Router Class Initialized
+INFO - 2020-09-10 10:23:33 --> Output Class Initialized
+INFO - 2020-09-10 10:23:33 --> Security Class Initialized
+DEBUG - 2020-09-10 10:23:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-10 10:23:33 --> Input Class Initialized
+INFO - 2020-09-10 10:23:33 --> Language Class Initialized
+INFO - 2020-09-10 10:23:33 --> Loader Class Initialized
+INFO - 2020-09-10 10:23:33 --> Helper loaded: form_helper
+INFO - 2020-09-10 10:23:33 --> Helper loaded: url_helper
+INFO - 2020-09-10 10:23:33 --> Helper loaded: html_helper
+INFO - 2020-09-10 10:23:33 --> Helper loaded: file_helper
+INFO - 2020-09-10 10:23:33 --> Helper loaded: component_helper
+INFO - 2020-09-10 10:23:33 --> Helper loaded: date_helper
+INFO - 2020-09-10 10:23:33 --> Helper loaded: encrypt_helper
+INFO - 2020-09-10 10:23:33 --> Database Driver Class Initialized
+INFO - 2020-09-10 10:23:35 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-10 10:23:35 --> Email Class Initialized
+INFO - 2020-09-10 10:23:35 --> Parser Class Initialized
+DEBUG - 2020-09-10 10:23:35 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-10 10:23:35 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-10 10:23:35 --> Encryption Class Initialized
+INFO - 2020-09-10 10:23:35 --> Upload Class Initialized
+INFO - 2020-09-10 10:23:35 --> Model "Main" initialized
+INFO - 2020-09-10 10:23:35 --> Controller Class Initialized
+DEBUG - 2020-09-10 10:23:35 --> Upload class already loaded. Second attempt ignored.
+INFO - 2020-09-10 10:23:35 --> Model "modelpernyataan" initialized
+INFO - 2020-09-10 10:23:35 --> Model "ModelPendidikan" initialized
+INFO - 2020-09-10 10:23:35 --> Model "ModelRiwayatPekerjaan" initialized
+INFO - 2020-09-10 10:23:35 --> Model "ModelRiwayat" initialized
+INFO - 2020-09-10 10:23:35 --> Model "M_Auth" initialized
+INFO - 2020-09-10 10:24:00 --> Config Class Initialized
+INFO - 2020-09-10 10:24:00 --> Hooks Class Initialized
+DEBUG - 2020-09-10 10:24:00 --> UTF-8 Support Enabled
+INFO - 2020-09-10 10:24:00 --> Utf8 Class Initialized
+INFO - 2020-09-10 10:24:00 --> URI Class Initialized
+INFO - 2020-09-10 10:24:00 --> Router Class Initialized
+INFO - 2020-09-10 10:24:00 --> Output Class Initialized
+INFO - 2020-09-10 10:24:00 --> Security Class Initialized
+DEBUG - 2020-09-10 10:24:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-10 10:24:00 --> Input Class Initialized
+INFO - 2020-09-10 10:24:00 --> Language Class Initialized
+INFO - 2020-09-10 10:24:00 --> Loader Class Initialized
+INFO - 2020-09-10 10:24:00 --> Helper loaded: form_helper
+INFO - 2020-09-10 10:24:00 --> Helper loaded: url_helper
+INFO - 2020-09-10 10:24:00 --> Helper loaded: html_helper
+INFO - 2020-09-10 10:24:00 --> Helper loaded: file_helper
+INFO - 2020-09-10 10:24:00 --> Helper loaded: component_helper
+INFO - 2020-09-10 10:24:00 --> Helper loaded: date_helper
+INFO - 2020-09-10 10:24:00 --> Helper loaded: encrypt_helper
+INFO - 2020-09-10 10:24:00 --> Database Driver Class Initialized
+INFO - 2020-09-10 10:24:02 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-10 10:24:02 --> Email Class Initialized
+INFO - 2020-09-10 10:24:02 --> Parser Class Initialized
+DEBUG - 2020-09-10 10:24:02 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-10 10:24:02 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-10 10:24:02 --> Encryption Class Initialized
+INFO - 2020-09-10 10:24:02 --> Upload Class Initialized
+INFO - 2020-09-10 10:24:02 --> Model "Main" initialized
+INFO - 2020-09-10 10:24:02 --> Controller Class Initialized
+DEBUG - 2020-09-10 10:24:02 --> Upload class already loaded. Second attempt ignored.
+INFO - 2020-09-10 10:24:02 --> Model "modelpernyataan" initialized
+INFO - 2020-09-10 10:24:02 --> Model "ModelPendidikan" initialized
+INFO - 2020-09-10 10:24:02 --> Model "ModelRiwayatPekerjaan" initialized
+INFO - 2020-09-10 10:24:02 --> Model "ModelRiwayat" initialized
+INFO - 2020-09-10 10:24:02 --> Model "M_Auth" initialized
+INFO - 2020-09-10 10:24:02 --> Final output sent to browser
+DEBUG - 2020-09-10 10:24:02 --> Total execution time: 2.1406
+INFO - 2020-09-10 10:24:14 --> Config Class Initialized
+INFO - 2020-09-10 10:24:14 --> Hooks Class Initialized
+DEBUG - 2020-09-10 10:24:14 --> UTF-8 Support Enabled
+INFO - 2020-09-10 10:24:14 --> Utf8 Class Initialized
+INFO - 2020-09-10 10:24:14 --> URI Class Initialized
+INFO - 2020-09-10 10:24:14 --> Router Class Initialized
+INFO - 2020-09-10 10:24:14 --> Output Class Initialized
+INFO - 2020-09-10 10:24:14 --> Security Class Initialized
+DEBUG - 2020-09-10 10:24:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-10 10:24:14 --> Input Class Initialized
+INFO - 2020-09-10 10:24:14 --> Language Class Initialized
+INFO - 2020-09-10 10:24:14 --> Loader Class Initialized
+INFO - 2020-09-10 10:24:14 --> Helper loaded: form_helper
+INFO - 2020-09-10 10:24:14 --> Helper loaded: url_helper
+INFO - 2020-09-10 10:24:14 --> Helper loaded: html_helper
+INFO - 2020-09-10 10:24:14 --> Helper loaded: file_helper
+INFO - 2020-09-10 10:24:14 --> Helper loaded: component_helper
+INFO - 2020-09-10 10:24:14 --> Helper loaded: date_helper
+INFO - 2020-09-10 10:24:14 --> Helper loaded: encrypt_helper
+INFO - 2020-09-10 10:24:14 --> Database Driver Class Initialized
+INFO - 2020-09-10 10:24:16 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-10 10:24:16 --> Email Class Initialized
+INFO - 2020-09-10 10:24:16 --> Parser Class Initialized
+DEBUG - 2020-09-10 10:24:16 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-10 10:24:16 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-10 10:24:16 --> Encryption Class Initialized
+INFO - 2020-09-10 10:24:16 --> Upload Class Initialized
+INFO - 2020-09-10 10:24:16 --> Model "Main" initialized
+INFO - 2020-09-10 10:24:16 --> Controller Class Initialized
+DEBUG - 2020-09-10 10:24:16 --> Upload class already loaded. Second attempt ignored.
+INFO - 2020-09-10 10:24:17 --> Model "modelpernyataan" initialized
+INFO - 2020-09-10 10:24:17 --> Model "ModelPendidikan" initialized
+INFO - 2020-09-10 10:24:17 --> Model "ModelRiwayatPekerjaan" initialized
+INFO - 2020-09-10 10:24:17 --> Model "ModelRiwayat" initialized
+INFO - 2020-09-10 10:24:17 --> Model "M_Auth" initialized
+INFO - 2020-09-10 10:24:17 --> Final output sent to browser
+DEBUG - 2020-09-10 10:24:17 --> Total execution time: 2.1637
+INFO - 2020-09-10 10:25:14 --> Config Class Initialized
+INFO - 2020-09-10 10:25:14 --> Hooks Class Initialized
+DEBUG - 2020-09-10 10:25:14 --> UTF-8 Support Enabled
+INFO - 2020-09-10 10:25:14 --> Utf8 Class Initialized
+INFO - 2020-09-10 10:25:14 --> URI Class Initialized
+INFO - 2020-09-10 10:25:14 --> Router Class Initialized
+INFO - 2020-09-10 10:25:14 --> Output Class Initialized
+INFO - 2020-09-10 10:25:14 --> Security Class Initialized
+DEBUG - 2020-09-10 10:25:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-10 10:25:14 --> Input Class Initialized
+INFO - 2020-09-10 10:25:14 --> Language Class Initialized
+INFO - 2020-09-10 10:25:14 --> Loader Class Initialized
+INFO - 2020-09-10 10:25:14 --> Helper loaded: form_helper
+INFO - 2020-09-10 10:25:14 --> Helper loaded: url_helper
+INFO - 2020-09-10 10:25:14 --> Helper loaded: html_helper
+INFO - 2020-09-10 10:25:14 --> Helper loaded: file_helper
+INFO - 2020-09-10 10:25:14 --> Helper loaded: component_helper
+INFO - 2020-09-10 10:25:14 --> Helper loaded: date_helper
+INFO - 2020-09-10 10:25:14 --> Helper loaded: encrypt_helper
+INFO - 2020-09-10 10:25:14 --> Database Driver Class Initialized
+INFO - 2020-09-10 10:25:16 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-10 10:25:16 --> Email Class Initialized
+INFO - 2020-09-10 10:25:16 --> Parser Class Initialized
+DEBUG - 2020-09-10 10:25:16 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-10 10:25:16 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-10 10:25:16 --> Encryption Class Initialized
+INFO - 2020-09-10 10:25:16 --> Upload Class Initialized
+INFO - 2020-09-10 10:25:16 --> Model "Main" initialized
+INFO - 2020-09-10 10:25:16 --> Controller Class Initialized
+DEBUG - 2020-09-10 10:25:16 --> Upload class already loaded. Second attempt ignored.
+INFO - 2020-09-10 10:25:16 --> Model "modelpernyataan" initialized
+INFO - 2020-09-10 10:25:16 --> Model "ModelPendidikan" initialized
+INFO - 2020-09-10 10:25:16 --> Model "ModelRiwayatPekerjaan" initialized
+INFO - 2020-09-10 10:25:16 --> Model "ModelRiwayat" initialized
+INFO - 2020-09-10 10:25:16 --> Model "M_Auth" initialized
+INFO - 2020-09-10 10:25:16 --> Final output sent to browser
+DEBUG - 2020-09-10 10:25:16 --> Total execution time: 2.1221
+INFO - 2020-09-10 10:25:56 --> Config Class Initialized
+INFO - 2020-09-10 10:25:56 --> Hooks Class Initialized
+DEBUG - 2020-09-10 10:25:56 --> UTF-8 Support Enabled
+INFO - 2020-09-10 10:25:56 --> Utf8 Class Initialized
+INFO - 2020-09-10 10:25:56 --> URI Class Initialized
+INFO - 2020-09-10 10:25:56 --> Router Class Initialized
+INFO - 2020-09-10 10:25:56 --> Output Class Initialized
+INFO - 2020-09-10 10:25:56 --> Security Class Initialized
+DEBUG - 2020-09-10 10:25:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-10 10:25:56 --> Input Class Initialized
+INFO - 2020-09-10 10:25:56 --> Language Class Initialized
+INFO - 2020-09-10 10:25:56 --> Loader Class Initialized
+INFO - 2020-09-10 10:25:56 --> Helper loaded: form_helper
+INFO - 2020-09-10 10:25:56 --> Helper loaded: url_helper
+INFO - 2020-09-10 10:25:56 --> Helper loaded: html_helper
+INFO - 2020-09-10 10:25:56 --> Helper loaded: file_helper
+INFO - 2020-09-10 10:25:56 --> Helper loaded: component_helper
+INFO - 2020-09-10 10:25:56 --> Helper loaded: date_helper
+INFO - 2020-09-10 10:25:56 --> Helper loaded: encrypt_helper
+INFO - 2020-09-10 10:25:56 --> Database Driver Class Initialized
+INFO - 2020-09-10 10:25:58 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-10 10:25:58 --> Email Class Initialized
+INFO - 2020-09-10 10:25:58 --> Parser Class Initialized
+DEBUG - 2020-09-10 10:25:58 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-10 10:25:58 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-10 10:25:58 --> Encryption Class Initialized
+INFO - 2020-09-10 10:25:58 --> Upload Class Initialized
+INFO - 2020-09-10 10:25:58 --> Model "Main" initialized
+INFO - 2020-09-10 10:25:58 --> Controller Class Initialized
+DEBUG - 2020-09-10 10:25:58 --> Upload class already loaded. Second attempt ignored.
+INFO - 2020-09-10 10:25:58 --> Model "modelpernyataan" initialized
+INFO - 2020-09-10 10:25:58 --> Model "ModelPendidikan" initialized
+INFO - 2020-09-10 10:25:58 --> Model "ModelRiwayatPekerjaan" initialized
+INFO - 2020-09-10 10:25:58 --> Model "ModelRiwayat" initialized
+INFO - 2020-09-10 10:25:58 --> Model "M_Auth" initialized
+INFO - 2020-09-10 10:25:58 --> Final output sent to browser
+DEBUG - 2020-09-10 10:25:58 --> Total execution time: 2.1077
+INFO - 2020-09-10 10:26:11 --> Config Class Initialized
+INFO - 2020-09-10 10:26:11 --> Hooks Class Initialized
+DEBUG - 2020-09-10 10:26:11 --> UTF-8 Support Enabled
+INFO - 2020-09-10 10:26:11 --> Utf8 Class Initialized
+INFO - 2020-09-10 10:26:11 --> URI Class Initialized
+INFO - 2020-09-10 10:26:11 --> Router Class Initialized
+INFO - 2020-09-10 10:26:11 --> Output Class Initialized
+INFO - 2020-09-10 10:26:11 --> Security Class Initialized
+DEBUG - 2020-09-10 10:26:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-10 10:26:11 --> Input Class Initialized
+INFO - 2020-09-10 10:26:11 --> Language Class Initialized
+INFO - 2020-09-10 10:26:11 --> Loader Class Initialized
+INFO - 2020-09-10 10:26:11 --> Helper loaded: form_helper
+INFO - 2020-09-10 10:26:11 --> Helper loaded: url_helper
+INFO - 2020-09-10 10:26:11 --> Helper loaded: html_helper
+INFO - 2020-09-10 10:26:11 --> Helper loaded: file_helper
+INFO - 2020-09-10 10:26:11 --> Helper loaded: component_helper
+INFO - 2020-09-10 10:26:11 --> Helper loaded: date_helper
+INFO - 2020-09-10 10:26:11 --> Helper loaded: encrypt_helper
+INFO - 2020-09-10 10:26:11 --> Database Driver Class Initialized
+INFO - 2020-09-10 10:26:13 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-10 10:26:13 --> Email Class Initialized
+INFO - 2020-09-10 10:26:13 --> Parser Class Initialized
+DEBUG - 2020-09-10 10:26:13 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-10 10:26:13 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-10 10:26:13 --> Encryption Class Initialized
+INFO - 2020-09-10 10:26:13 --> Upload Class Initialized
+INFO - 2020-09-10 10:26:13 --> Model "Main" initialized
+INFO - 2020-09-10 10:26:13 --> Controller Class Initialized
+DEBUG - 2020-09-10 10:26:13 --> Upload class already loaded. Second attempt ignored.
+INFO - 2020-09-10 10:26:13 --> Model "modelpernyataan" initialized
+INFO - 2020-09-10 10:26:13 --> Model "ModelPendidikan" initialized
+INFO - 2020-09-10 10:26:13 --> Model "ModelRiwayatPekerjaan" initialized
+INFO - 2020-09-10 10:26:13 --> Model "ModelRiwayat" initialized
+INFO - 2020-09-10 10:26:13 --> Model "M_Auth" initialized
+INFO - 2020-09-10 10:26:13 --> Final output sent to browser
+DEBUG - 2020-09-10 10:26:13 --> Total execution time: 2.1162
+INFO - 2020-09-10 10:26:40 --> Config Class Initialized
+INFO - 2020-09-10 10:26:40 --> Hooks Class Initialized
+DEBUG - 2020-09-10 10:26:40 --> UTF-8 Support Enabled
+INFO - 2020-09-10 10:26:40 --> Utf8 Class Initialized
+INFO - 2020-09-10 10:26:40 --> URI Class Initialized
+INFO - 2020-09-10 10:26:40 --> Router Class Initialized
+INFO - 2020-09-10 10:26:40 --> Output Class Initialized
+INFO - 2020-09-10 10:26:40 --> Security Class Initialized
+DEBUG - 2020-09-10 10:26:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-10 10:26:40 --> Input Class Initialized
+INFO - 2020-09-10 10:26:40 --> Language Class Initialized
+INFO - 2020-09-10 10:26:40 --> Loader Class Initialized
+INFO - 2020-09-10 10:26:40 --> Helper loaded: form_helper
+INFO - 2020-09-10 10:26:40 --> Helper loaded: url_helper
+INFO - 2020-09-10 10:26:40 --> Helper loaded: html_helper
+INFO - 2020-09-10 10:26:40 --> Helper loaded: file_helper
+INFO - 2020-09-10 10:26:40 --> Helper loaded: component_helper
+INFO - 2020-09-10 10:26:40 --> Helper loaded: date_helper
+INFO - 2020-09-10 10:26:40 --> Helper loaded: encrypt_helper
+INFO - 2020-09-10 10:26:40 --> Database Driver Class Initialized
+INFO - 2020-09-10 10:26:42 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-10 10:26:42 --> Email Class Initialized
+INFO - 2020-09-10 10:26:42 --> Parser Class Initialized
+DEBUG - 2020-09-10 10:26:42 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-10 10:26:42 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-10 10:26:42 --> Encryption Class Initialized
+INFO - 2020-09-10 10:26:42 --> Upload Class Initialized
+INFO - 2020-09-10 10:26:42 --> Model "Main" initialized
+INFO - 2020-09-10 10:26:42 --> Controller Class Initialized
+DEBUG - 2020-09-10 10:26:42 --> Upload class already loaded. Second attempt ignored.
+INFO - 2020-09-10 10:26:42 --> Model "modelpernyataan" initialized
+INFO - 2020-09-10 10:26:42 --> Model "ModelPendidikan" initialized
+INFO - 2020-09-10 10:26:42 --> Model "ModelRiwayatPekerjaan" initialized
+INFO - 2020-09-10 10:26:42 --> Model "ModelRiwayat" initialized
+INFO - 2020-09-10 10:26:42 --> Model "M_Auth" initialized
+INFO - 2020-09-10 10:26:42 --> Final output sent to browser
+DEBUG - 2020-09-10 10:26:42 --> Total execution time: 2.1185
+INFO - 2020-09-10 10:26:51 --> Config Class Initialized
+INFO - 2020-09-10 10:26:51 --> Hooks Class Initialized
+DEBUG - 2020-09-10 10:26:51 --> UTF-8 Support Enabled
+INFO - 2020-09-10 10:26:51 --> Utf8 Class Initialized
+INFO - 2020-09-10 10:26:51 --> URI Class Initialized
+INFO - 2020-09-10 10:26:51 --> Router Class Initialized
+INFO - 2020-09-10 10:26:51 --> Output Class Initialized
+INFO - 2020-09-10 10:26:51 --> Security Class Initialized
+DEBUG - 2020-09-10 10:26:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-10 10:26:51 --> Input Class Initialized
+INFO - 2020-09-10 10:26:51 --> Language Class Initialized
+INFO - 2020-09-10 10:26:51 --> Loader Class Initialized
+INFO - 2020-09-10 10:26:51 --> Helper loaded: form_helper
+INFO - 2020-09-10 10:26:51 --> Helper loaded: url_helper
+INFO - 2020-09-10 10:26:51 --> Helper loaded: html_helper
+INFO - 2020-09-10 10:26:51 --> Helper loaded: file_helper
+INFO - 2020-09-10 10:26:51 --> Helper loaded: component_helper
+INFO - 2020-09-10 10:26:51 --> Helper loaded: date_helper
+INFO - 2020-09-10 10:26:51 --> Helper loaded: encrypt_helper
+INFO - 2020-09-10 10:26:51 --> Database Driver Class Initialized
+INFO - 2020-09-10 10:26:53 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-10 10:26:53 --> Email Class Initialized
+INFO - 2020-09-10 10:26:53 --> Parser Class Initialized
+DEBUG - 2020-09-10 10:26:53 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-10 10:26:53 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-10 10:26:53 --> Encryption Class Initialized
+INFO - 2020-09-10 10:26:53 --> Upload Class Initialized
+INFO - 2020-09-10 10:26:53 --> Model "Main" initialized
+INFO - 2020-09-10 10:26:53 --> Controller Class Initialized
+DEBUG - 2020-09-10 10:26:53 --> Upload class already loaded. Second attempt ignored.
+INFO - 2020-09-10 10:26:53 --> Model "modelpernyataan" initialized
+INFO - 2020-09-10 10:26:53 --> Model "ModelPendidikan" initialized
+INFO - 2020-09-10 10:26:53 --> Model "ModelRiwayatPekerjaan" initialized
+INFO - 2020-09-10 10:26:53 --> Model "ModelRiwayat" initialized
+INFO - 2020-09-10 10:26:53 --> Model "M_Auth" initialized
+INFO - 2020-09-10 10:26:53 --> Final output sent to browser
+DEBUG - 2020-09-10 10:26:53 --> Total execution time: 2.1440
+INFO - 2020-09-10 10:27:10 --> Config Class Initialized
+INFO - 2020-09-10 10:27:10 --> Hooks Class Initialized
+DEBUG - 2020-09-10 10:27:10 --> UTF-8 Support Enabled
+INFO - 2020-09-10 10:27:10 --> Utf8 Class Initialized
+INFO - 2020-09-10 10:27:10 --> URI Class Initialized
+INFO - 2020-09-10 10:27:10 --> Router Class Initialized
+INFO - 2020-09-10 10:27:10 --> Output Class Initialized
+INFO - 2020-09-10 10:27:10 --> Security Class Initialized
+DEBUG - 2020-09-10 10:27:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-10 10:27:10 --> Input Class Initialized
+INFO - 2020-09-10 10:27:10 --> Language Class Initialized
+INFO - 2020-09-10 10:27:10 --> Loader Class Initialized
+INFO - 2020-09-10 10:27:10 --> Helper loaded: form_helper
+INFO - 2020-09-10 10:27:10 --> Helper loaded: url_helper
+INFO - 2020-09-10 10:27:10 --> Helper loaded: html_helper
+INFO - 2020-09-10 10:27:10 --> Helper loaded: file_helper
+INFO - 2020-09-10 10:27:10 --> Helper loaded: component_helper
+INFO - 2020-09-10 10:27:10 --> Helper loaded: date_helper
+INFO - 2020-09-10 10:27:10 --> Helper loaded: encrypt_helper
+INFO - 2020-09-10 10:27:10 --> Database Driver Class Initialized
+INFO - 2020-09-10 10:27:12 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-10 10:27:12 --> Email Class Initialized
+INFO - 2020-09-10 10:27:12 --> Parser Class Initialized
+DEBUG - 2020-09-10 10:27:12 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-10 10:27:12 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-10 10:27:12 --> Encryption Class Initialized
+INFO - 2020-09-10 10:27:12 --> Upload Class Initialized
+INFO - 2020-09-10 10:27:12 --> Model "Main" initialized
+INFO - 2020-09-10 10:27:12 --> Controller Class Initialized
+DEBUG - 2020-09-10 10:27:12 --> Upload class already loaded. Second attempt ignored.
+INFO - 2020-09-10 10:27:12 --> Model "modelpernyataan" initialized
+INFO - 2020-09-10 10:27:12 --> Model "ModelPendidikan" initialized
+INFO - 2020-09-10 10:27:12 --> Model "ModelRiwayatPekerjaan" initialized
+INFO - 2020-09-10 10:27:12 --> Model "ModelRiwayat" initialized
+INFO - 2020-09-10 10:27:12 --> Model "M_Auth" initialized
+INFO - 2020-09-10 10:27:12 --> Final output sent to browser
+DEBUG - 2020-09-10 10:27:12 --> Total execution time: 2.1322

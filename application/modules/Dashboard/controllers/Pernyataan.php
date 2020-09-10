@@ -134,8 +134,9 @@ class Pernyataan extends CI_Controller {
         $data['penghargaan'] = M_Pernyataan::penghargaan($id_anggota);
         $data['pernikahan'] = M_Pernyataan::data_lain($id_anggota, 'data_pasangan');
         $data['ayah_kandung'] = M_Pernyataan::data_lain($id_anggota, 'tb_ayahkandung');
-        // var_dump($data);
-        // die;
+        $data['ayah_tiri'] = M_Pernyataan::data_lain($id_anggota, 'ayah_tiri');
+        $data['ibu_kandung'] = M_Pernyataan::data_lain($id_anggota, 'ibu_kandung');
+        $data['ibu_tiri'] = M_Pernyataan::data_lain($id_anggota, 'ibu_tiri');
         $data['content'] = $this->parser->parse('Detail', $data, true);
         return $this->parser->parse('Templates/Template', $data);
     }

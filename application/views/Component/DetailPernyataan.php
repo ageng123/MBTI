@@ -545,7 +545,8 @@
                                         <div class="col-md-3">
                                             <div class="form-group">
                                                 <label class="text-muted">Tempat, Tanggal Lahir</label>
-                                                <h6><?= $data->tempat_ayahkandung.', '.dateIndoLengkap($data->tgllahir_ayahkandung); ?></h6>
+                                                <h6><?= $data->tempat_ayahkandung.', '.dateIndoLengkap($data->tgllahir_ayahkandung); ?>
+                                                </h6>
                                             </div>
                                         </div>
                                         <div class="col-md-12">
@@ -685,7 +686,162 @@
                                     </div>
                                 </div>
                                 <div id="tab-ayah-tiri" class="tab-pane">
-                                    <?php $this->load->view('Component/FormAyahTiri') ?>
+                                    <?php $data = $ayah_tiri[0] ?>
+                                    <div class="row d-flex flex-row">
+                                        <legend>Detail Data Ayah Tiri</legend>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="text-muted">Nama Lengkap</label>
+                                                <h5><?= $data->nama_ayahtiri ?></h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="text-muted">Nama Alias</label>
+                                                <h5><?= $data->alias_ayahtiri ?></h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label class="text-muted">Tempat, Tanggal Lahir</label>
+                                                <h5><?= $data->tempat_ayahtiri.', '.dateIndoLengkap($data->tanggal_ayahtiri) ?>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="text-muted">Agama</label>
+                                                <h5><?= $data->agama_ayahtiri ?></h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="text-muted">Aliran Kepercayaan yang Diikuti</label>
+                                                <h5><?= $data->aliran_ayahtiri ?></h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="text-muted">Suku Bangsa/Ras</label>
+                                                <h5><?= $data->suku_ayahtiri ?></h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="text-muted">Kewarganegaraan</label>
+                                                <h5><?= $data->kewarganegaraan_ayahtiri ?></h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="text-muted">Cara Memperoleh Kewarganegaraan</label>
+                                                <h5><?= $data->caramemperoleh_ayahtiri ?></h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="text-muted">Alamat Rumah Saat ini</label>
+                                                <h5><?= $data->alamatsekarang_ayahtiri ?></h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="text-muted">Alamat Rumah Sebelumnya</label>
+                                                <h5><?= $data->alamatsebelum_ayahtiri ?></h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="text-muted">Pekerjaan / Jabatan Terakhir</label>
+                                                <h5><?= $data->pekerjaanterakhir_ayahtiri ?></h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="text-muted">Alamat Kantor / Instansi dan Nomor
+                                                    telepon</label>
+                                                <h5><?= $data->alamatkantor_ayahtiri ?></h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="text-muted">Pekerjaan / Jabatan Sebelumnya</label>
+                                                <h5><?= $data->pekerjaansebelum_ayahtiri ?></h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="text-muted">Pendidikan Terakhir</label>
+                                                <h5><?= $data->pendidikanterakhir_ayahtiri ?></h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="text-muted" for="">
+                                                    Kegiatan Berorganisasi
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="pl-3 pt-1">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class="text-muted">1. Organisasi yang Sedang Diikuti</label>
+                                                    <h5><?= $data->organisasidiikuti_ayahtiri ?></h5>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class='text-muted'>2. a) Kedudukan Dalam Organisasi</label>
+                                                    <h5><?= $data->kedudukanorganisasi_ayahtiri ?></h5>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class='text-muted'>2. b) Sejak Kapan Berorganisasi </label>
+                                                    <h5><?= $data->kapanorganisasi_ayahtiri ?></h5>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class="text-muted">2. c) Alasan Berorganisasi</label>
+                                                    <h5><?= $data->alasanorganisasi_ayahtiri ?></h5>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class="text-muted" for="">3. Organisasi yang Pernah
+                                                        Diikuti</label>
+                                                    <h5><?= $data->organisasipernah_ayahtiri ?></h5>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class="text-muted">3. a) Kedudukan Dalam Organisasi</label>
+                                                    <h5><?= $data->kedudukanpernah_ayahtiri ?></h5>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class="text-muted">3. b) Sejak Kapan Berorganisasi </label>
+                                                    <h5><?= $data->lamapernah_ayahtiri ?></h5>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class="text-muted">3. c) Alasan Berorganisasi</label>
+                                                    <h5><?= $data->alasanpernah_ayahtiri ?></h5>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class="text-muted">Bila Sudah Meninggal dunia, Jelaskan
+                                                        Bilamana, Darimana dan
+                                                        Penyebabnya</label>
+                                                    <h5><?= $data->alasanmeninggal_ayahtiri ?></h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div id="tab-ibu-kandung" class="tab-pane">
                                     <?php $this->load->view('Component/FormIbuKandung') ?>

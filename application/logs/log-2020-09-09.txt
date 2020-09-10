@@ -1,0 +1,705 @@
+INFO - 2020-09-09 11:15:33 --> Config Class Initialized
+INFO - 2020-09-09 11:15:33 --> Hooks Class Initialized
+DEBUG - 2020-09-09 11:15:33 --> UTF-8 Support Enabled
+INFO - 2020-09-09 11:15:33 --> Utf8 Class Initialized
+INFO - 2020-09-09 11:15:33 --> URI Class Initialized
+DEBUG - 2020-09-09 11:15:33 --> No URI present. Default module controller set.
+INFO - 2020-09-09 11:15:33 --> Router Class Initialized
+INFO - 2020-09-09 11:15:33 --> Output Class Initialized
+INFO - 2020-09-09 11:15:33 --> Security Class Initialized
+DEBUG - 2020-09-09 11:15:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-09 11:15:33 --> Input Class Initialized
+INFO - 2020-09-09 11:15:33 --> Language Class Initialized
+INFO - 2020-09-09 11:15:33 --> Loader Class Initialized
+INFO - 2020-09-09 11:15:33 --> Helper loaded: form_helper
+INFO - 2020-09-09 11:15:33 --> Helper loaded: url_helper
+INFO - 2020-09-09 11:15:33 --> Helper loaded: html_helper
+INFO - 2020-09-09 11:15:33 --> Helper loaded: file_helper
+INFO - 2020-09-09 11:15:33 --> Helper loaded: component_helper
+INFO - 2020-09-09 11:15:33 --> Helper loaded: date_helper
+INFO - 2020-09-09 11:15:33 --> Helper loaded: encrypt_helper
+INFO - 2020-09-09 11:15:33 --> Database Driver Class Initialized
+INFO - 2020-09-09 11:15:36 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-09 11:15:36 --> Email Class Initialized
+INFO - 2020-09-09 11:15:36 --> Parser Class Initialized
+DEBUG - 2020-09-09 11:15:36 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-09 11:15:36 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-09 11:15:36 --> Encryption Class Initialized
+INFO - 2020-09-09 11:15:36 --> Upload Class Initialized
+INFO - 2020-09-09 11:15:36 --> Model "Main" initialized
+INFO - 2020-09-09 11:15:36 --> Controller Class Initialized
+INFO - 2020-09-09 11:15:36 --> Model "M_Auth" initialized
+INFO - 2020-09-09 11:15:36 --> File loaded: D:/Project/Mbtni/application/modules/Auth/views/V_login.php
+INFO - 2020-09-09 11:15:36 --> Final output sent to browser
+DEBUG - 2020-09-09 11:15:36 --> Total execution time: 3.0763
+INFO - 2020-09-09 11:20:27 --> Config Class Initialized
+INFO - 2020-09-09 11:20:27 --> Hooks Class Initialized
+DEBUG - 2020-09-09 11:20:27 --> UTF-8 Support Enabled
+INFO - 2020-09-09 11:20:27 --> Utf8 Class Initialized
+INFO - 2020-09-09 11:20:27 --> URI Class Initialized
+INFO - 2020-09-09 11:20:27 --> Router Class Initialized
+INFO - 2020-09-09 11:20:27 --> Output Class Initialized
+INFO - 2020-09-09 11:20:27 --> Security Class Initialized
+DEBUG - 2020-09-09 11:20:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-09 11:20:27 --> Input Class Initialized
+INFO - 2020-09-09 11:20:27 --> Language Class Initialized
+INFO - 2020-09-09 11:20:27 --> Loader Class Initialized
+INFO - 2020-09-09 11:20:27 --> Helper loaded: form_helper
+INFO - 2020-09-09 11:20:27 --> Helper loaded: url_helper
+INFO - 2020-09-09 11:20:27 --> Helper loaded: html_helper
+INFO - 2020-09-09 11:20:27 --> Helper loaded: file_helper
+INFO - 2020-09-09 11:20:27 --> Helper loaded: component_helper
+INFO - 2020-09-09 11:20:27 --> Helper loaded: date_helper
+INFO - 2020-09-09 11:20:27 --> Helper loaded: encrypt_helper
+INFO - 2020-09-09 11:20:27 --> Database Driver Class Initialized
+INFO - 2020-09-09 11:20:29 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-09 11:20:29 --> Email Class Initialized
+INFO - 2020-09-09 11:20:29 --> Parser Class Initialized
+DEBUG - 2020-09-09 11:20:29 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-09 11:20:29 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-09 11:20:29 --> Encryption Class Initialized
+INFO - 2020-09-09 11:20:29 --> Upload Class Initialized
+INFO - 2020-09-09 11:20:29 --> Model "Main" initialized
+INFO - 2020-09-09 11:20:29 --> Controller Class Initialized
+INFO - 2020-09-09 11:20:29 --> Model "M_Auth" initialized
+INFO - 2020-09-09 11:20:30 --> Config Class Initialized
+INFO - 2020-09-09 11:20:30 --> Hooks Class Initialized
+DEBUG - 2020-09-09 11:20:30 --> UTF-8 Support Enabled
+INFO - 2020-09-09 11:20:30 --> Utf8 Class Initialized
+INFO - 2020-09-09 11:20:30 --> URI Class Initialized
+INFO - 2020-09-09 11:20:30 --> Router Class Initialized
+INFO - 2020-09-09 11:20:30 --> Output Class Initialized
+INFO - 2020-09-09 11:20:30 --> Security Class Initialized
+DEBUG - 2020-09-09 11:20:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-09 11:20:30 --> Input Class Initialized
+INFO - 2020-09-09 11:20:30 --> Language Class Initialized
+INFO - 2020-09-09 11:20:31 --> Loader Class Initialized
+INFO - 2020-09-09 11:20:31 --> Helper loaded: form_helper
+INFO - 2020-09-09 11:20:31 --> Helper loaded: url_helper
+INFO - 2020-09-09 11:20:31 --> Helper loaded: html_helper
+INFO - 2020-09-09 11:20:31 --> Helper loaded: file_helper
+INFO - 2020-09-09 11:20:31 --> Helper loaded: component_helper
+INFO - 2020-09-09 11:20:31 --> Helper loaded: date_helper
+INFO - 2020-09-09 11:20:31 --> Helper loaded: encrypt_helper
+INFO - 2020-09-09 11:20:31 --> Database Driver Class Initialized
+INFO - 2020-09-09 11:20:33 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-09 11:20:33 --> Email Class Initialized
+INFO - 2020-09-09 11:20:33 --> Parser Class Initialized
+DEBUG - 2020-09-09 11:20:33 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-09 11:20:33 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-09 11:20:33 --> Encryption Class Initialized
+INFO - 2020-09-09 11:20:33 --> Upload Class Initialized
+INFO - 2020-09-09 11:20:33 --> Model "Main" initialized
+INFO - 2020-09-09 11:20:33 --> Controller Class Initialized
+INFO - 2020-09-09 11:20:33 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_index.php
+INFO - 2020-09-09 11:20:33 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-09-09 11:20:33 --> Final output sent to browser
+DEBUG - 2020-09-09 11:20:33 --> Total execution time: 2.2373
+INFO - 2020-09-09 11:41:51 --> Config Class Initialized
+INFO - 2020-09-09 11:41:51 --> Hooks Class Initialized
+DEBUG - 2020-09-09 11:41:51 --> UTF-8 Support Enabled
+INFO - 2020-09-09 11:41:51 --> Utf8 Class Initialized
+INFO - 2020-09-09 11:41:51 --> URI Class Initialized
+INFO - 2020-09-09 11:41:51 --> Router Class Initialized
+INFO - 2020-09-09 11:41:51 --> Output Class Initialized
+INFO - 2020-09-09 11:41:51 --> Security Class Initialized
+DEBUG - 2020-09-09 11:41:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-09 11:41:51 --> Input Class Initialized
+INFO - 2020-09-09 11:41:51 --> Language Class Initialized
+INFO - 2020-09-09 11:41:51 --> Loader Class Initialized
+INFO - 2020-09-09 11:41:51 --> Helper loaded: form_helper
+INFO - 2020-09-09 11:41:51 --> Helper loaded: url_helper
+INFO - 2020-09-09 11:41:51 --> Helper loaded: html_helper
+INFO - 2020-09-09 11:41:51 --> Helper loaded: file_helper
+INFO - 2020-09-09 11:41:51 --> Helper loaded: component_helper
+INFO - 2020-09-09 11:41:51 --> Helper loaded: date_helper
+INFO - 2020-09-09 11:41:51 --> Helper loaded: encrypt_helper
+INFO - 2020-09-09 11:41:51 --> Database Driver Class Initialized
+INFO - 2020-09-09 11:41:53 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-09 11:41:53 --> Email Class Initialized
+INFO - 2020-09-09 11:41:53 --> Parser Class Initialized
+DEBUG - 2020-09-09 11:41:53 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-09 11:41:53 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-09 11:41:53 --> Encryption Class Initialized
+INFO - 2020-09-09 11:41:53 --> Upload Class Initialized
+INFO - 2020-09-09 11:41:53 --> Model "Main" initialized
+INFO - 2020-09-09 11:41:53 --> Controller Class Initialized
+DEBUG - 2020-09-09 11:41:53 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 11:41:53 --> Model "M_Pernyataan" initialized
+DEBUG - 2020-09-09 11:41:53 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 11:41:53 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+DEBUG - 2020-09-09 11:41:53 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 11:41:53 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+DEBUG - 2020-09-09 11:41:53 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 11:41:53 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+DEBUG - 2020-09-09 11:41:53 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 11:41:53 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+DEBUG - 2020-09-09 11:41:53 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 11:41:53 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+DEBUG - 2020-09-09 11:41:53 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 11:41:53 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-09-09 11:41:53 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/V_Pernyataan.php
+INFO - 2020-09-09 11:41:53 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-09-09 11:41:53 --> Final output sent to browser
+DEBUG - 2020-09-09 11:41:53 --> Total execution time: 2.6049
+INFO - 2020-09-09 11:47:01 --> Config Class Initialized
+INFO - 2020-09-09 11:47:01 --> Hooks Class Initialized
+DEBUG - 2020-09-09 11:47:01 --> UTF-8 Support Enabled
+INFO - 2020-09-09 11:47:01 --> Utf8 Class Initialized
+INFO - 2020-09-09 11:47:01 --> URI Class Initialized
+INFO - 2020-09-09 11:47:01 --> Router Class Initialized
+INFO - 2020-09-09 11:47:01 --> Output Class Initialized
+INFO - 2020-09-09 11:47:01 --> Security Class Initialized
+DEBUG - 2020-09-09 11:47:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-09 11:47:01 --> Input Class Initialized
+INFO - 2020-09-09 11:47:01 --> Language Class Initialized
+INFO - 2020-09-09 11:47:01 --> Loader Class Initialized
+INFO - 2020-09-09 11:47:01 --> Helper loaded: form_helper
+INFO - 2020-09-09 11:47:01 --> Helper loaded: url_helper
+INFO - 2020-09-09 11:47:01 --> Helper loaded: html_helper
+INFO - 2020-09-09 11:47:01 --> Helper loaded: file_helper
+INFO - 2020-09-09 11:47:01 --> Helper loaded: component_helper
+INFO - 2020-09-09 11:47:01 --> Helper loaded: date_helper
+INFO - 2020-09-09 11:47:01 --> Helper loaded: encrypt_helper
+INFO - 2020-09-09 11:47:01 --> Database Driver Class Initialized
+INFO - 2020-09-09 11:47:03 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-09 11:47:03 --> Email Class Initialized
+INFO - 2020-09-09 11:47:03 --> Parser Class Initialized
+DEBUG - 2020-09-09 11:47:03 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-09 11:47:03 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-09 11:47:03 --> Encryption Class Initialized
+INFO - 2020-09-09 11:47:03 --> Upload Class Initialized
+INFO - 2020-09-09 11:47:03 --> Model "Main" initialized
+INFO - 2020-09-09 11:47:03 --> Controller Class Initialized
+DEBUG - 2020-09-09 11:47:03 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 11:47:03 --> Model "M_Pernyataan" initialized
+INFO - 2020-09-09 11:47:03 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+ERROR - 2020-09-09 11:47:03 --> Severity: Notice --> Undefined property: stdClass::$pangkat D:\Project\Mbtni\application\views\Component\DetailPernyataan.php 259
+INFO - 2020-09-09 11:47:04 --> File loaded: D:\Project\Mbtni\application\views\Component/FormAyahTiri.php
+INFO - 2020-09-09 11:47:04 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-09-09 11:47:04 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-09-09 11:47:04 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-09-09 11:47:04 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+DEBUG - 2020-09-09 11:47:04 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 11:47:04 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-09-09 11:47:04 --> File loaded: D:\Project\Mbtni\application\views\Component/DetailPernyataan.php
+INFO - 2020-09-09 11:47:04 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/Detail.php
+INFO - 2020-09-09 11:47:04 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-09-09 11:47:04 --> Final output sent to browser
+DEBUG - 2020-09-09 11:47:04 --> Total execution time: 2.7014
+INFO - 2020-09-09 11:52:39 --> Config Class Initialized
+INFO - 2020-09-09 11:52:39 --> Hooks Class Initialized
+DEBUG - 2020-09-09 11:52:39 --> UTF-8 Support Enabled
+INFO - 2020-09-09 11:52:39 --> Utf8 Class Initialized
+INFO - 2020-09-09 11:52:39 --> URI Class Initialized
+INFO - 2020-09-09 11:52:39 --> Router Class Initialized
+INFO - 2020-09-09 11:52:39 --> Output Class Initialized
+INFO - 2020-09-09 11:52:39 --> Security Class Initialized
+DEBUG - 2020-09-09 11:52:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-09 11:52:39 --> Input Class Initialized
+INFO - 2020-09-09 11:52:39 --> Language Class Initialized
+INFO - 2020-09-09 11:52:39 --> Loader Class Initialized
+INFO - 2020-09-09 11:52:39 --> Helper loaded: form_helper
+INFO - 2020-09-09 11:52:39 --> Helper loaded: url_helper
+INFO - 2020-09-09 11:52:39 --> Helper loaded: html_helper
+INFO - 2020-09-09 11:52:39 --> Helper loaded: file_helper
+INFO - 2020-09-09 11:52:39 --> Helper loaded: component_helper
+INFO - 2020-09-09 11:52:39 --> Helper loaded: date_helper
+INFO - 2020-09-09 11:52:39 --> Helper loaded: encrypt_helper
+INFO - 2020-09-09 11:52:39 --> Database Driver Class Initialized
+INFO - 2020-09-09 11:52:41 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-09 11:52:41 --> Email Class Initialized
+INFO - 2020-09-09 11:52:41 --> Parser Class Initialized
+DEBUG - 2020-09-09 11:52:41 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-09 11:52:41 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-09 11:52:41 --> Encryption Class Initialized
+INFO - 2020-09-09 11:52:41 --> Upload Class Initialized
+INFO - 2020-09-09 11:52:41 --> Model "Main" initialized
+INFO - 2020-09-09 11:52:41 --> Controller Class Initialized
+DEBUG - 2020-09-09 11:52:41 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 11:52:41 --> Model "M_Pernyataan" initialized
+INFO - 2020-09-09 11:52:41 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+ERROR - 2020-09-09 11:52:42 --> Severity: Notice --> Undefined property: stdClass::$pangkat D:\Project\Mbtni\application\views\Component\DetailPernyataan.php 259
+INFO - 2020-09-09 11:52:42 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-09-09 11:52:42 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-09-09 11:52:42 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-09-09 11:52:42 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+DEBUG - 2020-09-09 11:52:42 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 11:52:42 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-09-09 11:52:42 --> File loaded: D:\Project\Mbtni\application\views\Component/DetailPernyataan.php
+INFO - 2020-09-09 11:52:42 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/Detail.php
+INFO - 2020-09-09 11:52:42 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-09-09 11:52:42 --> Final output sent to browser
+DEBUG - 2020-09-09 11:52:42 --> Total execution time: 2.6939
+INFO - 2020-09-09 11:53:16 --> Config Class Initialized
+INFO - 2020-09-09 11:53:16 --> Hooks Class Initialized
+DEBUG - 2020-09-09 11:53:16 --> UTF-8 Support Enabled
+INFO - 2020-09-09 11:53:16 --> Utf8 Class Initialized
+INFO - 2020-09-09 11:53:16 --> URI Class Initialized
+INFO - 2020-09-09 11:53:16 --> Router Class Initialized
+INFO - 2020-09-09 11:53:16 --> Output Class Initialized
+INFO - 2020-09-09 11:53:16 --> Security Class Initialized
+DEBUG - 2020-09-09 11:53:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-09 11:53:16 --> Input Class Initialized
+INFO - 2020-09-09 11:53:16 --> Language Class Initialized
+INFO - 2020-09-09 11:53:16 --> Loader Class Initialized
+INFO - 2020-09-09 11:53:16 --> Helper loaded: form_helper
+INFO - 2020-09-09 11:53:16 --> Helper loaded: url_helper
+INFO - 2020-09-09 11:53:16 --> Helper loaded: html_helper
+INFO - 2020-09-09 11:53:16 --> Helper loaded: file_helper
+INFO - 2020-09-09 11:53:16 --> Helper loaded: component_helper
+INFO - 2020-09-09 11:53:16 --> Helper loaded: date_helper
+INFO - 2020-09-09 11:53:16 --> Helper loaded: encrypt_helper
+INFO - 2020-09-09 11:53:16 --> Database Driver Class Initialized
+INFO - 2020-09-09 11:53:18 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-09 11:53:18 --> Email Class Initialized
+INFO - 2020-09-09 11:53:18 --> Parser Class Initialized
+DEBUG - 2020-09-09 11:53:18 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-09 11:53:18 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-09 11:53:18 --> Encryption Class Initialized
+INFO - 2020-09-09 11:53:18 --> Upload Class Initialized
+INFO - 2020-09-09 11:53:18 --> Model "Main" initialized
+INFO - 2020-09-09 11:53:18 --> Controller Class Initialized
+DEBUG - 2020-09-09 11:53:18 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 11:53:18 --> Model "M_Pernyataan" initialized
+INFO - 2020-09-09 11:53:18 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-09-09 11:54:09 --> Config Class Initialized
+INFO - 2020-09-09 11:54:09 --> Hooks Class Initialized
+DEBUG - 2020-09-09 11:54:09 --> UTF-8 Support Enabled
+INFO - 2020-09-09 11:54:09 --> Utf8 Class Initialized
+INFO - 2020-09-09 11:54:09 --> URI Class Initialized
+INFO - 2020-09-09 11:54:09 --> Router Class Initialized
+INFO - 2020-09-09 11:54:09 --> Output Class Initialized
+INFO - 2020-09-09 11:54:09 --> Security Class Initialized
+DEBUG - 2020-09-09 11:54:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-09 11:54:09 --> Input Class Initialized
+INFO - 2020-09-09 11:54:09 --> Language Class Initialized
+INFO - 2020-09-09 11:54:09 --> Loader Class Initialized
+INFO - 2020-09-09 11:54:09 --> Helper loaded: form_helper
+INFO - 2020-09-09 11:54:09 --> Helper loaded: url_helper
+INFO - 2020-09-09 11:54:09 --> Helper loaded: html_helper
+INFO - 2020-09-09 11:54:09 --> Helper loaded: file_helper
+INFO - 2020-09-09 11:54:09 --> Helper loaded: component_helper
+INFO - 2020-09-09 11:54:09 --> Helper loaded: date_helper
+INFO - 2020-09-09 11:54:09 --> Helper loaded: encrypt_helper
+INFO - 2020-09-09 11:54:09 --> Database Driver Class Initialized
+INFO - 2020-09-09 11:54:11 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-09 11:54:11 --> Email Class Initialized
+INFO - 2020-09-09 11:54:11 --> Parser Class Initialized
+DEBUG - 2020-09-09 11:54:11 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-09 11:54:11 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-09 11:54:11 --> Encryption Class Initialized
+INFO - 2020-09-09 11:54:11 --> Upload Class Initialized
+INFO - 2020-09-09 11:54:11 --> Model "Main" initialized
+INFO - 2020-09-09 11:54:11 --> Controller Class Initialized
+DEBUG - 2020-09-09 11:54:11 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 11:54:11 --> Model "M_Pernyataan" initialized
+INFO - 2020-09-09 11:54:11 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+ERROR - 2020-09-09 11:54:11 --> Severity: Notice --> Undefined property: stdClass::$pangkat D:\Project\Mbtni\application\views\Component\DetailPernyataan.php 259
+INFO - 2020-09-09 11:54:11 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-09-09 11:54:11 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-09-09 11:54:11 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-09-09 11:54:11 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+DEBUG - 2020-09-09 11:54:11 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 11:54:11 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-09-09 11:54:11 --> File loaded: D:\Project\Mbtni\application\views\Component/DetailPernyataan.php
+INFO - 2020-09-09 11:54:11 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/Detail.php
+INFO - 2020-09-09 11:54:11 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-09-09 11:54:11 --> Final output sent to browser
+DEBUG - 2020-09-09 11:54:11 --> Total execution time: 2.1860
+INFO - 2020-09-09 11:55:01 --> Config Class Initialized
+INFO - 2020-09-09 11:55:01 --> Hooks Class Initialized
+DEBUG - 2020-09-09 11:55:01 --> UTF-8 Support Enabled
+INFO - 2020-09-09 11:55:01 --> Utf8 Class Initialized
+INFO - 2020-09-09 11:55:01 --> URI Class Initialized
+INFO - 2020-09-09 11:55:01 --> Router Class Initialized
+INFO - 2020-09-09 11:55:01 --> Output Class Initialized
+INFO - 2020-09-09 11:55:01 --> Security Class Initialized
+DEBUG - 2020-09-09 11:55:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-09 11:55:01 --> Input Class Initialized
+INFO - 2020-09-09 11:55:01 --> Language Class Initialized
+INFO - 2020-09-09 11:55:01 --> Loader Class Initialized
+INFO - 2020-09-09 11:55:01 --> Helper loaded: form_helper
+INFO - 2020-09-09 11:55:01 --> Helper loaded: url_helper
+INFO - 2020-09-09 11:55:01 --> Helper loaded: html_helper
+INFO - 2020-09-09 11:55:01 --> Helper loaded: file_helper
+INFO - 2020-09-09 11:55:01 --> Helper loaded: component_helper
+INFO - 2020-09-09 11:55:01 --> Helper loaded: date_helper
+INFO - 2020-09-09 11:55:01 --> Helper loaded: encrypt_helper
+INFO - 2020-09-09 11:55:01 --> Database Driver Class Initialized
+INFO - 2020-09-09 11:55:03 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-09 11:55:03 --> Email Class Initialized
+INFO - 2020-09-09 11:55:03 --> Parser Class Initialized
+DEBUG - 2020-09-09 11:55:03 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-09 11:55:03 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-09 11:55:03 --> Encryption Class Initialized
+INFO - 2020-09-09 11:55:03 --> Upload Class Initialized
+INFO - 2020-09-09 11:55:03 --> Model "Main" initialized
+INFO - 2020-09-09 11:55:03 --> Controller Class Initialized
+DEBUG - 2020-09-09 11:55:03 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 11:55:03 --> Model "M_Pernyataan" initialized
+INFO - 2020-09-09 11:55:03 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+ERROR - 2020-09-09 11:55:03 --> Severity: Notice --> Undefined property: stdClass::$pangkat D:\Project\Mbtni\application\views\Component\DetailPernyataan.php 259
+INFO - 2020-09-09 11:55:03 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-09-09 11:55:03 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-09-09 11:55:03 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-09-09 11:55:03 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+DEBUG - 2020-09-09 11:55:03 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 11:55:03 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-09-09 11:55:03 --> File loaded: D:\Project\Mbtni\application\views\Component/DetailPernyataan.php
+INFO - 2020-09-09 11:55:03 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/Detail.php
+INFO - 2020-09-09 11:55:03 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-09-09 11:55:03 --> Final output sent to browser
+DEBUG - 2020-09-09 11:55:03 --> Total execution time: 2.1983
+INFO - 2020-09-09 11:56:12 --> Config Class Initialized
+INFO - 2020-09-09 11:56:12 --> Hooks Class Initialized
+DEBUG - 2020-09-09 11:56:12 --> UTF-8 Support Enabled
+INFO - 2020-09-09 11:56:12 --> Utf8 Class Initialized
+INFO - 2020-09-09 11:56:12 --> URI Class Initialized
+INFO - 2020-09-09 11:56:12 --> Router Class Initialized
+INFO - 2020-09-09 11:56:12 --> Output Class Initialized
+INFO - 2020-09-09 11:56:12 --> Security Class Initialized
+DEBUG - 2020-09-09 11:56:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-09 11:56:12 --> Input Class Initialized
+INFO - 2020-09-09 11:56:12 --> Language Class Initialized
+INFO - 2020-09-09 11:56:12 --> Loader Class Initialized
+INFO - 2020-09-09 11:56:12 --> Helper loaded: form_helper
+INFO - 2020-09-09 11:56:12 --> Helper loaded: url_helper
+INFO - 2020-09-09 11:56:12 --> Helper loaded: html_helper
+INFO - 2020-09-09 11:56:12 --> Helper loaded: file_helper
+INFO - 2020-09-09 11:56:12 --> Helper loaded: component_helper
+INFO - 2020-09-09 11:56:12 --> Helper loaded: date_helper
+INFO - 2020-09-09 11:56:12 --> Helper loaded: encrypt_helper
+INFO - 2020-09-09 11:56:12 --> Database Driver Class Initialized
+INFO - 2020-09-09 11:56:14 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-09 11:56:14 --> Email Class Initialized
+INFO - 2020-09-09 11:56:14 --> Parser Class Initialized
+DEBUG - 2020-09-09 11:56:14 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-09 11:56:14 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-09 11:56:14 --> Encryption Class Initialized
+INFO - 2020-09-09 11:56:14 --> Upload Class Initialized
+INFO - 2020-09-09 11:56:14 --> Model "Main" initialized
+INFO - 2020-09-09 11:56:14 --> Controller Class Initialized
+DEBUG - 2020-09-09 11:56:14 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 11:56:14 --> Model "M_Pernyataan" initialized
+INFO - 2020-09-09 11:56:14 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+ERROR - 2020-09-09 11:56:14 --> Severity: Notice --> Undefined property: stdClass::$pangkat D:\Project\Mbtni\application\views\Component\DetailPernyataan.php 259
+INFO - 2020-09-09 11:56:14 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-09-09 11:56:14 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-09-09 11:56:14 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-09-09 11:56:14 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+DEBUG - 2020-09-09 11:56:14 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 11:56:14 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-09-09 11:56:14 --> File loaded: D:\Project\Mbtni\application\views\Component/DetailPernyataan.php
+INFO - 2020-09-09 11:56:14 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/Detail.php
+INFO - 2020-09-09 11:56:14 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-09-09 11:56:14 --> Final output sent to browser
+DEBUG - 2020-09-09 11:56:14 --> Total execution time: 2.2025
+INFO - 2020-09-09 11:56:53 --> Config Class Initialized
+INFO - 2020-09-09 11:56:53 --> Hooks Class Initialized
+DEBUG - 2020-09-09 11:56:53 --> UTF-8 Support Enabled
+INFO - 2020-09-09 11:56:53 --> Utf8 Class Initialized
+INFO - 2020-09-09 11:56:53 --> URI Class Initialized
+INFO - 2020-09-09 11:56:53 --> Router Class Initialized
+INFO - 2020-09-09 11:56:53 --> Output Class Initialized
+INFO - 2020-09-09 11:56:53 --> Security Class Initialized
+DEBUG - 2020-09-09 11:56:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-09 11:56:53 --> Input Class Initialized
+INFO - 2020-09-09 11:56:53 --> Language Class Initialized
+INFO - 2020-09-09 11:56:53 --> Loader Class Initialized
+INFO - 2020-09-09 11:56:53 --> Helper loaded: form_helper
+INFO - 2020-09-09 11:56:53 --> Helper loaded: url_helper
+INFO - 2020-09-09 11:56:53 --> Helper loaded: html_helper
+INFO - 2020-09-09 11:56:53 --> Helper loaded: file_helper
+INFO - 2020-09-09 11:56:53 --> Helper loaded: component_helper
+INFO - 2020-09-09 11:56:53 --> Helper loaded: date_helper
+INFO - 2020-09-09 11:56:53 --> Helper loaded: encrypt_helper
+INFO - 2020-09-09 11:56:53 --> Database Driver Class Initialized
+INFO - 2020-09-09 11:56:55 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-09 11:56:55 --> Email Class Initialized
+INFO - 2020-09-09 11:56:55 --> Parser Class Initialized
+DEBUG - 2020-09-09 11:56:55 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-09 11:56:55 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-09 11:56:55 --> Encryption Class Initialized
+INFO - 2020-09-09 11:56:55 --> Upload Class Initialized
+INFO - 2020-09-09 11:56:55 --> Model "Main" initialized
+INFO - 2020-09-09 11:56:55 --> Controller Class Initialized
+DEBUG - 2020-09-09 11:56:55 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 11:56:55 --> Model "M_Pernyataan" initialized
+INFO - 2020-09-09 11:56:55 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+ERROR - 2020-09-09 11:56:55 --> Severity: Notice --> Undefined property: stdClass::$pangkat D:\Project\Mbtni\application\views\Component\DetailPernyataan.php 259
+INFO - 2020-09-09 11:56:55 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-09-09 11:56:55 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-09-09 11:56:55 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-09-09 11:56:55 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+DEBUG - 2020-09-09 11:56:55 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 11:56:55 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-09-09 11:56:55 --> File loaded: D:\Project\Mbtni\application\views\Component/DetailPernyataan.php
+INFO - 2020-09-09 11:56:55 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/Detail.php
+INFO - 2020-09-09 11:56:55 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-09-09 11:56:55 --> Final output sent to browser
+DEBUG - 2020-09-09 11:56:55 --> Total execution time: 2.2052
+INFO - 2020-09-09 11:59:02 --> Config Class Initialized
+INFO - 2020-09-09 11:59:02 --> Hooks Class Initialized
+DEBUG - 2020-09-09 11:59:02 --> UTF-8 Support Enabled
+INFO - 2020-09-09 11:59:02 --> Utf8 Class Initialized
+INFO - 2020-09-09 11:59:02 --> URI Class Initialized
+INFO - 2020-09-09 11:59:02 --> Router Class Initialized
+INFO - 2020-09-09 11:59:02 --> Output Class Initialized
+INFO - 2020-09-09 11:59:02 --> Security Class Initialized
+DEBUG - 2020-09-09 11:59:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-09 11:59:02 --> Input Class Initialized
+INFO - 2020-09-09 11:59:02 --> Language Class Initialized
+INFO - 2020-09-09 11:59:02 --> Loader Class Initialized
+INFO - 2020-09-09 11:59:02 --> Helper loaded: form_helper
+INFO - 2020-09-09 11:59:02 --> Helper loaded: url_helper
+INFO - 2020-09-09 11:59:02 --> Helper loaded: html_helper
+INFO - 2020-09-09 11:59:02 --> Helper loaded: file_helper
+INFO - 2020-09-09 11:59:02 --> Helper loaded: component_helper
+INFO - 2020-09-09 11:59:02 --> Helper loaded: date_helper
+INFO - 2020-09-09 11:59:02 --> Helper loaded: encrypt_helper
+INFO - 2020-09-09 11:59:02 --> Database Driver Class Initialized
+INFO - 2020-09-09 11:59:05 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-09 11:59:05 --> Email Class Initialized
+INFO - 2020-09-09 11:59:05 --> Parser Class Initialized
+DEBUG - 2020-09-09 11:59:05 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-09 11:59:05 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-09 11:59:05 --> Encryption Class Initialized
+INFO - 2020-09-09 11:59:05 --> Upload Class Initialized
+INFO - 2020-09-09 11:59:05 --> Model "Main" initialized
+INFO - 2020-09-09 11:59:05 --> Controller Class Initialized
+DEBUG - 2020-09-09 11:59:05 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 11:59:05 --> Model "M_Pernyataan" initialized
+INFO - 2020-09-09 11:59:05 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+ERROR - 2020-09-09 11:59:05 --> Severity: Notice --> Undefined property: stdClass::$pangkat D:\Project\Mbtni\application\views\Component\DetailPernyataan.php 259
+INFO - 2020-09-09 11:59:05 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-09-09 11:59:05 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-09-09 11:59:05 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-09-09 11:59:05 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+DEBUG - 2020-09-09 11:59:05 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 11:59:05 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-09-09 11:59:05 --> File loaded: D:\Project\Mbtni\application\views\Component/DetailPernyataan.php
+INFO - 2020-09-09 11:59:05 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/Detail.php
+INFO - 2020-09-09 11:59:05 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-09-09 11:59:05 --> Final output sent to browser
+DEBUG - 2020-09-09 11:59:05 --> Total execution time: 2.2097
+INFO - 2020-09-09 12:00:42 --> Config Class Initialized
+INFO - 2020-09-09 12:00:42 --> Hooks Class Initialized
+DEBUG - 2020-09-09 12:00:42 --> UTF-8 Support Enabled
+INFO - 2020-09-09 12:00:42 --> Utf8 Class Initialized
+INFO - 2020-09-09 12:00:42 --> URI Class Initialized
+INFO - 2020-09-09 12:00:42 --> Router Class Initialized
+INFO - 2020-09-09 12:00:42 --> Output Class Initialized
+INFO - 2020-09-09 12:00:42 --> Security Class Initialized
+DEBUG - 2020-09-09 12:00:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-09 12:00:42 --> Input Class Initialized
+INFO - 2020-09-09 12:00:42 --> Language Class Initialized
+INFO - 2020-09-09 12:00:42 --> Loader Class Initialized
+INFO - 2020-09-09 12:00:42 --> Helper loaded: form_helper
+INFO - 2020-09-09 12:00:42 --> Helper loaded: url_helper
+INFO - 2020-09-09 12:00:42 --> Helper loaded: html_helper
+INFO - 2020-09-09 12:00:42 --> Helper loaded: file_helper
+INFO - 2020-09-09 12:00:42 --> Helper loaded: component_helper
+INFO - 2020-09-09 12:00:42 --> Helper loaded: date_helper
+INFO - 2020-09-09 12:00:42 --> Helper loaded: encrypt_helper
+INFO - 2020-09-09 12:00:42 --> Database Driver Class Initialized
+INFO - 2020-09-09 12:00:45 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-09 12:00:45 --> Email Class Initialized
+INFO - 2020-09-09 12:00:45 --> Parser Class Initialized
+DEBUG - 2020-09-09 12:00:45 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-09 12:00:45 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-09 12:00:45 --> Encryption Class Initialized
+INFO - 2020-09-09 12:00:45 --> Upload Class Initialized
+INFO - 2020-09-09 12:00:45 --> Model "Main" initialized
+INFO - 2020-09-09 12:00:45 --> Controller Class Initialized
+DEBUG - 2020-09-09 12:00:45 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 12:00:45 --> Model "M_Pernyataan" initialized
+INFO - 2020-09-09 12:00:45 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+ERROR - 2020-09-09 12:00:45 --> Severity: Notice --> Undefined property: stdClass::$pangkat D:\Project\Mbtni\application\views\Component\DetailPernyataan.php 259
+INFO - 2020-09-09 12:00:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-09-09 12:00:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-09-09 12:00:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-09-09 12:00:45 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+DEBUG - 2020-09-09 12:00:45 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 12:00:45 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-09-09 12:00:45 --> File loaded: D:\Project\Mbtni\application\views\Component/DetailPernyataan.php
+INFO - 2020-09-09 12:00:45 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/Detail.php
+INFO - 2020-09-09 12:00:45 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-09-09 12:00:45 --> Final output sent to browser
+DEBUG - 2020-09-09 12:00:45 --> Total execution time: 2.5652
+INFO - 2020-09-09 12:13:13 --> Config Class Initialized
+INFO - 2020-09-09 12:13:13 --> Hooks Class Initialized
+DEBUG - 2020-09-09 12:13:13 --> UTF-8 Support Enabled
+INFO - 2020-09-09 12:13:13 --> Utf8 Class Initialized
+INFO - 2020-09-09 12:13:13 --> URI Class Initialized
+INFO - 2020-09-09 12:13:13 --> Router Class Initialized
+INFO - 2020-09-09 12:13:13 --> Output Class Initialized
+INFO - 2020-09-09 12:13:13 --> Security Class Initialized
+DEBUG - 2020-09-09 12:13:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-09 12:13:13 --> Input Class Initialized
+INFO - 2020-09-09 12:13:13 --> Language Class Initialized
+INFO - 2020-09-09 12:13:13 --> Loader Class Initialized
+INFO - 2020-09-09 12:13:13 --> Helper loaded: form_helper
+INFO - 2020-09-09 12:13:13 --> Helper loaded: url_helper
+INFO - 2020-09-09 12:13:13 --> Helper loaded: html_helper
+INFO - 2020-09-09 12:13:13 --> Helper loaded: file_helper
+INFO - 2020-09-09 12:13:13 --> Helper loaded: component_helper
+INFO - 2020-09-09 12:13:13 --> Helper loaded: date_helper
+INFO - 2020-09-09 12:13:13 --> Helper loaded: encrypt_helper
+INFO - 2020-09-09 12:13:13 --> Database Driver Class Initialized
+INFO - 2020-09-09 12:13:15 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-09 12:13:15 --> Email Class Initialized
+INFO - 2020-09-09 12:13:15 --> Parser Class Initialized
+DEBUG - 2020-09-09 12:13:15 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-09 12:13:15 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-09 12:13:15 --> Encryption Class Initialized
+INFO - 2020-09-09 12:13:15 --> Upload Class Initialized
+INFO - 2020-09-09 12:13:15 --> Model "Main" initialized
+INFO - 2020-09-09 12:13:15 --> Controller Class Initialized
+DEBUG - 2020-09-09 12:13:15 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 12:13:15 --> Model "M_Pernyataan" initialized
+INFO - 2020-09-09 12:13:15 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+ERROR - 2020-09-09 12:13:15 --> Severity: Notice --> Undefined property: stdClass::$pangkat D:\Project\Mbtni\application\views\Component\DetailPernyataan.php 259
+INFO - 2020-09-09 12:13:15 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-09-09 12:13:15 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-09-09 12:13:15 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-09-09 12:13:15 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+DEBUG - 2020-09-09 12:13:15 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 12:13:15 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-09-09 12:13:15 --> File loaded: D:\Project\Mbtni\application\views\Component/DetailPernyataan.php
+INFO - 2020-09-09 12:13:15 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/Detail.php
+INFO - 2020-09-09 12:13:15 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-09-09 12:13:15 --> Final output sent to browser
+DEBUG - 2020-09-09 12:13:15 --> Total execution time: 2.3895
+INFO - 2020-09-09 12:51:35 --> Config Class Initialized
+INFO - 2020-09-09 12:51:35 --> Hooks Class Initialized
+DEBUG - 2020-09-09 12:51:35 --> UTF-8 Support Enabled
+INFO - 2020-09-09 12:51:35 --> Utf8 Class Initialized
+INFO - 2020-09-09 12:51:35 --> URI Class Initialized
+INFO - 2020-09-09 12:51:35 --> Router Class Initialized
+INFO - 2020-09-09 12:51:35 --> Output Class Initialized
+INFO - 2020-09-09 12:51:35 --> Security Class Initialized
+DEBUG - 2020-09-09 12:51:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-09 12:51:35 --> Input Class Initialized
+INFO - 2020-09-09 12:51:35 --> Language Class Initialized
+INFO - 2020-09-09 12:51:35 --> Loader Class Initialized
+INFO - 2020-09-09 12:51:35 --> Helper loaded: form_helper
+INFO - 2020-09-09 12:51:35 --> Helper loaded: url_helper
+INFO - 2020-09-09 12:51:35 --> Helper loaded: html_helper
+INFO - 2020-09-09 12:51:35 --> Helper loaded: file_helper
+INFO - 2020-09-09 12:51:35 --> Helper loaded: component_helper
+INFO - 2020-09-09 12:51:35 --> Helper loaded: date_helper
+INFO - 2020-09-09 12:51:35 --> Helper loaded: encrypt_helper
+INFO - 2020-09-09 12:51:35 --> Database Driver Class Initialized
+INFO - 2020-09-09 12:51:37 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-09 12:51:37 --> Email Class Initialized
+INFO - 2020-09-09 12:51:37 --> Parser Class Initialized
+DEBUG - 2020-09-09 12:51:38 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-09 12:51:38 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-09 12:51:38 --> Encryption Class Initialized
+INFO - 2020-09-09 12:51:38 --> Upload Class Initialized
+INFO - 2020-09-09 12:51:38 --> Model "Main" initialized
+INFO - 2020-09-09 12:51:38 --> Controller Class Initialized
+DEBUG - 2020-09-09 12:51:38 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 12:51:38 --> Model "M_Pernyataan" initialized
+INFO - 2020-09-09 12:51:38 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+ERROR - 2020-09-09 12:51:38 --> Severity: Notice --> Undefined property: stdClass::$pangkat D:\Project\Mbtni\application\views\Component\DetailPernyataan.php 259
+INFO - 2020-09-09 12:51:38 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-09-09 12:51:38 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-09-09 12:51:38 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-09-09 12:51:38 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+DEBUG - 2020-09-09 12:51:38 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 12:51:38 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-09-09 12:51:38 --> File loaded: D:\Project\Mbtni\application\views\Component/DetailPernyataan.php
+INFO - 2020-09-09 12:51:38 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/Detail.php
+INFO - 2020-09-09 12:51:38 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-09-09 12:51:38 --> Final output sent to browser
+DEBUG - 2020-09-09 12:51:38 --> Total execution time: 2.2908
+INFO - 2020-09-09 12:55:14 --> Config Class Initialized
+INFO - 2020-09-09 12:55:14 --> Hooks Class Initialized
+DEBUG - 2020-09-09 12:55:14 --> UTF-8 Support Enabled
+INFO - 2020-09-09 12:55:14 --> Utf8 Class Initialized
+INFO - 2020-09-09 12:55:14 --> URI Class Initialized
+INFO - 2020-09-09 12:55:14 --> Router Class Initialized
+INFO - 2020-09-09 12:55:14 --> Output Class Initialized
+INFO - 2020-09-09 12:55:14 --> Security Class Initialized
+DEBUG - 2020-09-09 12:55:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-09 12:55:14 --> Input Class Initialized
+INFO - 2020-09-09 12:55:14 --> Language Class Initialized
+INFO - 2020-09-09 12:55:14 --> Loader Class Initialized
+INFO - 2020-09-09 12:55:14 --> Helper loaded: form_helper
+INFO - 2020-09-09 12:55:14 --> Helper loaded: url_helper
+INFO - 2020-09-09 12:55:14 --> Helper loaded: html_helper
+INFO - 2020-09-09 12:55:14 --> Helper loaded: file_helper
+INFO - 2020-09-09 12:55:14 --> Helper loaded: component_helper
+INFO - 2020-09-09 12:55:14 --> Helper loaded: date_helper
+INFO - 2020-09-09 12:55:14 --> Helper loaded: encrypt_helper
+INFO - 2020-09-09 12:55:14 --> Database Driver Class Initialized
+INFO - 2020-09-09 12:55:16 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-09 12:55:16 --> Email Class Initialized
+INFO - 2020-09-09 12:55:16 --> Parser Class Initialized
+DEBUG - 2020-09-09 12:55:16 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-09 12:55:16 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-09 12:55:16 --> Encryption Class Initialized
+INFO - 2020-09-09 12:55:16 --> Upload Class Initialized
+INFO - 2020-09-09 12:55:16 --> Model "Main" initialized
+INFO - 2020-09-09 12:55:16 --> Controller Class Initialized
+DEBUG - 2020-09-09 12:55:16 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 12:55:16 --> Model "M_Pernyataan" initialized
+INFO - 2020-09-09 12:55:16 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+ERROR - 2020-09-09 12:55:16 --> Severity: Notice --> Undefined property: stdClass::$pangkat D:\Project\Mbtni\application\views\Component\DetailPernyataan.php 259
+INFO - 2020-09-09 12:55:16 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-09-09 12:55:16 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-09-09 12:55:16 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-09-09 12:55:16 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+DEBUG - 2020-09-09 12:55:16 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 12:55:16 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-09-09 12:55:16 --> File loaded: D:\Project\Mbtni\application\views\Component/DetailPernyataan.php
+INFO - 2020-09-09 12:55:16 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/Detail.php
+INFO - 2020-09-09 12:55:16 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-09-09 12:55:16 --> Final output sent to browser
+DEBUG - 2020-09-09 12:55:16 --> Total execution time: 2.2511
+INFO - 2020-09-09 12:56:37 --> Config Class Initialized
+INFO - 2020-09-09 12:56:37 --> Hooks Class Initialized
+DEBUG - 2020-09-09 12:56:37 --> UTF-8 Support Enabled
+INFO - 2020-09-09 12:56:37 --> Utf8 Class Initialized
+INFO - 2020-09-09 12:56:37 --> URI Class Initialized
+INFO - 2020-09-09 12:56:37 --> Router Class Initialized
+INFO - 2020-09-09 12:56:37 --> Output Class Initialized
+INFO - 2020-09-09 12:56:37 --> Security Class Initialized
+DEBUG - 2020-09-09 12:56:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2020-09-09 12:56:37 --> Input Class Initialized
+INFO - 2020-09-09 12:56:37 --> Language Class Initialized
+INFO - 2020-09-09 12:56:37 --> Loader Class Initialized
+INFO - 2020-09-09 12:56:37 --> Helper loaded: form_helper
+INFO - 2020-09-09 12:56:38 --> Helper loaded: url_helper
+INFO - 2020-09-09 12:56:38 --> Helper loaded: html_helper
+INFO - 2020-09-09 12:56:38 --> Helper loaded: file_helper
+INFO - 2020-09-09 12:56:38 --> Helper loaded: component_helper
+INFO - 2020-09-09 12:56:38 --> Helper loaded: date_helper
+INFO - 2020-09-09 12:56:38 --> Helper loaded: encrypt_helper
+INFO - 2020-09-09 12:56:38 --> Database Driver Class Initialized
+INFO - 2020-09-09 12:56:40 --> Session: Class initialized using 'files' driver.
+INFO - 2020-09-09 12:56:40 --> Email Class Initialized
+INFO - 2020-09-09 12:56:40 --> Parser Class Initialized
+DEBUG - 2020-09-09 12:56:40 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2020-09-09 12:56:40 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2020-09-09 12:56:40 --> Encryption Class Initialized
+INFO - 2020-09-09 12:56:40 --> Upload Class Initialized
+INFO - 2020-09-09 12:56:40 --> Model "Main" initialized
+INFO - 2020-09-09 12:56:40 --> Controller Class Initialized
+DEBUG - 2020-09-09 12:56:40 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 12:56:40 --> Model "M_Pernyataan" initialized
+INFO - 2020-09-09 12:56:40 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+ERROR - 2020-09-09 12:56:40 --> Severity: Notice --> Undefined property: stdClass::$pangkat D:\Project\Mbtni\application\views\Component\DetailPernyataan.php 259
+INFO - 2020-09-09 12:56:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuKandung.php
+INFO - 2020-09-09 12:56:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormIbuTiri.php
+INFO - 2020-09-09 12:56:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaLaki.php
+INFO - 2020-09-09 12:56:40 --> File loaded: D:\Project\Mbtni\application\views\Component/FormMertuaPerempuan.php
+DEBUG - 2020-09-09 12:56:40 --> Encryption class already loaded. Second attempt ignored.
+INFO - 2020-09-09 12:56:40 --> Encryption: OpenSSL initialized with method AES-256-CBC.
+INFO - 2020-09-09 12:56:40 --> File loaded: D:\Project\Mbtni\application\views\Component/DetailPernyataan.php
+INFO - 2020-09-09 12:56:40 --> File loaded: D:/Project/Mbtni/application/modules/Dashboard/views/Detail.php
+INFO - 2020-09-09 12:56:40 --> File loaded: D:/Project/Mbtni/application/modules/Templates/views/Template.php
+INFO - 2020-09-09 12:56:40 --> Final output sent to browser
+DEBUG - 2020-09-09 12:56:40 --> Total execution time: 2.2330
