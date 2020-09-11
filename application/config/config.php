@@ -11,6 +11,7 @@ $config['modules_locations'] = [APPPATH . 'modules/'];
 $config['index_page'] = '';
 $config['uri_protocol'] = 'REQUEST_URI';
 $config['url_suffix'] = '';
+$config['environment'] = 'dev';
 $config['language'] = 'english';
 $config['charset'] = 'utf-8';
 $config['enable_hooks'] = true;

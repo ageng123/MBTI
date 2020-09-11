@@ -844,7 +844,176 @@
                                     </div>
                                 </div>
                                 <div id="tab-ibu-kandung" class="tab-pane">
-                                    <?php $this->load->view('Component/FormIbuKandung') ?>
+                                    <div class="row d-flex flex-row">
+                                        <legend>Data Ibu Kandung</legend>
+                                        <?php $item = $ibu_kandung[0] ?>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="text-muted">Nama Lengkap</label>
+                                                <h6><?= $item->nama_ibukandung ?></h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="text-muted">Nama Alias</label>
+                                                <h6><?= $item->alias_ibukandung ?></h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <label class="text-muted">Tempat Lahir</label>
+                                                <h6><?= $item->tempat_ibukandung.', '.dateIndoLengkap($item->tanggal_ibukandung) ?></h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="text-muted">Agama</label>
+                                                <h6><?= $item->agama_ibukandung ?></h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="text-muted">Aliran Kepercayaan yang Diikuti</label>
+                                                <h6><?= $item->aliran_ibukandung ?></h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="text-muted">Suku Bangsa/Ras</label>
+                                                <h6><?= $item->suku_ibukandung ?></h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="text-muted">Kewarganegaraan</label>
+                                                <input type="text" name="ibukandung['kewarganegaraan']"
+                                                    class="form-control" required="" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="text-muted">Cara Memperoleh Kewarganegaraan</label>
+                                                <input type="text" name="ibukandung['caramemperoleh']"
+                                                    class="form-control" required="" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="text-muted">Alamat Rumah Saat ini</label>
+                                                <textarea name="ibukandung['alamat']" class="form-control" id=""
+                                                    cols="30" rows="10"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="text-muted">Alamat Rumah Sebelumnya</label>
+                                                <textarea name="ibukandung['oldalamat']" class="form-control" id=""
+                                                    cols="30" rows="10"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="text-muted">Pekerjaan / Jabatan Terakhir</label>
+                                                <input type="text" name="ibukandung['pekerjaan']" class="form-control"
+                                                    required="" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="text-muted">Alamat Kantor / Instansi dan Nomor telepon</label>
+                                                <textarea name="ibukandung['alamat_kantor']" class="form-control" id=""
+                                                    cols="30" rows="10"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="text-muted">Pekerjaan / Jabatan Sebelumnya</label>
+                                                <input type="text" name="ibukandung['oldpekerjaan']"
+                                                    class="form-control" required="" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="text-muted">Pendidikan Terakhir</label>
+                                                <input type="text" name="ibukandung['pendidikan']" class="form-control"
+                                                    required="" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="">
+                                                    <p>Kegiatan Berorganisasi</p>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="p-3">
+
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class="text-muted">1. Organisasi yang Sedang Diikuti</label>
+                                                    <input type="text" name="ibukandung['orgnow_nama']"
+                                                        class="form-control" required="" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class="text-muted">2. a) Kedudukan Dalam Organisasi</label>
+                                                    <input type="text" name="ibukandung['orgnow_kedudukan']"
+                                                        class="form-control" required="" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class="text-muted">2. b) Sejak Kapan Berorganisasi </label>
+                                                    <input type="text" name="ibukandung['orgnow_kapan']"
+                                                        class="form-control" required="" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class="text-muted">2. c) Alasan Berorganisasi</label>
+                                                    <input type="text" name="ibukandung['orgnow_alasan']"
+                                                        class="form-control" required="" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label for="">3. Organisasi yang Pernah Diikuti</label>
+                                                    <input type="text" name="ibukandung['oldorg_nama']"
+                                                        class="form-control" required="" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class="text-muted">3. a) Kedudukan Dalam Organisasi</label>
+                                                    <input type="text" name="ibukandung['oldorg_kedudukan']"
+                                                        class="form-control" required="" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class="text-muted">3. b) Sejak Kapan Berorganisasi </label>
+                                                    <input type="text" name="ibukandung['oldorg_kapan']"
+                                                        class="form-control" required="" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class="text-muted">3. c) Alasan Berorganisasi</label>
+                                                    <input type="text" name="ibukandung['oldorg_alasan']"
+                                                        class="form-control" required="" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="text-muted">Bila Sudah Meninggal dunia, Jelaskan Bilamana, Darimana dan
+                                                    Penyebabnya</label>
+                                                <textarea name="ibukandung['alasan_meninggal']" class="form-control"
+                                                    id="" cols="30" rows="10"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div id="tab-ibu-tiri" class="tab-pane">
                                     <?php $this->load->view('Component/FormIbuTiri') ?>
